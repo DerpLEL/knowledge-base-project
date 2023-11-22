@@ -99,11 +99,12 @@ print()
 print(triplets_as_string(final_results))
 
 print("Query:", query)  
-prompt = """<s>[INST]
+prompt = """[INST]
 Given a collection of Object-Relation-Object, answer the user's question based on facts inferred from the collection.
 
-Collection:
+<Collection>
 {document}
+<Collection/>
 
 User: {query}
 Assistant: [/INST]"""
