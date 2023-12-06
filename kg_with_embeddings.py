@@ -6,7 +6,12 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
+from langchain.chat_models import ChatOpenAI
+import langchain
 
+llm = ChatOpenAI(
+    openai_api_key='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'
+)
 
 def get_total_distance(similarity_matrix):
     total = 0
@@ -107,7 +112,7 @@ res_idx = list(enumerate(res))
 final = [(df[['head', 'relation', 'tail']].iloc[i].to_list(), j) for i, j in res_idx]
 final.sort(key=lambda x: x[1], reverse=True)
 final = final[:2]
-print(final[:2])
+print(final)
 depths = 1
 
 head_initial_nodes = [i[0][0] for i in final]
@@ -131,14 +136,13 @@ print()
 print(triplets_as_string(final_results))
 
 print("Query:", query)
-prompt = """[INST]
-Given a collection of Object-Relation-Object, answer the user's question based on facts inferred from the collection.
+prompt = """Given a collection of Object-Relation-Object, answer the user's question based on facts inferred from the collection.
 
 <Collection>
 {document}
 <Collection/>
 
 User: {query}
-Assistant: [/INST]"""
-print("Answer:", ura_llm(prompt=prompt.format(document=triplets_as_string(final_results), query=query), stop=['User:']).strip())
+Assistant: """
+print("Answer:", llm.predict(prompt.format(document=triplets_as_string(final_results), query=query), stop=['User:', '\n']).strip())
 print()
