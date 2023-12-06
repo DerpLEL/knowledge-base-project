@@ -111,6 +111,7 @@ Assistant: [/INST]"""
 print("Answer:", ura_llm(prompt=prompt.format(document=triplets_as_string(final_results), query=query), stop=['User:']).strip())
 print()
 
+# Draw graph
 # pos = nx.spring_layout(G, seed=42, k=0.9)
 # labels = nx.get_edge_attributes(G, 'label')
 # plt.figure(figsize=(12, 10))
