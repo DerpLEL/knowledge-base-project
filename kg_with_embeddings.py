@@ -84,8 +84,8 @@ def triplets_as_string(lst):
 # # Create a dataframe
 # df = pd.DataFrame({'head': head, 'relation': relation, 'tail': tail, 'embeddings': embeddings})
 # df.to_pickle("Example_KG.pkl", compression=None)
-df = pd.read_pickle("Example_KG.pkl")
-print(df.head(10))
+df: pd.DataFrame = pd.read_pickle("Example_KG.pkl")
+# print(df.head(10))
 
 ura_llm = URAAPIGateway(
     headers = {"Content-Type": "application/json; charset=utf-8"},
@@ -99,13 +99,46 @@ for _, row in df.iterrows():
 
 query = "I need some painkiller drug, do you have any recommendations?"
 query_embedding = model(tokenizer(query, return_tensors='tf')).last_hidden_state
+# print(query_embedding[0])
+
+res = [cosine_similarity(query_embedding[0], i[0])[0][0] for i in df['embeddings'].to_list()]
+res_idx = list(enumerate(res))
+# print(res_idx)
+final = [(df[['head', 'relation', 'tail']].iloc[i].to_list(), j) for i, j in res_idx]
+final.sort(key=lambda x: x[1], reverse=True)
+final = final[:2]
+print(final[:2])
 depths = 1
 
-# head_initial_nodes = fuzzy_search(df['head'].to_list(), query)
-# print(f"{head_initial_nodes = }")
-# head_result = []
-#
-# for i in head_initial_nodes:
-#     temp = graph_traverse(G, i, [], depths)
-#
-#     head_result = resolve_duplicates(head_result, temp)
+head_initial_nodes = [i[0][0] for i in final]
+tail_initial_nodes = [i[0][2] for i in final]
+
+head_result = []
+for i in head_initial_nodes:
+    temp = graph_traverse(G, i, [], depths)
+
+    head_result = resolve_duplicates(head_result, temp)
+
+tail_result = []
+for i in tail_initial_nodes:
+    temp = graph_traverse(G, i, [], depths)
+
+    tail_result = resolve_duplicates(tail_result, temp)
+
+final_results = resolve_duplicates(head_result, tail_result)
+# print(f"{final_results = }")
+print()
+print(triplets_as_string(final_results))
+
+print("Query:", query)
+prompt = """[INST]
+Given a collection of Object-Relation-Object, answer the user's question based on facts inferred from the collection.
+
+<Collection>
+{document}
+<Collection/>
+
+User: {query}
+Assistant: [/INST]"""
+print("Answer:", ura_llm(prompt=prompt.format(document=triplets_as_string(final_results), query=query), stop=['User:']).strip())
+print()
