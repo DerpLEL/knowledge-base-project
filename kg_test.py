@@ -58,6 +58,8 @@ tail = ['fever', 'hepatitis', 'bleeding', 'pain', 'gene1', 'gene2', 'gene4', 'ge
 
 # Create a dataframe
 df = pd.DataFrame({'head': head, 'relation': relation, 'tail': tail})
+print()
+print(df)
 
 ura_llm = URAAPIGateway(
     headers = {"Content-Type": "application/json; charset=utf-8"},
@@ -70,7 +72,7 @@ for _, row in df.iterrows():
     G.add_edge(row['head'], row['tail'], label=row['relation'])
 
 query = "I need some painkiller drug, do you have any recommendations?"
-depths = 3
+depths = 2
 
 head_initial_nodes = fuzzy_search(df['head'].to_list(), query)
 # print(f"{head_initial_nodes = }")

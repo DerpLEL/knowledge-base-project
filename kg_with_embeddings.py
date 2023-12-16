@@ -10,7 +10,7 @@ from langchain.chat_models import ChatOpenAI
 import langchain
 
 llm = ChatOpenAI(
-    openai_api_key='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'
+    openai_api_key=''
 )
 
 def get_total_distance(similarity_matrix):
@@ -90,7 +90,9 @@ def triplets_as_string(lst):
 # df = pd.DataFrame({'head': head, 'relation': relation, 'tail': tail, 'embeddings': embeddings})
 # df.to_pickle("Example_KG.pkl", compression=None)
 df: pd.DataFrame = pd.read_pickle("Example_KG.pkl")
-# print(df.head(10))
+# print()
+# print(df['embeddings'][0][0][-1])
+# print()
 
 ura_llm = URAAPIGateway(
     headers = {"Content-Type": "application/json; charset=utf-8"},
@@ -111,9 +113,10 @@ res_idx = list(enumerate(res))
 # print(res_idx)
 final = [(df[['head', 'relation', 'tail']].iloc[i].to_list(), j) for i, j in res_idx]
 final.sort(key=lambda x: x[1], reverse=True)
+print("\nTop 2 cosine similarity scoring triples:")
 final = final[:2]
 print(final)
-depths = 1
+depths = 2
 
 head_initial_nodes = [i[0][0] for i in final]
 tail_initial_nodes = [i[0][2] for i in final]
@@ -132,6 +135,7 @@ for i in tail_initial_nodes:
 
 final_results = resolve_duplicates(head_result, tail_result)
 # print(f"{final_results = }")
+
 print()
 print(triplets_as_string(final_results))
 
