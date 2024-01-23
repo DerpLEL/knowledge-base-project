@@ -15,6 +15,7 @@ os.environ["OPENAI_API_KEY"] = os.getenv('openai_key')
 
 llm = ChatOpenAI()
 
+
 def get_total_distance(similarity_matrix):
     total = 0
     for i in similarity_matrix:
