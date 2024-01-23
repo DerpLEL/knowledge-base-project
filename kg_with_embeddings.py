@@ -107,7 +107,7 @@ G = nx.DiGraph()
 for _, row in df.iterrows():
     G.add_edge(row['head'], row['tail'], label=row['relation'])
 
-query = "I need some painkiller drug, do you have any recommendations?"
+query = "Is there a safe drug for treating obesity?"
 query_embedding = model(tokenizer(query, return_tensors='tf')).last_hidden_state
 # print(query_embedding[0])
 
