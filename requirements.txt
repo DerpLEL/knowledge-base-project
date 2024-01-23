@@ -7,3 +7,5 @@ numpy
 networkx
 matplotlib
 transformers
+tensorflow
+pyarrow
