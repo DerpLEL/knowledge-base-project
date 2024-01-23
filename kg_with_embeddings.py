@@ -6,11 +6,15 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-from langchain.chat_models import ChatOpenAI
-import langchain
+from langchain_openai import ChatOpenAI
+import os
+
+
+OPENAI_API_KEY = os.getenv('openai_key')
+
 
 llm = ChatOpenAI(
-    openai_api_key=''
+    openai_api_key=OPENAI_API_KEY
 )
 
 def get_total_distance(similarity_matrix):
