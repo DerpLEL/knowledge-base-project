@@ -1,0 +1,9 @@
+thefuzz
+langchain_openai
+pandas
+scikit-learn
+numpy
+networkx
+matplotlib
+transformers
+kgtk
