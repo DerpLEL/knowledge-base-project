@@ -10,10 +10,10 @@ from langchain_openai import ChatOpenAI
 import os
 
 
-os.environ["OPENAI_API_KEY"] = os.getenv('openai_key')
-
-
-llm = ChatOpenAI()
+api_key = os.getenv('openai_key')
+llm = ChatOpenAI(
+    openai_api_key=api_key
+)
 
 
 def get_total_distance(similarity_matrix):
