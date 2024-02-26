@@ -9,9 +9,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 from langchain.chat_models import ChatOpenAI
 import langchain
 
-llm = ChatOpenAI(
-    openai_api_key=''
-)
+# llm = ChatOpenAI(
+#     openai_api_key=''
+# )
 
 def get_total_distance(similarity_matrix):
     total = 0
@@ -91,31 +91,32 @@ def triplets_as_string(lst):
 # df.to_pickle("Example_KG.pkl", compression=None)
 df: pd.DataFrame = pd.read_pickle("Example_KG.pkl")
 # print()
-# print(df['embeddings'][0][0][-1])
+# print(df.to_string(justify='left', index=False))
 # print()
 
-ura_llm = URAAPIGateway(
-    headers = {"Content-Type": "application/json; charset=utf-8"},
-    api_url = 'https://bahnar.dscilab.com:20007/llama/api',
-    model_kwargs={"lang": "en", "temprature": 0},
-)
-
+# ura_llm = URAAPIGateway(
+#     headers = {"Content-Type": "application/json; charset=utf-8"},
+#     api_url = 'https://bahnar.dscilab.com:20007/llama/api',
+#     model_kwargs={"lang": "en", "temprature": 0},
+# )
+#
 G = nx.DiGraph()
 for _, row in df.iterrows():
     G.add_edge(row['head'], row['tail'], label=row['relation'])
 
 query = "I need some painkiller drug, do you have any recommendations?"
 query_embedding = model(tokenizer(query, return_tensors='tf')).last_hidden_state
-# print(query_embedding[0])
-
+# # print(query_embedding[0])
+#
 res = [cosine_similarity(query_embedding[0], i[0])[0][0] for i in df['embeddings'].to_list()]
 res_idx = list(enumerate(res))
-# print(res_idx)
+
 final = [(df[['head', 'relation', 'tail']].iloc[i].to_list(), j) for i, j in res_idx]
 final.sort(key=lambda x: x[1], reverse=True)
-print("\nTop 2 cosine similarity scoring triples:")
+# print(query)
+# print("\nTop 2 cosine similarity scoring triples:")
 final = final[:2]
-print(final)
+# print(final)
 depths = 2
 
 head_initial_nodes = [i[0][0] for i in final]
@@ -139,14 +140,19 @@ final_results = resolve_duplicates(head_result, tail_result)
 print()
 print(triplets_as_string(final_results))
 
-print("Query:", query)
+# print("Query:", query)
+
 prompt = """Given a collection of Object-Relation-Object, answer the user's question based on facts inferred from the collection.
 
 <Collection>
 {document}
-<Collection/>
+</Collection>
 
 User: {query}
 Assistant: """
-print("Answer:", llm.predict(prompt.format(document=triplets_as_string(final_results), query=query), stop=['User:', '\n']).strip())
-print()
+
+print(prompt, '\n')
+formatted_prompt = prompt.format(document=triplets_as_string(final_results), query=query)
+print(formatted_prompt)
+# print("Answer:", llm.predict(formatted_prompt, stop=['User:', '\n']).strip())
+# print()

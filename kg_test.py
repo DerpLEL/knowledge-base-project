@@ -62,8 +62,8 @@ print()
 print(df)
 
 ura_llm = URAAPIGateway(
-    headers = {"Content-Type": "application/json; charset=utf-8"},
-    api_url = 'https://bahnar.dscilab.com:20007/llama/api',
+    headers={"Content-Type": "application/json; charset=utf-8"},
+    api_url='https://bahnar.dscilab.com:20007/llama/api',
     model_kwargs={"lang": "en", "temprature": 0},
 )
 
