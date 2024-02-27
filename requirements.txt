@@ -11,3 +11,4 @@ tensorflow
 pyarrow
 google-cloud-aiplatform
 rdflib-endpoint
+google-generativeai
