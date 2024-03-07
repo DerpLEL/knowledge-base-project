@@ -12,10 +12,10 @@ from urallama import URAWrapper
 
 model = URAWrapper()
 
-with open('possible-questions-viquad.json') as f:
+with open('possible-questions-viquad.json', encoding='utf-8') as f:
     possible_questions = json.load(f)
 
-with open('impossible-questions-viquad.json') as f:
+with open('impossible-questions-viquad.json', encoding='utf-8') as f:
     impossible_questions = json.load(f)
 
 random.seed(27)
