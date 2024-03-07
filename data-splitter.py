@@ -25,8 +25,8 @@ for i in dataset:
                 dct['plausible_answers'] = y['plausible_answers']
                 impossible_questions.append(dct)
 
-with open('possible-questions-viquad.json', 'w') as f:
+with open('possible-questions-viquad.json', 'w', encoding='utf-8') as f:
     json.dump(possible_questions, f, ensure_ascii=False)
 
-with open('impossible-questions-viquad.json', 'w') as f:
+with open('impossible-questions-viquad.json', 'w', encoding='utf-8') as f:
     json.dump(impossible_questions, f, ensure_ascii=False)
