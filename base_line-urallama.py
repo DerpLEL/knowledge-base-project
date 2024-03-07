@@ -12,10 +12,10 @@ from urallama import URAWrapper
 
 model = URAWrapper()
 
-with open('possible-questions.json') as f:
+with open('possible-questions-viquad.json') as f:
     possible_questions = json.load(f)
 
-with open('impossible-questions.json') as f:
+with open('impossible-questions-viquad.json') as f:
     impossible_questions = json.load(f)
 
 random.seed(27)
@@ -25,26 +25,33 @@ chosen_impossible_set = random.choices(impossible_questions, k=40)
 
 chosen_set = chosen_possible_set + chosen_impossible_set
 
-prompt_format = '''[INST] Given context, answer the question. Output "N/A" if no answer can be found.
+# prompt_format = '''[INST] Given context, answer the question. Output "N/A" if no answer can be found.
+#
+# Context: {context}
+#
+# Question: {question}
+# Answer: Here is the most relevant answer from the context: [/INST]'''
 
-Context: {context}
+prompt_format = '''[INST] Cho một đoạn ngữ cảnh, hãy trả lời câu hỏi. Phản hồi "N/A" nếu không có câu trả lời.
 
-Question: {question}
-Answer: Here is the most relevant answer from the context: [/INST]'''
+Ngữ cảnh: {context}
 
-result_format = '''Context: {context}
+Câu hỏi: {question}
+Trả lời: [/INST]'''
 
-Question: {question}
-Answer: {answer}
-
-Reference answer: {ref_answer}'''
+# result_format = '''Context: {context}
+#
+# Question: {question}
+# Answer: {answer}
+#
+# Reference answer: {ref_answer}'''
 
 qa_result = []
 
 counter = 0
 for index, i in enumerate(chosen_set):
-    if index == 41 or index == 69:
-        continue
+    # if index == 41 or index == 69:
+    #     continue
 
     context = i['context']
     question = i['question']
@@ -65,21 +72,26 @@ for index, i in enumerate(chosen_set):
         counter += 1
         continue
 
-    result_formatted = result_format.format(
-        context=context,
-        question=question,
-        answer=answer,
-        ref_answer=str(i['answers'])
-    )
+    # result_formatted = result_format.format(
+    #     context=context,
+    #     question=question,
+    #     answer=answer,
+    #     ref_answer=str(i['answers'])
+    # )
+
+    plausible_answer = [] if 'plausible_answers' not in i else i['plausible_answers']
 
     dct = {
         'id': index,
-        'text': result_formatted
+        'answer': answer,
+        'ref_answer': str(i['answers']),
+        'context': context,
+        'plausible_answers': plausible_answer
     }
     qa_result.append(dct)
     print(f'Answered question {index}: {question}')
 
-print(f'### SKIPPED QUESTIONS: {counter} ###')
+# print(f'### SKIPPED QUESTIONS: {counter} ###')
 
-with open('baseline-urallama-result.json', 'w') as f:
+with open('baseline-urallama-viquad-result.json', 'w') as f:
     json.dump(qa_result, f)
