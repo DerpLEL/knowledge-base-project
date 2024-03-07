@@ -85,8 +85,9 @@ for index, i in enumerate(chosen_set):
 
     dct = {
         'id': index,
+        'question': question,
         'answer': answer,
-        'ref_answer': str(i['answers']),
+        'ref_answer': i['answers'],
         'context': context,
         'plausible_answers': plausible_answer
     }
