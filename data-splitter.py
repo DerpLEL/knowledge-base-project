@@ -1,9 +1,8 @@
 import json
 
-with open('train-v2.0.json') as f:
+with open('UIT-ViQuAD 2.0/train-v2.0.json', encoding='utf-8') as f:
     dataset = json.load(f)['data']
 
-# 60/40 split, 100 total
 possible_questions = []
 impossible_questions = []
 
@@ -23,10 +22,11 @@ for i in dataset:
 
             else:
                 dct['answers'] = []
+                dct['plausible_answers'] = y['plausible_answers']
                 impossible_questions.append(dct)
 
-with open('possible-questions.json', 'w') as f:
+with open('possible-questions-viquad.json', 'w') as f:
     json.dump(possible_questions, f)
 
-with open('impossible-questions.json', 'w') as f:
+with open('impossible-questions-viquad.json', 'w') as f:
     json.dump(impossible_questions, f)
