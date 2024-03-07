@@ -38,6 +38,7 @@ Phản hồi "N/A" nếu không có câu trả lời.
 Ngữ cảnh: {context}
 
 Câu hỏi: {question}
+
 Trả lời: [/INST]'''
 
 # result_format = '''Context: {context}
@@ -95,4 +96,4 @@ for index, i in enumerate(chosen_set):
 print(f'### SKIPPED QUESTIONS: {bugged_questions} ###')
 
 with open('baseline-urallama-viquad-result.json', 'w') as f:
-    json.dump(qa_result, f)
+    json.dump(qa_result, f, ensure_ascii=False)
