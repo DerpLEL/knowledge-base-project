@@ -32,7 +32,8 @@ chosen_set = chosen_possible_set + chosen_impossible_set
 # Question: {question}
 # Answer: Here is the most relevant answer from the context: [/INST]'''
 
-prompt_format = '''[INST] Cho một đoạn ngữ cảnh, hãy trả lời câu hỏi. Phản hồi "N/A" nếu không có câu trả lời.
+prompt_format = '''[INST] Cho một đoạn ngữ cảnh, hãy trả lời câu hỏi. Trả lời ngắn gọn.
+Phản hồi "N/A" nếu không có câu trả lời.
 
 Ngữ cảnh: {context}
 
