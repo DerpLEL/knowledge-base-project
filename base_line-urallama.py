@@ -49,7 +49,7 @@ Trả lời: [/INST]'''
 
 qa_result = []
 
-counter = 0
+bugged_questions = []
 for index, i in enumerate(chosen_set):
     # if index == 41 or index == 69:
     #     continue
@@ -70,7 +70,7 @@ for index, i in enumerate(chosen_set):
 
     except Exception:
         print(f'Bugged question {index}, skipping...')
-        counter += 1
+        bugged_questions.append(index)
         continue
 
     # result_formatted = result_format.format(
@@ -92,7 +92,7 @@ for index, i in enumerate(chosen_set):
     qa_result.append(dct)
     print(f'Answered question {index}: {question}')
 
-# print(f'### SKIPPED QUESTIONS: {counter} ###')
+print(f'### SKIPPED QUESTIONS: {bugged_questions} ###')
 
 with open('baseline-urallama-viquad-result.json', 'w') as f:
     json.dump(qa_result, f)
