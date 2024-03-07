@@ -95,5 +95,5 @@ for index, i in enumerate(chosen_set):
 
 print(f'### SKIPPED QUESTIONS: {bugged_questions} ###')
 
-with open('baseline-urallama-viquad-result.json', 'w') as f:
+with open('baseline-urallama-viquad-result.json', 'w', encoding='utf-8') as f:
     json.dump(qa_result, f, ensure_ascii=False)
