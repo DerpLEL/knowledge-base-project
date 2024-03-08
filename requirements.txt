@@ -12,3 +12,5 @@ pyarrow
 google-cloud-aiplatform
 rdflib-endpoint
 google-generativeai
+evaluate
+py_vncorenlp
