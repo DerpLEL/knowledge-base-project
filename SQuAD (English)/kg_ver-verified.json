@@ -1,0 +1,982 @@
+[
+  {
+    "id": 1,
+    "text": "Context: - Northwestern (location: Evanston, Illinois) [hasTeam] Basketball Team\n- Basketball Team [involvedIn] Sports Bribery Scandal (year: 1998)\n- Basketball Team [involvedIn] Betting Scandal (year: 1998)\n- Rashidi Wheeler (position: safety) [playsFor] Northwestern (location: Evanston, Illinois)\n- Rashidi Wheeler [diedFrom] Asthma Attack (year: 2001)\n- Northwestern [hasTeam] Women's Soccer Team\n- Women's Soccer Team [involvedIn] Hazing Scandal (year: 2006)\n- Jenny Haigh [coaches] Women's Soccer Team\n- Jenny Haigh [resignedFrom] Women's Soccer Team (year: 2006)\n\nQuestion: After the death of Rashidi Wheeler in 2001, which athletic programs were investigated for stimulants and other banned substances?\nAnswer: N\/A\n\nReference answer: [{'text': 'all', 'answer_start': 701}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 1,
+    "created_at": "2024-02-27T12:07:14.990719Z",
+    "updated_at": "2024-02-27T12:07:14.990719Z",
+    "lead_time": 8.552
+  },
+  {
+    "id": 2,
+    "text": "Context: - Insect [hasLifeCycle] Egg\n- Insect [hasGrowth] Molt\n- Insect [hasStage] Adult\n- Insect [hasStage] Pupa\n- Insect [hasStage] Nymph\n- Insect [hasRelationship] Hexapoda\n- Paleozoic Era [hasInsect] Giant Dragonfly (wingspan: 55 to 70 cm)\n- Flowering Plant [hasCoevolution] Insect\n\nQuestion: What stage of development differentiates a 4-stage metamorphosis from a 3-stage metamorphosis, notably absent in the latter?\nAnswer: N\/A\n\nReference answer: [{'text': 'pupal stage', 'answer_start': 401}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 2,
+    "created_at": "2024-02-27T12:07:19.143488Z",
+    "updated_at": "2024-02-27T12:07:19.143488Z",
+    "lead_time": 3.966
+  },
+  {
+    "id": 3,
+    "text": "Context: - Eisenhower (rank: General of the Army) [wasBuriedIn] Eisenhower Presidential Library\n- Eisenhower [hasSon] Doud (diedAtAge: 3, year: 1921)\n- Eisenhower [hasWife] Mamie (yearOfDeath: 1979)\n- Eisenhower [wasAwarded] Army Distinguished Service Medal\n- Eisenhower [wasAwarded] Navy Distinguished Service Medal\n- Eisenhower [wasAwarded] Legion of Merit\n\nQuestion: When did Mamie Eisenhower die?\nAnswer: 1979\n\nReference answer: [{'text': '1979', 'answer_start': 778}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 3,
+    "created_at": "2024-02-27T12:07:23.415319Z",
+    "updated_at": "2024-02-27T12:07:23.415319Z",
+    "lead_time": 4.087
+  },
+  {
+    "id": 4,
+    "text": "Context: - New Zealand [hasTreatyWith] Native Peoples (autonomy: minimum)\n- Canada [hasTreatyWith] Native Peoples (autonomy: minimum)\n- Indigenous Australians [noTreatyWith] Europeans\n- Terra Nullius [overturnedBy] Mabo v Queensland\n- Mabo v Queensland [established] Native Title\n- Treaties [discussedIn] Political Discourse (time: late 20th and early 21st century)\n- Treaties [haveStanding] International\n\nQuestion: What doctrine was overturned by Mabo v Queensland establishing the concept of native title?\nAnswer: TheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheThe\n\nReference answer: [{'text': 'terra nullius', 'answer_start': 324}]",
+    "sentiment": "Missing KG Info",
+    "annotator": 1,
+    "annotation_id": 100,
+    "created_at": "2024-02-27T12:24:31.007195Z",
+    "updated_at": "2024-02-27T12:24:31.007195Z",
+    "lead_time": 27.799
+  },
+  {
+    "id": 5,
+    "text": "Context: - Season 5 (start date: January 17, 2006) [isHighestRatedSeasonOf] American Idol\n- Brittenum twins [wereContestantsOf] American Idol (season: 5)\n- Brittenum twins [wereDisqualifiedFrom] American Idol (season: 5, reason: identity theft)\n\nQuestion: Which season has been the highest rated of all American Idol seasons?\nAnswer: Season 5\n\nReference answer: [{'text': 'Season five', 'answer_start': 0}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 5,
+    "created_at": "2024-02-27T12:07:36.785000Z",
+    "updated_at": "2024-02-27T12:07:36.785000Z",
+    "lead_time": 2.492
+  },
+  {
+    "id": 6,
+    "text": "Context: - D.C. Statehood Party [mergedWith] D.C. Statehood Green Party\n- D.C. Statehood Green Party [passed] District of Columbia Voting Rights Amendment (year: 1978)\n- Local citizens [passed] Initiative (year: 1980)\n- Voters [ratified] Constitution (year: 1982)\n- Washington, D.C. Voting Rights Amendment [failed] (year: 1985)\n\nQuestion: What would be the new name of the D.C. State?\nAnswer: N\/A\n\nReference answer: [{'text': 'New Columbia', 'answer_start': 499}]",
+    "sentiment": "Missing KG Info",
+    "annotator": 1,
+    "annotation_id": 99,
+    "created_at": "2024-02-27T12:24:26.999696Z",
+    "updated_at": "2024-02-27T12:24:26.999696Z",
+    "lead_time": 12.629
+  },
+  {
+    "id": 7,
+    "text": "Context: - OS X (market share in North America in March 2011: 14%)\n- Mac (market share in the US in the first quarter of 2008: 14%)\n- Apple (profits from Macintosh in 2010: 24%)\n- Macintosh (profits in 2010: 24%)\n- iPhone (sales in 2010: soaring)\n- iPad (sales in 2010: soaring)\n- Steve Jobs (returned to Apple and reorganized the company)\n- Apple (remained profitable since Steve Jobs' return)\n\nQuestion: Being positioned as a higher end PC, what is it misleading to compare the Mac to?\nAnswer: N\/A\n\nReference answer: [{'text': 'a budget PC', 'answer_start': 598}]",
+    "sentiment": "Missing KG Info",
+    "annotator": 1,
+    "annotation_id": 101,
+    "created_at": "2024-02-27T12:24:42.810159Z",
+    "updated_at": "2024-02-27T12:24:42.810159Z",
+    "lead_time": 14.766
+  },
+  {
+    "id": 8,
+    "text": "Context: - Immanuel Kant (birth: 1724, death: 1804) [influenced] German thought\n- Immanuel Kant [influenced] European philosophy\n- Mary Wollstonecraft [is] feminist philosopher\n- Mary Wollstonecraft [arguedFor] society based on reason\n- Mary Wollstonecraft [arguedFor] women treated as rational beings\n- Mary Wollstonecraft [isKnownFor] A Vindication of the Rights of Woman (1791)\n\nQuestion: Mary Wollstonecraft argued for a society based on what idea?\nAnswer: reason\n\nReference answer: [{'text': 'reason', 'answer_start': 426}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 8,
+    "created_at": "2024-02-27T12:08:42.758373Z",
+    "updated_at": "2024-02-27T12:08:42.758373Z",
+    "lead_time": 2.979
+  },
+  {
+    "id": 9,
+    "text": "Context: - Great Lakes [locatedIn] North-central United States\n- Great Lakes [borderWith] Canada\n- Lake Michigan [locatedIn] United States\n- Southeast United States [hasClimate] Subtropical\n- Southeast United States [hasWetlands] Mangrove\n- Southeast United States [hasState] Florida\n- Mississippi River [locatedIn] West of Appalachians\n- Ohio River [locatedIn] West of Appalachians\n- Tennessee River [locatedIn] West of Appalachians\n- Ohio Valley [hasTerrain] Rolling hills\n- Ohio Valley [hasLandUse] Farmland\n- Tennessee Valley [hasTerrain] Rolling hills\n- Tennessee Valley [hasLandUse] Farmland\n- Midwest [hasTerrain] Rolling hills\n- Midwest [hasLandUse] Farmland\n\nQuestion: Which of the Great Lakes is entirely located in US territory?\nAnswer: Lake Michigan\n\nReference answer: [{'text': 'Lake Michigan', 'answer_start': 136}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 9,
+    "created_at": "2024-02-27T12:08:44.739609Z",
+    "updated_at": "2024-02-27T12:08:44.739609Z",
+    "lead_time": 1.77
+  },
+  {
+    "id": 10,
+    "text": "Context: - Cello [isInstrumentFrom] Baroque era\n- Contrabass [isInstrumentFrom] Baroque era\n- Recorder [isInstrumentFrom] Baroque era\n- Trombone [isInstrumentFrom] Baroque era\n- Timpani [isInstrumentFrom] Baroque era\n- Fortepiano [isInstrumentFrom] Baroque era\n- Organ [isInstrumentFrom] Baroque era\n- Theorbo [isInstrumentFrom] Baroque era\n- Rackett [isInstrumentFrom] Baroque era\n- Baroque violin [isInstrumentFrom] Baroque era\n- Baroque oboe [isInstrumentFrom] Baroque era\n- Baroque trumpet [isInstrumentFrom] Baroque era\n- Violin [isInstrumentFrom] Baroque violin\n- Oboe [isInstrumentFrom] Baroque oboe\n- Regular valved trumpet [isInstrumentFrom] Baroque trumpet\n\nQuestion: The theorbo and what other Baroque instrument fell into disuse?\nAnswer: N\/A\n\nReference answer: [{'text': 'rackett', 'answer_start': 232}]",
+    "sentiment": "Missing KG Info",
+    "annotator": 1,
+    "annotation_id": 102,
+    "created_at": "2024-02-27T12:24:47.943435Z",
+    "updated_at": "2024-02-27T12:24:47.943435Z",
+    "lead_time": 10.269
+  },
+  {
+    "id": 11,
+    "text": "Context: - One-color light [isSuitedFor] traffic lights\n- One-color light [isSuitedFor] signals\n- One-color light [isSuitedFor] exit signs\n- One-color light [isSuitedFor] emergency vehicle lighting\n- One-color light [isSuitedFor] ships' navigation lights\n- One-color light [isSuitedFor] lanterns\n- One-color light [isSuitedFor] LED-based Christmas lights\n- LED traffic lights [mayRemain] snow-covered\n- Red or yellow LEDs [areUsedIn] indicator and alphanumeric displays\n- Red or yellow LEDs [areUsedIn] environments where night vision must be retained\n- Environments where night vision must be retained [include] aircraft cockpits\n- Environments where night vision must be retained [include] submarine and ship bridges\n- Environments where night vision must be retained [include] astronomy observatories\n- Environments where night vision must be retained [include] night time animal watching\n- Environments where night vision must be retained [include] military field use\n\nQuestion: What type of light is ideal for traffic signals?\nAnswer: One-color light\n\nReference answer: [{'text': 'One-color light', 'answer_start': 0}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 11,
+    "created_at": "2024-02-27T12:08:50.770189Z",
+    "updated_at": "2024-02-27T12:08:50.770189Z",
+    "lead_time": 1.713
+  },
+  {
+    "id": 12,
+    "text": "Context: - Epigenetics [isStudyOf] mitotically and\/or meiotically heritable changes in gene function\n- Changes in gene function [cannotBeExplainedBy] changes in the underlying DNA sequence\n- Changes in gene function [cause] organism's genes to behave differently\n- Epigenetic change [isExampleOf] marking of the genes by DNA methylation\n- DNA methylation [determines] whether genes will be expressed or not\n- Gene expression [canBeControlledBy] repressor proteins\n- Repressor proteins [attachTo] silencer regions of the DNA\n- Silencer regions of the DNA [prevent] that region of the DNA code from being expressed\n- Epigenetic marks [mayBeAddedOrRemovedFrom] DNA\n- Epigenetic marks [areResponsibleFor] differences between anthers, petals and normal leaves\n- Anthers, petals and normal leaves [have] same underlying genetic code\n- Epigenetic changes [mayBe] temporary or may remain through successive cell divisions for the remainder of the cell's life\n- Some epigenetic changes [haveBeenShownToBe] heritable\n- Other epigenetic changes [areResetIn] germ cells\n\nQuestion: Are the changes then presented, permanent?\nAnswer: N\/A\n\nReference answer: [{'text': 'may be temporary', 'answer_start': 837}]",
+    "sentiment": "Missing KG Info",
+    "annotator": 1,
+    "annotation_id": 103,
+    "created_at": "2024-02-27T12:24:58.185613Z",
+    "updated_at": "2024-02-27T12:24:58.185613Z",
+    "lead_time": 14.876000000000001
+  },
+  {
+    "id": 13,
+    "text": "Context: - Sony Entertainment Television [broadcasts] Survivor\n- STAR World [broadcasts] Survivor\n- ABC 5 [broadcasts] Survivor\n- QTV [broadcasts] Survivor\n- GMA News TV [broadcasts] Survivor\n- ETC [broadcasts] Survivor\n- Network Ten [broadcasts] Survivor\n- Fox8 [broadcasts] Survivor\n- Eleven [broadcasts] Survivor\n- ITV2 [broadcasts] Survivor\n- 5* [broadcasts] Survivor\n- TV3 [broadcasts] Survivor\n- La3 [broadcasts] Survivor\n\nQuestion: On what days of the week does American Idol air in the Philippines? \nAnswer: N\/A\n\nReference answer: [{'text': 'Thursday and Friday', 'answer_start': 143}]",
+    "sentiment": "Missing KG Info",
+    "annotator": 1,
+    "annotation_id": 104,
+    "created_at": "2024-02-27T12:25:01.422984Z",
+    "updated_at": "2024-02-27T12:25:01.422984Z",
+    "lead_time": 9.613000000000001
+  },
+  {
+    "id": 14,
+    "text": "Context: - Beringia [wasInhabitedBy] First inhabitants of the Americas\n- First inhabitants of the Americas [wereIsolatedFor] 10–20,000 years\n- Glaciers [beganMelting] 16,500 years ago\n- People [moved] Canada and beyond\n- People [followed] Herds of now-extinct Pleistocene megafauna\n- Herds of now-extinct Pleistocene megafauna [stretched] between Laurentide and Cordilleran Ice Sheets\n\nQuestion: Where did the single ancestral population of all the indigenous peoples of the Americas likely develop?\nAnswer: N\/A\n\nReference answer: [{'text': 'in isolation', 'answer_start': 134}]",
+    "sentiment": "Missing KG Info",
+    "annotator": 1,
+    "annotation_id": 105,
+    "created_at": "2024-02-27T12:25:06.024850Z",
+    "updated_at": "2024-02-27T12:25:06.024850Z",
+    "lead_time": 10.51
+  },
+  {
+    "id": 15,
+    "text": "Context: - Mycobacterium tuberculosis (lipid content: high, division rate: 16 to 20 hours) [causes] Tuberculosis\n- Mycobacterium tuberculosis [has] outer membrane lipid bilayer\n- Mycobacterium tuberculosis [can withstand] weak disinfectants\n- Mycobacterium tuberculosis [can survive] in a dry state for weeks\n- Mycobacterium tuberculosis [can grow] within the cells of a host organism\n- Mycobacterium tuberculosis [can be cultured] in the laboratory\n\nQuestion: Is the division rate of the TB bacterium fast or slow relative to other bacteria?\nAnswer: N\/A\n\nReference answer: [{'text': 'slow', 'answer_start': 243}]",
+    "sentiment": "Missing KG Info",
+    "annotator": 1,
+    "annotation_id": 106,
+    "created_at": "2024-02-27T12:25:11.327187Z",
+    "updated_at": "2024-02-27T12:25:11.327187Z",
+    "lead_time": 3.352
+  },
+  {
+    "id": 16,
+    "text": "Context: - India [hasCapital] New Delhi (area: 2.3 km)\n- New Delhi [hostedEvent] Torch Relay (date: April 17)\n- Torch Relay [hadParticipants] 70 runners\n- Torch Relay [endedAt] India Gate\n- India Gate [hostedEvent] Torch Relay (date: April 17)\n- Kiran Bedi [withdrewFrom] Torch Relay (date: April 17, reason: personal)\n- Soha Ali Khan [withdrewFrom] Torch Relay (date: April 17, reason: personal)\n- Sachin Tendulkar [withdrewFrom] Torch Relay (date: April 17, reason: personal)\n- Bhaichung Bhutia [withdrewFrom] Torch Relay (date: April 17, reason: personal)\n- Sunil Gavaskar [withdrewFrom] Torch Relay (date: April 17, reason: personal)\n- Baichung Bhutia [refusedToParticipateIn] Torch Relay (date: April 17, reason: concerns over Tibet)\n- Aamir Khan [participatedIn] Torch Relay (date: April 17, reason: prayer for the people of Tibet)\n- Rahul Gandhi [refusedToParticipateIn] Torch Relay (date: April 17, reason: personal)\n\nQuestion: How many runners carried the torch in New Delhi?\nAnswer: 70\n\nReference answer: [{'text': '70', 'answer_start': 162}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 16,
+    "created_at": "2024-02-27T12:09:11.088427Z",
+    "updated_at": "2024-02-27T12:09:11.088427Z",
+    "lead_time": 1.649
+  },
+  {
+    "id": 17,
+    "text": "Context: - Database Management System (DBMS) [interactsWith] User\n- Database Management System (DBMS) [interactsWith] Application\n- Database Management System (DBMS) [interactsWith] Database\n- Database Management System (DBMS) [allows] Definition\n- Database Management System (DBMS) [allows] Creation\n- Database Management System (DBMS) [allows] Querying\n- Database Management System (DBMS) [allows] Update\n- Database Management System (DBMS) [allows] Administration\n- MySQL [isA] Database Management System (DBMS)\n- PostgreSQL [isA] Database Management System (DBMS)\n- Microsoft SQL Server [isA] Database Management System (DBMS)\n- Oracle [isA] Database Management System (DBMS)\n- Sybase [isA] Database Management System (DBMS)\n- SAP HANA [isA] Database Management System (DBMS)\n- IBM DB2 [isA] Database Management System (DBMS)\n- Database [isPortableAcross] Database Management System (DBMS)\n- Database Management System (DBMS) [interoperatesWith] Database Management System (DBMS)\n- Database Management System (DBMS) [uses] SQL\n- Database Management System (DBMS) [uses] ODBC\n- Database Management System (DBMS) [uses] JDBC\n- Database Management System (DBMS) [allows] Application [toWorkWith] Database Management System (DBMS)\n- Database Management System (DBMS) [isClassifiedBy] Database Model\n- Database Management System (DBMS) [supports] Relational Model\n- SQL [represents] Relational Model\n\nQuestion: What does DBMS stand for?\nAnswer: Database Management System\n\nReference answer: [{'text': 'database management system', 'answer_start': 2}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 17,
+    "created_at": "2024-02-27T12:09:13.155481Z",
+    "updated_at": "2024-02-27T12:09:13.155481Z",
+    "lead_time": 1.88
+  },
+  {
+    "id": 18,
+    "text": "Context: - Britain [attemptedToNegotiate] Solution\n- France [attemptedToNegotiate] Solution\n- Britain [dispatched] Troops\n- France [dispatched] Troops\n- Britain [assaulted] Acadia (date: 16 June 1755)\n- Britain [expelled] Acadians\n- Edward Braddock [led] Troops\n- Edward Boscawen [firedOn] Alcide (date: 8 June 1755)\n- French [met] British\n- Battle of Lake George [date: September 1755]\n\nQuestion: What was the result of the naval encounter between Britain and France?\nAnswer: N\/A\n\nReference answer: [{'text': 'Admiral Edward Boscawen fired on the French ship Alcide on 8 June 1755, capturing it and two troop ships', 'answer_start': 575}]",
+    "sentiment": "Missing KG Info",
+    "annotator": 1,
+    "annotation_id": 107,
+    "created_at": "2024-02-27T12:25:15.579973Z",
+    "updated_at": "2024-02-27T12:25:15.579973Z",
+    "lead_time": 5.297000000000001
+  },
+  {
+    "id": 19,
+    "text": "Context: - Ottoman Empire [hadStructure] Effective military and bureaucratic structures\n- Effective military and bureaucratic structures [cameUnderStrainDuring] Protracted period of misrule\n- Protracted period of misrule [wasCausedBy] Weak Sultans\n- Ottoman Empire [fellBehind] Europeans\n- Europeans [hadAdvantageIn] Military technology\n- Innovation [wasStifledBy] Growing religious and intellectual conservatism\n- Ottoman Empire [remained] Major expansionist power\n- Major expansionist power [endedAfter] Battle of Vienna (year: 1683)\n- Battle of Vienna [marked] End of Ottoman expansion\n\nQuestion: Poor rule by what class of people strained the empire?\nAnswer: Weak Sultans\n\nReference answer: [{'text': 'Sultans', 'answer_start': 139}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 19,
+    "created_at": "2024-02-27T12:09:17.808596Z",
+    "updated_at": "2024-02-27T12:09:17.808596Z",
+    "lead_time": 1.633
+  },
+  {
+    "id": 20,
+    "text": "Context: - Indian rebellion of 1857 [wasAgainst] British East India\n- British East India [ruled] northern and central India\n- Rebels [wereDisorganized]\n- Rebels [hadDifferingGoals]\n- Rebels [werePoorlyEquipped]\n- Rebels [werePoorlyLed]\n- Rebels [werePoorlyTrained]\n- Rebels [hadNoOutsideSupport]\n- Rebels [hadNoFunding]\n- Rebels [wereBrutallySuppressed]\n- British government [tookControlOf] Company\n- British government [eliminated] Grievances\n- British government [wasDetermined] [toKeepFullControl]\n\nQuestion: What force took control of the company and the situation?\nAnswer: British government\n\nReference answer: [{'text': 'British government', 'answer_start': 334}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 20,
+    "created_at": "2024-02-27T12:09:19.606903Z",
+    "updated_at": "2024-02-27T12:09:19.606903Z",
+    "lead_time": 1.481
+  },
+  {
+    "id": 21,
+    "text": "Context: - Pathogen Load (higher) [associatedWith] Decreased Size of Ethnic and Religious Groups\n- Pathogen Load (higher) [associatedWith] Avoidance of Other Groups\n- Avoidance of Other Groups [reduces] Pathogen Transmission\n- Pathogen Load (higher) [associatedWith] Restricted Sexual Behavior\n- Restricted Sexual Behavior [reduces] Pathogen Transmission\n- Pathogen Load (higher) [associatedWith] Higher Preferences for Health and Attractiveness in Mates\n- Pathogen Load (higher) [associatedWith] Higher Fertility Rates\n- Pathogen Load (higher) [associatedWith] Shorter or Less Parental Care per Child\n- Pathogen Load (higher) [associatedWith] Polygyny\n- Polygyny [dueTo] Higher Pathogen Load\n- Pathogen Load (higher) [associatedWith] Collectivism\n- Pathogen Load (higher) [associatedWith] Less Individualism\n- Collectivism and Less Individualism [limits] Contacts with Outside Groups and Infections\n- Pathogen Load (higher) [associatedWith] Lower Male:Female Ratio\n- Lower Male:Female Ratio [dueTo] Increased Mortality from Infectious Diseases in Male Infants\n- Pathogen Load (higher) [associatedWith] Poor Socioeconomic Factors\n- Poor Socioeconomic Factors [dueTo] High Pathogen Load Preventing Economic Development\n\nQuestion: What does more restricted sexual behavior result in?\nAnswer: Reduced Pathogen Transmission\n\nReference answer: [{'text': 'Higher pathogen load', 'answer_start': 420}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 21,
+    "created_at": "2024-02-27T12:09:56.120287Z",
+    "updated_at": "2024-02-27T12:09:56.120287Z",
+    "lead_time": 36.325
+  },
+  {
+    "id": 22,
+    "text": "Context: - Frédéric Chopin [livedIn] Paris\n- Franz Liszt [livedIn] Paris\n- Frédéric Chopin [performedWith] Franz Liszt (times: 7, years: 1833-1841)\n- Frédéric Chopin [performedAt] Benefit concert (organizedBy: Hector Berlioz, date: 2 April 1833)\n- Franz Liszt [performedAt] Benefit concert (organizedBy: Hector Berlioz, date: 2 April 1833)\n- Frédéric Chopin [performedAt] Benefit concert (for: Benevolent Association of Polish Ladies in Paris)\n- Franz Liszt [performedAt] Benefit concert (for: Benevolent Association of Polish Ladies in Paris)\n- Frédéric Chopin [performedAt] Charity concert (for: Beethoven Memorial in Bonn, date: 25 and 26 April 1841)\n- Franz Liszt [performedAt] Charity concert (for: Beethoven Memorial in Bonn, date: 25 and 26 April 1841)\n\nQuestion: When was the first time Liszt and Chopin performed together?\nAnswer: 1833\n\nReference answer: [{'text': '2 April 1833', 'answer_start': 271}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 22,
+    "created_at": "2024-02-27T12:10:00.923286Z",
+    "updated_at": "2024-02-27T12:10:00.923286Z",
+    "lead_time": 4.605
+  },
+  {
+    "id": 23,
+    "text": "Context: - Police Officer (rank: Constable) [hasPower] Arrest\n- Chief Constable [hasPower] Arrest\n- Commissioner [hasPower] Arrest\n- Inspector [hasPower] Authorize Search\n- Superintendent [hasPower] Authorize Detention\n\nQuestion: What can only Superintendent-ranked UK officers do?\nAnswer: Authorize Detention\n\nReference answer: [{'text': \"authorize a suspect's detention beyond 24 hours\", 'answer_start': 489}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 23,
+    "created_at": "2024-02-27T12:10:03.947623Z",
+    "updated_at": "2024-02-27T12:10:03.947623Z",
+    "lead_time": 2.834
+  },
+  {
+    "id": 24,
+    "text": "Context: - A. V. Dicey (notion of rule of law: “no man is punishable or can be lawfully made to suffer in body or goods except for a distinct breach of law established in the ordinary legal manner before the ordinary Courts of the land.”)\n- Rule of law [transformedTo] Exercise of discretion by administrators\n- Rule of law [recastInto] Procedural form\n- Charles Evans Hughes (Chief Justice of the United States) [believed: “you must have administration, and you must have administration by administrative officers.”]\n- Administrative agencies [createdBecauseOf] Specialization\n- Administrative agencies [adopted] Procedures\n- Procedures [tracked] \"the ordinary legal manner\" of the courts\n- Further review of the facts by \"the ordinary Courts of the land\" [unnecessary]\n- \"Day in commission\" [replaced] \"Day in court\"\n\nQuestion: When was a compromise reached over administrative procedures for law determination?\nAnswer: N\/A\n\nReference answer: [{'text': '1941', 'answer_start': 1151}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 24,
+    "created_at": "2024-02-27T12:10:06.186848Z",
+    "updated_at": "2024-02-27T12:10:06.186848Z",
+    "lead_time": 2.053
+  },
+  {
+    "id": 25,
+    "text": "Context: - Uncle Bulgaria [reads] The Times\n- The Times [playsRoleIn] Very Behind the Times (Series 2, Episode 12)\n\nQuestion: What is the name of the episode where the newspaper, The Times, is featured and plays a central role in an episode of The Wombles?\nAnswer: N\/A\n\nReference answer: [{'text': 'Very Behind the Times', 'answer_start': 189}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 25,
+    "created_at": "2024-02-27T12:10:14.199774Z",
+    "updated_at": "2024-02-27T12:10:14.199774Z",
+    "lead_time": 7.823
+  },
+  {
+    "id": 26,
+    "text": "Context: - Gramophone record [hasLimitation] Fidelity (declines as playback progresses)\n- Fidelity [hasProperty] Vinyl per second (varies)\n- Vinyl per second [hasValue] 510 mm at start of groove, 200-210 mm at end of groove\n- Distortion [isCausedBy] Record wear\n\nQuestion: What happens as a record wears?\nAnswer: Distortion [isCausedBy] Record wear\n\nReference answer: [{'text': 'Distortion', 'answer_start': 505}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 26,
+    "created_at": "2024-02-27T12:10:18.555596Z",
+    "updated_at": "2024-02-27T12:10:18.555596Z",
+    "lead_time": 4.013
+  },
+  {
+    "id": 27,
+    "text": "Context: - Sanskrit (type: sacred language, philosophical language, literary language) [isUsedIn] Hinduism, Buddhism, Sikhism, Jainism\n- Sanskrit [isStandardisedDialectOf] Old Indo-Aryan\n- Old Indo-Aryan [originatesFrom] Vedic Sanskrit\n- Vedic Sanskrit [tracesLinguisticAncestryBackTo] Proto-Indo-Iranian, Proto-Indo-European\n- Sanskrit [isListedAs] one of the 22 scheduled languages of India\n- Sanskrit [isOfficialLanguageOf] Uttarakhand\n- Sanskrit [holdsProminentPositionIn] Indo-European studies\n\nQuestion: Sanskrit is the primary sacred language of which religion?\nAnswer: N\/A\n\nReference answer: [{'text': 'Hinduism', 'answer_start': 147}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 27,
+    "created_at": "2024-02-27T12:10:21.181292Z",
+    "updated_at": "2024-02-27T12:10:21.181292Z",
+    "lead_time": 2.44
+  },
+  {
+    "id": 28,
+    "text": "Context: - Strasbourg (knownAs: centre of humanism) [hasHistoryOf] excellence in higher-education\n- Strasbourg [isAtCrossroadsOf] French and German intellectual traditions\n- Strasbourg [wasAnnexedBy] Kingdom of France (in: 1683)\n- Strasbourg [remainedConnectedTo] German-speaking intellectual world (throughout: 18th century)\n- Strasbourg [attracted] numerous students from Holy Roman Empire\n- Goethe [studied] law in Strasbourg\n- Metternich [studied] law in Strasbourg\n- Montgelas [studied] law in Strasbourg\n- Strasbourg [isKnownToOffer] among the best university courses in France\n- Paris [isKnownToOffer] among the best university courses in France\n\nQuestion:  From what empire did students come from to attend university?\nAnswer: Holy Roman Empire\n\nReference answer: [{'text': 'Holy Roman Empire', 'answer_start': 389}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 28,
+    "created_at": "2024-02-27T12:10:22.800920Z",
+    "updated_at": "2024-02-27T12:10:22.800920Z",
+    "lead_time": 1.431
+  },
+  {
+    "id": 29,
+    "text": "Context: - Insect (property: lives in nests or colonies) [hasCapacity] Fine-scale spatial orientation or homing\n- Fine-scale spatial orientation or homing [allows] Insect to return unerringly to a single hole\n- Hole (property: diameter: a few millimeters) [isClusteredWith] Thousands of apparently identical holes\n- Hole [isLocatedIn] Area of interest\n- Area of interest [isViewedBy] Insect (property: hibernates)\n- Insect (property: hibernates) [hasAbility] Recall a specific location\n- Specific location [isViewedBy] Insect (property: hibernates)\n- Insect [migrates] Large distances\n- Large distances [isBetween] Different geographic regions\n- Different geographic regions [isAreaOfInterestOf] Monarch butterfly (property: overwinters)\n\nQuestion: An insect that can recall a specific location for up to a year does what?\nAnswer: Hibernates\n\nReference answer: [{'text': 'hibernate', 'answer_start': 382}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 29,
+    "created_at": "2024-02-27T12:10:24.468159Z",
+    "updated_at": "2024-02-27T12:10:24.468159Z",
+    "lead_time": 1.483
+  },
+  {
+    "id": 30,
+    "text": "Context: - Francis Grose (position: Lieutenant-Governor of New South Wales) [suggestedClosureOf] Penal Settlement (reason: too remote, difficult for shipping, costly to maintain)\n- Penal Settlement [firstGroupLeft] February 1805\n- Penal Settlement [onlyAbout200Remained] 1808\n- Penal Settlement [smallSettlementFormed] 1808\n- Penal Settlement [remnantsRemoved] 1813\n- Penal Settlement [smallPartyRemained] 1813\n- Penal Settlement [slaughterStockAndDestroyAllBuildings] 1813\n- Penal Settlement [abandoned] 15 February 1814 - 6 June 1825\n\nQuestion: When did the first group of people leave Norfolk Island?\nAnswer: February 1805\n\nReference answer: [{'text': 'February 1805', 'answer_start': 226}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 30,
+    "created_at": "2024-02-27T12:10:25.932869Z",
+    "updated_at": "2024-02-27T12:10:25.932869Z",
+    "lead_time": 1.283
+  },
+  {
+    "id": 31,
+    "text": "Context: - Architecture [separatedFrom] Engineering\n- Architect [concentratedOn] Aesthetics and Humanist Aspects\n- Architect [sacrificed] Technical Aspects of Building Design\n- Gentleman Architect [dealtWith] Wealthy Clients\n- Gentleman Architect [concentratedOn] Visual Qualities\n- Gentleman Architect [derivedFrom] Historical Prototypes\n- École des Beaux-Arts [emphasized] Production of Beautiful Drawings\n- École des Beaux-Arts [deemphasized] Context and Feasibility\n- Effective Architect [receivedTrainingFrom] Offices of Other Architects\n- Effective Architect [graduatedFrom] Draughtsmen or Clerks\n\nQuestion: Where did most architects learn their trade?\nAnswer: Offices of Other Architects\n\nReference answer: [{'text': 'in the offices of other architects', 'answer_start': 840}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 31,
+    "created_at": "2024-02-27T12:10:27.898854Z",
+    "updated_at": "2024-02-27T12:10:27.898854Z",
+    "lead_time": 1.777
+  },
+  {
+    "id": 32,
+    "text": "Context: - Estes Kefauver (role: Senator, state: Tennessee) [led] Congressional hearings (year: 1959)\n- Congressional hearings (year: 1959) [covered] policy issues (topics: advertising abuses, questionable efficacy of drugs, need for greater regulation of the industry)\n- Momentum for new legislation [flagged] under extended debate\n- New tragedy [emerged]\n- New tragedy [underscored] need for more comprehensive regulation\n- New tragedy [provided] driving force for passage of new laws\n\nQuestion: Congressional hearings emerged addressing revisions to what act?\nAnswer: N\/A\n\nReference answer: [{'text': 'FD&C', 'answer_start': 41}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 32,
+    "created_at": "2024-02-27T12:10:29.666044Z",
+    "updated_at": "2024-02-27T12:10:29.666044Z",
+    "lead_time": 1.584
+  },
+  {
+    "id": 33,
+    "text": "Context: - Late Cretaceous (timeSpan: 100 million to 65 million years ago) [featured] cooling trend\n- cooling trend [continuedOn] Cenozoic period\n- Cenozoic period [featured] tropics restricted to the equator\n- tropics [restrictedTo] equator\n- areas beyond the tropic lines [featured] extreme seasonal changes in weather\n- Dinosaurs [thrived]\n- Tyrannosaurus [dominated] food web\n- Ankylosaurus [dominated] food web\n- Triceratops [dominated] food web\n- Hadrosaurs [dominated] food web\n- Mosasaurs [ruled] seas\n- Mosasaurs [filledRoleOf] Ichthyosaurs\n- Elasmosaurus [evolved]\n- flowering plants [evolved]\n- Deccan traps [poisoned] atmosphere\n- volcanic eruptions [poisoned] atmosphere\n- meteor [smashedInto] earth\n- K-T Extinction [causedBy] meteor\n- K-T Extinction [causedBy] Chicxulub Crater\n- K-T Extinction [causedBy] volcanic eruptions\n- K-T Extinction [extincted] 75% of life on earth\n- K-T Extinction [extincted] all non-avian dinosaurs\n- K-T Extinction [extincted] everything over 10 kilograms\n- dinosaurs [extincted]\n\nQuestion: What type of weather changes did areas outside of the tropics experience?\nAnswer: areas beyond the tropic lines [featured] extreme seasonal changes in weather\n\nReference answer: [{'text': 'extreme seasonal changes', 'answer_start': 254}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 33,
+    "created_at": "2024-02-27T12:10:33.064748Z",
+    "updated_at": "2024-02-27T12:10:33.064748Z",
+    "lead_time": 3.213
+  },
+  {
+    "id": 34,
+    "text": "Context: - Islamic education [rootedIn] Quran (holy book of Muslims)\n- Islamic education [isDifferentFrom] Muslim education\n- Islamic education [has] epistemological integration\n- epistemological integration [foundedOn] Tawhid (Oneness or monotheism)\n- Tareq M Zayed [wrote] \"A Qur’anic Methodology for Integrating Knowledge and Education: Implications for Malaysia’s Islamic Education Strategy\"\n- Tareq M Zayed [authored] \"Knowledge of Shariah and Knowledge to Manage ‘Self’ and ‘System’: Integration of Islamic Epistemology with the Knowledge and Education\"\n\nQuestion: What is the meaning of Islamic education?\nAnswer: N\/A\n\nReference answer: [{'text': 'education in the light of Islam itself', 'answer_start': 35}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 34,
+    "created_at": "2024-02-27T12:10:37.350404Z",
+    "updated_at": "2024-02-27T12:10:37.350404Z",
+    "lead_time": 4.104
+  },
+  {
+    "id": 35,
+    "text": "Context: - Roman religion [basedOn] principle of do ut des, \"I give that you might give.\"\n- Roman religion [dependedOn] knowledge and correct practice of prayer, ritual, and sacrifice\n- Roman religion [notBasedOn] faith or dogma\n- Cicero [was] augur\n- Cicero [saw] religion as a source of social order\n- Roman calendar [structuredAround] religious observances\n- Women, slaves, and children [participatedIn] range of religious activities\n- Some public rituals [conductedOnlyBy] women\n- Vestals [tended] Rome's sacred hearth for centuries\n- Vestals [disbanded] under Christian domination\n\nQuestion: What characteristics were not inherent in Roman religious practice?\nAnswer: faith or dogma\n\nReference answer: [{'text': 'faith or dogma', 'answer_start': 215}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 35,
+    "created_at": "2024-02-27T12:10:39.194170Z",
+    "updated_at": "2024-02-27T12:10:39.194170Z",
+    "lead_time": 1.661
+  },
+  {
+    "id": 36,
+    "text": "Context: - Frederick [launchedInvasionOf] Moravia\n- Frederick [laidSiegeTo] Olmütz (now Olomouc, Czech Republic)\n- BattleOfDomstadtl [wipedOut] SupplyConvoy (destination: Olmütz)\n- Frederick [brokeOff] Siege (of Olmütz)\n- Frederick [withdrewFrom] Moravia\n- EastPrussia [occupiedBy] RussianForces (over the winter)\n- EastPrussia [remainedUnderControlOf] RussianForces (until 1762)\n- Frederick [didNotSee] Russians [as] ImmediateThreat\n- Frederick [entertainedHopesOf] FightingDecisiveBattle (against Austria)\n- DecisiveBattle [wouldKnockOut] Austria (from the war)\n\nQuestion: What city did Frederick lay siege to?\nAnswer: Olmütz (now Olomouc, Czech Republic)\n\nReference answer: [{'text': 'Olmütz', 'answer_start': 76}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 36,
+    "created_at": "2024-02-27T12:10:42.593636Z",
+    "updated_at": "2024-02-27T12:10:42.593636Z",
+    "lead_time": 3.216
+  },
+  {
+    "id": 37,
+    "text": "Context: - Paul VI [opened] Third Period (date: 14 September 1964)\n- Paul VI [viewed] Text about the Church [as] Most Important Document\n- Council [discussed] Role of Bishops in Papacy\n- Paul VI [issued] Explanatory Note [confirming] Primacy of Papacy\n- American Bishops [pushed] Speedy Resolution on Religious Freedom\n- Paul VI [insisted] Speedy Resolution on Religious Freedom [to be approved together with] Related Texts (such as Ecumenism)\n- Paul VI [concluded] Session (date: 21 November 1964)\n- Paul VI [pronounced] Mary [as] Mother of the Church\n\nQuestion: In what year did Paul VI formally appoint Mary as mother of the Catholic church?\nAnswer: N\/A\n\nReference answer: [{'text': '1964', 'answer_start': 595}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 37,
+    "created_at": "2024-02-27T12:10:44.874149Z",
+    "updated_at": "2024-02-27T12:10:44.874149Z",
+    "lead_time": 2.095
+  },
+  {
+    "id": 38,
+    "text": "Context: - Nanjing [hasAirport] Lukou International Airport (opened: 28 June 1997)\n- Lukou International Airport [serves] national and international flights\n- Lukou International Airport [handled] 15,011,792 passengers and 255,788.6 tonnes of freight in 2013\n- Lukou International Airport [has] 85 routes to national and international destinations\n- Lukou International Airport [isLinkedTo] Nanjing South Railway Station by Ninggao Intercity Line\n- Lukou International Airport [replaced] Nanjing Dajiaochang Airport as the main airport serving Nanjing\n- Nanjing Dajiaochang Airport [isUsedAs] a military air base\n\nQuestion: When did the airport open for business?\nAnswer: 28 June 1997\n\nReference answer: [{'text': '28 June 1997', 'answer_start': 678}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 38,
+    "created_at": "2024-02-27T12:10:46.784278Z",
+    "updated_at": "2024-02-27T12:10:46.784278Z",
+    "lead_time": 1.43
+  },
+  {
+    "id": 39,
+    "text": "Context: - European Union [uses] Racial Origin (synonym: Ethnic Origin)\n- Racial Origin [isUsedBy] European Union\n- Haney López [warns] Race (category) [legitimizes] Race (existence)\n- Race (category) [isUsedBy] Law\n- Race (category) [isAssociatedWith] Ideological Baggage\n- Ethnicity [isMoreResonant] Ethnic Origin\n- Ethnicity [isLessEncumbered] Ideological Baggage\n- Race (category) [isAssociatedWith] Nazi and Fascist Governments\n- Race (category) [isAssociatedWith] Laws\n- European Parliament [adopted] Resolution (1996)\n- Resolution (1996) [states] Race (term) [shouldBeAvoided] Official Texts\n\nQuestion: Who uses the terms racial origin and ethnic origin interchangeably? \nAnswer: N\/A\n\nReference answer: [{'text': 'The European Union', 'answer_start': 0}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 39,
+    "created_at": "2024-02-27T12:10:49.166583Z",
+    "updated_at": "2024-02-27T12:10:49.166583Z",
+    "lead_time": 2.195
+  },
+  {
+    "id": 40,
+    "text": "Context: - MP3 (decoding: yes, encoding: yes) [hasPatentClaimedBy] Organization\n- Organization [made] LegalThreat\n- LegalThreat [caused] Uncertainty (feature: common)\n\nQuestion: Legal threats and confusion made it difficult to ensure what about patents regarding MP3 products?\nAnswer: N\/A\n\nReference answer: [{'text': 'which patents must be licensed', 'answer_start': 219}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 40,
+    "created_at": "2024-02-27T12:10:51.334079Z",
+    "updated_at": "2024-02-27T12:10:51.334079Z",
+    "lead_time": 1.981
+  },
+  {
+    "id": 41,
+    "text": "Context: - Licchavi era [followedBy] Malla era\n- Rulers (from: Tirhut) [attackedBy] Muslims\n- Rulers (from: Tirhut) [fledTo] Kathmandu valley\n- Rulers (from: Tirhut) [intermarriedWith] Nepali royalty\n- Malla era [hasEarlyYears] (turbulent: yes)\n- Malla era [hasRaidsAndAttacksFrom] Khas and Turk Muslims\n- Malla era [hasEarthquake] (devastating: yes)\n- Earthquake [claimedLivesOf] (1\/3 of: Kathmandu's population)\n- Earthquake [claimedLivesOf] Abhaya Malla (king: yes)\n- Disasters [ledTo] (destruction of: most of the architecture of the Licchavi era)\n- Disasters [ledTo] (loss of: literature collected in various monasteries within the city)\n- Kathmandu [roseToProminence] (again: yes)\n- Kathmandu [dominated] (trade between: India and Tibet) (during: most of the Malla era)\n- Nepali currency [became] (standard currency: yes) (in: trans-Himalayan trade)\n\nQuestion: Along with Khas, who attacked Nepal in the early Malla period?\nAnswer: Turk Muslims\n\nReference answer: [{'text': 'Turk Muslims', 'answer_start': 292}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 41,
+    "created_at": "2024-02-27T12:10:53.143059Z",
+    "updated_at": "2024-02-27T12:10:53.143059Z",
+    "lead_time": 1.625
+  },
+  {
+    "id": 42,
+    "text": "Context: - Comboios de Portugal [administers] National railway system (length: 2,791 km, electrified: 1,430 km, high-speed: 900 km)\n- National railway system [managedBy] REFER\n- National railway system [transports] Passengers (133 million in 2006) and Goods (9,750,000 t in 2006)\n- Comboios de Portugal [transports] Passengers (133 million in 2006) and Goods (9,750,000 t in 2006)\n\nQuestion: How long is the amount of railway lines that are electrified?\nAnswer: 1,430 km\n\nReference answer: [{'text': '1,430 km (889 mi)', 'answer_start': 261}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 42,
+    "created_at": "2024-02-27T12:11:01.354163Z",
+    "updated_at": "2024-02-27T12:11:01.354163Z",
+    "lead_time": 8.026
+  },
+  {
+    "id": 43,
+    "text": "Context: - Chopin [hasTombstone] Tombstone (designedBy: Clésinger, sculptedBy: Clésinger)\n- Tombstone [features] Euterpe (museOf: music)\n- Chopin [hasSister] Ludwika\n- Ludwika [took] Chopin's heart (preservedIn: alcohol)\n- Ludwika [took] collection of two hundred letters (from: Sand, to: Chopin)\n- Sand [destroyed] collection of two hundred letters (from: Sand, to: Chopin)\n- Jane Stirling [paidFor] funeral (expenses: 5,000 francs)\n- Jane Stirling [paidFor] monument (expenses: 5,000 francs)\n- Jane Stirling [paidFor] return of Ludwika to Warsaw\n\nQuestion: How much did Chopin's funeral and monument cost?\nAnswer: 10,000 francs\n\nReference answer: [{'text': '5,000 francs', 'answer_start': 181}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 43,
+    "created_at": "2024-02-27T12:11:40.522561Z",
+    "updated_at": "2024-02-27T12:11:40.522561Z",
+    "lead_time": 38.976
+  },
+  {
+    "id": 44,
+    "text": "Context: - Gaddafi [wasAwareOf] European colonialists (involvement: Libya)\n- Libya [wasOccupiedBy] Italy\n- Libya [witnessed] conflict (between: Italian troops, British troops)\n- Abdessalam Bouminyar [wasKilledBy] Italian Army (during: Italian invasion of 1911)\n- Libya [wasOccupiedBy] British forces, French forces (at: World War II's end in 1945)\n- Britain, France [intendedOn] dividing Libya (between: their empires)\n- General Assembly of the United Nations (UN) [declared] Libya (be granted: political independence)\n- UN [created] United Kingdom of Libya (in: 1951)\n- United Kingdom of Libya [wasA] federal state (under: leadership of a pro-western monarch, Idris)\n- Idris [banned] political parties\n- Idris [established] absolute monarchy\n\nQuestion: Who was the first leader of Libya?\nAnswer: Idris\n\nReference answer: [{'text': 'a pro-western monarch, Idris', 'answer_start': 748}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 44,
+    "created_at": "2024-02-27T12:11:42.616729Z",
+    "updated_at": "2024-02-27T12:11:42.616729Z",
+    "lead_time": 1.905
+  },
+  {
+    "id": 45,
+    "text": "Context: - Battle of Sedan [happenedOn] 1 September 1870\n- Army of Châlons [hasNumberOf] 202 infantry battalions, 80 cavalry squadrons and 564 guns\n- Prussian Third and Meuse Armies [hasNumberOf] 222 infantry battalions, 186 cavalry squadrons and 774 guns\n- General De Wimpffen [isCommanderOf] French V Corps\n- French V Corps [launchedAttackOn] Prussian XI Corps\n- Prussian artillery [tookTollOn] French\n- French cavalry [isCommandedBy] General Marguerite\n- General Marguerite [launchedAttackOn] Floing\n- Floing [isConcentratedWith] Prussian XI Corps\n- Napoleon III [calledOff] attacks\n- French [lost] 17,000 men\n- French [lost] 21,000 captured\n- Prussians [lost] 2,320 killed\n- Prussians [lost] 5,980 wounded\n- Prussians [lost] 700 captured or missing\n- Napoleon III [surrenderedOn] 2 September\n- Napoleon III [wasTakenPrisonerWith] 104,000 soldiers\n- Battle of Sedan [wasVictoryFor] Prussians\n- French army [wasImmobilisedAndBesiegedIn] Metz\n- German [invaded] French ground\n- War [continued]\n\nQuestion: As the French were hard-hit by the Prussian artillery, what continued to show up to the battlefield?\nAnswer: N\/A\n\nReference answer: [{'text': 'more Prussian troops', 'answer_start': 478}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 45,
+    "created_at": "2024-02-27T12:11:44.647419Z",
+    "updated_at": "2024-02-27T12:11:44.647419Z",
+    "lead_time": 1.843
+  },
+  {
+    "id": 46,
+    "text": "Context: - M. tuberculosis [identifiedBy] Robert Koch (Nobel Prize in physiology or medicine: 1905)\n- Robert Koch [did not believe] bovine (cattle) and human tuberculosis diseases [were] similar\n- bovine (cattle) and human tuberculosis diseases [delayed] recognition of infected milk [as] a source of infection\n- risk of transmission from infected milk [was dramatically reduced by] invention of the pasteurization process\n- Robert Koch [announced] glycerine extract of the tubercle bacilli [as] a \"remedy\" for tuberculosis in 1890\n- glycerine extract of the tubercle bacilli [was called] \"tuberculin\"\n- tuberculin [was not effective]\n- tuberculin [was later successfully adapted as] a screening test for the presence of pre-symptomatic tuberculosis\n- World Tuberculosis Day [was established on] 24 March [for this reason]\n\nQuestion: Koch's conviction that human and bovine strains of TB were unrelated meant more people were exposed by drinking what?\nAnswer: infected milk\n\nReference answer: [{'text': 'milk', 'answer_start': 325}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 46,
+    "created_at": "2024-02-27T12:11:46.764346Z",
+    "updated_at": "2024-02-27T12:11:46.764346Z",
+    "lead_time": 1.929
+  },
+  {
+    "id": 47,
+    "text": "Context: - Successors [naturalizedThemselvesTo] different regions\n- Successors [maintainedControlOf] population\n- Ptolemaic kingdom [had] Egyptianized Greeks (century: 2nd onwards)\n- Indo-Greek kingdom [had] kings (religion: Buddhism, e.g. Menander)\n- Greeks [adopted] local customs\n- Hellenistic cultures [emerged] among upper echelons of society\n\nQuestion: Menander converted to what religion?\nAnswer: Buddhism\n\nReference answer: [{'text': 'Buddhism', 'answer_start': 342}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 47,
+    "created_at": "2024-02-27T12:11:48.384098Z",
+    "updated_at": "2024-02-27T12:11:48.384098Z",
+    "lead_time": 1.433
+  },
+  {
+    "id": 48,
+    "text": "Context: - George H. W. Bush [ordered] cease-fire\n- cease-fire [resultedIn] negotiations\n- negotiations [resultedIn] agreement for cessation of hostilities\n- Some US politicians [wereDisappointedBy] cease-fire\n- Some US politicians [believed] Bush should have pressed on to Baghdad\n- Some US politicians [believed] Bush should have removed Hussein from power\n- coalition forces [couldHaveAccomplished] removing Hussein\n- removing Hussein [wouldHaveBroadened] scope of the conflict\n- removing Hussein [wouldHaveCreated] power vacuum\n- removing Hussein [wouldHaveDestabilized] region\n- many coalition nations [refusedToParticipateIn] removing Hussein\n\nQuestion: Coalition nations did what with regards to invading Northern Iraq to precipitate the cease fire?\nAnswer: N\/A\n\nReference answer: [{'text': 'refused to participate', 'answer_start': 609}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 48,
+    "created_at": "2024-02-27T12:11:50.376385Z",
+    "updated_at": "2024-02-27T12:11:50.376385Z",
+    "lead_time": 1.805
+  },
+  {
+    "id": 49,
+    "text": "Context: - KPA [pushedBack] ROK Army\n- KPA [pushedBack] Eighth United States Army\n- KPA [purged] Republic of Korea's intelligentsia\n- KPA [killed] civil servants\n- KPA [killed] intellectuals\n- General MacArthur [warned] Kim Il-sung\n- UN Command [controlled] Pusan perimeter\n- Pusan perimeter [enclosed] 10% of Korea\n- Pusan perimeter [definedBy] Nakdong River\n\nQuestion: What body of water provided a natural border to the UN command-controlled Pusan perimeter?\nAnswer: Nakdong River\n\nReference answer: [{'text': 'Nakdong River', 'answer_start': 501}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 49,
+    "created_at": "2024-02-27T12:11:51.722399Z",
+    "updated_at": "2024-02-27T12:11:51.722399Z",
+    "lead_time": 1.155
+  },
+  {
+    "id": 50,
+    "text": "Context: - Compact Disc (format: digital optical disc data storage) [hasFormat] CD-ROM (format: data storage)\n- Compact Disc [hasFormat] CD-R (format: write-once audio and data storage)\n- Compact Disc [hasFormat] CD-RW (format: rewritable media)\n- Compact Disc [hasFormat] Video Compact Disc (format: Video Compact Disc)\n- Compact Disc [hasFormat] Super Video Compact Disc (format: Super Video Compact Disc)\n- Compact Disc [hasFormat] Photo CD (format: Photo CD)\n- Compact Disc [hasFormat] PictureCD (format: PictureCD)\n- Compact Disc [hasFormat] CD-i (format: CD-i)\n- Compact Disc [hasFormat] Enhanced Music CD (format: Enhanced Music CD)\n- Audio CD [hasFormat] Audio CD player (format: Audio CD player)\n\nQuestion: What was the original intended format for CDs?\nAnswer: N\/A\n\nReference answer: [{'text': 'data storage', 'answer_start': 44}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 50,
+    "created_at": "2024-02-27T12:11:54.017064Z",
+    "updated_at": "2024-02-27T12:11:54.017064Z",
+    "lead_time": 2.109
+  },
+  {
+    "id": 51,
+    "text": "Context: - Antarctica [isContinent]\n- Antarctica [isLocatedIn] Southern Hemisphere\n- Antarctica [isSurroundedBy] Southern Ocean\n- Antarctica [hasArea] 14,000,000 square kilometres (5,400,000 square miles)\n- Antarctica [isFifthLargestContinent]\n- Antarctica [isNearlyTwiceTheSizeOf] Australia\n- Antarctica [hasIceCoverage] 98%\n- Antarctica [hasAverageIceThickness] 1.9 km (1.2 mi; 6,200 ft)\n- Antarctica [hasIceExtendsTo] all but the northernmost reaches of the Antarctic Peninsula\n\nQuestion: What ocean surrounds Antarctica?\nAnswer: Southern Ocean\n\nReference answer: [{'text': 'Southern Ocean', 'answer_start': 317}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 51,
+    "created_at": "2024-02-27T12:11:55.338266Z",
+    "updated_at": "2024-02-27T12:11:55.338266Z",
+    "lead_time": 1.133
+  },
+  {
+    "id": 52,
+    "text": "Context: - Princess Margaret [wishedToMarry] Peter Townsend (ageDifference: 16, hasChildren: 2)\n- Peter Townsend [wasDivorced]\n- Queen [askedThemToWait] Princess Margaret, Peter Townsend (duration: 1 year)\n- Martin Charteris [said] \"the Queen was naturally sympathetic towards the Princess, but I think she thought—she hoped—given time, the affair would peter out.\"\n- Senior politicians [wereAgainst] the match\n- Church of England [didNotPermit] remarriage after divorce\n- If Margaret [hadContracted] civil marriage, she [wouldHaveBeenExpectedToRenounce] her right of succession\n- Margaret [decidedToAbandon] her plans with Peter Townsend\n- In 1960, Margaret [married] Antony Armstrong-Jones\n- Antony Armstrong-Jones [wasCreated] Earl of Snowdon (year: 1961)\n- In 1978, Margaret [divorced] Antony Armstrong-Jones\n- Margaret [didNotRemarry]\n\nQuestion: Who did Princess Margaret marry in 1960?\nAnswer: Antony Armstrong-Jones\n\nReference answer: [{'text': 'Antony Armstrong-Jones', 'answer_start': 708}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 52,
+    "created_at": "2024-02-27T12:11:57.824990Z",
+    "updated_at": "2024-02-27T12:11:57.824990Z",
+    "lead_time": 2.294
+  },
+  {
+    "id": 53,
+    "text": "Context: - RCC [nationalized] British Petroleum-N.B. Hunt Sahir Field\n- RCC [nationalized] Foreign oil producers\n- Gaddafi [viewedNationalizationAs] Step towards socialism\n- Libya (GDP: $3.8 billion in 1969, $13.7 billion in 1974, $24.5 billion in 1979) [hadStandardOfLivingImproved]\n- Libyans (average per-capita income: $40 in 1951, $8,170 in 1979) [hadStandardOfLivingImproved]\n- Libya (average per-capita income: $8,170 in 1979) [hadHigherStandardOfLivingThan] Italy, U.K.\n\nQuestion: What was Libya's per-capita income in 1951?\nAnswer: N\/A\n\nReference answer: [{'text': '$40', 'answer_start': 712}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 53,
+    "created_at": "2024-02-27T12:12:00.393972Z",
+    "updated_at": "2024-02-27T12:12:00.393972Z",
+    "lead_time": 2.381
+  },
+  {
+    "id": 54,
+    "text": "Context: - Old Town [hasPart] Cathedral (started: 1421, tallestCathedralIn: Switzerland)\n- Old Town [hasPart] Zytglogge and Käfigturm towers\n- Old Town [hasPart] Holy Ghost Church (largestSwissReformedChurchIn: Switzerland)\n- Old Town [hasPart] 11 16th century fountains (attributedTo: Hans Gieng)\n\nQuestion: What is the largest Swiss Reformed church in Switzerland?\nAnswer: Holy Ghost Church\n\nReference answer: [{'text': 'Holy Ghost Church', 'answer_start': 346}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 54,
+    "created_at": "2024-02-27T12:12:02.047426Z",
+    "updated_at": "2024-02-27T12:12:02.047426Z",
+    "lead_time": 1.459
+  },
+  {
+    "id": 55,
+    "text": "Context: - Uranium (natural oxide form) [usedIn] Ceramic Glazes (color: yellow)\n- Ceramic Glazes (color: yellow) [foundIn] Roman Villa (location: Cape Posillipo, Bay of Naples, Italy)\n- Roman Villa (location: Cape Posillipo, Bay of Naples, Italy) [discoveredBy] R. T. Gunther (affiliation: University of Oxford, year: 1912)\n- Pitchblende [extractedFrom] Habsburg Silver Mines (location: Joachimsthal, Bohemia, now Jáchymov in the Czech Republic)\n- Pitchblende [usedIn] Glassmaking Industry (location: Joachimsthal, Bohemia, now Jáchymov in the Czech Republic)\n- Uranium Ore [source] Habsburg Silver Mines (location: Joachimsthal, Bohemia, now Jáchymov in the Czech Republic)\n\nQuestion: In what county was glass with uranium oxide content found?\nAnswer: N\/A\n\nReference answer: [{'text': 'Italy', 'answer_start': 244}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 55,
+    "created_at": "2024-02-27T12:12:19.219644Z",
+    "updated_at": "2024-02-27T12:12:19.219644Z",
+    "lead_time": 16.982
+  },
+  {
+    "id": 56,
+    "text": "Context: - Masaccio [used] Linear perspective\n- Brunelleschi [described] Linear perspective\n- Donatello [championed] Scientific study of anatomy\n- Donatello [inspiredBy] Classical models\n- High Renaissance [masters] da Vinci, Michelangelo, Raphael\n\nQuestion: What was achieved though the use of the scientific study of anatomy in the field of art?\nAnswer: N\/A\n\nReference answer: [{'text': 'Greater realism', 'answer_start': 165}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 56,
+    "created_at": "2024-02-27T12:12:23.490304Z",
+    "updated_at": "2024-02-27T12:12:23.490304Z",
+    "lead_time": 4.081
+  },
+  {
+    "id": 57,
+    "text": "Context: - Ann Arbor [hasIssueWith] rising land values, gentrification, and urban sprawl\n- Ann Arbor [hasGreenbeltPlan] (approved: 4 November 2003)\n- Ann Arbor [hasDebate] (topic: how and whether to accommodate and guide development within city limits)\n- Ann Arbor [isRanked] (rank: 27th) [by] CNNMoney.com (year: 2008)\n- Ann Arbor [isRanked] (rank: 100) [by] CNNMoney.com (year: 2008)\n- Ann Arbor [isListed] [by] Forbes (year: 2010)\n\nQuestion: What plan did the city voters approve in 2003?\nAnswer: Ann Arbor Greenbelt Plan\n\nReference answer: [{'text': 'greenbelt plan', 'answer_start': 209}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 57,
+    "created_at": "2024-02-27T12:12:25.521710Z",
+    "updated_at": "2024-02-27T12:12:25.521710Z",
+    "lead_time": 1.843
+  },
+  {
+    "id": 58,
+    "text": "Context: - Nanjing [isRailwayHubOf] Eastern China\n- Beijing-Shanghai Railway (Jinghu) [isComposedOf] Jinpu Railway, Huning Railway\n- Nanjing–Tongling Railway (Ningtong) [connectsTo] Nanjing\n- Nanjing–Qidong (Ningqi) [connectsTo] Nanjing\n- Nanjing-Xian (Ningxi) [isComposedOf] Hefei–Nanjing Railway\n- Nanjing [isConnectedTo] Beijing–Shanghai High-Speed Railway, Shanghai–Wuhan–Chengdu Passenger Dedicated Line\n\nQuestion: What high-speed railway is Nanjing connected to that contains Shanghai?\nAnswer: Beijing–Shanghai High-Speed Railway\n\nReference answer: [{'text': 'Shanghai–Wuhan–Chengdu Passenger Dedicated Line', 'answer_start': 424}]",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 58,
+    "created_at": "2024-02-27T12:12:47.043426Z",
+    "updated_at": "2024-02-27T12:12:47.043426Z",
+    "lead_time": 21.334
+  },
+  {
+    "id": 59,
+    "text": "Context: - Bradley [wasTargetOf] G. E. Moore's [radicalRejectionOf] Idealism\n- Moore [claimed] Bradley [didNotUnderstand] [statement: something is real]\n- Moore [demonstrated] [commitmentTo] Analysis [through] 1903 article: The Refutation of Idealism\n- Moore [examined] [termsIn] Berkeleian aphorism: esse est percipi, \"to be is to be perceived\"\n- Moore [found] [meaningOf] esse est percipi: object and subject are necessarily connected so that \"yellow\" and \"the sensation of yellow\" are identical - \"to be yellow\" is \"to be experienced as yellow\"\n- Moore [argued] [differenceBetween] \"yellow\" and \"the sensation of yellow\"\n- Moore [argued] [esseIsHeldToBePercipi] [because] [whatIsExperienced] [isHeldToBeIdenticalWith] [experienceOfIt]\n- Moore's [argument] [didNotShow] [GEM] [isLogicallyInvalid]\n\nQuestion: Who originated the saying 'esse est percipi'?\nAnswer: N\/A\n\nReference answer: [{'text': 'Berkeley', 'answer_start': 1150}]",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 59,
+    "created_at": "2024-02-27T12:12:49.144661Z",
+    "updated_at": "2024-02-27T12:12:49.144661Z",
+    "lead_time": 1.914
+  },
+  {
+    "id": 60,
+    "text": "Context: - King (name: George) [toured] Southern Africa (year: 1947)\n- Jan Smuts [was] Prime Minister of the Union of South Africa\n- Jan Smuts [faced] an election\n- Jan Smuts [hoped] to make political capital out of the visit\n- George [was appalled] when instructed by the South African government to shake hands only with whites\n- George [referred] to his South African bodyguards as \"the Gestapo\"\n- Smuts [lost] the election (year: 1948)\n- new government [instituted] a strict policy of racial segregation\n\nQuestion: What race were the South African bodyguards?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 60,
+    "created_at": "2024-02-27T12:12:52.186988Z",
+    "updated_at": "2024-02-27T12:12:52.186988Z",
+    "lead_time": 2.854
+  },
+  {
+    "id": 61,
+    "text": "Context: - Niels Bohr [introduced] Reduced Planck constant (also known as the quantum of angular momentum)\n- Reduced Planck constant [is] the fundamental quantum of angular momentum\n- Reduced Planck constant [isQuantizedBy] Heisenberg's matrix mechanics (1925)\n- Reduced Planck constant [isQuantizedBy] Schrödinger wave equation (1926)\n- Angular momentum (J) [isQuantizedBy] Heisenberg's matrix mechanics (1925)\n- Angular momentum (J) [isQuantizedBy] Schrödinger wave equation (1926)\n- Angular momentum (Jz) [isQuantizedBy] Heisenberg's matrix mechanics (1925)\n- Angular momentum (Jz) [isQuantizedBy] Schrödinger wave equation (1926)\n\nQuestion: What scientist used matrix mechanics to bring wave behavior against the Bohr model?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 61,
+    "created_at": "2024-02-27T12:12:53.477235Z",
+    "updated_at": "2024-02-27T12:12:53.477235Z",
+    "lead_time": 1.104
+  },
+  {
+    "id": 62,
+    "text": "Context: - Jehovah's Witnesses [believe] God's kingdom (ruler: Jesus Christ, members: 144,000 \"spirit-anointed\" Christians)\n- God's kingdom [isAssociatedWith] Jesus' reference to a \"new covenant\"\n- God's kingdom [isMeansByWhich] God will accomplish his original purpose for the earth\n- God's kingdom [willTransform] earth (state: paradise without sickness or death)\n- God's kingdom [wasFocalPointOf] Jesus' ministry on earth\n- God's kingdom [wasEstablishedIn] heaven (year: 1914)\n- Jehovah's Witnesses [serveAs] representatives of God's kingdom on earth\n\nQuestion: How many Jehovah's Witnesses are there now?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 62,
+    "created_at": "2024-02-27T12:12:54.483279Z",
+    "updated_at": "2024-02-27T12:12:54.483279Z",
+    "lead_time": 0.821
+  },
+  {
+    "id": 63,
+    "text": "Context: - U.S. dollar (type: fiat money) [isCurrencyOf] United States\n- U.S. dollar [isCurrencyOf] British Virgin Islands\n- U.S. dollar [isCurrencyOf] Turks and Caicos Islands\n- Susan B. Anthony dollar [isCoinOf] United States\n\nQuestion: What is an example of a Caribbean coin that can be used as payment in some countries?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 63,
+    "created_at": "2024-02-27T12:12:55.440464Z",
+    "updated_at": "2024-02-27T12:12:55.440464Z",
+    "lead_time": 0.766
+  },
+  {
+    "id": 64,
+    "text": "Context: \"\"\n\nQuestion: When was the Western Europe region called Scythia?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Missing KG Info",
+    "annotator": 1,
+    "annotation_id": 108,
+    "created_at": "2024-02-27T12:25:20.361556Z",
+    "updated_at": "2024-02-27T12:25:20.362557Z",
+    "lead_time": 12.184000000000001
+  },
+  {
+    "id": 65,
+    "text": "Context: - Manufacturer [hasNumberingSystem] CK722\n- Device [isSecondSourced]\n- MPF102 [hasPrefix] MPF\n- MPF102 [isMadeBy] Motorola\n- PN2222A [isMadeBy] Fairchild Semiconductor\n- PN2222A [isPlasticVersionOf] 2N2222A\n- PN108 [isPlasticVersionOf] BC108\n- PN100 [isUnrelatedTo] xx100\n\nQuestion: What kind of case is most common?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 64,
+    "created_at": "2024-02-27T12:13:11.306125Z",
+    "updated_at": "2024-02-27T12:13:11.306125Z",
+    "lead_time": 8.945
+  },
+  {
+    "id": 66,
+    "text": "Context: - Asphalt\/bitumen [isSimilarTo] Organic matter (in carbonaceous meteorites)\n- Alberta bitumen resources [startedOutAs] Living material (from marine plants and animals, mainly algae)\n- Living material (from marine plants and animals, mainly algae) [died] Millions of years ago\n- Living material (from marine plants and animals, mainly algae) [wereCoveredBy] Mud\n- Mud [wasBuriedDeeply] Over the eons\n- Mud [wasCookedInto] Oil (by geothermal heat at a temperature of 50 to 150 °C (120 to 300 °F))\n- Oil [wasDriven] Northeast hundreds of kilometres (due to pressure from the rising of the Rocky Mountains in southwestern Alberta, 80 to 55 million years ago)\n- Oil [wasFormedInto] Oil sands (in underground sand deposits left behind by ancient river beds and ocean beaches)\n\nQuestion: Thousands of years ago an ancient ocean covered which area?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 66,
+    "created_at": "2024-02-27T12:13:39.323955Z",
+    "updated_at": "2024-02-27T12:13:39.323955Z",
+    "lead_time": 17.487
+  },
+  {
+    "id": 67,
+    "text": "Context: - Mammalian hair (also known as pelage) [hasColorVariation] light-dark\n- Light-dark color variation [isDeterminedBy] age variation or other factors\n- Selective pressures [leadTo] variation in mammalian coloration\n- Camouflage [isAMajor] selection pressure shaping coloration in mammals\n- Sexual selection, communication, and physiological processes [mayInfluence] evolution of coloration\n- Camouflage [aidsIn] concealment of the organisms from predators or prey\n- Coat color [isFor] intraspecies communication\n- Coat color [indicates] information nutrition and hormone levels\n- Coat color [isFor] physiological response purposes\n- Genetic sites [affect] phenotype by altering the spatial distribution of pigmentation of the hairs and altering the density and distribution of the hairs\n- Quantitative trait mapping [isBeingUsedTo] better understand the distribution of loci responsible for pigmentation variation\n\nQuestion: What three examples show how hormone levels are important in the mate selection process?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 67,
+    "created_at": "2024-02-27T12:13:41.853529Z",
+    "updated_at": "2024-02-27T12:13:41.853529Z",
+    "lead_time": 2.332
+  },
+  {
+    "id": 68,
+    "text": "Context: - Quranic text [hasStructure] web or net\n- Quranic text [hasArrangement] lack of continuity, absence of any chronological or thematic order and repetitiousness\n- Michael Sells [citesWorkOf] Norman O. Brown\n- Michael Sells [acknowledgesObservationOf] Norman O. Brown\n- Norman O. Brown [observes] Quranic literary expression [hasStructure] scattered or fragmented mode of composition\n- Quranic literary expression [hasEffect] delivering profound effects\n- Quranic literary expression [hasEffect] shattering the vehicle of human language\n- Michael Sells [addresses] repetitiveness of Quran\n- Michael Sells [sees] repetitiveness of Quran [as] literary device\n\nQuestion: What is prominent in the arrangement of the Quranic text?\nAnswer: lack of continuity, absence of any chronological or thematic order and repetitiousness\n\nReference answer: []",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 68,
+    "created_at": "2024-02-27T12:13:46.204265Z",
+    "updated_at": "2024-02-27T12:13:46.204265Z",
+    "lead_time": 4.165
+  },
+  {
+    "id": 69,
+    "text": "Context: - Pius IX [defined] Doctrine (mooted: 12th century)\n- Doctrine [containedIn] Teaching (of Fathers)\n- Teaching (of Fathers) [appliedTo] Mary (epithets: \"in every respect holy\", \"in all things unstained\", \"super-innocent\", and \"singularly holy\")\n- Mary [comparedTo] Eve (before fall)\n- Mary [comparedTo] Earth (before accursed)\n- St. Augustine [said] \"As regards the mother of God, I will not allow any question whatever of sin.\"\n- St. Augustine [argued] All men are sinners (through original depravity)\n- St. Augustine [argued] Original depravity may be overcome by grace of God\n- St. Augustine [said] Mary may have had sufficient grace to overcome sin \"of every sort\" (omni ex parte)\n\nQuestion: Whose teachings on the sinlessness of Mary only include Original Sin\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 69,
+    "created_at": "2024-02-27T12:13:48.226818Z",
+    "updated_at": "2024-02-27T12:13:48.226818Z",
+    "lead_time": 1.837
+  },
+  {
+    "id": 70,
+    "text": "Context: - Roman histories [anticipated] Mediaeval literature (form: lives of saints, miraculous chronicles)\n- Mediaeval literature [developedInto] Romance (characteristics: adventurous, magical, popular)\n- Renaissance [proliferated] Controversial, religious, political and instructional literature (reason: invention of printing)\n- Mediaeval romance [developedInto] Novel (characteristics: character-based, psychological)\n- Chinese Monkey [isExampleOf] Novel\n- German Faust books [isExampleOf] Novel\n\nQuestion: Greek classic literature influenced what genre of literature?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 70,
+    "created_at": "2024-02-27T12:13:49.939040Z",
+    "updated_at": "2024-02-27T12:13:49.939040Z",
+    "lead_time": 1.526
+  },
+  {
+    "id": 71,
+    "text": "Context: - Human (egalitarianism: typical) [isCloselyRelatedTo] Chimpanzee (egalitarianism: not typical)\n- Human [hasTrait] Resistance to being dominated\n- Resistance to being dominated [drives] Evolutionary emergence of human consciousness, language, kinship and social organization\n\nQuestion: The formation of what was a key factor in the emergence of human consciousness?\nAnswer: Resistance to being dominated\n\nReference answer: []",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 71,
+    "created_at": "2024-02-27T12:13:53.138469Z",
+    "updated_at": "2024-02-27T12:13:53.138469Z",
+    "lead_time": 3.014
+  },
+  {
+    "id": 72,
+    "text": "Context: - Russian [isTransliteratedUsing] Latin alphabet\n- Cyrillic keyboard [isUnavailable] Abroad\n- Transliteration [isUsedBy] Russian-speaking typists\n- Unicode character encoding [incorporates] Russian alphabet\n- Free programs [allow] Users [toType] Russian characters\n- Western 'QWERTY' keyboards [areUsedBy] Users\n\nQuestion: What kind of restrictions are there on Russian speaking typists?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 72,
+    "created_at": "2024-02-27T12:13:56.899068Z",
+    "updated_at": "2024-02-27T12:13:56.899068Z",
+    "lead_time": 3.573
+  },
+  {
+    "id": 73,
+    "text": "Context: - Eton [celebrates] Fourth of June (date: Wednesday before the first weekend of June)\n- Eton [celebrates] St. Andrew's Day\n- Fourth of June [includes] Procession of Boats\n- Procession of Boats [includes] top rowing crews from the top four years\n- Procession of Boats [uses] vintage wooden rowing boats\n\nQuestion: On what day of the year did King George III die?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 73,
+    "created_at": "2024-02-27T12:14:02.787321Z",
+    "updated_at": "2024-02-27T12:14:02.787321Z",
+    "lead_time": 5.701
+  },
+  {
+    "id": 74,
+    "text": "Context: - Karachay Autonomous Oblast [restoredBy] Khrushchev (date: January 9, 1957)\n- Chechen-Ingush Autonomous Soviet Socialist Republic [restoredBy] Khrushchev (date: January 9, 1957)\n- Karachay Autonomous Oblast [transferredFrom] Georgian SSR (date: January 9, 1957)\n- Chechen-Ingush Autonomous Soviet Socialist Republic [transferredFrom] Georgian SSR (date: January 9, 1957)\n- Karachay Autonomous Oblast [transferredTo] Russian SFSR (date: January 9, 1957)\n- Chechen-Ingush Autonomous Soviet Socialist Republic [transferredTo] Russian SFSR (date: January 9, 1957)\n\nQuestion: What territory was kept along with the Chechen-Ingush Autonomous Soviet Socialist Republic?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 74,
+    "created_at": "2024-02-27T12:14:05.083010Z",
+    "updated_at": "2024-02-27T12:14:05.083010Z",
+    "lead_time": 2.061
+  },
+  {
+    "id": 75,
+    "text": "Context: - Congenital insensitivity to pain [isA] hereditary sensory and autonomic neuropathy\n- Hereditary sensory and autonomic neuropathy [includes] familial dysautonomia\n- Hereditary sensory and autonomic neuropathy [includes] congenital insensitivity to pain with anhidrosis\n- Congenital insensitivity to pain with anhidrosis [hasSymptom] decreased sensitivity to pain\n- Congenital insensitivity to pain with anhidrosis [hasSymptom] neurological abnormalities\n- Neurological abnormalities [isPartOf] autonomic nervous system\n- Congenital insensitivity to pain [isCausedBy] mutations in SCN9A gene\n- SCN9A gene [codesFor] sodium channel (Nav1.7)\n- Sodium channel (Nav1.7) [isNecessaryFor] conducting pain nerve stimuli\n\nQuestion: What is congenital dysautonomia a type of?\nAnswer: Hereditary sensory and autonomic neuropathy\n\nReference answer: []",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 75,
+    "created_at": "2024-02-27T12:14:06.798352Z",
+    "updated_at": "2024-02-27T12:14:06.798352Z",
+    "lead_time": 1.527
+  },
+  {
+    "id": 76,
+    "text": "Context: - Post-punk revival [developedIn] British and American alternative and indie rock\n- Post-punk revival [startedAppearingIn] other countries\n- Underground bands [emergedIn] mid-'90s\n- Strokes, Franz Ferdinand, Interpol, Neils Children and Editors [surfacedIn] late 1990s to early 2000s\n- Rapture, Radio 4 and LCD Soundsystem [surfacedIn] late 1990s to early 2000s\n- Cold Cave, She Wants Revenge, Eagulls, the Soft Moon, She Past Away and Light Asylum [appearedIn] indie music scene in the 2010s\n- Cold Cave, She Wants Revenge, Eagulls, the Soft Moon, She Past Away and Light Asylum [affiliatedWith] darkwave revival\n- A Place to Bury Strangers [combined] early post-punk and shoegaze\n- Savages [played] music reminiscent of early British post-punk bands of the late '70s\n\nQuestion: Which bands disliked dance?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 76,
+    "created_at": "2024-02-27T12:14:23.069217Z",
+    "updated_at": "2024-02-27T12:14:23.069217Z",
+    "lead_time": 16.084
+  },
+  {
+    "id": 77,
+    "text": "Context: - Paleolithic [hasHousing] Temporary constructions\n- Neolithic [hasHousing] Mud brick houses (coated with plaster)\n- Agriculture [enables] Permanent houses\n- Doorways [locatedAt] Roof\n- Ladders [positionedAt] Inside and outside of the houses\n- Roof [supportedBy] Beams\n- Ground [coveredBy] Platforms, mats, and skins\n- Stilt-houses settlements [commonIn] Alpine and Pianura Padana (Terramare) region\n- Remains [foundAt] Ljubljana Marshes in Slovenia, Mondsee and Attersee lakes in Upper Austria\n\nQuestion: What era consisted of people living on roofs?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 77,
+    "created_at": "2024-02-27T12:14:24.482982Z",
+    "updated_at": "2024-02-27T12:14:24.482982Z",
+    "lead_time": 1.229
+  },
+  {
+    "id": 78,
+    "text": "Context: - Monotheists [believe] there is only one god\n- Hinduism [emphasizes] the view that all theists worship the same god\n- Sikhism [emphasizes] the view that all theists worship the same god\n- Christianity [describes] God as one God in three persons\n- Trinity [comprises] God the Father, God the Son (Jesus), and God the Holy Spirit\n- Islam [has] the most fundamental concept of Tawhid (\"oneness\" or \"uniqueness\")\n- God [is described] in the Quran as: \"Say: He is Allah, the One and Only; Allah, the Etermal, Absolute; He begets not, nor is He begotten; And there is none like unto Him.\"\n- Muslims [repudiate] the Christian doctrine of the Trinity and divinity of Jesus\n- Muslims [compare] the Christian doctrine of the Trinity and divinity of Jesus to polytheism\n- God [is] beyond all ally or equal and does not resemble any of his creations in any way\n- Muslims [are not] iconodules and are not expected to visualise God\n\nQuestion: What does the Trinity doctrine describe according to theists?\nAnswer: Christianity [describes] God as one God in three persons\n\nReference answer: []",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 78,
+    "created_at": "2024-02-27T12:14:36.307421Z",
+    "updated_at": "2024-02-27T12:14:36.307421Z",
+    "lead_time": 11.635
+  },
+  {
+    "id": 79,
+    "text": "Context: - 19th Century [hasHuntingStyle] Trophy Hunting (purpose: Trophy)\n- Trophy Hunting [hasHuntingStyle] Safari Hunting (location: Africa, India, etc.)\n- Trophy Hunting [hasHuntingStyle] Sport Hunting (location: North America, purpose: Food)\n- Nordic Countries [hasHuntingStyle] Hunting (purpose: Food)\n\nQuestion: What did hunters in Nordic countries display as a sign of prowess in the 19th century?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 79,
+    "created_at": "2024-02-27T12:14:40.465237Z",
+    "updated_at": "2024-02-27T12:14:40.465237Z",
+    "lead_time": 3.971
+  },
+  {
+    "id": 80,
+    "text": "Context: - Gesamtschule [putsAtRisk] bright working class students\n- Achievement gap [existsBetween] working class students attending a comprehensive and their middle class peers\n- Working class students attending a Gymnasium or a Realschule [outperform] students from similar backgrounds attending a comprehensive\n- Students attending a Hauptschule [perform] the poorest\n\nQuestion: From what group does an achievement gap separate working class students at uncomprehensive schools?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 80,
+    "created_at": "2024-02-27T12:14:46.504811Z",
+    "updated_at": "2024-02-27T12:14:46.504811Z",
+    "lead_time": 5.851
+  },
+  {
+    "id": 81,
+    "text": "Context: - Saint-Barthélemy (nativeTongue: French) [hasResident] Saint-Barthélemoise people (descendants: Breton, Norman, Poitevin, Saintongeais, Angevin)\n- Saint-Barthélemoise people [workAt] establishments (location: Saint-Barthélemy)\n- Saint-Barthélemy [hasLanguage] St. Barthélemy French patois (speakers: 500–700 people, location: leeward portion of the island)\n- Saint-Barthélemy [hasLanguage] Créole French (location: windward side)\n\nQuestion: How many people speak Creole French?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 81,
+    "created_at": "2024-02-27T12:14:55.775873Z",
+    "updated_at": "2024-02-27T12:14:55.775873Z",
+    "lead_time": 9.084
+  },
+  {
+    "id": 82,
+    "text": "Context: - Dzanga-Sangha National Park [locatedIn] Rain Forest Area\n- Central African Republic [hasPopulationOf] Forest Elephants, Western Lowland Gorillas\n- Manovo-Gounda St Floris National Park [hasPopulationOf] Leopards, Lions, Cheetahs, Rhinos\n- Bamingui-Bangoran National Park [locatedIn] Northeast of CAR\n- Parks [affectedBy] Poachers (from Sudan)\n\nQuestion: In the north, what animals is the Dzanga-Sangha National Park populated with in the CAR?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 82,
+    "created_at": "2024-02-27T12:14:57.852024Z",
+    "updated_at": "2024-02-27T12:14:57.852024Z",
+    "lead_time": 1.879
+  },
+  {
+    "id": 83,
+    "text": "Context: - Mary [broughtOfferingTo] Temple in Jerusalem\n- Temple in Jerusalem [hasPriest] Priest\n- Priest [madeAtonementFor] Mary (sins: blood)\n- Mary [presented] Jesus\n- Jesus [called] Holy to the Lord\n- Joseph [took] Jesus\n- Mary [took] Jesus\n- Jesus [returnedTo] Nazareth\n\nQuestion: How many days did Mary bring her burnt offering and sin offering to the Temple in Jerusalem?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 83,
+    "created_at": "2024-02-27T12:14:59.700719Z",
+    "updated_at": "2024-02-27T12:14:59.700719Z",
+    "lead_time": 1.665
+  },
+  {
+    "id": 84,
+    "text": "Context: - Strasbourg [isLocatedOn] Ill\n- Strasbourg [isLocatedNear] Rhine\n- Strasbourg [hasCanal] Canal de la Bruche (year: 1682, purpose: transport sandstone)\n- Canal de la Bruche [isClosed: yes]\n- Strasbourg [hasCanal] Canal du Rhone au Rhine\n- Strasbourg [hasCanal] Canal de la Marne au Rhin\n- Strasbourg [hasCanal] Grand Canal d'Alsace\n- Strasbourg [hasPort] Port autonome de Strasbourg\n- Strasbourg [attracts] Tourist (count: hundreds of thousands, purpose: water tourism)\n\nQuestion: In what year was the Canal du Rhone au Rhine opened?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 84,
+    "created_at": "2024-02-27T12:15:16.033072Z",
+    "updated_at": "2024-02-27T12:15:16.033072Z",
+    "lead_time": 16.146
+  },
+  {
+    "id": 85,
+    "text": "Context: - Victoria (pregnancy: 1840) [wasAssasinatedBy] Edward Oxford (age: 18)\n- Edward Oxford [wasTriedFor] high treason\n- Edward Oxford [wasFound] guilty\n- Edward Oxford [wasAcquitted] on the grounds of insanity\n- Victoria [hadDaughter] Victoria (birth: 21 November 1840)\n- Victoria [hadSon] Albert Edward, Prince of Wales (birth: 1841)\n- Victoria [hadDaughter] Alice (birth: 1843)\n- Victoria [hadSon] Alfred (birth: 1844)\n- Victoria [hadDaughter] Helena (birth: 1846)\n- Victoria [hadDaughter] Louise (birth: 1848)\n- Victoria [hadSon] Arthur (birth: 1850)\n- Victoria [hadSon] Leopold (birth: 1853)\n- Victoria [hadDaughter] Beatrice (birth: 1857)\n\nQuestion: Who attempted to assasinate Victoria while she was riding in a car?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 85,
+    "created_at": "2024-02-27T12:15:17.386072Z",
+    "updated_at": "2024-02-27T12:15:43.386754Z",
+    "lead_time": 24.926000000000002
+  },
+  {
+    "id": 86,
+    "text": "Context: - Belgian federalism [hasComponent] Brussels\n- Brussels [hasParliament] Parliament of Brussels Capital-Region\n- Parliament of Brussels Capital-Region [passedResolution] Brussels' place in the federal system\n- Brussels' place in the federal system [passedAgainst] Dutch-speaking parties\n- Dutch-speaking parties [inFavourOf] federal system with two components\n- Flemish representatives [votedInFavourOf] Brussels resolution\n- Walloon Parliament [chairman] stated on July 17, 2008 that, \"Brussels would take an attitude\"\n- Brussels' parliament [passedResolution] on July 18, 2008\n\nQuestion: What are the Flemish representatives not in favor of?\nAnswer: federal system with two components\n\nReference answer: []",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 86,
+    "created_at": "2024-02-27T12:15:49.317849Z",
+    "updated_at": "2024-02-27T12:15:49.317849Z",
+    "lead_time": 3.363
+  },
+  {
+    "id": 87,
+    "text": "Context: - Solar Energy Generating Systems (power: 354 MW) [locatedIn] USA\n- Solnova Solar Power Station (power: 150 MW) [locatedIn] Spain\n- Andasol solar power station (power: 100 MW) [locatedIn] Spain\n- Nevada Solar One (power: 64 MW) [locatedIn] USA\n- PS20 solar power tower (power: 20 MW) [locatedIn] Spain\n- PS10 solar power tower (power: 11 MW) [locatedIn] Spain\n- Ivanpah Solar Power Facility (power: 370 MW) [locatedIn] California's Mojave Desert\n- Egypt [hasProject] World Bank project for integrated solar thermal\/combined-cycle gas-turbine power plant\n- Mexico [hasProject] World Bank project for integrated solar thermal\/combined-cycle gas-turbine power plant\n- Morocco [hasProject] World Bank project for integrated solar thermal\/combined-cycle gas-turbine power plant\n\nQuestion:  Where is the XBX20 solar power tower located?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 87,
+    "created_at": "2024-02-27T12:15:57.316098Z",
+    "updated_at": "2024-02-27T12:15:57.316098Z",
+    "lead_time": 7.81
+  },
+  {
+    "id": 88,
+    "text": "Context: - MTB [isIdentifiedBy] Histological stains\n- Histological stains [areAppliedOn] Expectorated samples\n- Expectorated samples [areFrom] Phlegm\n- MTB [isClassifiedAs] Acid-fast bacillus\n- Acid-fast bacillus [isStainedBy] Ziehl–Neelsen stain\n- Ziehl–Neelsen stain [dyes] Acid-fast bacilli (color: bright red)\n- Acid-fast bacillus [isStainedBy] Kinyoun stain\n- Kinyoun stain [dyes] Acid-fast bacilli (color: bright red)\n- Acid-fast bacillus [isStainedBy] Auramine-rhodamine staining\n- Auramine-rhodamine staining [isUsedWith] Fluorescence microscopy\n\nQuestion: What color is Auramine-rhodamine staining?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 88,
+    "created_at": "2024-02-27T12:15:59.268783Z",
+    "updated_at": "2024-02-27T12:15:59.268783Z",
+    "lead_time": 1.758
+  },
+  {
+    "id": 89,
+    "text": "Context: - Investment [in] Telecom Industry\n- Telecom Industry [provides] Communication Services\n- Communication Services [facilitates] Job Creation\n- Communication Services [facilitates] Income Generation\n\nQuestion: Which industry in Somalia is not improving?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 89,
+    "created_at": "2024-02-27T12:16:01.272702Z",
+    "updated_at": "2024-02-27T12:16:01.272702Z",
+    "lead_time": 1.817
+  },
+  {
+    "id": 90,
+    "text": "Context: - Selfridges [wasEstablishedIn] 1909\n- Selfridges [wasEstablishedBy] Harry Gordon Selfridge (nationality: American)\n- Selfridges [isLocatedOn] Oxford Street\n- Selfridges [promoted] shopping for pleasure\n- Selfridges [wasPromotedThrough] paid advertising\n- Selfridges [had] elegant restaurants with modest prices\n- Selfridges [had] a library\n- Selfridges [had] reading and writing rooms\n- Selfridges [had] special reception rooms for French, German, American and \"Colonial\" customers\n- Selfridges [had] a First Aid Room\n- Selfridges [had] a Silence Room (features: soft lights, deep chairs, and double-glazing)\n- Selfridges [attracted] shoppers with educational and scientific exhibits\n- Selfridges [exhibited] Louis Blériot's monoplane in 1909\n- Louis Blériot [wasTheFirstTo] fly over the English Channel\n- Selfridges [hosted] the first public demonstration of television by John Logie Baird in 1925\n\nQuestion: How wasn't the store most often presented to the public? \nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 90,
+    "created_at": "2024-02-27T12:16:05.602486Z",
+    "updated_at": "2024-02-27T12:16:05.602486Z",
+    "lead_time": 4.144
+  },
+  {
+    "id": 91,
+    "text": "Context: - Cornell University [conductedStudy] Death Penalty Study (year: 2004)\n- Death Penalty Study (year: 2004) [found] Nevada (deathPenaltyRate: 6%)\n- Death Penalty Study (year: 2004) [found] Texas (deathPenaltyRate: 2%)\n- Death Penalty Study (year: 2004) [found] California (deathPenaltyRate: 1%)\n- Texas [executed] 40% (ofMurderersSentenced)\n- California [executed] 1% (ofMurderersSentenced)\n\nQuestion: What state notably executes 80% of those given the death penalty?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 91,
+    "created_at": "2024-02-27T12:16:13.052030Z",
+    "updated_at": "2024-02-27T12:16:13.052030Z",
+    "lead_time": 7.261
+  },
+  {
+    "id": 92,
+    "text": "Context: - Miami [hasIndustry] Tourism\n- Tourism [attracts] 38 million visitors annually\n- Tourism [generates] $17.1 billion annually\n- Art Deco District [locatedIn] South Beach\n- Art Deco District [knownFor] nightclubs, beaches, historical buildings, and shopping\n- Sony Ericsson Open, Art Basel, Winter Music Conference, South Beach Wine & Food Festival, and Mercedes-Benz Fashion Week Miami [attract] millions to Miami annually\n\nQuestion: How many tourists don't come to Miami each year?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 92,
+    "created_at": "2024-02-27T12:16:15.040079Z",
+    "updated_at": "2024-02-27T12:16:15.040079Z",
+    "lead_time": 1.697
+  },
+  {
+    "id": 93,
+    "text": "Context: - University (language: Latin, subjects: logic, natural philosophy, metaphysics, medicine)\n- Northern University (location: Germany, France, Great Britain, subjects: arts, theology)\n- Southern University (location: Italy, subjects: law, medicine)\n- University of Paris (governance: faculty governance)\n- University of Bologna (governance: student-controlled)\n- Northern Italy University (governance: self-regulating, independent corporation of scholars)\n- Southern Italy and Iberia University (governance: founded by royal and imperial charter to serve the needs of government)\n\nQuestion: What language was used for university texts and lectures but not disputations and examinations?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 93,
+    "created_at": "2024-02-27T12:16:16.518028Z",
+    "updated_at": "2024-02-27T12:16:16.518028Z",
+    "lead_time": 1.291
+  },
+  {
+    "id": 94,
+    "text": "Context: - Foot Ball Association of Canada [founded] March 24, 1873\n- Canadian Rugby Football Union (CRFU) [founded] June 12, 1880\n- Ontario and Quebec Rugby Football Union (ORFU and QRFU) [formed] January 1883\n- Interprovincial (1907) and Western Interprovincial Football Union (1936) (IRFU and WIFU) [formed] 1907 and 1936\n- CRFU [reorganized] Canadian Rugby Union (CRU) 1891\n- IRFU and WIFU [formed] The Canadian Football Council (CFC) 1956\n- CFC [left] The CRFU 1958\n- CFC [became] The CFL 1958\n\nQuestion: What organization founded in 1956 evolved from the Canadian football league?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 94,
+    "created_at": "2024-02-27T12:16:18.665132Z",
+    "updated_at": "2024-02-27T12:16:18.665132Z",
+    "lead_time": 1.957
+  },
+  {
+    "id": 95,
+    "text": "Context: - Terry Eastland (author of \"From Ending Affirmative Action: The Case for Colorblind Justice\") [states] \"Most arguments for affirmative action fall into two categories: remedying past discrimination and promoting diversity\".\n- Terry Eastland [believes] the founders of affirmative action did not anticipate how the benefits of affirmative action would go to those who did not need it, mostly middle class minorities.\n- Terry Eastland [argues] affirmative action carries with it a stigma that can create feelings of self-doubt and entitlement in minorities.\n- Terry Eastland [believes] affirmative action is a great risk that only sometimes pays off, and that without it we would be able to compete more freely with one another.\n- Thomas Sowell (libertarian economist) [identified] what he says are negative results of affirmative action in his book, \"Affirmative Action Around the World: An Empirical Study\".\n- Thomas Sowell [writes] affirmative action policies encourage non-preferred groups to designate themselves as members of preferred groups [i.e., primary beneficiaries of affirmative action] to take advantage of group preference policies.\n- Thomas Sowell [writes] affirmative action policies tend to benefit primarily the most fortunate among the preferred group (e.g., upper and middle class blacks), often to the detriment of the least fortunate among the non-preferred groups (e.g., poor white or Asian).\n- Thomas Sowell [writes] affirmative action policies reduce the incentives of both the preferred and non-preferred to perform at their best – the former because doing so is unnecessary and the latter because it can prove futile – thereby resulting in net losses for society as a whole.\n- Thomas Sowell [writes] affirmative action policies engender animosity toward preferred groups as well.\n\nQuestion: What argument does Sowell make in his claim that preferred minorities have less incentive to perform at their best?\nAnswer: Sowell writes affirmative action policies reduce the incentives of both the preferred and non-preferred to perform at their best – the former because doing so is unnecessary and the latter because it can prove futile – thereby resulting in net losses for society as a whole.\n\nReference answer: []",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 95,
+    "created_at": "2024-02-27T12:16:45.208018Z",
+    "updated_at": "2024-02-27T12:16:45.208018Z",
+    "lead_time": 26.355
+  },
+  {
+    "id": 96,
+    "text": "Context: - William P. Hobby Airport (former name: Houston International Airport) [operates] short- to medium-haul domestic flights\n- William P. Hobby Airport [launchedService] Southwest Airlines (destinations: Mexico, Central America, and the Caribbean)\n- William P. Hobby Airport [hasMuseum] 1940 Air Terminal Museum\n- William P. Hobby Airport [hasAwards] two awards (categories: top five performing airports in the world, customer service)\n\nQuestion: What is the second airport that serves Texas?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 96,
+    "created_at": "2024-02-27T12:16:48.405418Z",
+    "updated_at": "2024-02-27T12:16:48.405418Z",
+    "lead_time": 3.009
+  },
+  {
+    "id": 97,
+    "text": "Context: - Sicily [wasControlledBy] Holy Roman Empire (since: 1194)\n- Palermo [wasPreferredCityOf] Emperor Frederick II\n- Muslims [emigratedOrWereExpelledFrom] Palermo (during: Holy Roman rule)\n- Sicily [wasControlledBy] Angevin (from: 1266, to: 1282)\n- Sicily [wasControlledBy] Aragon and Barcelona dynasties (since: 1330)\n- Palermo (population: 51,000) [wasControlledBy] Aragon and Barcelona dynasties (since: 1330)\n- Palermo [wasControlledBy] Kingdom of Spain (from: 1479, to: 1713)\n- Palermo [wasControlledBy] Kingdom of Spain (from: 1717, to: 1718)\n- Palermo [wasControlledBy] Savoy (from: 1713, to: 1717)\n- Palermo [wasControlledBy] Savoy (from: 1718, to: 1720)\n- Palermo [wasControlledBy] Austria (from: 1720, to: 1734)\n\nQuestion: What treaty put Palermo under Austrian rule in the 17th century?\nAnswer: N\/A\n\nReference answer: []",
+    "sentiment": "Correct",
+    "annotator": 1,
+    "annotation_id": 97,
+    "created_at": "2024-02-27T12:16:49.915382Z",
+    "updated_at": "2024-02-27T12:16:49.915382Z",
+    "lead_time": 1.324
+  },
+  {
+    "id": 98,
+    "text": "Context: - Sanskrit [isRelatedTo] Indo-European languages\n- Indo-Aryan migration theory [explains] common features of Sanskrit and Indo-European languages\n- Indo-Aryan migration theory [asserts] original speakers of Sanskrit arrived in India and Pakistan from the north-west\n- Indo-Aryan migration theory [asserts] original speakers of Sanskrit arrived in India and Pakistan during the early second millennium BCE\n- Indo-Iranian tongues [isRelatedTo] Baltic and Slavic languages\n- Indo-European languages [hasVocabularyExchangeWith] Uralic languages\n- Indo-European languages [hasWordsFor] flora and fauna\n\nQuestion: What theory explains the different features of Sanskrit and other Indo-European languages?\nAnswer: Indo-Aryan migration theory\n\nReference answer: []",
+    "sentiment": "Incorrect",
+    "annotator": 1,
+    "annotation_id": 98,
+    "created_at": "2024-02-27T12:17:38.089462Z",
+    "updated_at": "2024-02-27T12:17:38.089462Z",
+    "lead_time": 47.986
+  }
+]
