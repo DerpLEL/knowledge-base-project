@@ -1,9 +1,5 @@
-import hashlib
 import random
 import json
-
-import google.generativeai as genai
-from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
 from llm.gemini import Gemini
 
@@ -24,7 +20,7 @@ chosen_impossible_set = random.choices(impossible_questions, k=40)
 
 chosen_set = chosen_possible_set + chosen_impossible_set
 
-# Extraction Prompt
+# Prompt
 extraction_prompt = '''Given context, create a knowledge graph as a list of Entity (properties:) [relation] Entity (properties:).
 Keep in mind only 1 [relation] is allowed in between 2 entities.
 
@@ -42,6 +38,7 @@ Context:
 Output:
 '''
 
+# Triplet Extraction
 kg_result = {}
 
 for index, i in enumerate(chosen_set):

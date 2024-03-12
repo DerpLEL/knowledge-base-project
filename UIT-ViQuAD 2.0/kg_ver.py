@@ -1,22 +1,16 @@
 import random
 import json
 
-import pathlib
-import textwrap
+from llm.gemini import Gemini
 
-import google.generativeai as genai
-from google.generativeai.types import HarmCategory, HarmBlockThreshold
+# LLM model
+model = Gemini()
 
-GOOGLE_API_KEY='AIzaSyAnT0-DpdDE63wJpH51BT3GiB1n8e_tFNo'
-
-genai.configure(api_key=GOOGLE_API_KEY)
-
-model = genai.GenerativeModel('gemini-pro')
-
-with open('possible-questions.json') as f:
+# Take 100 samples
+with open('./UIT-ViQuAD 2.0/possible-questions-viquad.json', encoding='utf-8') as f:
     possible_questions = json.load(f)
 
-with open('impossible-questions.json') as f:
+with open('./UIT-ViQuAD 2.0/impossible-questions-viquad.json', encoding='utf-8') as f:
     impossible_questions = json.load(f)
 
 random.seed(27)
@@ -54,21 +48,12 @@ for index, i in enumerate(chosen_set):
     question = i['question']
 
     try:
-        answer = model.generate_content(
+        answer = model.generate(
             prompt_format.format(
                 context=context,
                 question=question
-            ),
-            generation_config=genai.types.GenerationConfig(
-                temperature=0.0,
-            ),
-            safety_settings={
-                HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
-                HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
-                HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
-                HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
-            }
-        ).text
+            )
+        )
 
     except ValueError:
         print(f'Bugged question {index}, skipping...')
