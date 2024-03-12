@@ -3,6 +3,8 @@ import py_vncorenlp
 import os
 from string import punctuation
 import json
+from pprint import pprint
+import pandas as pd
 
 scorer = rouge_scorer.RougeScorer(['rouge1'], use_stemmer=False)
 vncorenlp_path = os.path.abspath("../vncorenlp")
@@ -16,7 +18,7 @@ def preprocess_string(string):
     return rdrsegmenter.word_segment(preprocessed)[0]
 
 
-with open('baseline-urallama-viquad-result.json', 'r', encoding='utf-8') as f:
+with open(r'E:\knowledge-base-project\UIT-ViQuAD_2_0\baseline-urallama-viquad-result.json', 'r', encoding='utf-8') as f:
     results = json.load(f)
 
 results_with_rouge = []
@@ -24,13 +26,33 @@ results_with_rouge = []
 for i in results:
     dct = i
     llm_answer = i['answer']
-    ref_answer = i['ref_answer']['text']
 
-    llm_answer_processed = preprocess_string(llm_answer)
-    ref_answer_processed = preprocess_string(ref_answer)
+    if i['ref_answer']:
+        ref_answer = i['ref_answer'][0]['text']
 
-    dct['rouge_score'] = scorer.score(ref_answer_processed, llm_answer_processed)
+        llm_answer_processed = preprocess_string(llm_answer)
+        ref_answer_processed = preprocess_string(ref_answer)
+
+        rouge_score = scorer.score(ref_answer_processed, llm_answer_processed)['rouge1']
+        dct['rouge1_precision'] = rouge_score.precision
+        dct['rouge1_recall'] = rouge_score.recall
+        dct['rouge1_f1'] = rouge_score.fmeasure
+
+    else:
+        if 'N/A' in llm_answer.strip():
+            dct['rouge1_precision'] = 1.0
+            dct['rouge1_recall'] = 1.0
+            dct['rouge1_f1'] = 1.0
+
+        else:
+            dct['rouge1_precision'] = 0.0
+            dct['rouge1_recall'] = 0.0
+            dct['rouge1_f1'] = 0.0
 
     results_with_rouge.append(dct)
 
-print(results_with_rouge)
+df = pd.DataFrame(results_with_rouge)
+# print(df.columns.tolist())
+cols = ['id', 'context', 'question', 'answer', 'ref_answer', 'rouge1_precision', 'rouge1_recall', 'rouge1_f1']
+df = df[cols]
+df.to_excel(r'E:\knowledge-base-project\UIT-ViQuAD_2_0\baseline-urallama-viquad.xlsx', index=False)
