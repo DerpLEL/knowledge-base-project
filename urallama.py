@@ -45,7 +45,7 @@ class URALocalWrapper:
             "prompt": input,
             "stream": False,
             "stop": ["</s>", "[INST]", "/.", "[INST:"],
-            "repetition_penalty": 1.1,
+            "max_tokens": 512,
             "temperature": 0.1,
             "top_k": 50,
             "top_p": 0.9,
