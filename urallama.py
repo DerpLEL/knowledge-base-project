@@ -46,7 +46,7 @@ class URALocalWrapper:
             "stream": False,
             "stop": ["</s>", "[INST]", "/.", "[INST:"],
             "max_tokens": 512,
-            "repetition_penalty": 1.1,
+            "repetition_penalty": 1,
             "temperature": 0.1,
             "top_k": 50,
             "top_p": 0.9,
