@@ -45,6 +45,7 @@ class URALocalWrapper:
             "prompt": input,
             "stream": False,
             "stop": ["</s>", "[INST]", "/.", "[INST:"],
+            "repetition_penalty": 1.1,
             "temperature": 0.1,
             "top_k": 50,
             "top_p": 0.9,
@@ -62,8 +63,8 @@ class URALocalWrapper:
         return -1
 
 
-model = URALocalWrapper()
-
-print(model.predict(
-    "[INST] Sau thứ bảy là thứ mấy? [/INST]"
-))
+# model = URALocalWrapper()
+#
+# print(model.predict(
+#     "[INST] Sau thứ bảy là thứ mấy? [/INST]"
+# ))
