@@ -18,15 +18,6 @@ chosen_impossible_set = random.choices(impossible_questions, k=40)
 
 chosen_set = chosen_possible_set + chosen_impossible_set
 
-prompt_format = '''[INST] Cho một đoạn ngữ cảnh, hãy trả lời câu hỏi. Trả lời ngắn gọn.
-Phản hồi "N/A" nếu không có câu trả lời.
-
-Ngữ cảnh: {context}
-
-Câu hỏi: {question}
-
-Trả lời: [/INST]'''
-
 qa_result = []
 
 bugged_questions = []
