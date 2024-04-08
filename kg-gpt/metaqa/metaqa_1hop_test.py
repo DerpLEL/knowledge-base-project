@@ -329,7 +329,7 @@ if __name__ == "__main__":
     questions_dict = {}
     entity_set_dict = {}
     label_set_dict = {}
-    with open(os.path.expanduser(f"./data/onehop_test_set.jsonl")) as f:
+    with open(os.path.expanduser(f"./data/onehop_test_set.jsonl"), encoding='utf-8') as f:
         for line in f:
             if not line:
                 continue
@@ -340,6 +340,16 @@ if __name__ == "__main__":
 
     # with open(f'./onehop_result.pickle', 'rb') as f:
     #     result = pickle.load(f)
+    
+    ###Sample
+    import random
+    # Set a fixed seed for reproducible sampling
+    random.seed(27)  # Replace 1234 with your desired seed
+
+    # Sample a portion of the dataset
+    sample_size = 0.001  # 100000 qa_pairs in dataset -> take 0.01 ~ 100 qa_pairs
+    question_items = random.sample(list(questions_dict.items()), int(len(questions_dict) * sample_size))
+    questions_dict = dict(question_items)  # Reconstruct dictionary with sampled items
     
     Correct = []
     Wrong = []

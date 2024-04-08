@@ -20,7 +20,7 @@ if __name__ == "__main__":
     kb = args.kb
 
     KG_construct = {}
-    with open(kb, 'r') as f:
+    with open(kb, 'r', encoding='utf-8') as f:
         for line in f:
             head = line.strip().split('|')[0]
             relation = line.strip().split('|')[1]
@@ -49,7 +49,7 @@ if __name__ == "__main__":
     
 
     onehop = {}
-    with open(test_1_hop, 'r') as f:
+    with open(test_1_hop, 'r', encoding='utf-8') as f:
         for line in f:
             seperated = line.strip().split('\t')
             entities = re.findall(r'\[(.*?)\]', seperated[0])
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     
 
     twohop = {}
-    with open(test_2_hop, 'r') as f:
+    with open(test_2_hop, 'r', encoding='utf-8') as f:
         for line in f:
             seperated = line.strip().split('\t')
             entities = re.findall(r'\[(.*?)\]', seperated[0])
@@ -89,7 +89,7 @@ if __name__ == "__main__":
     
 
     threehop = {}
-    with open(test_3_hop, 'r') as f:
+    with open(test_3_hop, 'r', encoding='utf-8') as f:
         for line in f:
             seperated = line.strip().split('\t')
             entities = re.findall(r'\[(.*?)\]', seperated[0])
