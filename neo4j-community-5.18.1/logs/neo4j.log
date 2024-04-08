@@ -1,0 +1,77 @@
+2024-03-18 17:09:09.790+0000 INFO  Logging config in use: File 'C:\Users\PC\Downloads\Compressed\neo4j-community-5.18.1\conf\user-logs.xml'
+2024-03-18 17:09:09.803+0000 INFO  Starting...
+2024-03-18 17:09:10.618+0000 INFO  This instance is ServerId{2bf68ee0} (2bf68ee0-c4b4-4fe6-958c-f708270887f7)
+2024-03-18 17:09:11.132+0000 INFO  ======== Neo4j 5.18.1 ========
+2024-03-18 17:09:12.977+0000 INFO  Bolt enabled on localhost:7687.
+2024-03-18 17:09:13.500+0000 INFO  HTTP enabled on localhost:7474.
+2024-03-18 17:09:13.500+0000 INFO  Remote interface available at http://localhost:7474/
+2024-03-18 17:09:13.502+0000 INFO  id: 792EE45B43BFF19BA065C9FF45F3CE61D12E56FB833844F84CA8D7ADB151003B
+2024-03-18 17:09:13.503+0000 INFO  name: system
+2024-03-18 17:09:13.503+0000 INFO  creationDate: 2024-03-18T17:09:11.769Z
+2024-03-18 17:09:13.503+0000 INFO  Started.
+2024-03-18 17:09:32.087+0000 WARN  [bolt-10] Unsupported authentication token, missing key `principal`
+2024-03-18 17:09:32.405+0000 WARN  [bolt-11] Unsupported authentication token, missing key `principal`
+2024-03-18 17:09:32.725+0000 WARN  [bolt-12] Unsupported authentication token, missing key `principal`
+2024-03-18 17:09:42.358+0000 WARN  [bolt-13] The client is unauthorized due to authentication failure.
+2024-03-18 17:09:42.679+0000 WARN  [bolt-14] The client is unauthorized due to authentication failure.
+2024-03-18 17:09:42.994+0000 WARN  [bolt-15] The client is unauthorized due to authentication failure.
+2024-03-18 18:15:25.570+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.Statement.ExecutionFailed]: Received an AST-clause that has no representation the QG: Create(ForUpdate(List(PathPatternPart(ParenthesizedPath(PathPatternPart(RelationshipChain(NodePattern(Some(Variable(withdraw)),Some(Leaf(LabelName(Intent),false)),Some(MapExpression(Vector((PropertyKeyName(name),AutoExtractedParameter(  AUTOSTRING0,String,ApproximateSize(100)))))),None),RelationshipPattern(Some(Variable(r)),Some(Leaf(RelTypeName(quyĐịnhTrongĐiều),false)),None,None,None,OUTGOING),NodePattern(Some(Variable(policy)),Some(Leaf(LabelName(Policy),false)),Some(MapExpression(Vector((PropertyKeyName(name),AutoExtractedParameter(  AUTOSTRING1,String,ApproximateSize(10)))))),None))),None))))), reference 400c8a82-7b81-4faa-b6ef-53379d7a58ab.
+2024-03-18 18:15:27.363+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.Statement.ExecutionFailed]: Received an AST-clause that has no representation the QG: Create(ForUpdate(List(PathPatternPart(ParenthesizedPath(PathPatternPart(RelationshipChain(NodePattern(Some(Variable(withdraw)),Some(Leaf(LabelName(Intent),false)),Some(MapExpression(Vector((PropertyKeyName(name),AutoExtractedParameter(  AUTOSTRING0,String,ApproximateSize(100)))))),None),RelationshipPattern(Some(Variable(r)),Some(Leaf(RelTypeName(quyĐịnhTrongĐiều),false)),None,None,None,OUTGOING),NodePattern(Some(Variable(policy)),Some(Leaf(LabelName(Policy),false)),Some(MapExpression(Vector((PropertyKeyName(name),AutoExtractedParameter(  AUTOSTRING1,String,ApproximateSize(10)))))),None))),None))))), reference 441cb224-8c7e-45b9-93ea-af05c3d008a5.
+2024-03-18 18:15:27.676+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.Statement.ExecutionFailed]: Received an AST-clause that has no representation the QG: Create(ForUpdate(List(PathPatternPart(ParenthesizedPath(PathPatternPart(RelationshipChain(NodePattern(Some(Variable(withdraw)),Some(Leaf(LabelName(Intent),false)),Some(MapExpression(Vector((PropertyKeyName(name),AutoExtractedParameter(  AUTOSTRING0,String,ApproximateSize(100)))))),None),RelationshipPattern(Some(Variable(r)),Some(Leaf(RelTypeName(quyĐịnhTrongĐiều),false)),None,None,None,OUTGOING),NodePattern(Some(Variable(policy)),Some(Leaf(LabelName(Policy),false)),Some(MapExpression(Vector((PropertyKeyName(name),AutoExtractedParameter(  AUTOSTRING1,String,ApproximateSize(10)))))),None))),None))))), reference bfd082a5-36e1-4dce-8a56-b8a532bb84b3.
+2024-03-18 18:15:31.700+0000 ERROR Client triggered an unexpected error [Neo.DatabaseError.Statement.ExecutionFailed]: Received an AST-clause that has no representation the QG: Create(ForUpdate(List(PathPatternPart(ParenthesizedPath(PathPatternPart(RelationshipChain(NodePattern(Some(Variable(withdraw)),Some(Leaf(LabelName(Intent),false)),Some(MapExpression(Vector((PropertyKeyName(name),AutoExtractedParameter(  AUTOSTRING0,String,ApproximateSize(100)))))),None),RelationshipPattern(Some(Variable(r)),Some(Leaf(RelTypeName(quyĐịnhTrongĐiều),false)),None,None,None,OUTGOING),NodePattern(Some(Variable(policy)),Some(Leaf(LabelName(Policy),false)),Some(MapExpression(Vector((PropertyKeyName(name),AutoExtractedParameter(  AUTOSTRING1,String,ApproximateSize(10)))))),None))),None))))), reference a7b85991-b4c6-4dbb-953e-4bde46d5cbd3.
+2024-03-18 18:40:52.482+0000 INFO  Neo4j Server shutdown initiated by request
+2024-03-18 18:40:52.482+0000 INFO  Stopping...
+2024-03-18 18:40:57.529+0000 INFO  Stopped.
+2024-03-18 18:43:15.045+0000 INFO  Logging config in use: File 'E:\knowledge-base-project\neo4j-community-5.18.1\conf\user-logs.xml'
+2024-03-18 18:43:15.054+0000 INFO  Starting...
+2024-03-18 18:43:15.739+0000 INFO  This instance is ServerId{2bf68ee0} (2bf68ee0-c4b4-4fe6-958c-f708270887f7)
+2024-03-18 18:43:16.223+0000 INFO  ======== Neo4j 5.18.1 ========
+2024-03-18 18:43:17.943+0000 INFO  Bolt enabled on localhost:7687.
+2024-03-18 18:43:18.404+0000 INFO  HTTP enabled on localhost:7474.
+2024-03-18 18:43:18.405+0000 INFO  Remote interface available at http://localhost:7474/
+2024-03-18 18:43:18.408+0000 INFO  id: 792EE45B43BFF19BA065C9FF45F3CE61D12E56FB833844F84CA8D7ADB151003B
+2024-03-18 18:43:18.409+0000 INFO  name: system
+2024-03-18 18:43:18.409+0000 INFO  creationDate: 2024-03-18T17:09:11.769Z
+2024-03-18 18:43:18.409+0000 INFO  Started.
+2024-03-18 18:43:57.104+0000 INFO  Neo4j Server shutdown initiated by request
+2024-03-18 18:43:57.105+0000 INFO  Stopping...
+2024-03-20 15:00:16.464+0000 INFO  Logging config in use: File 'E:\knowledge-base-project\neo4j-community-5.18.1\conf\user-logs.xml'
+2024-03-20 15:00:16.477+0000 INFO  Starting...
+2024-03-20 15:00:17.292+0000 INFO  This instance is ServerId{2bf68ee0} (2bf68ee0-c4b4-4fe6-958c-f708270887f7)
+2024-03-20 15:00:17.928+0000 INFO  ======== Neo4j 5.18.1 ========
+2024-03-20 15:00:19.876+0000 INFO  Bolt enabled on localhost:7687.
+2024-03-20 15:00:20.366+0000 INFO  HTTP enabled on localhost:7474.
+2024-03-20 15:00:20.367+0000 INFO  Remote interface available at http://localhost:7474/
+2024-03-20 15:00:20.368+0000 INFO  id: 792EE45B43BFF19BA065C9FF45F3CE61D12E56FB833844F84CA8D7ADB151003B
+2024-03-20 15:00:20.369+0000 INFO  name: system
+2024-03-20 15:00:20.369+0000 INFO  creationDate: 2024-03-18T17:09:11.769Z
+2024-03-20 15:00:20.369+0000 INFO  Started.
+2024-03-20 15:56:58.885+0000 INFO  Neo4j Server shutdown initiated by request
+2024-03-20 15:56:58.886+0000 INFO  Stopping...
+2024-04-08 17:43:00.429+0000 INFO  Logging config in use: File 'E:\knowledge-base-project\neo4j-community-5.18.1\conf\user-logs.xml'
+2024-04-08 17:43:00.457+0000 INFO  Starting...
+2024-04-08 17:43:01.243+0000 INFO  This instance is ServerId{2bf68ee0} (2bf68ee0-c4b4-4fe6-958c-f708270887f7)
+2024-04-08 17:43:01.883+0000 INFO  ======== Neo4j 5.18.1 ========
+2024-04-08 17:43:03.946+0000 INFO  Bolt enabled on localhost:7687.
+2024-04-08 17:43:04.486+0000 INFO  HTTP enabled on localhost:7474.
+2024-04-08 17:43:04.486+0000 INFO  Remote interface available at http://localhost:7474/
+2024-04-08 17:43:04.488+0000 INFO  id: 792EE45B43BFF19BA065C9FF45F3CE61D12E56FB833844F84CA8D7ADB151003B
+2024-04-08 17:43:04.488+0000 INFO  name: system
+2024-04-08 17:43:04.488+0000 INFO  creationDate: 2024-03-18T17:09:11.769Z
+2024-04-08 17:43:04.488+0000 INFO  Started.
+2024-04-08 17:54:45.395+0000 INFO  Neo4j Server shutdown initiated by request
+2024-04-08 17:54:45.396+0000 INFO  Stopping...
+2024-04-08 18:04:37.148+0000 INFO  Logging config in use: File 'E:\neo4j-community-5.18.1\conf\user-logs.xml'
+2024-04-08 18:04:37.156+0000 INFO  Starting...
+2024-04-08 18:04:37.804+0000 INFO  This instance is ServerId{2bf68ee0} (2bf68ee0-c4b4-4fe6-958c-f708270887f7)
+2024-04-08 18:04:38.285+0000 INFO  ======== Neo4j 5.18.1 ========
+2024-04-08 18:04:39.956+0000 INFO  Bolt enabled on localhost:7687.
+2024-04-08 18:04:40.383+0000 INFO  HTTP enabled on localhost:7474.
+2024-04-08 18:04:40.383+0000 INFO  Remote interface available at http://localhost:7474/
+2024-04-08 18:04:40.385+0000 INFO  id: 792EE45B43BFF19BA065C9FF45F3CE61D12E56FB833844F84CA8D7ADB151003B
+2024-04-08 18:04:40.386+0000 INFO  name: system
+2024-04-08 18:04:40.386+0000 INFO  creationDate: 2024-03-18T17:09:11.769Z
+2024-04-08 18:04:40.386+0000 INFO  Started.
+2024-04-08 19:35:57.515+0000 INFO  Neo4j Server shutdown initiated by request
+2024-04-08 19:35:57.515+0000 INFO  Stopping...
+2024-04-08 19:36:02.606+0000 INFO  Stopped.
