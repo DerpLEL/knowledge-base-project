@@ -1,12 +1,14 @@
 from neo4j import GraphDatabase
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
+from llm.openai import OpenAIChat
 
 GOOGLE_API_KEY = 'AIzaSyAnT0-DpdDE63wJpH51BT3GiB1n8e_tFNo'
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel('gemini-pro')
+gpt = OpenAIChat('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', temperature=0.7, model_name="gpt-3.5-turbo-0613")
 
 URI = "neo4j://localhost:7687"
 AUTH = ("neo4j", "jupiter-club-edition-manila-papa-9630")
@@ -91,6 +93,29 @@ Generated context: '''
     return answer
 
 
+def llm_context_gpt(query: str):
+    prompt = '''Given a user query, generate context related to the query from your knowledge.
+
+User query: {query}
+Generated context: '''
+    # query += ' (Trích từ quy định trường đại học Bách Khoa)'
+
+    answer = gpt.generate(
+        [
+            {
+                'role': 'system',
+                'content': "You are a helpful assistant who will generate context related to user questions with your own knowledge."
+            },
+            {
+                'role': 'user',
+                'content': f'{query}\nGenerated context: '
+            }
+        ]
+    )
+
+    return answer
+
+
 def fuse_context(triples, llm_context):
     variable_mapping = {
         's': 'Student',
@@ -157,12 +182,13 @@ Answer: '''
     return answer
 
 
-sample_query = 'Em muốn rút môn Sức bền vật liệu cho học kì 212'
+sample_query = 'Em muốn rút môn Sức bền vật liệu cho học kì 212. Trường hợp này cho rút không ạ?'
 
-triples = retriever(sample_query)
-print(triples)
-generated_context = llm_context(sample_query)
+# triples = retriever(sample_query)
+# print(triples)
+# generated_context = llm_context(sample_query)
+generated_context = llm_context_gpt(sample_query)
 print(generated_context)
-fused = fuse_context(triples, generated_context)
-
-print("Final answer:", final_answer(sample_query, fused))
+# fused = fuse_context(triples, generated_context)
+#
+# print("Final answer:", final_answer(sample_query, fused))

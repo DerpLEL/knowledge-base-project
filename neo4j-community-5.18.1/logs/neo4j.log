@@ -75,3 +75,28 @@
 2024-04-08 19:35:57.515+0000 INFO  Neo4j Server shutdown initiated by request
 2024-04-08 19:35:57.515+0000 INFO  Stopping...
 2024-04-08 19:36:02.606+0000 INFO  Stopped.
+2024-04-08 12:44:46.571+0000 INFO  Logging config in use: File 'D:\knowledge-base-project\neo4j-community-5.18.1\conf\user-logs.xml'
+2024-04-08 12:44:46.609+0000 INFO  Starting...
+2024-04-08 12:44:48.802+0000 INFO  This instance is ServerId{2bf68ee0} (2bf68ee0-c4b4-4fe6-958c-f708270887f7)
+2024-04-08 12:44:50.410+0000 INFO  ======== Neo4j 5.18.1 ========
+2024-04-08 12:44:54.389+0000 INFO  Bolt enabled on localhost:7687.
+2024-04-08 12:44:56.034+0000 INFO  HTTP enabled on localhost:7474.
+2024-04-08 12:44:56.037+0000 INFO  Remote interface available at http://localhost:7474/
+2024-04-08 12:44:56.040+0000 INFO  id: 792EE45B43BFF19BA065C9FF45F3CE61D12E56FB833844F84CA8D7ADB151003B
+2024-04-08 12:44:56.040+0000 INFO  name: system
+2024-04-08 12:44:56.048+0000 INFO  creationDate: 2024-03-18T17:09:11.769Z
+2024-04-08 12:44:56.049+0000 INFO  Started.
+2024-04-08 12:47:19.957+0000 INFO  Neo4j Server shutdown initiated by request
+2024-04-08 12:47:19.957+0000 INFO  Stopping...
+2024-04-08 12:47:25.349+0000 INFO  Stopped.
+2024-04-08 19:12:18.261+0000 INFO  Logging config in use: File 'D:\knowledge-base-project\neo4j-community-5.18.1\conf\user-logs.xml'
+2024-04-08 19:12:18.308+0000 INFO  Starting...
+2024-04-08 19:12:20.926+0000 INFO  This instance is ServerId{2bf68ee0} (2bf68ee0-c4b4-4fe6-958c-f708270887f7)
+2024-04-08 19:12:23.010+0000 INFO  ======== Neo4j 5.18.1 ========
+2024-04-08 19:12:28.016+0000 INFO  Bolt enabled on localhost:7687.
+2024-04-08 19:12:30.465+0000 INFO  HTTP enabled on localhost:7474.
+2024-04-08 19:12:30.466+0000 INFO  Remote interface available at http://localhost:7474/
+2024-04-08 19:12:30.475+0000 INFO  id: 792EE45B43BFF19BA065C9FF45F3CE61D12E56FB833844F84CA8D7ADB151003B
+2024-04-08 19:12:30.476+0000 INFO  name: system
+2024-04-08 19:12:30.477+0000 INFO  creationDate: 2024-03-18T17:09:11.769Z
+2024-04-08 19:12:30.478+0000 INFO  Started.
