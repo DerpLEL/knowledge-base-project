@@ -13,7 +13,13 @@ from sklearn.metrics.pairwise import cosine_similarity
 import random as rand
 
 class MPNetEntityInjector:
+	"""This contains the script for a simple off-the-shelf entity injector, framework used here is MPNet
 
+	Steps:
+		1: Pass all extracted triples and the question into MPNet to turn them into sentence embeddings
+		2: Use cosine similarity to find the top-k-triples
+		3: Inject all of them together to form the prompt
+	"""
 	# basic prompts
 	no_knowledge_prompt = "Please answer this question"
 	leading_prompt = "Below are facts in the form of the triple meaningful to answer the questions"

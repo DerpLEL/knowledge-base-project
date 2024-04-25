@@ -11,7 +11,15 @@ from bs4 import BeautifulSoup
 from transformers import pipeline
 
 class RebelEntityVerbalizer:
+	"""
+	This contains the script for a simple off-the-shelf entity verbalizer, framework used here is REBEL
 
+	Steps:
+		1: For each entity, find its corresponding infos from the Wikipedia pages (using entity title for searching and GET request to fetch the corresponding wikipedia page)
+		2: Extract all the textual data of the Wiki page
+		3: Use Rebel (state-of-the-art models for Relation Extractions in different datasets) to extract relations from extracted texts
+
+	"""
 	def __init__(self, device=-1):
 
 		# set extractor as REBEL extractor

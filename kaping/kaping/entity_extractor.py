@@ -8,10 +8,15 @@ from refined.inference.processor import Refined
 
 class RefinedEntityExtractor:
 
-	"""
-	For example: "Who is the author of Lady Susan?":
+	"""This contains the script for a simple off-the-shelf entity extractor, framework used here is ReFInED (Amazon-science), \
+    an entity linking framework. \
+    For example: "Who is the author of Lady Susan?"
+	
+	Steps:
+		1: Extract the entity in the question and link it to Wikidata entity.
+
 	Result:
-	[['Lady Susan', Entity(wikidata_entity_id=Q581180, wikipedia_entity_title=Lady Susan), None]]
+		[['Lady Susan', Entity(wikidata_entity_id=Q581180, wikipedia_entity_title=Lady Susan), None]]
 	"""
 
 	def __init__(self, device=-1):
