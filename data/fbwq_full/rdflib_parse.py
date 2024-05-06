@@ -5,7 +5,7 @@ import time
 import os
 import re
 
-prefix = False
+prefix = True
 filename = 'webqsp-kg.pkl' if prefix else 'webqsp-kg-no-prefix.pkl'
 
 # Initialize a new Graph
@@ -76,7 +76,7 @@ def query_processor(string: str):
     return re.sub('OR', '||', string)
 
 
-query = "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.072_m3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.072_m3 ns:government.politician.government_positions_held ?y .\n?y ns:government.government_position_held.district_represented ?x .\n}\n"
+query = "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.072_m3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.072_m3 ns:government.politician.government_positions_held ?y .\nns:?y ns:government.government_position_held.district_represented ?x .\n}\n"
 processed_query = query_processor(query)
 
 if processed_query != 'skip':
