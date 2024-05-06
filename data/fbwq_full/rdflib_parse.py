@@ -58,9 +58,16 @@ def query_processor(string: str):
 
     return re.sub('OR', '||', string)
 
-query = ''
+query = "PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ns:m.03_r3)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\nns:m.03_r3 ns:location.country.languages_spoken ?x .\n}\n"
 processed_query = query_processor(query)
 
-qres = g.query(processed_query)
-for i in qres:
-    print(i)
+if processed_query != 'skip':
+    t2 = time.perf_counter()
+    qres = g.query(processed_query)
+    for i in qres:
+        print(i)
+
+    print(f'Querying took {time.perf_counter() - t2:.2f}s')
+
+else:
+    print('Query contains datetime, skipping...')
