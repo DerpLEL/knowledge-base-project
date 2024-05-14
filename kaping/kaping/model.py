@@ -1,10 +1,15 @@
 """
 This contains a simple script to the pipeline of KAPING
 """
+import os
 
 from kaping.entity_extractor import RefinedEntityExtractor
 from kaping.entity_verbalization import RebelEntityVerbalizer
 from kaping.entity_injection import MPNetEntityInjector
+from werkzeug.utils import secure_filename
+import json
+
+mintaka_path = "E:\\knowledge-base-project\\kaping\\kaping\\mintaka_wikipedia\\"
 
 
 def pipeline(config, question: str, device=-1):
@@ -25,9 +30,18 @@ def pipeline(config, question: str, device=-1):
 	entity_set = extractor(question)
 
 	# entity verbalization
-	knowledge_triples = []
-	for entity, entity_title in entity_set:
-		knowledge_triples.extend(verbalizer(entity, entity_title))
+	file_name = f'{secure_filename(question)}.json'
+	if file_name in os.listdir(mintaka_path):
+		with open(os.path.join(mintaka_path, file_name), 'r', encoding='utf-8') as f:
+			knowledge_triples = json.load(f)
+
+	else:
+		knowledge_triples = []
+		for entity, entity_title in entity_set:
+			knowledge_triples.extend(verbalizer(entity, entity_title))
+
+		with open(os.path.join(mintaka_path, file_name), 'w', encoding='utf-8') as f:
+			json.dump(knowledge_triples, f, ensure_ascii=False)
  
 	# entity injection as final prompt as input
 	prompt = injector([question], knowledge_triples, k=config.k, random=config.random, no_knowledge=config.no_knowledge)

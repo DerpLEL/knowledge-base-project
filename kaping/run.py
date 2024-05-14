@@ -5,6 +5,7 @@ from qa.qa_preprocessing import load_dataset, load_webqsp
 from arguments import k_parser
 import sys
 from copy import deepcopy
+from langchain_openai import AzureChatOpenAI
 
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
@@ -44,58 +45,63 @@ def main():
 
 	# ------- run through each question-answer pair and run KAPING
 	for qa_pair in dataset[:100]:
-		print(args)
-		# run KAPING to create prompt
-		prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
+		# try:
+			print(args)
+			# run KAPING to create prompt
+			prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
+			continue
 
-		# use inference model to generate predicted answer
-		# predicted_answer = qa_inference(task=args.inference_task, model_name=args.model_name,
-		# 								prompt=prompt, device=args.device)
-		predicted_answer = model.generate_content(
-			prompt,
-			generation_config=genai.types.GenerationConfig(
-				temperature=0.0,
-			),
-			safety_settings={
-				HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
-				HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
-				HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
-				HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
-			}
-		).text
-		print(f'\n### Language model answer: {predicted_answer} ###\n')
-		qa_pair.pr_answer = predicted_answer
+			# use inference model to generate predicted answer
+			# predicted_answer = qa_inference(task=args.inference_task, model_name=args.model_name,
+			# 								prompt=prompt, device=args.device)
+			predicted_answer = model.generate_content(
+				prompt,
+				generation_config=genai.types.GenerationConfig(
+					temperature=0.0,
+				),
+				safety_settings={
+					HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
+				}
+			).text
+			print(f'\n### Language model answer: {predicted_answer} ###\n')
+			qa_pair.pr_answer = predicted_answer
 
-		# add new qa_pair for output file
-		results.append(qa_pair)
+			# add new qa_pair for output file
+			results.append(qa_pair)
 
-		# evaluate to calculate the accuracy
-		evaluated.append(evaluate(qa_pair.answer['mention'], predicted_answer))
-		# evaluated.append(evaluate(qa_pair.answer, predicted_answer))
+			# evaluate to calculate the accuracy
+			evaluated.append(evaluate(qa_pair.answer['mention'], predicted_answer))
+			# evaluated.append(evaluate(qa_pair.answer, predicted_answer))
 
-		predicted_answer_background = model.generate_content(
-			prompt_background,
-			generation_config=genai.types.GenerationConfig(
-				temperature=0.0,
-			),
-			safety_settings={
-				HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
-				HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
-				HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
-				HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
-			}
-		).text
-		print(f'\n### Language model answer: {predicted_answer_background} ###\n')
-		qa_pair_copy = deepcopy(qa_pair)
+			predicted_answer_background = model.generate_content(
+				prompt_background,
+				generation_config=genai.types.GenerationConfig(
+					temperature=0.0,
+				),
+				safety_settings={
+					HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
+				}
+			).text
+			print(f'\n### Language model answer: {predicted_answer_background} ###\n')
+			qa_pair_copy = deepcopy(qa_pair)
 
-		qa_pair_copy.pr_answer = predicted_answer_background
+			qa_pair_copy.pr_answer = predicted_answer_background
 
-		# add new qa_pair for output file
-		results_background.append(qa_pair_copy)
+			# add new qa_pair for output file
+			results_background.append(qa_pair_copy)
 
-		# evaluate to calculate the accuracy
-		evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
-		# evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
+			# evaluate to calculate the accuracy
+			evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
+			# evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
+
+		# except Exception:
+		# 	break
 
 	msg = ""
 	if args.no_knowledge:

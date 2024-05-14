@@ -6,6 +6,9 @@ Steps:
 	2. Use Rebel (state-of-the-art models for Relation Extractions in different datasets) to extract relations from extracted texts
 
 """
+import json
+import os
+
 import requests
 from bs4 import BeautifulSoup
 from transformers import pipeline

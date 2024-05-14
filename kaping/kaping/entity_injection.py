@@ -11,6 +11,7 @@ from sentence_transformers import SentenceTransformer
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import random as rand
+import json
 
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
@@ -160,13 +161,15 @@ class MPNetEntityInjector:
 		:param no_knowledge: if this is True, only add the no_knowledge_prompt only
 		:return:
 		"""
-		background_kg = get_background_knowledge(question)
+		# background_kg = get_background_knowledge(question)
+		background_kg = ""
+		triples_as_str = ', '.join(triples)
 
 		# if no_knowledge:
 		# 		return f"{MPNetEntityInjector.no_knowledge_prompt} Question: {question} Answer: "
 		# else:
 		without_background = f"""{MPNetEntityInjector.leading_prompt}
-{', '.join(triples)}
+{triples}
 
 Question: {question}
 Answer: """
@@ -196,7 +199,7 @@ Answer: """
 		assert type(triples) == list
 
 		if no_knowledge:
-			return self.injection(question, no_knowledge)
+			return self.injection(question[0], no_knowledge)
 
 		# use MPNET to turn all into sentence embeddings
 		emb_question = self.sentence_embedding(question)
