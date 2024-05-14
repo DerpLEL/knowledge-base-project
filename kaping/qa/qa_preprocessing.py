@@ -55,11 +55,11 @@ def load_webqsp():
     # random.seed(27)
     # chosen_random_questions = random.choices(chosen_set, k=100)
 
-    for data in dataset:
+    for data in chosen_set:
         qa_pairs.append(Pair(
             question=data['ProcessedQuestion'],
-            entities=data['Parses'][0]["PotentialTopicEntityMention"],
-            answer=[i["EntityName"] for i in data['Parses'][0]["Answers"]],
+            entities=[data['Parses'][0]["PotentialTopicEntityMention"]],
+            answer=[i["EntityName"] if i["EntityName"] else i["AnswerArgument"] for i in data['Parses'][0]["Answers"]],
             q_type="null"
         ))
 

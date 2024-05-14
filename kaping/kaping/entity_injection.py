@@ -161,8 +161,8 @@ class MPNetEntityInjector:
 		:param no_knowledge: if this is True, only add the no_knowledge_prompt only
 		:return:
 		"""
-		# background_kg = get_background_knowledge(question)
-		background_kg = ""
+		background_kg = get_background_knowledge(question)
+		# background_kg = ""
 		triples_as_str = ', '.join(triples)
 
 		# if no_knowledge:
@@ -175,7 +175,7 @@ Question: {question}
 Answer: """
 
 		with_background = f"""{MPNetEntityInjector.leading_prompt}
-{', '.join(triples)}
+{triples}
 
 {background_kg}
 

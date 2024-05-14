@@ -31,8 +31,8 @@ def main():
 		sys.exit(1)
 
 	# load dataset
-	dataset = load_dataset(args.input)
-	# dataset = load_webqsp()
+	# dataset = load_dataset(args.input)
+	dataset = load_webqsp()
 
 	# set up results
 	results = []
@@ -49,7 +49,6 @@ def main():
 			print(args)
 			# run KAPING to create prompt
 			prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
-			continue
 
 			# use inference model to generate predicted answer
 			# predicted_answer = qa_inference(task=args.inference_task, model_name=args.model_name,
@@ -73,8 +72,8 @@ def main():
 			results.append(qa_pair)
 
 			# evaluate to calculate the accuracy
-			evaluated.append(evaluate(qa_pair.answer['mention'], predicted_answer))
-			# evaluated.append(evaluate(qa_pair.answer, predicted_answer))
+			# evaluated.append(evaluate(qa_pair.answer['mention'], predicted_answer))
+			evaluated.append(evaluate(qa_pair.answer, predicted_answer))
 
 			predicted_answer_background = model.generate_content(
 				prompt_background,
@@ -97,8 +96,8 @@ def main():
 			results_background.append(qa_pair_copy)
 
 			# evaluate to calculate the accuracy
-			evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
-			# evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
+			# evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
+			evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
 
 		# except Exception:
 		# 	break
@@ -111,10 +110,10 @@ def main():
 
 	# print(f"Accuracy for infering QA task on {args.model_name}{msg}: {accuracy(evaluated):2f}")
 
-	with open('gemini-mintaka-100-no-background.txt', 'w', encoding='utf-8') as f:
+	with open('gemini-webqsp-100-no-background.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated)))
 
-	with open('gemini-mintaka-100-with-background.txt', 'w', encoding='utf-8') as f:
+	with open('gemini-webqsp-100-with-background.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated_background)))
 
 	print(f"Accuracy w/o background: {accuracy(evaluated):2f}")
@@ -123,19 +122,19 @@ def main():
 
 
 	# output = args.output if args.output else f"./mintaka_predicted_{args.model_name}_{msg[1:]}.csv"
-	output = "gemini-mintaka-100-no-background.csv"
-	output_background = "gemini-mintaka-100-with-background.csv"
+	output = "gemini-webqsp-100-no-background.csv"
+	output_background = "gemini-webqsp-100-with-background.csv"
 
 	print(f"Save results in {output}")
 	with open(output, 'w', encoding='utf-8') as f2w:
 		for qa_pair in results:
-			f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer['mention']}\nPredicted answer: {qa_pair.pr_answer}\n\n")
-			# f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer}\nPredicted answer: {qa_pair.pr_answer}\n\n")
+			# f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer['mention']}\nPredicted answer: {qa_pair.pr_answer}\n\n")
+			f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer}\nPredicted answer: {qa_pair.pr_answer}\n\n")
 
 	with open(output_background, 'w', encoding='utf-8') as f2w:
 		for qa_pair in results:
-			f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer['mention']}\nPredicted answer: {qa_pair.pr_answer}\n\n")
-			# f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer}\nPredicted answer: {qa_pair.pr_answer}\n\n")
+			# f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer['mention']}\nPredicted answer: {qa_pair.pr_answer}\n\n")
+			f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer}\nPredicted answer: {qa_pair.pr_answer}\n\n")
 
 if __name__ == '__main__':
 	main()

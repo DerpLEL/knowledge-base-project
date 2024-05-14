@@ -1,5 +1,25 @@
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
+from langchain_openai import AzureChatOpenAI
+from langchain.schema import SystemMessage, AIMessage, HumanMessage
+from config import DefaultConfig
+
+CONFIG = DefaultConfig()
+
+llm_base = AzureChatOpenAI(
+    openai_api_type="azure",
+    azure_endpoint=CONFIG.OPENAI_API_BASE,
+    openai_api_version="2023-05-15",
+    deployment_name="gpt-35-turbo",
+    openai_api_key=CONFIG.OPENAI_API_KEY,
+    temperature=0.0,
+)
+
+system_1 = """You are an intelligent assistant who analyses questions and outputs related entities.
+Output all entities related to the user questions along with other information which may be related.
+
+Question: {query}
+Entities: """
 
 GOOGLE_API_KEY='AIzaSyAnT0-DpdDE63wJpH51BT3GiB1n8e_tFNo'
 

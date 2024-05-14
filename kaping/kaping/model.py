@@ -9,7 +9,8 @@ from kaping.entity_injection import MPNetEntityInjector
 from werkzeug.utils import secure_filename
 import json
 
-mintaka_path = "E:\\knowledge-base-project\\kaping\\kaping\\mintaka_wikipedia\\"
+# mintaka_path = "E:\\knowledge-base-project\\kaping\\kaping\\mintaka_wikipedia\\"
+mintaka_path = "E:\\knowledge-base-project\\kaping\\kaping\\webqsp_wikipedia\\"
 
 
 def pipeline(config, question: str, device=-1):
@@ -27,7 +28,6 @@ def pipeline(config, question: str, device=-1):
 	injector = MPNetEntityInjector(device=device)
 
 	# retrieve entities from given question
-	entity_set = extractor(question)
 
 	# entity verbalization
 	file_name = f'{secure_filename(question)}.json'
@@ -36,6 +36,8 @@ def pipeline(config, question: str, device=-1):
 			knowledge_triples = json.load(f)
 
 	else:
+		entity_set = extractor(question)
+
 		knowledge_triples = []
 		for entity, entity_title in entity_set:
 			knowledge_triples.extend(verbalizer(entity, entity_title))
