@@ -3,8 +3,8 @@ from qa.qa_inference import qa_inference
 from qa.qa_evaluate import accuracy, evaluate
 from qa.qa_preprocessing import load_dataset, load_webqsp
 from arguments import k_parser
-from experimental_prompt import get_background_knowledge
 import sys
+from copy import deepcopy
 
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
@@ -43,7 +43,7 @@ def main():
 	evaluated_background = []
 
 	# ------- run through each question-answer pair and run KAPING
-	for qa_pair in dataset[:2]:
+	for qa_pair in dataset[:100]:
 		print(args)
 		# run KAPING to create prompt
 		prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
@@ -86,10 +86,12 @@ def main():
 			}
 		).text
 		print(f'\n### Language model answer: {predicted_answer_background} ###\n')
-		qa_pair.pr_answer = predicted_answer
+		qa_pair_copy = deepcopy(qa_pair)
+
+		qa_pair_copy.pr_answer = predicted_answer_background
 
 		# add new qa_pair for output file
-		results_background.append(qa_pair)
+		results_background.append(qa_pair_copy)
 
 		# evaluate to calculate the accuracy
 		evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
@@ -103,10 +105,10 @@ def main():
 
 	# print(f"Accuracy for infering QA task on {args.model_name}{msg}: {accuracy(evaluated):2f}")
 
-	with open('gemini-webqsp-100-no-background.txt', 'w', encoding='utf-8') as f:
+	with open('gemini-mintaka-100-no-background.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated)))
 
-	with open('gemini-websp-100-with-background.txt', 'w', encoding='utf-8') as f:
+	with open('gemini-mintaka-100-with-background.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated_background)))
 
 	print(f"Accuracy w/o background: {accuracy(evaluated):2f}")
@@ -115,8 +117,8 @@ def main():
 
 
 	# output = args.output if args.output else f"./mintaka_predicted_{args.model_name}_{msg[1:]}.csv"
-	output = "gemini-webqsp-100-no-background.csv"
-	output_background = "gemini-websp-100-with-background.csv"
+	output = "gemini-mintaka-100-no-background.csv"
+	output_background = "gemini-mintaka-100-with-background.csv"
 
 	print(f"Save results in {output}")
 	with open(output, 'w', encoding='utf-8') as f2w:

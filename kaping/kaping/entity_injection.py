@@ -134,11 +134,19 @@ class MPNetEntityInjector:
 		if len(triples) < k:
 			k = len(triples)
 
-		if random:
-			return rand.sample(triples, k)
+		# if random:
+		# 	return rand.sample(triples, k)
+
+		if not len(triples.tolist()):
+			return []
 
 		# if not the baseline but the top k most similar
-		similarities = cosine_similarity(question, triples)
+		try:
+			similarities = cosine_similarity(question, triples)
+
+		except Exception:
+			return []
+
 		top_k_indices = np.argsort(similarities[0])[-k:][::-1]
 
 		return [origin[index] for index in top_k_indices]
