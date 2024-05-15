@@ -16,7 +16,7 @@ import json
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
-GOOGLE_API_KEY = 'AIzaSyAnT0-DpdDE63wJpH51BT3GiB1n8e_tFNo'
+GOOGLE_API_KEY = 'AIzaSyCD0jcUJYdoAdWLc5Fkb63ZGwMJAksmPbQ'
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
@@ -104,7 +104,7 @@ class MPNetEntityInjector:
 		3: Inject all of them together to form the prompt
 	"""
 	# basic prompts
-	no_knowledge_prompt = "Please answer this question"
+	no_knowledge_prompt = "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer)."
 	leading_prompt = "Below are facts in the form of the triple meaningful to answer the questions (Short answer, explanations not needed, output N/A if you can't provide an answer)"
 
 	def __init__(self, device=-1):

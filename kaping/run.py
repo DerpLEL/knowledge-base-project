@@ -6,15 +6,18 @@ from arguments import k_parser
 import sys
 from copy import deepcopy
 from langchain_openai import AzureChatOpenAI
+import time
 
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
-GOOGLE_API_KEY='AIzaSyAnT0-DpdDE63wJpH51BT3GiB1n8e_tFNo'
+GOOGLE_API_KEY='AIzaSyCD0jcUJYdoAdWLc5Fkb63ZGwMJAksmPbQ'
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel('gemini-pro')
+
+no_knowledge = False
 
 def main():
 
@@ -44,12 +47,16 @@ def main():
 	evaluated_background = []
 
 	# ------- run through each question-answer pair and run KAPING
-	for qa_pair in dataset[:100]:
+	for index, qa_pair in enumerate(dataset[:100], 1):
 		# try:
-			print(args)
+			print(f"{index}. ", args)
 			# run KAPING to create prompt
-			prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
+			# prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
 
+			prompt = f'''Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).
+
+Question: {qa_pair.question}
+Answer: '''
 			# use inference model to generate predicted answer
 			# predicted_answer = qa_inference(task=args.inference_task, model_name=args.model_name,
 			# 								prompt=prompt, device=args.device)
@@ -75,29 +82,31 @@ def main():
 			# evaluated.append(evaluate(qa_pair.answer['mention'], predicted_answer))
 			evaluated.append(evaluate(qa_pair.answer, predicted_answer))
 
-			predicted_answer_background = model.generate_content(
-				prompt_background,
-				generation_config=genai.types.GenerationConfig(
-					temperature=0.0,
-				),
-				safety_settings={
-					HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
-					HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
-					HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
-					HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
-				}
-			).text
-			print(f'\n### Language model answer: {predicted_answer_background} ###\n')
-			qa_pair_copy = deepcopy(qa_pair)
+			time.sleep(5)
 
-			qa_pair_copy.pr_answer = predicted_answer_background
-
-			# add new qa_pair for output file
-			results_background.append(qa_pair_copy)
-
-			# evaluate to calculate the accuracy
-			# evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
-			evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
+			# predicted_answer_background = model.generate_content(
+			# 	prompt_background,
+			# 	generation_config=genai.types.GenerationConfig(
+			# 		temperature=0.0,
+			# 	),
+			# 	safety_settings={
+			# 		HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+			# 		HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
+			# 		HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
+			# 		HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
+			# 	}
+			# ).text
+			# print(f'\n### Language model answer: {predicted_answer_background} ###\n')
+			# qa_pair_copy = deepcopy(qa_pair)
+			#
+			# qa_pair_copy.pr_answer = predicted_answer_background
+			#
+			# # add new qa_pair for output file
+			# results_background.append(qa_pair_copy)
+			#
+			# # evaluate to calculate the accuracy
+			# # evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
+			# evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
 
 		# except Exception:
 		# 	break
@@ -110,8 +119,10 @@ def main():
 
 	# print(f"Accuracy for infering QA task on {args.model_name}{msg}: {accuracy(evaluated):2f}")
 
-	with open('gemini-webqsp-100-no-background.txt', 'w', encoding='utf-8') as f:
+	with open('gemini-webqsp-100-no-knowledge.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated)))
+
+	return
 
 	with open('gemini-webqsp-100-with-background.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated_background)))
