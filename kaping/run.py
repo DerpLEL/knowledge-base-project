@@ -43,16 +43,18 @@ def main():
 	args = k_parser()
 
 	# some simple tests before running
-	if not args.input:
-		print("No input file, can not run")
-		sys.exit(1)
+	# if not args.input:
+	# 	print("No input file, can not run")
+	# 	sys.exit(1)
 
 	if args.inference_task == "text2text-generation" and args.model_name == "gpt2":
 		print("gpt2 is compatible with text-generation only, change --inference_task if you want to use gpt2")
 		sys.exit(1)
 
-	# load dataset
+	# load mintaka
 	# dataset = load_dataset(args.input)
+
+	# load webqsp
 	dataset = load_webqsp()
 
 	# set up results
@@ -73,35 +75,37 @@ def main():
 			# run KAPING to create prompt
 			prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
 
+			# No knowledge
 # 			prompt = f'''Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).
 #
 # Question: {qa_pair.question}
 # Answer: '''
-			# use inference model to generate predicted answer
-			# predicted_answer = qa_inference(task=args.inference_task, model_name=args.model_name,
-			# 								prompt=prompt, device=args.device)
-			# predicted_answer = model.generate_content(
-			# 	prompt,
-			# 	generation_config=genai.types.GenerationConfig(
-			# 		temperature=0.0,
-			# 	),
-			# 	safety_settings={
-			# 		HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
-			# 		HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
-			# 		HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
-			# 		HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
-			# 	}
-			# ).text
-			predicted_answer = get_gemma(prompt)
+
+			predicted_answer = model.generate_content(
+				prompt,
+				generation_config=genai.types.GenerationConfig(
+					temperature=0.0,
+				),
+				safety_settings={
+					HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
+				}
+			).text
+
+			# Gemma
+			# predicted_answer = get_gemma(prompt)
 			print(f'\n### Language model answer: {predicted_answer} ###\n')
 			qa_pair.pr_answer = predicted_answer
 
-			with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\no_background\\gemsura_{index}.json', 'w', encoding='utf-8') as f:
+			with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\kaping_webqsp\\gemini_{index}.json', 'w', encoding='utf-8') as f:
 				# f.write(overall_template.format(
 				# 	prompt=prompt,
 				# 	answer=str(predicted_answer),
 				# 	actual_answer=str(qa_pair.answer)
 				# ))
+
 				dct = {
 					"prompt": prompt,
 					"answer": predicted_answer,
@@ -113,25 +117,31 @@ def main():
 			# add new qa_pair for output file
 			results.append(qa_pair)
 
-			# evaluate to calculate the accuracy
+			# evaluate webqsp
 			evaluated.append(evaluate(qa_pair.answer, predicted_answer))
+
+			# evaluate mintaka
 			# evaluated.append(evaluate(qa_pair.answer['mention'], predicted_answer))
 
 			# time.sleep(5)
 
-			# predicted_answer_background = model.generate_content(
-			# 	prompt_background,
-			# 	generation_config=genai.types.GenerationConfig(
-			# 		temperature=0.0,
-			# 	),
-			# 	safety_settings={
-			# 		HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
-			# 		HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
-			# 		HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
-			# 		HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
-			# 	}
-			# ).text
-			predicted_answer_background = get_gemma(prompt_background)
+			# Gemini
+			predicted_answer_background = model.generate_content(
+				prompt_background,
+				generation_config=genai.types.GenerationConfig(
+					temperature=0.0,
+				),
+				safety_settings={
+					HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
+					HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
+				}
+			).text
+		
+			# Gemma
+			# predicted_answer_background = get_gemma(prompt_background)
+
 			print(f'\n### Language model answer: {predicted_answer_background} ###\n')
 			qa_pair_copy = deepcopy(qa_pair)
 
@@ -140,7 +150,7 @@ def main():
 			# add new qa_pair for output file
 			results_background.append(qa_pair_copy)
 
-			with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\background\\gemsura_{index}.json', 'w', encoding='utf-8') as f:
+			with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\kaping_background_webqsp\\gemsura_{index}.json', 'w', encoding='utf-8') as f:
 				# f.write(overall_template.format(
 				# 	prompt=prompt_background,
 				# 	answer=str(predicted_answer_background),
@@ -154,8 +164,10 @@ def main():
 				}
 				json.dump(dct, f, ensure_ascii=False)
 
-			# evaluate to calculate the accuracy
+			# evaluate webqsp
 			evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
+		
+			# evaluate mintaka
 			# evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
 
 		# except Exception:
@@ -169,10 +181,10 @@ def main():
 
 	# print(f"Accuracy for infering QA task on {args.model_name}{msg}: {accuracy(evaluated):2f}")
 
-	with open('gemsura-mintaka-100-no-background-knowledge.txt', 'w', encoding='utf-8') as f:
+	with open('gemmini-webqsp-no-background-knowledge.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated)))
 
-	with open('gemsura-mintaka-100-with-background.txt', 'w', encoding='utf-8') as f:
+	with open('gemini-webqsp-with-background.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated_background)))
 
 	print(f"Accuracy w/o background: {accuracy(evaluated):2f}")
@@ -181,18 +193,24 @@ def main():
 
 
 	# output = args.output if args.output else f"./mintaka_predicted_{args.model_name}_{msg[1:]}.csv"
-	output = "gemsura-webqsp-100-no-background.csv"
-	output_background = "gemsura-webqsp-100-with-background.csv"
+	output = "gemini-webqsp-no-background.csv"
+	output_background = "gemini-webqsp-with-background.csv"
 
 	print(f"Save results in {output}")
 	with open(output, 'w', encoding='utf-8') as f2w:
 		for qa_pair in results:
+			# mintaka
 			# f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer['mention']}\nPredicted answer: {qa_pair.pr_answer}\n\n")
+
+			# webqsp
 			f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer}\nPredicted answer: {qa_pair.pr_answer}\n\n")
 
 	with open(output_background, 'w', encoding='utf-8') as f2w:
 		for qa_pair in results:
+			# mintaka
 			# f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer['mention']}\nPredicted answer: {qa_pair.pr_answer}\n\n")
+
+			# webqsp
 			f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer}\nPredicted answer: {qa_pair.pr_answer}\n\n")
 
 if __name__ == '__main__':

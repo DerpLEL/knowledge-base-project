@@ -9,8 +9,11 @@ from kaping.entity_injection import MPNetEntityInjector
 from werkzeug.utils import secure_filename
 import json
 
-# mintaka_path = "E:\\knowledge-base-project\\kaping\\kaping\\mintaka_wikipedia\\"
-mintaka_path = "E:\\knowledge-base-project\\kaping\\kaping\\webqsp_wikipedia\\"
+# mintaka
+# cache_path = "E:\\knowledge-base-project\\kaping\\kaping\\mintaka_wikipedia\\"
+
+# webqsp
+cache_path = "E:\\knowledge-base-project\\kaping\\kaping\\webqsp_wikipedia\\"
 
 
 def pipeline(config, question: str, device=-1):
@@ -31,8 +34,8 @@ def pipeline(config, question: str, device=-1):
 
 	# entity verbalization
 	file_name = f'{secure_filename(question)}.json'
-	if file_name in os.listdir(mintaka_path):
-		with open(os.path.join(mintaka_path, file_name), 'r', encoding='utf-8') as f:
+	if file_name in os.listdir(cache_path):
+		with open(os.path.join(cache_path, file_name), 'r', encoding='utf-8') as f:
 			knowledge_triples = json.load(f)
 
 	else:
@@ -42,7 +45,7 @@ def pipeline(config, question: str, device=-1):
 		for entity, entity_title in entity_set:
 			knowledge_triples.extend(verbalizer(entity, entity_title))
 
-		with open(os.path.join(mintaka_path, file_name), 'w', encoding='utf-8') as f:
+		with open(os.path.join(cache_path, file_name), 'w', encoding='utf-8') as f:
 			json.dump(knowledge_triples, f, ensure_ascii=False)
  
 	# entity injection as final prompt as input
