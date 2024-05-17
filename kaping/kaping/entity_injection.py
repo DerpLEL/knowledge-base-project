@@ -12,6 +12,7 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 import random as rand
 import json
+import requests
 
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
@@ -21,6 +22,21 @@ GOOGLE_API_KEY = 'AIzaSyCD0jcUJYdoAdWLc5Fkb63ZGwMJAksmPbQ'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel('gemini-pro')
+
+
+def get_gemma(string: str):
+    x = requests.post(
+        'https://ws.gvlab.org/fablab/ura/llama/api/generate',
+        headers={
+            'Content-Type': 'application/json'
+        },
+        json={
+            "inputs": f"<start_of_turn>user\n{string}<end_of_turn>\n<start_of_turn>model\n",
+        }
+    )
+
+    return x.json()['generated_text']
+
 
 prompt_1 = '''Given a question, generate all entities related to the question.
 
@@ -39,6 +55,23 @@ Entities: {entities}
 Relations: {relations}
 
 Triples: '''
+
+def get_background_knowledge_gemsura(string: str):
+	entities = get_gemma(prompt_1.format(
+		query=string
+	))
+
+	relations = get_gemma(prompt_2.format(
+		query=string
+	))
+
+	triples = get_gemma(prompt_3.format(
+		query=string,
+		entities=entities,
+		relations=relations
+	))
+
+	return triples
 
 
 def get_background_knowledge(query: str):
@@ -162,6 +195,7 @@ class MPNetEntityInjector:
 		:return:
 		"""
 		background_kg = get_background_knowledge(question)
+		# background_kg = get_background_knowledge_gemsura(question)
 		# background_kg = ""
 		triples_as_str = ', '.join(triples)
 

@@ -10,10 +10,10 @@ def evaluate(answer: str | list, predicted: str):
 	:return: True/False (boolean)
 	"""
 	if isinstance(answer, str):
-		return answer in predicted
+		return answer.lower() in predicted.lower()
 
 	for i in answer:
-		if i in predicted:
+		if i.lower() in predicted.lower():
 			return True
 
 	return False

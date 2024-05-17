@@ -1,3 +1,5 @@
+import json
+
 from kaping.model import pipeline
 from qa.qa_inference import qa_inference
 from qa.qa_evaluate import accuracy, evaluate
@@ -7,6 +9,7 @@ import sys
 from copy import deepcopy
 from langchain_openai import AzureChatOpenAI
 import time
+import requests
 
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
@@ -18,6 +21,21 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
 no_knowledge = False
+
+
+def get_gemma(string: str):
+    x = requests.post(
+        'https://ws.gvlab.org/fablab/ura/llama/api/generate',
+        headers={
+            'Content-Type': 'application/json'
+        },
+        json={
+            "inputs": f"<start_of_turn>user\n{string}<end_of_turn>\n<start_of_turn>model\n",
+        }
+    )
+
+    return x.json()['generated_text']
+
 
 def main():
 
@@ -46,43 +64,60 @@ def main():
 	results_background = []
 	evaluated_background = []
 
+	n = 1
+
 	# ------- run through each question-answer pair and run KAPING
-	for index, qa_pair in enumerate(dataset[:100], 1):
+	for index, qa_pair in enumerate(dataset[n-1:], n):
 		# try:
 			print(f"{index}. ", args)
 			# run KAPING to create prompt
-			# prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
+			prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
 
-			prompt = f'''Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).
-
-Question: {qa_pair.question}
-Answer: '''
+# 			prompt = f'''Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).
+#
+# Question: {qa_pair.question}
+# Answer: '''
 			# use inference model to generate predicted answer
 			# predicted_answer = qa_inference(task=args.inference_task, model_name=args.model_name,
 			# 								prompt=prompt, device=args.device)
-			predicted_answer = model.generate_content(
-				prompt,
-				generation_config=genai.types.GenerationConfig(
-					temperature=0.0,
-				),
-				safety_settings={
-					HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
-					HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
-					HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
-					HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
-				}
-			).text
+			# predicted_answer = model.generate_content(
+			# 	prompt,
+			# 	generation_config=genai.types.GenerationConfig(
+			# 		temperature=0.0,
+			# 	),
+			# 	safety_settings={
+			# 		HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+			# 		HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
+			# 		HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
+			# 		HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
+			# 	}
+			# ).text
+			predicted_answer = get_gemma(prompt)
 			print(f'\n### Language model answer: {predicted_answer} ###\n')
 			qa_pair.pr_answer = predicted_answer
+
+			with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\no_background\\gemsura_{index}.json', 'w', encoding='utf-8') as f:
+				# f.write(overall_template.format(
+				# 	prompt=prompt,
+				# 	answer=str(predicted_answer),
+				# 	actual_answer=str(qa_pair.answer)
+				# ))
+				dct = {
+					"prompt": prompt,
+					"answer": predicted_answer,
+					"actual_answer": str(qa_pair.answer),
+					"is_correct": evaluate(qa_pair.answer, predicted_answer)
+				}
+				json.dump(dct, f, ensure_ascii=False)
 
 			# add new qa_pair for output file
 			results.append(qa_pair)
 
 			# evaluate to calculate the accuracy
-			# evaluated.append(evaluate(qa_pair.answer['mention'], predicted_answer))
 			evaluated.append(evaluate(qa_pair.answer, predicted_answer))
+			# evaluated.append(evaluate(qa_pair.answer['mention'], predicted_answer))
 
-			time.sleep(5)
+			# time.sleep(5)
 
 			# predicted_answer_background = model.generate_content(
 			# 	prompt_background,
@@ -96,17 +131,32 @@ Answer: '''
 			# 		HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
 			# 	}
 			# ).text
-			# print(f'\n### Language model answer: {predicted_answer_background} ###\n')
-			# qa_pair_copy = deepcopy(qa_pair)
-			#
-			# qa_pair_copy.pr_answer = predicted_answer_background
-			#
-			# # add new qa_pair for output file
-			# results_background.append(qa_pair_copy)
-			#
-			# # evaluate to calculate the accuracy
-			# # evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
-			# evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
+			predicted_answer_background = get_gemma(prompt_background)
+			print(f'\n### Language model answer: {predicted_answer_background} ###\n')
+			qa_pair_copy = deepcopy(qa_pair)
+
+			qa_pair_copy.pr_answer = predicted_answer_background
+
+			# add new qa_pair for output file
+			results_background.append(qa_pair_copy)
+
+			with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\background\\gemsura_{index}.json', 'w', encoding='utf-8') as f:
+				# f.write(overall_template.format(
+				# 	prompt=prompt_background,
+				# 	answer=str(predicted_answer_background),
+				# 	actual_answer=str(qa_pair.answer)
+				# ))
+				dct = {
+					"prompt": prompt_background,
+					"answer": predicted_answer_background,
+					"actual_answer": str(qa_pair.answer),
+					"is_correct": evaluate(qa_pair.answer, predicted_answer_background)
+				}
+				json.dump(dct, f, ensure_ascii=False)
+
+			# evaluate to calculate the accuracy
+			evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
+			# evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
 
 		# except Exception:
 		# 	break
@@ -119,12 +169,10 @@ Answer: '''
 
 	# print(f"Accuracy for infering QA task on {args.model_name}{msg}: {accuracy(evaluated):2f}")
 
-	with open('gemini-webqsp-100-no-knowledge.txt', 'w', encoding='utf-8') as f:
+	with open('gemsura-mintaka-100-no-background-knowledge.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated)))
 
-	return
-
-	with open('gemini-webqsp-100-with-background.txt', 'w', encoding='utf-8') as f:
+	with open('gemsura-mintaka-100-with-background.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated_background)))
 
 	print(f"Accuracy w/o background: {accuracy(evaluated):2f}")
@@ -133,8 +181,8 @@ Answer: '''
 
 
 	# output = args.output if args.output else f"./mintaka_predicted_{args.model_name}_{msg[1:]}.csv"
-	output = "gemini-webqsp-100-no-background.csv"
-	output_background = "gemini-webqsp-100-with-background.csv"
+	output = "gemsura-webqsp-100-no-background.csv"
+	output_background = "gemsura-webqsp-100-with-background.csv"
 
 	print(f"Save results in {output}")
 	with open(output, 'w', encoding='utf-8') as f2w:

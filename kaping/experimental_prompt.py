@@ -3,6 +3,22 @@ from google.generativeai.types import HarmCategory, HarmBlockThreshold
 from langchain_openai import AzureChatOpenAI
 from langchain.schema import SystemMessage, AIMessage, HumanMessage
 from config import DefaultConfig
+import requests
+
+
+def get_gemma(string: str):
+    x = requests.post(
+        'https://ws.gvlab.org/fablab/ura/llama/api/generate',
+        headers={
+            'Content-Type': 'application/json'
+        },
+        json={
+            "inputs": f"<start_of_turn>user\n{string}<end_of_turn>\n<start_of_turn>model\n",
+        }
+    )
+
+    return x.json()['generated_text']
+
 
 CONFIG = DefaultConfig()
 
@@ -98,3 +114,8 @@ def get_background_knowledge(query: str):
 
     # print(triples)
     return triples
+
+
+print(get_gemma(prompt_2.format(
+    query='where george lopez was born?'
+)))
