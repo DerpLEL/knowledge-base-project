@@ -102,7 +102,7 @@ def main():
 		print(f'\n### Language model answer: {predicted_answer} ###\n')
 		qa_pair.pr_answer = predicted_answer
 
-		with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\kaping_webqsp\\gemini_{index}.json', 'w', encoding='utf-8') as f:
+		with open(f'E:\\knowledge-base-project\\kaping\\gemini-result-question-dump\\kaping_webqsp\\gemini_{index}.json', 'w', encoding='utf-8') as f:
 			dct = {
 				"prompt": prompt,
 				"answer": predicted_answer,
@@ -151,7 +151,7 @@ def main():
 		# add new qa_pair for output file
 		results_background.append(qa_pair_copy)
 
-		with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\kaping_background_webqsp\\gemsura_{index}.json', 'w', encoding='utf-8') as f:
+		with open(f'E:\\knowledge-base-project\\kaping\\gemini-result-question-dump\\kaping_background_webqsp\\gemsura_{index}.json', 'w', encoding='utf-8') as f:
 			dct = {
 				"prompt": prompt_background,
 				"answer": predicted_answer_background,
