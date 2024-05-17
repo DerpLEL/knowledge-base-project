@@ -70,17 +70,17 @@ def main():
 
 	# ------- run through each question-answer pair and run KAPING
 	for index, qa_pair in enumerate(dataset[n-1:], n):
-		# try:
-			print(f"{index}. ", args)
-			# run KAPING to create prompt
-			prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
+		print(f"{index}. ", args)
+		# run KAPING to create prompt
+		prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
 
-			# No knowledge
+		# No knowledge
 # 			prompt = f'''Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).
 #
 # Question: {qa_pair.question}
 # Answer: '''
 
+		try:
 			predicted_answer = model.generate_content(
 				prompt,
 				generation_config=genai.types.GenerationConfig(
@@ -94,38 +94,36 @@ def main():
 				}
 			).text
 
-			# Gemma
-			# predicted_answer = get_gemma(prompt)
-			print(f'\n### Language model answer: {predicted_answer} ###\n')
-			qa_pair.pr_answer = predicted_answer
+		except Exception:
+			predicted_answer = "Error"
 
-			with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\kaping_webqsp\\gemini_{index}.json', 'w', encoding='utf-8') as f:
-				# f.write(overall_template.format(
-				# 	prompt=prompt,
-				# 	answer=str(predicted_answer),
-				# 	actual_answer=str(qa_pair.answer)
-				# ))
+		# Gemma
+		# predicted_answer = get_gemma(prompt)
+		print(f'\n### Language model answer: {predicted_answer} ###\n')
+		qa_pair.pr_answer = predicted_answer
 
-				dct = {
-					"prompt": prompt,
-					"answer": predicted_answer,
-					"actual_answer": str(qa_pair.answer),
-					"is_correct": evaluate(qa_pair.answer, predicted_answer)
-				}
-				json.dump(dct, f, ensure_ascii=False)
+		with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\kaping_webqsp\\gemini_{index}.json', 'w', encoding='utf-8') as f:
+			dct = {
+				"prompt": prompt,
+				"answer": predicted_answer,
+				"actual_answer": str(qa_pair.answer),
+				"is_correct": evaluate(qa_pair.answer, predicted_answer)
+			}
+			json.dump(dct, f, ensure_ascii=False)
 
-			# add new qa_pair for output file
-			results.append(qa_pair)
+		# add new qa_pair for output file
+		results.append(qa_pair)
 
-			# evaluate webqsp
-			evaluated.append(evaluate(qa_pair.answer, predicted_answer))
+		# evaluate webqsp
+		evaluated.append(evaluate(qa_pair.answer, predicted_answer))
 
-			# evaluate mintaka
-			# evaluated.append(evaluate(qa_pair.answer['mention'], predicted_answer))
+		# evaluate mintaka
+		# evaluated.append(evaluate(qa_pair.answer['mention'], predicted_answer))
 
-			# time.sleep(5)
+		# time.sleep(5)
 
-			# Gemini
+		# Gemini
+		try:
 			predicted_answer_background = model.generate_content(
 				prompt_background,
 				generation_config=genai.types.GenerationConfig(
@@ -138,40 +136,36 @@ def main():
 					HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
 				}
 			).text
-		
-			# Gemma
-			# predicted_answer_background = get_gemma(prompt_background)
 
-			print(f'\n### Language model answer: {predicted_answer_background} ###\n')
-			qa_pair_copy = deepcopy(qa_pair)
+		except Exception:
+			predicted_answer_background = 'Error'
 
-			qa_pair_copy.pr_answer = predicted_answer_background
+		# Gemma
+		# predicted_answer_background = get_gemma(prompt_background)
 
-			# add new qa_pair for output file
-			results_background.append(qa_pair_copy)
+		print(f'\n### Language model answer: {predicted_answer_background} ###\n')
+		qa_pair_copy = deepcopy(qa_pair)
 
-			with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\kaping_background_webqsp\\gemsura_{index}.json', 'w', encoding='utf-8') as f:
-				# f.write(overall_template.format(
-				# 	prompt=prompt_background,
-				# 	answer=str(predicted_answer_background),
-				# 	actual_answer=str(qa_pair.answer)
-				# ))
-				dct = {
-					"prompt": prompt_background,
-					"answer": predicted_answer_background,
-					"actual_answer": str(qa_pair.answer),
-					"is_correct": evaluate(qa_pair.answer, predicted_answer_background)
-				}
-				json.dump(dct, f, ensure_ascii=False)
+		qa_pair_copy.pr_answer = predicted_answer_background
 
-			# evaluate webqsp
-			evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
-		
-			# evaluate mintaka
-			# evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
+		# add new qa_pair for output file
+		results_background.append(qa_pair_copy)
 
-		# except Exception:
-		# 	break
+		with open(f'E:\\knowledge-base-project\\kaping\\gemsura-result-question-dump\\kaping_background_webqsp\\gemsura_{index}.json', 'w', encoding='utf-8') as f:
+			dct = {
+				"prompt": prompt_background,
+				"answer": predicted_answer_background,
+				"actual_answer": str(qa_pair.answer),
+				"is_correct": evaluate(qa_pair.answer, predicted_answer_background)
+			}
+			json.dump(dct, f, ensure_ascii=False)
+
+		# evaluate webqsp
+		evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
+
+		# evaluate mintaka
+		# evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
+
 
 	msg = ""
 	if args.no_knowledge:

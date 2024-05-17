@@ -194,9 +194,16 @@ class MPNetEntityInjector:
 		:param no_knowledge: if this is True, only add the no_knowledge_prompt only
 		:return:
 		"""
-		background_kg = get_background_knowledge(question)
+		# Gemini background knowledge
+		try:
+			background_kg = get_background_knowledge(question)
+
+		except Exception:
+			background_kg = ''
+
+		# Gemsura background knowledge
 		# background_kg = get_background_knowledge_gemsura(question)
-		# background_kg = ""
+
 		triples_as_str = ', '.join(triples)
 
 		# if no_knowledge:
