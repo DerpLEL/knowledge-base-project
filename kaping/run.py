@@ -72,7 +72,7 @@ def main():
 	for index, qa_pair in enumerate(dataset[n-1:], n):
 		print(f"{index}. ", args)
 		# run KAPING to create prompt
-		prompt, prompt_background = pipeline(args, qa_pair.question, device=args.device)
+		prompt, prompt_background, kaping_triples, background_triples = pipeline(args, qa_pair.question, device=args.device)
 
 		# No knowledge
 # 			prompt = f'''Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).
@@ -106,6 +106,8 @@ def main():
 			dct = {
 				"prompt": prompt,
 				"answer": predicted_answer,
+				"kaping_triples": kaping_triples,
+				"background_triples": background_triples,
 				"actual_answer": str(qa_pair.answer),
 				"is_correct": evaluate(qa_pair.answer, predicted_answer)
 			}
@@ -155,6 +157,8 @@ def main():
 			dct = {
 				"prompt": prompt_background,
 				"answer": predicted_answer_background,
+				"kaping_triples": kaping_triples,
+				"background_triples": background_triples,
 				"actual_answer": str(qa_pair.answer),
 				"is_correct": evaluate(qa_pair.answer, predicted_answer_background)
 			}

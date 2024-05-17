@@ -223,7 +223,7 @@ Answer: """
 Question: {question}
 Answer: """
 
-		return without_background, with_background
+		return without_background, with_background, triples_as_str, background_kg
 
 	def __call__(self, question: list, triples: list, k=10, random=False, no_knowledge=False, with_background=False):
 		"""
@@ -251,8 +251,8 @@ Answer: """
 		
 		print("***** Injection *****")
 		print(top_k_triples)
-		prompt, prompt_background = self.injection(question[0], top_k_triples)
+		prompt, prompt_background, kaping_triples, background_triples = self.injection(question[0], top_k_triples)
 		print(prompt)
 		# create prompt as input
-		return prompt, prompt_background
+		return prompt, prompt_background, kaping_triples, background_triples
 

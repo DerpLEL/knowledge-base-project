@@ -26,8 +26,6 @@ def pipeline(config, question: str, device=-1):
 	"""
 
 	# define 3 steps
-	extractor = RefinedEntityExtractor(device=device)
-	verbalizer = RebelEntityVerbalizer(device=device)
 	injector = MPNetEntityInjector(device=device)
 
 	# retrieve entities from given question
@@ -39,6 +37,9 @@ def pipeline(config, question: str, device=-1):
 			knowledge_triples = json.load(f)
 
 	else:
+		extractor = RefinedEntityExtractor(device=device)
+		verbalizer = RebelEntityVerbalizer(device=device)
+
 		entity_set = extractor(question)
 
 		knowledge_triples = []
