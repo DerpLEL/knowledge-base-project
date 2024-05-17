@@ -203,13 +203,13 @@ class MPNetEntityInjector:
 		# 		return f"{MPNetEntityInjector.no_knowledge_prompt} Question: {question} Answer: "
 		# else:
 		without_background = f"""{MPNetEntityInjector.leading_prompt}
-{triples}
+{triples_as_str}
 
 Question: {question}
 Answer: """
 
 		with_background = f"""{MPNetEntityInjector.leading_prompt}
-{triples}
+{triples_as_str}
 
 {background_kg}
 
