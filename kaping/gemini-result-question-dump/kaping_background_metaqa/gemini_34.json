@@ -1,0 +1,10 @@
+{
+    "question": "the movies that share actors with the movie The Longest Week are directed by who",
+    "topic_entity": "['The Longest Week']",
+    "question_type": "3-hop",
+    "answer": "N/A",
+    "external_triples": "(The Longest Week, genre, comedy-drama film), (The Longest Week, director, Peter Glanz), (The Longest Week, cast member, Jason Bateman), (The Longest Week, cast member, Olivia Wilde), (The Longest Week, cast member, Billy Crudup), (The Longest Week, publication date, 2014), (Rotten Tomatoes, instance of, Review aggregator), (Saved by the Bell, genre, docudrama), (2010s, point in time, 2010), (Conrad Valmont, narrative location, Manhattan)",
+    "background_triples": "- (The Longest Week, Director of The Longest Week, Directors)\n- (The Longest Week, Actors in The Longest Week, Actors)\n- (Directors, Movies directed by the director of The Longest Week, Movies)\n- (Movies directed by the director of The Longest Week, Actors in movies directed by the director of The Longest Week, Actors)\n- (Movies, Movies that share actors with The Longest Week, Movies)",
+    "actual_answer": "['Seth Gordon', 'Will Speck', 'Henry Alex Rubin', 'Peter Billingsley', 'Morgan Spurlock', 'Jason Reitman', 'Josh Gordon', 'David Dobkin', 'Jesse Peretz', 'Neal Israel', 'Mike Judge', 'Jason Bateman', 'Christopher Leitch', 'Peter Berg']",
+    "is_correct": false
+}

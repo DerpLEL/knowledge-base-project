@@ -1,0 +1,402 @@
+[
+    {
+        "question": "who wrote movies together with Gill Dennis",
+        "topic_entity": "['Gill Dennis']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Gill Dennis, date of birth, January 25, 1941), (Gill Dennis, date of death, May 13, 2015), (Kristen Peckinpah Dennis, place of death, Portland, Oregon), (Tom Rickman, educated at, AFI Conservatory), (David Lynch, educated at, AFI Conservatory), (Terrence Malick, educated at, AFI Conservatory), (Caleb Deschanel, educated at, AFI Conservatory), (1940s, point in time, 1940), (2016 Summer Olympics, point in time, 2016)",
+        "background_triples": "- (Gill Dennis, Gill Dennis's co-writers, ?)\n- (Gill Dennis, Movies written by Gill Dennis and another person, ?)\n- (Gill Dennis, People who have collaborated with Gill Dennis on writing movies, ?)\n- (Gill Dennis, Gill Dennis's writing partners, ?)\n- (Gill Dennis, Movies that Gill Dennis co-wrote, ?)",
+        "actual_answer": "['Johnny Cash', 'James Mangold']",
+        "is_correct": false
+    },
+    {
+        "question": "which movies share the same director of Lions for Lambs",
+        "topic_entity": "['Lions for Lambs']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(B, said to be the same as, BS), (BS, said to be the same as, B), (2016 Summer Olympics, point in time, 2016)",
+        "background_triples": "- (Lions for Lambs, Movies directed by Robert Redford, Robert Redford)",
+        "actual_answer": "['The Legend of Bagger Vance', 'Ordinary People', 'The Horse Whisperer', 'The Conspirator', 'Quiz Show', 'The Milagro Beanfield War', 'A River Runs Through It', 'The Company You Keep']",
+        "is_correct": false
+    },
+    {
+        "question": "which person directed the films acted by Shaquille O'Neal",
+        "topic_entity": "[\"Shaquille O'Neal\"]",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Shaquille O'Neal, position played on team / speciality, low post), (Shaq, sport, basketball), (Shaq, league, National Basketball Association), (Kazaam, cast member, O'Neal), (Upload with Shaquille O'Neal, original broadcaster, TruTV), (Shaq's Fun House, inception, 2018), (Shaq, date of birth, March 6, 1972), (Shaq Fu, instance of, nicknames), (Blue Chips, cast member, O'Neal), (O'Neal, position played on team / speciality, big men)",
+        "background_triples": "- (Shaquille O'Neal, Actor, Films)\n- (Films, Director, Director)",
+        "actual_answer": "['Kenneth Johnson']",
+        "is_correct": false
+    },
+    {
+        "question": "what were the release years the films written by Catherine Storr",
+        "topic_entity": "['Catherine Storr']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Marianne Dreams, author, Catherine Storr, Baroness Balogh), (Catherine Storr, Baroness Balogh, date of death, 8 January 2001), (Catherine Storr, Baroness Balogh, date of birth, 21 July 1913), (Clever Polly and the Stupid Wolf, author, Catherine Storr, Baroness Balogh), (Anthony Storr, child, Polly), (Anthony Storr, child, Sophia), (Polly, creator, Storr's), (Storr, date of death, January 2001), (Anthony Storr, child, Emma), (Paperhouse, based on, Marianne Dreams)",
+        "background_triples": "- (Catherine Storr, Films written by Catherine Storr, Films)\n- (Films, Release years of films written by Catherine Storr, Release years)",
+        "actual_answer": "['1988']",
+        "is_correct": false
+    },
+    {
+        "question": "which person directed the movies written by Bruce Willis",
+        "topic_entity": "['Bruce Willis']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Bruce Willis, date of birth, March 19, 1955), (Die Hard, cast member, Bruce Willis), (Walter Bruce Willis, date of birth, March 19, 1955), (John McClane, performer, Bruce Willis), (Walter Bruce Willis, place of birth, Idar-Oberstein), (Moonlighting, cast member, Bruce Willis), (Die Hard with a Vengeance, follows, Die Hard 2), (Die Hard 2, follows, Die Hard), (Out of Death, director, Mike Burns), (Armageddon, director, Michael Bay)",
+        "background_triples": "- (Bruce Willis, written by, Movies)\n- (Movies, directed by, Director)",
+        "actual_answer": "['Michael Lehmann']",
+        "is_correct": false
+    },
+    {
+        "question": "who wrote films together with Ravi Kumar",
+        "topic_entity": "['Ravi Kumar']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Ravi Kumar, place of birth, Trichur), (Ullasa Yaathra, cast member, Ravi Kumar Menon), (This article about an Indian actor, instance of, stub), (2016 Summer Olympics, point in time, 2016)",
+        "background_triples": "- (Ravi Kumar, Ravi Kumar's co-writers, ?)\n- (Ravi Kumar, Films written by Ravi Kumar and another person, ?)\n- (Ravi Kumar, Collaborators of Ravi Kumar, ?)\n- (Ravi Kumar, Writers who have worked with Ravi Kumar, ?)\n- (Ravi Kumar, Co-authors of Ravi Kumar, ?)",
+        "actual_answer": "['George Augusto', 'Phil Dornfeld']",
+        "is_correct": false
+    },
+    {
+        "question": "which films have the same actor of The Butterfly Effect",
+        "topic_entity": "['The Butterfly Effect']",
+        "question_type": "2-hop",
+        "answer": "Error",
+        "external_triples": "(The Butterfly Effect, cast member, William Lee Scott), (The Butterfly Effect, cast member, Logan Lerman), (The Butterfly Effect, cast member, Ashton Kutcher), (The Butterfly Effect, cast member, Elden Henson), (The Butterfly Effect, cast member, Eric Stoltz), (The Butterfly Effect, cast member, Ethan Suplee), (The Butterfly Effect, cast member, Melora Walters), (The Butterfly Effect, cast member, Amy Smart), (The Butterfly Effect, director, Eric Bress), (The Butterfly Effect 3, distributed by, After Dark Films)",
+        "background_triples": "- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Ashton Kutcher)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Amy Smart)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Elden Henson)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, William Lee Scott)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Eric Stoltz)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, John Patrick Amedori)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Kevin Durand)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Melora Walters)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Irene Gorovaia)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Ethan Suplee)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Jesse James)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Logan Lerman)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Sarah Lind)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Kevin G. Schmidt)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Shane Brolly)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, David Moscow)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Eric Lively)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Robert Patrick)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Amy Locane)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Jason Ritter)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Michael Rosenbaum)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Taryn Manning)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Shia LaBeouf)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, D.B. Sweeney)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Rachael Leigh Cook)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Michelle Williams)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, James Franco)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Seth Rogen)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Jonah Hill)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Paul Rudd)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Steve Carell)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Will Ferrell)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Ben Stiller)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Owen Wilson)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Vince Vaughn)\n- (The Butterfly Effect, Films with the same actors as The Butterfly Effect, Jack Black)",
+        "actual_answer": "[\"Dude, Where's My Car?\", 'Idle Hands', 'Personal Effects', 'Spread', 'Dead Awake', 'The Guardian', 'Jobs', 'No Strings Attached', 'Just Friends', 'Killers', 'Crank', 'Columbus Circle', 'Open Season', 'What Happens in Vegas', 'The Battle of Shaker Heights', '12 Dates of Christmas', 'Just Married', 'The Single Moms Club', 'Life in Flight', \"My Boss's Daughter\", 'Bad Country', 'Guess Who']",
+        "is_correct": false
+    },
+    {
+        "question": "what were the release years of the movies acted by Cab Calloway",
+        "topic_entity": "['Cab Calloway']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Cabell Calloway, genre, jazz), (Cab Calloway's Hi-De-Ho, publication date, 1933), (Cab Calloway and His Orchestra, inception, 1930), (Cabell Calloway, date of birth, December 25, 1907), (Cabell Calloway III, date of birth, December 25, 1907), (Cabell Calloway, date of death, November 18, 1994), (Cab Calloway's Cat-ologue, publication date, 1938), (Cab Calloway Museum, inception, 1994), (Cab Calloway School of the Arts, inception, 1992), (Cabell Calloway III, place of birth, Rochester, New York)",
+        "background_triples": "- (Cab Calloway, Movies acted by Cab Calloway, Movies)\n- (Movies, Release years of movies acted by Cab Calloway, Release years)",
+        "actual_answer": "['1980']",
+        "is_correct": false
+    },
+    {
+        "question": "who co-wrote films with Kanae Minato",
+        "topic_entity": "['Kanae Minato']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Kanae Minato, date of birth, 1973), (Minato's Confessions, publication date, August 2014), (Keigo Higashino, genre, mystery novel), (Yukito Ayatsuji, genre, mystery novel), (Edogawa Ranpo, genre, mystery novel), (Miyuki Miyabe, genre, mystery novel), (Confessions, award received, Japanese Booksellers Award), (Iyamisu, subclass of, mystery fiction), (Agatha Christie, genre, mystery novel), (Confessions, publication date, 2014)",
+        "background_triples": "- (Kanae Minato, Co-writers of Kanae Minato, Co-writers of Kanae Minato's films)",
+        "actual_answer": "['Tetsuya Nakashima']",
+        "is_correct": false
+    },
+    {
+        "question": "who are co-stars of Joel McHale",
+        "topic_entity": "['Joel McHale']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(The Joel McHale Show with Joel McHale, presenter, Joel McHale), (Joel Edward McHale, date of birth, November 20, 1971), (Community, cast member, Joel Edward McHale), (Jeffrey \"Jeff\" Winger, performer, Joel Edward McHale), (Community, characters, Jeffrey \"Jeff\" Winger), (Live with Kelly, presenter, Kelly Ripa), (Jeffrey \"Jeff\" Winger, present in work, Community), (The Soup, original broadcaster, E!), (Stargirl, original broadcaster, The CW), (Blurred Lines, performer, Robin Thicke)",
+        "background_triples": "- (Joel McHale, Co-stars of Joel McHale, ?)",
+        "actual_answer": "['Seth MacFarlane', 'Mark Wahlberg', 'Mike Epps', 'Mila Kunis']",
+        "is_correct": false
+    },
+    {
+        "question": "the movies starred by Paresh Rawal were directed by who",
+        "topic_entity": "['Paresh Rawal']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Paresh Rawal, award received, National Film Award for Best Supporting Actor), (Filmfare Award for Best Performance in a Negative Role, winner, Paresh Rawal), (Paresh Rawal, award received, Filmfare Award for Best Performance in a Negative Role), (Sir, cast member, Paresh Rawal), (Woh Chokri, cast member, Paresh Rawal), (Aankhen, cast member, Arjun Rampal), (Hera Pheri, cast member, Akshay Kumar), (Andaz Apna Apna, cast member, Sunil Shetty), (Paresh Rawal, date of birth, 30 May 1955), (Hera Pheri, cast member, Sunil Shetty)",
+        "background_triples": "- (Paresh Rawal, actor, Movies)\n- (Movies, starred in, Paresh Rawal)\n- (Movies, directed, Directors)",
+        "actual_answer": "['Aditya Datt', 'R. Balki']",
+        "is_correct": false
+    },
+    {
+        "question": "who is listed as director of Dennis Kelly written films",
+        "topic_entity": "['Dennis Kelly']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Dennis Kelly, country of citizenship, British), (Osama the Hero, production company, Hampstead Theatre), (The Seagull, author, Anton Chekov), (Anton Chekov, notable work, The Seagull), (Pinocchio, derivative work, Walt Disney film), (Pulling, cast member, Sharon Horgan), (Matilda the Musical, composer, Tim Minchin), (Matilda, librettist, Roald Dahl), (Fourth Gate, author, Péter Kárpáti), (Traverse Theatre, location, Edinburgh)",
+        "background_triples": "- (Dennis Kelly, Director, Films)\n- (Films, Director, Dennis Kelly)",
+        "actual_answer": "['Kevin Macdonald']",
+        "is_correct": false
+    },
+    {
+        "question": "who are co-stars of Göran Ragnerstam",
+        "topic_entity": "['Göran Ragnerstam']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Axel Ragnerstam, place of birth, Stockholm), (This article about a Swedish actor, instance of, stub), (Axel Ragnerstam, date of birth, 7 November 1957), (Bunny Ragnerstam, relative, Carina Boberg), (NAMA, located in the administrative territorial entity, Malmö)",
+        "background_triples": "- (Göran Ragnerstam, Co-stars of Göran Ragnerstam, ?)",
+        "actual_answer": "['Fares Fares', 'Sissela Kyle', 'Torkel Petersson']",
+        "is_correct": false
+    },
+    {
+        "question": "who are the directors of the movies written by the writer of Zack and Miri Make a Porno",
+        "topic_entity": "['Zack and Miri Make a Porno']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Zack and Miri Make a Porno, director, Kevin Smith), (Zack and Miri Make a Porno, publication date, 2008), (Zack and Miri Make a Porno, cast member, Seth Rogen), (Zack and Miri Make a Porno, cast member, Elizabeth Banks), (Zack and Miri Make a Porno, cast member, Justin Long), (Zack and Miri Make Your Porno, cast member, Miri), (Zack and Miri Make Your Porno, cast member, Zack), (Zack and Miri, cast member, Seth Rogen), (Zack and Miri, cast member, Elizabeth Banks), (Zack and Miri, genre, romantic-comedy)",
+        "background_triples": "- (Zack and Miri Make a Porno, Directors of Zack and Miri Make a Porno, Kevin Smith)\n- (Zack and Miri Make a Porno, Writer of Zack and Miri Make a Porno, Kevin Smith)\n- (Kevin Smith, Movies written by the writer of Zack and Miri Make a Porno, Zack and Miri Make a Porno)\n- (Zack and Miri Make a Porno, Directors of movies written by the writer of Zack and Miri Make a Porno, Kevin Smith)",
+        "actual_answer": "['Kevin Smith']",
+        "is_correct": false
+    },
+    {
+        "question": "what are the languages spoken in the movies whose actors also appear in Nobody Walks",
+        "topic_entity": "['Nobody Walks']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Nobody Walks, genre, drama film), (Nobody Walks, director, Ry Russo-Young), (Nobody Walks, publication date, 2012), (American film of the 2010s, point in time, 2010), (Magnolia Pictures, product or material produced, VOD), (2012 Sundance Film Festival, point in time, 2012), (score, publisher, Rotten Tomatoes), (This article about an independent drama film, instance of, stub), (Lena Dunham, spouse, John Krasinski), (2016 Summer Olympics, point in time, 2016)",
+        "background_triples": "- (Nobody Walks, Movies that share actors with Nobody Walks, ?)\n- (?, Actors who appear in Nobody Walks and other movies, ?)\n- (?, Languages spoken in movies that share actors with Nobody Walks, ?)\n- (?, Languages spoken in movies that feature actors from Nobody Walks, ?)\n- (?, Movies that feature actors from Nobody Walks and their languages, ?)\n- (?, Actors who appear in Nobody Walks and their native languages, ?)\n- (?, Languages spoken in movies that feature actors who also appear in Nobody Walks, ?)",
+        "actual_answer": "['Russian']",
+        "is_correct": false
+    },
+    {
+        "question": "what languages are the films that share actors with The Robe in",
+        "topic_entity": "['The Robe']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(types of robes, subclass of, robes), (English, has part, Middle English), (Middle English, subclass of, English)",
+        "background_triples": "- (films, Films that share actors with The Robe, films)\n- (films, Languages of films that share actors with The Robe, languages)",
+        "actual_answer": "['German', 'French', 'English']",
+        "is_correct": false
+    },
+    {
+        "question": "the films written by the screenwriter of Mimino were directed by who",
+        "topic_entity": "['Mimino']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Mimino, director, Georgiy Daneliya), (Mimino, production company, Mosfilm), (Mimino, cast member, Vakhtang Kikabidze), (Mimino, cast member, Frunzik Mkrtchyan), (Mimino, publication date, 1977), (Mimino, narrative location, Moscow), (10th Moscow International Film Festival, point in time, 1977), (Valiko Mizandari, place of birth, Telavi), (Minimo, publication date, 1977), (Moscow, twinned administrative body, Tbilisi)",
+        "background_triples": "- (Mimino, screenwriter of Mimino, Screenwriter of Mimino)\n- (Screenwriter of Mimino, films written by the screenwriter of Mimino, Films written by the screenwriter of Mimino)\n- (Films written by the screenwriter of Mimino, director of Mimino, Directors of the films written by the screenwriter of Mimino)",
+        "actual_answer": "['Georgiy Daneliya']",
+        "is_correct": false
+    },
+    {
+        "question": "the films that share actors with the film Ice Castles are written by who",
+        "topic_entity": "['Ice Castles']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Ice Castles, director, Donald Wrye), (Ice Castles, cast member, Colleen Dewhurst), (Ice Castles, cast member, Jennifer Warren), (Ice Castles, cast member, Lynn-Holly Johnson), (Ice Castles, cast member, Dewhurst), (Ice Castles, cast member, Robby Benson), (Ice Castles, cast member, Skerrit), (Ice Castles, publication date, 1978), (skating movie, main subject, romantics), (namesake film, cast member, Rob Mayes)",
+        "background_triples": "(films that share actors with the film Ice Castles, writers, writers of films that share actors with the film Ice Castles)",
+        "actual_answer": "['Jean Cocteau', 'Roger Allers', 'Arthur Barron', 'Jerry Segal', 'Christophe Gans', 'Linda Woolverton', 'Robby Benson']",
+        "is_correct": false
+    },
+    {
+        "question": "when did the movies release whose directors also directed Pork Chop Hill",
+        "topic_entity": "['Pork Chop Hill']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Pork Chop Hill, cast member, Gregory Peck), (Pork Chop Hill, after a work by, S.L.A. Marshall), (Pork Chop Hill, point in time, 18 April), (Pork Chop Hill, cast member, Rip Torn), (Pork Chop Hill, publication date, 1959), (Battle of Pork Chop Hill, point in time, July 11, 1953), (April assault, location, Pork Chop), (Battle of Pork Chop Hill, part of, Korean War), (US 2nd Infantry Division, has part, 21st Thai Regiment), (21st Thai Regiment, part of, US 2nd Infantry Division)",
+        "background_triples": "- (Movies directed by Pork Chop Hill directors, Release dates of movies directed by Pork Chop Hill directors, ?)\n- (Directors who directed both Pork Chop Hill and other movies, Movies directed by directors who also directed Pork Chop Hill, ?)\n- (Movies directed by directors who also directed Pork Chop Hill, Release dates of movies directed by directors who also directed Pork Chop Hill, ?)",
+        "actual_answer": "['1948', '1992', '1979', '1943', '1946', '1974', '1960', '1962', '1945', '1932', '1931', '1930', '1951', '1936', '1935', '1927', '1928', '1939', '2010', '2001']",
+        "is_correct": false
+    },
+    {
+        "question": "who is listed as screenwriter of the films directed by the Happy Tears director",
+        "topic_entity": "['Happy Tears']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Happy Tears, cast member, Sebastian Roché), (Happy Tears, cast member, Demi Moore), (Happy Tears, cast member, Ellen Barkin), (Happy Tears, cast member, Parker Posey), (Happy Tears, cast member, Billy Magnussen), (Happy Tears, publication date, 2009), (Happy Tears, cast member, Rip Torn), (Roger Ebert, employer, Chicago Sun-Times), (Leslie Felperin, employer, Variety magazine), (Melissa Anderson, employer, The Village Voice)",
+        "background_triples": "- (Happy Tears director, Director of, films)\n- (films, Screenwriter of, screenwriter)",
+        "actual_answer": "['Mitchell Lichtenstein']",
+        "is_correct": false
+    },
+    {
+        "question": "when did the films starred by The Cheap Detective actors release",
+        "topic_entity": "['The Cheap Detective']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(The Cheap Detective, director, Robert Moore), (The Cheap Detective, screenwriter, Neil Simon), (The Cheap Detective, publication date, 1978), (The Maltese Falcon, cast member, Humphrey Bogart), (Stockard Channing, cast member, Dom DeLuise), (Stockard Channing, cast member, John Houseman), (Stockard Channing, cast member, Abe Vigoda), (Casablanca, cast member, Humphrey Bogart), (Stockard Channing, cast member, Scatman), (Stockard Channing, cast member, James Coco)",
+        "background_triples": "- (films starred by The Cheap Detective actors, release dates, release dates of films starred by The Cheap Detective actors)",
+        "actual_answer": "['1986', '1987', '1985', '1968', '1969', '1981', '1965', '1966', '1967', '1960', '1963', '2014', '1995', '1979', '1978', '1976', '1970', '2002', '2003', '2000', '2001', '2006']",
+        "is_correct": false
+    },
+    {
+        "question": "who directed films that share actors with the film American Roulette",
+        "topic_entity": "['American Roulette']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "",
+        "background_triples": "- (American Roulette, Films that share actors with American Roulette, Films that share actors with American Roulette)\n- (Films that share actors with American Roulette, Directors of films that share actors with American Roulette, Directors of films that share actors with American Roulette)",
+        "actual_answer": "['Raymond De Felitta', 'Jieho Lee', 'Tom McLoughlin', 'Steven Lisberger', 'George Hickenlooper', 'John Kent Harrison', 'Anthony Hopkins']",
+        "is_correct": false
+    },
+    {
+        "question": "who wrote movies together with Alvin Sargent",
+        "topic_entity": "['Alvin Sargent']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Alvin Sargent, award received, Academy Awards for Best Adapted Screenplay), (Alvin Sargent, notable work, Ordinary People), (Alvin Sargent, date of birth, April 12, 1927), (Alvin Sargent, notable work, Julia), (Julia, screenwriter, Alvin Sargent), (Alvin Sargent, place of birth, Philadelphia, Pennsylvania), (Ordinary People, screenwriter, Alvin Sargent), (Alvin Sargent, date of death, May 9, 2019), (Herb Sargent, sibling, Laura Ziskin), (Sargent, date of death, May 9, 2019)",
+        "background_triples": "- (Alvin Sargent, Alvin Sargent's writing partners, Writers who collaborated with Alvin Sargent)\n- (Writers who collaborated with Alvin Sargent, Movies written by Alvin Sargent and his writing partners, Movies written by Alvin Sargent and his writing partners)",
+        "actual_answer": "['Lillian Hellman', 'Glenn Savan', 'Erick Zonca', 'Miles Millar', 'William Broyles Jr.', 'Sam Raimi', 'Alfred Gough', 'James Vanderbilt', 'Michael Chabon', 'Judith Guest', 'Ethan Coen', 'Jack Davies', 'John Nichols', 'Sidney Carroll', 'Paul Zindel', 'Jerry Sterner', 'Darryl Ponicsan', 'Steve Kloves', 'Joe David Brown', 'Ted Tally', 'Tom Topor', 'Ivan Raimi', 'Claude Chabrol']",
+        "is_correct": false
+    },
+    {
+        "question": "who are the writers that the actors in their films also appear in the film Higher Ground",
+        "topic_entity": "['Higher Ground']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Higher Ground, screenwriter, Tim Metcalfe), (Higher Ground, director, Vera Farmiga), (Higher Ground, producer, Jon Rubinstein), (Higher Ground, cast member, Joshua Leonard), (With Higher Ground, director, Vera Farmiga), (Higher Ground, cast member, John Hawkes), (Higher Ground, cast member, Bill Irwin), (Higher Ground, cast member, Norbert Leo Butz), (Higher Ground, producer, Carly Hugo), (Higher Ground, cast member, Donna Murphy)",
+        "background_triples": "- (Actors in Higher Ground, Films that actors in Higher Ground also appeared in, Higher Ground)\n- (Writers of Higher Ground, Films that writers in Higher Ground also appeared in, Higher Ground)\n- (Actors in Higher Ground, Actors who worked with writers in Higher Ground, Writers of Higher Ground)\n- (Writers of Higher Ground, Writers who worked with actors in Higher Ground, Actors in Higher Ground)",
+        "actual_answer": "['Mark Poirier', 'Adam Rodgers', 'Debra Granik', 'Greg Pritikin', 'George Ratliff', 'David Dobkin', 'Nae Caranfil', 'Ben Ripley', 'Glenn German']",
+        "is_correct": false
+    },
+    {
+        "question": "who starred in the films whose directors also directed Water for Elephants",
+        "topic_entity": "['Water for Elephants']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Water for Elephants, screenwriter, Richard LaGravenese), (Water for Elephants, director, Francis Lawrence), (Water for Elephants, cast member, Christoph Waltz), (Water for Elephants, cast member, Reese Witherspoon), (Water for Elephants, cast member, Hal Holbrook), (Water for Elephants, cast member, Robert Pattinson), (Water for Elephants, publication date, 2011), (Tai's, participant in, Water for Elephants), (Water for Elephants, publication date, April 22, 2011), (Rosie, present in work, Water for Elephants)",
+        "background_triples": "- (Reese Witherspoon, Actors who starred in films directed by Francis Lawrence, Water for Elephants)\n- (Christoph Waltz, Actors who starred in films directed by Francis Lawrence, Water for Elephants)\n- (Robert Pattinson, Actors who starred in films directed by Francis Lawrence, Water for Elephants)\n- (Francis Lawrence, Films directed by Francis Lawrence, Water for Elephants)\n- (Richard LaGravenese, Directors who directed Water for Elephants, Water for Elephants)\n- (Reese Witherspoon, Actors who starred in films directed by directors who also directed Water for Elephants, Water for Elephants)\n- (Christoph Waltz, Actors who starred in films directed by directors who also directed Water for Elephants, Water for Elephants)\n- (Robert Pattinson, Actors who starred in films directed by directors who also directed Water for Elephants, Water for Elephants)",
+        "actual_answer": "['Keanu Reeves', 'Rachel Weisz', 'Djimon Hounsou', 'Shia LaBeouf', 'Will Smith']",
+        "is_correct": false
+    },
+    {
+        "question": "when did the films starred by 12 Years a Slave actors release",
+        "topic_entity": "['12 Years a Slave']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(12 Years a Slave, genre, drama film), (Twelve Years a Slave, genre, drama film), (12 Years a Slave, distributed by, Fox Searchlight Pictures), (12 Years a Slave, nominated for, Best Picture), (12 Years a Slave, production company, New Regency Productions), (12 Years a Slave, distributed by, Fox Searchlight), (12 Years a Slave, genre, biographical), (Twelve Years a Slave, genre, biographical), (12 Years a Slave, director, Steve McQueen), (Twelve Years a Slave, director, Steve McQueen)",
+        "background_triples": "",
+        "actual_answer": "['1932', '2007', '2004', '2008', '2009', '2010', '2013']",
+        "is_correct": false
+    },
+    {
+        "question": "the films that share directors with the film Ice Station Zebra were released in which years",
+        "topic_entity": "['Ice Station Zebra']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Ice Station Zebra, director, John Sturges), (Ice Station Zebra, director, John Carpenter), (Ice Station Zebra, nominated for, Best Cinematography), (Ice Station Zebra, cast member, Ernest Borgnine), (Ice Station Zebra, nominated for, Best Special Visual Effects), (Ice Station Zebra, cast member, Howard Hughes), (Ice Station Zebra, cast member, Jim Brown), (Ice Station Zebra, cast member, Rock Hudson), (Ice Station Zebra, cast member, Patrick McGoohan), (Ice Station Zebra, location, Arctic)",
+        "background_triples": "- (Ice Station Zebra, Films directed by, Directors)\n- (Directors, Films directed by, Films)\n- (Films, Films released in, Years)",
+        "actual_answer": "['1955', '1949', '1969', '1965', '1967', '1960', '1972', '1963', '1935', '1957', '1956', '1951', '1950', '1953', '1976', '1959', '1958', '1974']",
+        "is_correct": false
+    },
+    {
+        "question": "the movies that share actors with the movie The Longest Week are directed by who",
+        "topic_entity": "['The Longest Week']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(The Longest Week, genre, comedy-drama film), (The Longest Week, director, Peter Glanz), (The Longest Week, cast member, Jason Bateman), (The Longest Week, cast member, Olivia Wilde), (The Longest Week, cast member, Billy Crudup), (The Longest Week, publication date, 2014), (Rotten Tomatoes, instance of, Review aggregator), (Saved by the Bell, genre, docudrama), (2010s, point in time, 2010), (Conrad Valmont, narrative location, Manhattan)",
+        "background_triples": "- (The Longest Week, Director of The Longest Week, Directors)\n- (The Longest Week, Actors in The Longest Week, Actors)\n- (Directors, Movies directed by the director of The Longest Week, Movies)\n- (Movies directed by the director of The Longest Week, Actors in movies directed by the director of The Longest Week, Actors)\n- (Movies, Movies that share actors with The Longest Week, Movies)",
+        "actual_answer": "['Seth Gordon', 'Will Speck', 'Henry Alex Rubin', 'Peter Billingsley', 'Morgan Spurlock', 'Jason Reitman', 'Josh Gordon', 'David Dobkin', 'Jesse Peretz', 'Neal Israel', 'Mike Judge', 'Jason Bateman', 'Christopher Leitch', 'Peter Berg']",
+        "is_correct": false
+    },
+    {
+        "question": "what languages are the films that share directors with Outrageous Fortune in",
+        "topic_entity": "['Outrageous Fortune']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Outrageous Fortune, director, Arthur Hiller), (Outrageous Fortune, genre, comedy film), (Outrageous Fortune, screenwriter, Leslie Dixon), (Outrageous Fortune, distributed by, Touchstone Pictures), (Outrageous Fortune, production company, Disney), (Outrageous Fortune, cast member, Shelley Long), (Outrageous Fortune, cast member, Bette Midler), (Outrageous Fortune, cast member, Suzanne Somers), (Outrageous Fortune, publication date, 1987), (Rotten Tomatoes, instance of, review aggregator)",
+        "background_triples": "- (Outrageous Fortune, Directors of Outrageous Fortune, Directors)\n- (Directors, Films that share directors with Outrageous Fortune, Films)\n- (Films, Languages of films directed by directors of Outrageous Fortune, Languages)",
+        "actual_answer": "['German', 'English', 'Italian']",
+        "is_correct": false
+    },
+    {
+        "question": "when did the films directed by the Still Alice director release",
+        "topic_entity": "['Still Alice']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Still Alice, genre, drama film), (Still Alice, screenwriter, Lisa Genova), (Still Alice, cast member, Julianne Moore), (Still Alice, cast member, Kate Bosworth), (Still Alice, cast member, Kristen Stewart), (Still Alice, cast member, Alec Baldwin), (Still Alice, award received, Academy Award for Best Actress), (Still Alice, cast member, Hunter Parrish), (Still Alice, composer, Ilan Eshkeri), (Still Alice, publication date, 2014)",
+        "background_triples": "- (Still Alice, Films directed by the Still Alice director, The Last of Robin Hood)\n- (Still Alice, Films directed by the Still Alice director, Quinceañera)\n- (Still Alice, Films directed by the Still Alice director, The Fluffer)\n- (Still Alice, Films directed by the Still Alice director, The Trials of Cate McCall)\n- (Still Alice, Films directed by the Still Alice director, 28 Hotel Rooms)\n- (Still Alice, Films directed by the Still Alice director, The Freebie)\n- (Still Alice, Films directed by the Still Alice director, The Girl)\n- (Still Alice, Films directed by the Still Alice director, The Other Side of the Door)\n- (Still Alice, Films directed by the Still Alice director, The Man Who Invented Christmas)\n- (Still Alice, Films directed by the Still Alice director, The Upside)\n- (Richard Glatzer, Still Alice director, True)\n- (Wash Westmoreland, Still Alice director, True)",
+        "actual_answer": "['2001', '2006', '2013']",
+        "is_correct": false
+    },
+    {
+        "question": "who is listed as screenwriter of the films starred by The Boob actors",
+        "topic_entity": "['The Boob']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(The Boob, director, William A. Wellman), (The Boob, cast member, George K. Arthur), (The Boob, cast member, Gertrude Olmstead), (The Boob, cast member, Joan Crawford), (The Boob, genre, romantic comedy), (The Boob, cast member, Antonio D'Algy), (The Boob, genre, silent), (Library of Congress, owner of, The Boob), (The Boob, publication date, 1926), (The Boob, owned by, Library of Congress)",
+        "background_triples": "- (The Boob actors, Films starred by The Boob actors, Films)\n- (Films, Screenwriter of the films starred by The Boob actors, Screenwriter)",
+        "actual_answer": "['Edward Barry Roberts', 'James M. Cain', 'Elizabeth Janeway', 'William P. McGivern', 'Ursula Curtiss', 'Edna L. Lee', 'Jerry Paris', 'Roy Chanslor', 'Joseph L. Mankiewicz', 'James Gunn', 'Silvia Richards', 'Jane Murfin', 'Clare Boothe Luce', 'Ben Ames Williams', 'Ferenc Molnár', 'Robert Bloch', 'Edgar Selwyn', 'Tod Browning', 'William H. Macy', 'Lawrence Hazard', 'Lenore J. Coffee', 'Lucien Hubbard', 'Diane English', 'Ted Shane', 'Helen MacInnes', 'George Worthing Yates', 'Dariel Telfer', 'S.K. Lauren', 'Jean Rouverol', 'Jack Jevne', 'Robert Smith', 'Zachary Gold', 'Bernard Girard', 'Lukas Heller', 'Charles MacArthur', 'Ranald MacDougall', 'Frederick Lonsdale', 'Fannie Hurst', 'Philip Yordan', 'Ainsworth Morgan', 'Nicholas Monsarrat', 'Thomas B. Allen', 'A. Carter Goodloe', 'Rachel Crothers', 'Hugo Butler', 'Anita Loos', 'Aben Kandel', 'Peter Bryan', 'Rita Weiman', 'Samuel Hopkins Adams', 'Jan Lustig', 'Stephen Morehouse Avery', 'John Michael Hayes', 'Edna Sherry', 'Henry F. Greenberg', 'James Warner Bellah', 'Richard Sale', 'Edward Rugoff', 'Charles Kaufman', 'George Kelly', 'David Hertz', 'Clifford Odets', 'Robert Wilder', 'John Gilling', 'Michael Gottlieb', 'Bayard Veiller', 'Francis de Croisset', 'Donald Ogden Stewart', 'Hall Bartlett', 'Henry Farrell']",
+        "is_correct": false
+    },
+    {
+        "question": "who acted in the films written by the screenwriter of I Can Get It for You Wholesale",
+        "topic_entity": "['I Can Get It for You Wholesale']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(I Can Get It for You Wholesale, screenwriter, Abraham Polonsky), (I Can Get It for You Wholesale, director, Michael Gordon), (I Can Get It for You Wholesale, genre, romantic drama film), (I Can Get It for You Wholesale, after a work by, Jerome Weidman), (I Can Get It for You Wholesale, publication date, 1951), (Susan Hayward, employer, Twentieth Century Fox), (Abraham Polonsky, occupation, screenwriter), (Sherboyco Dresses, narrative location, New York City), (Teddy, spouse, Teddy), (Sam, spouse, Teddy)",
+        "background_triples": "- (I Can Get It for You Wholesale, Films written by the screenwriter of I Can Get It for You Wholesale, films)\n- (films, Actors who acted in those films, actors)",
+        "actual_answer": "['Richard Conte', 'Mitzi Gaynor', 'Anne Revere', 'Kay Kendall', 'John Garfield', 'Jim Hutton', 'Jeanne Crain', 'Janis Paige', 'Gene Tierney', 'Lana Turner', 'Luis Alberni', 'Kirk Douglas', 'Clifton Webb', 'Dana Andrews', 'Richard Widmark', 'Harry Belafonte', 'Taina Elg', 'Ann Sothern', 'Lilli Palmer', 'Vincent Price', 'Hazel Brooks', 'Marlene Dietrich', 'Murvyn Vye', 'Gene Kelly', 'Edward G. Robinson', 'Linda Darnell', 'Bob Hope', 'Jean Arthur', 'Ray Milland', 'Henry Fonda', 'Edward Arnold', 'Susan Hayward']",
+        "is_correct": false
+    },
+    {
+        "question": "the movies that share writers with the movie Unstoppable were released in which years",
+        "topic_entity": "['Unstoppable']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(Unstoppable, screenwriter, Mark Bomback), (Unstoppable, director, Tony Scott), (Unstoppable, director, Martin Campbell), (Unstoppable, genre, action thriller film), (Unstoppable, cast member, Chris Pine), (Unstoppable, cast member, Denzel Washington), (Unstoppable, publication date, 2010), (Unstoppable, publication date, 2008), (Unstoppable, publication date, February 15, 2011), (Unstoppable, publication date, November 12, 2010)",
+        "background_triples": "- (Unstoppable, Writers of Unstoppable, Writers)\n- (Writers, Movies written by writers of Unstoppable, Movies)\n- (Movies written by writers of Unstoppable, Release years of movies written by writers of Unstoppable, Years)",
+        "actual_answer": "['1990', '1946', '2014', '2008', '2013', '2012']",
+        "is_correct": false
+    },
+    {
+        "question": "which person wrote the films directed by Rodrigo Cortés",
+        "topic_entity": "['Rodrigo Cortés']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Buried, director, Rodrigo Cortés), (Rodrigo Cortés, place of birth, Pazos Hermos), (Rodrigo Cortés, date of birth, 31 May 1973), (This article about a Spanish film director, instance of, stub), (Spielberg films, instance of, studio pictures), (Scorsese films, instance of, studio pictures), (Down a Dark Hall, producer, Stephenie Meyer), (Down a Dark Hall, screenwriter, Chris Sparling), (Red Lights, cast member, Robert De Niro), (Buried, cast member, Ryan Reynolds)",
+        "background_triples": "- (Rodrigo Cortés, Director, Rodrigo Cortés)\n- (Rodrigo Cortés, Writer, Rodrigo Cortés)\n- (Rodrigo Cortés, Writer, Chris Sparling)\n- (Rodrigo Cortés, Writer, Anthony McCarten)\n- (Rodrigo Cortés, Writer, David Safier)\n- (Rodrigo Cortés, Writer, Patxi Amezcua)\n- (Rodrigo Cortés, Writer, Sergio G. Sánchez)",
+        "actual_answer": "['Chris Sparling', 'Georges Simenon', 'Cédric Kahn']",
+        "is_correct": false
+    },
+    {
+        "question": "what are the genres of the films whose directors also directed The Devil Wears Prada",
+        "topic_entity": "['The Devil Wears Prada']",
+        "question_type": "3-hop",
+        "answer": "N/A",
+        "external_triples": "(The Devil Wears Prada, genre, comedy-drama), (The Devil Wears Prada, director, David Frankel), (The Devil Wears Prada, screenwriter, Aline Brosh McKenna), (The Devil Wears Prada, different from, Superman Returns), (The Devil Wears Prada, publication date, 2006), (The Devil Wears Prada, nominated for, Academy Award for Best Actress), (The Devil Wears Prada, cast member, Anne Hathaway), (The Devil Wears Prada, after a work by, Anna Wintour), (The Devil Wears Prada, cast member, Emily Blunt), (The Devil Wears Prada, publisher, Broadway Books)",
+        "background_triples": "- (Films, Films directed by the same directors as The Devil Wears Prada, Films)\n- (Films, Films with the same genres as The Devil Wears Prada, Films)\n- (Films, Films directed by the same directors as The Devil Wears Prada and their genres, Genres)\n- (Films, Films with the same genres as The Devil Wears Prada and their directors, Directors)\n- (Directors, Directors who directed both The Devil Wears Prada and other films, Films)\n- (Directors, Directors who directed films with the same genres as The Devil Wears Prada, Films)\n- (Genres, Genres of films directed by the same directors as The Devil Wears Prada, Films)",
+        "actual_answer": "['Drama', 'Comedy']",
+        "is_correct": false
+    },
+    {
+        "question": "what genres do the movies written by Dale Rosenbloom fall under",
+        "topic_entity": "['Dale Rosenbloom']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Carroll Rosenbloom, spouse, Georgia Rosenbloom), (Clint Eastwood movie, derivative work, Bronco Billy The Musical), (Intent to Destroy, director, Joe Berlingeer), (Carroll Rosenbloom, place of birth, New York City), (Bronco Billy The Musical, based on, Clint Eastwood movie), (1997 Chicago International Film Festival, point in time, 1997), (Ride With the Wind, distributed by, ABC), (1997 Heartland Film Festival, point in time, 1997), (Dream/Killer, cast member, Ryan Ferguson), (Across the Tracks, publication date, 1990)",
+        "background_triples": "- (Dale Rosenbloom, Writing, Movies)\n- (Movies, Genres, Genres)",
+        "actual_answer": "['Drama', 'Family']",
+        "is_correct": false
+    },
+    {
+        "question": "who are the directors of the films written by Kim Leona",
+        "topic_entity": "['Kim Leona']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "",
+        "background_triples": "- (Kim Leona, Films written by Kim Leona, ?)\n- (?, Directors of films written by Kim Leona, ?)",
+        "actual_answer": "['Per Fly']",
+        "is_correct": false
+    },
+    {
+        "question": "what are the films that have the same screenwriter of The Center of the World",
+        "topic_entity": "['The Center of the World']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(The Center of the World, genre, drama film), (The Center of the World, director, Wayne Wang), (The Center of the World, cast member, Sarsgaard), (The Center of the World, cast member, Peter Sarsgaard), (The Center of the World, cast member, Molly Parker), (The Center of the World, publication date, 2001), (The Center of the World, publication date, April 20, 2001), (2001 Cannes Film Festival, point in time, 2001), (Molly Parker, nominated for, Best Female Lead), (Best Female Lead, instance of, Independent Spirit Award)",
+        "background_triples": "- (The Center of the World, Films with the same screenwriter as The Center of the World, ?)\n- (The Center of the World, Films written by the screenwriter of The Center of the World, ?)\n- (The Center of the World, Films with the same writing team as The Center of the World, ?)\n- (The Center of the World, Films with a similar writing style to The Center of the World, ?)\n- (The Center of the World, Films that share similar themes with The Center of the World, ?)\n- (The Center of the World, Films that are set in the same time period as The Center of the World, ?)\n- (The Center of the World, Films that have a similar budget to The Center of the World, ?)\n- (The Center of the World, Films that have a similar running time to The Center of the World, ?)\n- (The Center of the World, Films that have a similar critical reception to The Center of the World, ?)\n- (The Center of the World, Films that have a similar audience reception to The Center of the World, ?)",
+        "actual_answer": "['Chinese Box', 'Blue in the Face', 'Chan Is Missing']",
+        "is_correct": false
+    },
+    {
+        "question": "what are the main languages in Vittorio Nino Novarese written films",
+        "topic_entity": "['Vittorio Nino Novarese']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(film in Italy, instance of, biographical article), (Vittorio Nino Novarese, occupation, costume designer), (Vittorio Nino Novarese, date of birth, May 15, 1907), (Vittorio Nino Novarese, date of death, October 17, 1983), (The Girl Who Knew Too Much, cast member, Letícia Román), (classical training, different from, militarist), (The Girl Who Knew Too Much, cast member, John Saxon), (militarist, different from, classical training)",
+        "background_triples": "- (Vittorio Nino Novarese, Vittorio Nino Novarese's written films, Films)\n- (Vittorio Nino Novarese, Vittorio Nino Novarese's main languages, Languages)\n- (Films, Languages used in Vittorio Nino Novarese's written films, Languages)\n- (Films, Main languages in Vittorio Nino Novarese's written films, Languages)",
+        "actual_answer": "['Italian']",
+        "is_correct": false
+    },
+    {
+        "question": "the screenwriter of Romeo and Juliet also wrote which films",
+        "topic_entity": "['Romeo and Juliet']",
+        "question_type": "2-hop",
+        "answer": "N/A",
+        "external_triples": "(Romeo and Juliet, director, Franco Zeffirelli), (Romeo, director, Franco Zeffirelli), (Juliet, spouse, Romeo), (Romeo and Juliet, cast member, Laurence Olivier), (Romeo, spouse, Juliet), (Romeo and Juliet, cast member, Leonard Whiting), (Romeo and Juliet, cast member, John McEnery), (Romeo and Juliet, cast member, Robert Stephens), (Romeo and Juliet, cast member, Michael York), (Romeo and Juliet, publication date, March 4, 1968)",
+        "background_triples": "- (Romeo and Juliet, screenwriter, Screenwriter)\n- (Screenwriter, Films written by Romeo and Juliet screenwriter, Films)\n- (Romeo and Juliet, Screenwriters, Screenwriters of Romeo and Juliet)\n- (Screenwriters of Romeo and Juliet, Films written by screenwriters of Romeo and Juliet, Films)",
+        "actual_answer": "['Jane Eyre', 'King Lear', 'Tea with Mussolini', 'Julius Caesar', 'Men of Respect', 'Private Romeo', 'Much Ado About Nothing', 'The Tempest', 'Romeo + Juliet', 'The Taming of the Shrew', 'Coriolanus', \"A Midsummer Night's Dream\", 'Looking for Richard', 'Brother Sun, Sister Moon', 'Otello', 'Othello', 'O', 'Henry V', 'Richard III', \"Prospero's Books\", 'The Banquet', 'The Good Earth', 'Callas Forever', 'Macbeth', 'Hamlet', 'Knights of the Round Table', 'The Black Rose', 'Chimes at Midnight', 'Haider', 'King of Texas', 'As You Like It', \"Love's Labour's Lost\", 'Tempest']",
+        "is_correct": false
+    }
+]

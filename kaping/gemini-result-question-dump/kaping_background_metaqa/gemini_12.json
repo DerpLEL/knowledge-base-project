@@ -1,0 +1,10 @@
+{
+    "question": "what were the release years the films written by Catherine Storr",
+    "topic_entity": "['Catherine Storr']",
+    "question_type": "2-hop",
+    "answer": "N/A",
+    "external_triples": "(Marianne Dreams, author, Catherine Storr, Baroness Balogh), (Catherine Storr, Baroness Balogh, date of death, 8 January 2001), (Catherine Storr, Baroness Balogh, date of birth, 21 July 1913), (Clever Polly and the Stupid Wolf, author, Catherine Storr, Baroness Balogh), (Anthony Storr, child, Polly), (Anthony Storr, child, Sophia), (Polly, creator, Storr's), (Storr, date of death, January 2001), (Anthony Storr, child, Emma), (Paperhouse, based on, Marianne Dreams)",
+    "background_triples": "- (Catherine Storr, Films written by Catherine Storr, Films)\n- (Films, Release years of films written by Catherine Storr, Release years)",
+    "actual_answer": "['1988']",
+    "is_correct": false
+}

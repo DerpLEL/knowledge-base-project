@@ -1,0 +1,10 @@
+{
+    "question": "who wrote movies together with Alvin Sargent",
+    "topic_entity": "['Alvin Sargent']",
+    "question_type": "2-hop",
+    "answer": "N/A",
+    "external_triples": "(Alvin Sargent, award received, Academy Awards for Best Adapted Screenplay), (Alvin Sargent, notable work, Ordinary People), (Alvin Sargent, date of birth, April 12, 1927), (Alvin Sargent, notable work, Julia), (Julia, screenwriter, Alvin Sargent), (Alvin Sargent, place of birth, Philadelphia, Pennsylvania), (Ordinary People, screenwriter, Alvin Sargent), (Alvin Sargent, date of death, May 9, 2019), (Herb Sargent, sibling, Laura Ziskin), (Sargent, date of death, May 9, 2019)",
+    "background_triples": "- (Alvin Sargent, Alvin Sargent's writing partners, Writers who collaborated with Alvin Sargent)\n- (Writers who collaborated with Alvin Sargent, Movies written by Alvin Sargent and his writing partners, Movies written by Alvin Sargent and his writing partners)",
+    "actual_answer": "['Lillian Hellman', 'Glenn Savan', 'Erick Zonca', 'Miles Millar', 'William Broyles Jr.', 'Sam Raimi', 'Alfred Gough', 'James Vanderbilt', 'Michael Chabon', 'Judith Guest', 'Ethan Coen', 'Jack Davies', 'John Nichols', 'Sidney Carroll', 'Paul Zindel', 'Jerry Sterner', 'Darryl Ponicsan', 'Steve Kloves', 'Joe David Brown', 'Ted Tally', 'Tom Topor', 'Ivan Raimi', 'Claude Chabrol']",
+    "is_correct": false
+}

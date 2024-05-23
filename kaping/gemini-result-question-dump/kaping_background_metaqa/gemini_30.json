@@ -1,0 +1,10 @@
+{
+    "question": "who are the writers that the actors in their films also appear in the film Higher Ground",
+    "topic_entity": "['Higher Ground']",
+    "question_type": "3-hop",
+    "answer": "N/A",
+    "external_triples": "(Higher Ground, screenwriter, Tim Metcalfe), (Higher Ground, director, Vera Farmiga), (Higher Ground, producer, Jon Rubinstein), (Higher Ground, cast member, Joshua Leonard), (With Higher Ground, director, Vera Farmiga), (Higher Ground, cast member, John Hawkes), (Higher Ground, cast member, Bill Irwin), (Higher Ground, cast member, Norbert Leo Butz), (Higher Ground, producer, Carly Hugo), (Higher Ground, cast member, Donna Murphy)",
+    "background_triples": "- (Actors in Higher Ground, Films that actors in Higher Ground also appeared in, Higher Ground)\n- (Writers of Higher Ground, Films that writers in Higher Ground also appeared in, Higher Ground)\n- (Actors in Higher Ground, Actors who worked with writers in Higher Ground, Writers of Higher Ground)\n- (Writers of Higher Ground, Writers who worked with actors in Higher Ground, Actors in Higher Ground)",
+    "actual_answer": "['Mark Poirier', 'Adam Rodgers', 'Debra Granik', 'Greg Pritikin', 'George Ratliff', 'David Dobkin', 'Nae Caranfil', 'Ben Ripley', 'Glenn German']",
+    "is_correct": false
+}

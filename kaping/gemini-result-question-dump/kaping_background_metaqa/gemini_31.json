@@ -1,0 +1,10 @@
+{
+    "question": "who starred in the films whose directors also directed Water for Elephants",
+    "topic_entity": "['Water for Elephants']",
+    "question_type": "3-hop",
+    "answer": "N/A",
+    "external_triples": "(Water for Elephants, screenwriter, Richard LaGravenese), (Water for Elephants, director, Francis Lawrence), (Water for Elephants, cast member, Christoph Waltz), (Water for Elephants, cast member, Reese Witherspoon), (Water for Elephants, cast member, Hal Holbrook), (Water for Elephants, cast member, Robert Pattinson), (Water for Elephants, publication date, 2011), (Tai's, participant in, Water for Elephants), (Water for Elephants, publication date, April 22, 2011), (Rosie, present in work, Water for Elephants)",
+    "background_triples": "- (Reese Witherspoon, Actors who starred in films directed by Francis Lawrence, Water for Elephants)\n- (Christoph Waltz, Actors who starred in films directed by Francis Lawrence, Water for Elephants)\n- (Robert Pattinson, Actors who starred in films directed by Francis Lawrence, Water for Elephants)\n- (Francis Lawrence, Films directed by Francis Lawrence, Water for Elephants)\n- (Richard LaGravenese, Directors who directed Water for Elephants, Water for Elephants)\n- (Reese Witherspoon, Actors who starred in films directed by directors who also directed Water for Elephants, Water for Elephants)\n- (Christoph Waltz, Actors who starred in films directed by directors who also directed Water for Elephants, Water for Elephants)\n- (Robert Pattinson, Actors who starred in films directed by directors who also directed Water for Elephants, Water for Elephants)",
+    "actual_answer": "['Keanu Reeves', 'Rachel Weisz', 'Djimon Hounsou', 'Shia LaBeouf', 'Will Smith']",
+    "is_correct": false
+}

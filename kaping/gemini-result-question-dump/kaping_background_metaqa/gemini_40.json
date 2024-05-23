@@ -1,0 +1,10 @@
+{
+    "question": "what are the genres of the films whose directors also directed The Devil Wears Prada",
+    "topic_entity": "['The Devil Wears Prada']",
+    "question_type": "3-hop",
+    "answer": "N/A",
+    "external_triples": "(The Devil Wears Prada, genre, comedy-drama), (The Devil Wears Prada, director, David Frankel), (The Devil Wears Prada, screenwriter, Aline Brosh McKenna), (The Devil Wears Prada, different from, Superman Returns), (The Devil Wears Prada, publication date, 2006), (The Devil Wears Prada, nominated for, Academy Award for Best Actress), (The Devil Wears Prada, cast member, Anne Hathaway), (The Devil Wears Prada, after a work by, Anna Wintour), (The Devil Wears Prada, cast member, Emily Blunt), (The Devil Wears Prada, publisher, Broadway Books)",
+    "background_triples": "- (Films, Films directed by the same directors as The Devil Wears Prada, Films)\n- (Films, Films with the same genres as The Devil Wears Prada, Films)\n- (Films, Films directed by the same directors as The Devil Wears Prada and their genres, Genres)\n- (Films, Films with the same genres as The Devil Wears Prada and their directors, Directors)\n- (Directors, Directors who directed both The Devil Wears Prada and other films, Films)\n- (Directors, Directors who directed films with the same genres as The Devil Wears Prada, Films)\n- (Genres, Genres of films directed by the same directors as The Devil Wears Prada, Films)",
+    "actual_answer": "['Drama', 'Comedy']",
+    "is_correct": false
+}

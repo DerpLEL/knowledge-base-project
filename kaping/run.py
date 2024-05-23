@@ -124,6 +124,8 @@ def main():
 			dct = {
 				# "prompt": prompt,
 				"question": qa_pair.question,
+				"topic_entity": str(qa_pair.entities),
+				"question_type": qa_pair.q_type,
 				"answer": predicted_answer,
 				"external_triples": kaping_triples,
 				"background_triples": background_triples,
@@ -176,6 +178,8 @@ def main():
 			dct = {
 				# "prompt": prompt,
 				"question": qa_pair.question,
+				"topic_entity": str(qa_pair.entities),
+				"question_type": qa_pair.q_type,
 				"answer": predicted_answer,
 				"external_triples": kaping_triples,
 				"background_triples": background_triples,
