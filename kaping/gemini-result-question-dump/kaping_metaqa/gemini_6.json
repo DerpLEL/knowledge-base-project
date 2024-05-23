@@ -1,0 +1,1 @@
+{"question": "who are the directors of the films written by Kim Leona", "topic_entity": "['Kim Leona']", "question_type": "2-hop", "answer": "N/A", "external_triples": "", "background_triples": "- (Kim Leona, Films written by Kim Leona, ?)\n- (?, Directors of films written by Kim Leona, ?)", "actual_answer": "['Per Fly']", "is_correct": false}

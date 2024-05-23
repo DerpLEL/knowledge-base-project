@@ -141,7 +141,7 @@ def load_metaqa():
                 prev_line = i
 
     random.seed(27)
-    chosen_set = random.choices(two_hops, k=20) + random.choices(three_hops, k=20)
+    chosen_set = random.choices(two_hops, k=100) + random.choices(three_hops, k=100)
 
     for data in chosen_set:
         qa_pairs.append(Pair(

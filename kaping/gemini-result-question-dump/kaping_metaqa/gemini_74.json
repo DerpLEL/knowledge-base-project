@@ -1,0 +1,1 @@
+{"question": "the movies starred by Liberto Rabal were written by who", "topic_entity": "['Liberto Rabal']", "question_type": "2-hop", "answer": "N/A", "external_triples": "", "background_triples": "- (Liberto Rabal, starred in, movies)\n- (movies, written by, writers)", "actual_answer": "['Pedro Almodóvar', 'Ruth Rendell']", "is_correct": false}
