@@ -3,20 +3,17 @@ This contains a simple script to the pipeline of KAPING
 """
 import os
 
-from kaping.entity_extractor import RefinedEntityExtractor
-from kaping.entity_verbalization import RebelEntityVerbalizer
-from kaping.entity_injection import MPNetEntityInjector
 from werkzeug.utils import secure_filename
 import json
 
 # mintaka
-# cache_path = "E:\\knowledge-base-project\\kaping\\kaping\\mintaka_wikipedia\\"
+cache_path = "kaping\\mintaka_wikipedia\\"
 
 # webqsp
-cache_path = "E:\\knowledge-base-project\\kaping\\kaping\\webqsp_wikipedia\\"
+# cache_path = "kaping\\webqsp_wikipedia\\"
 
 
-def pipeline(config, question: str, device=-1):
+def pipeline(config, question: str, device=-1, injector=None, extractor=None, verbalizer=None):
 	"""
 	Create a pipeline for KAPING
 	:param config: configuration to set up for injector
@@ -26,8 +23,7 @@ def pipeline(config, question: str, device=-1):
 	"""
 
 	# define 3 steps
-	injector = MPNetEntityInjector(device=device)
-
+	# injector = MPNetEntityInjector(device=device)
 	# retrieve entities from given question
 
 	# entity verbalization
@@ -37,8 +33,8 @@ def pipeline(config, question: str, device=-1):
 			knowledge_triples = json.load(f)
 
 	else:
-		extractor = RefinedEntityExtractor(device=device)
-		verbalizer = RebelEntityVerbalizer(device=device)
+		# extractor = RefinedEntityExtractor(device=device)
+		# verbalizer = RebelEntityVerbalizer(device=device)
 
 		entity_set = extractor(question)
 

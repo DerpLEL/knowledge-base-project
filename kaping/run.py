@@ -10,6 +10,7 @@ from copy import deepcopy
 from langchain_openai import AzureChatOpenAI
 import time
 import requests
+import random
 
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
@@ -21,6 +22,10 @@ genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
 no_knowledge = False
+
+from kaping.entity_extractor import RefinedEntityExtractor
+from kaping.entity_verbalization import RebelEntityVerbalizer
+from kaping.entity_injection import MPNetEntityInjector
 
 
 def get_gemma(string: str):
@@ -38,7 +43,6 @@ def get_gemma(string: str):
 
 
 def main():
-
 	# load arguments
 	args = k_parser()
 
@@ -52,10 +56,15 @@ def main():
 		sys.exit(1)
 
 	# load mintaka
-	# dataset = load_dataset(args.input)
+	# dataset = load_dataset("mintaka_dataset.json")
 
 	# load webqsp
 	dataset = load_webqsp()
+	random_dataset = dataset
+
+	injector = MPNetEntityInjector(device=args.device)
+	extractor = RefinedEntityExtractor(device=args.device)
+	verbalizer = RebelEntityVerbalizer(device=args.device)
 
 	# set up results
 	results = []
@@ -66,52 +75,58 @@ def main():
 	results_background = []
 	evaluated_background = []
 
-	n = 1
+	# n = 101
+
+	# random_dataset = dataset[n-1:100]
+	# random.seed(27)
+	# random_dataset = dataset[:100] + random.choices(dataset[n-1:], k=900)
 
 	# ------- run through each question-answer pair and run KAPING
-	for index, qa_pair in enumerate(dataset[n-1:], n):
+	for index, qa_pair in enumerate(random_dataset, 1):
 		print(f"{index}. ", args)
 		# run KAPING to create prompt
-		prompt, prompt_background, kaping_triples, background_triples = pipeline(args, qa_pair.question, device=args.device)
+		# prompt, prompt_background, kaping_triples, background_triples = pipeline(args, qa_pair.question, device=args.device, injector=injector, extractor=extractor, verbalizer=verbalizer)
 
 		# No knowledge
-# 			prompt = f'''Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).
-#
-# Question: {qa_pair.question}
-# Answer: '''
+		prompt = f'''Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).
+
+Question: {qa_pair.question}
+Answer: '''
 
 		try:
-			predicted_answer = model.generate_content(
-				prompt,
-				generation_config=genai.types.GenerationConfig(
-					temperature=0.0,
-				),
-				safety_settings={
-					HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
-					HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
-					HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
-					HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
-				}
-			).text
+			# predicted_answer = model.generate_content(
+			# 	prompt,
+			# 	generation_config=genai.types.GenerationConfig(
+			# 		temperature=0.0,
+			# 	),
+			# 	safety_settings={
+			# 		HarmCategory.HARM_CATEGORY_HATE_SPEECH: HarmBlockThreshold.BLOCK_NONE,
+			# 		HarmCategory.HARM_CATEGORY_HARASSMENT: HarmBlockThreshold.BLOCK_NONE,
+			# 		HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT: HarmBlockThreshold.BLOCK_NONE,
+			# 		HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
+			# 	}
+			# ).text
+
+			# Gemma
+			predicted_answer = get_gemma(prompt)
 
 		except Exception:
 			predicted_answer = "Error"
 
-		# Gemma
-		# predicted_answer = get_gemma(prompt)
+
 		print(f'\n### Language model answer: {predicted_answer} ###\n')
 		qa_pair.pr_answer = predicted_answer
 
-		with open(f'E:\\knowledge-base-project\\kaping\\gemini-result-question-dump\\kaping_webqsp\\gemini_{index}.json', 'w', encoding='utf-8') as f:
-			dct = {
-				"prompt": prompt,
-				"answer": predicted_answer,
-				"kaping_triples": kaping_triples,
-				"background_triples": background_triples,
-				"actual_answer": str(qa_pair.answer),
-				"is_correct": evaluate(qa_pair.answer, predicted_answer)
-			}
-			json.dump(dct, f, ensure_ascii=False)
+		# with open(f'gemini-result-question-dump\\kaping_mintaka\\gemini_{index}.json', 'w', encoding='utf-8') as f:
+		# 	dct = {
+		# 		"prompt": prompt,
+		# 		"answer": predicted_answer,
+		# 		"kaping_triples": kaping_triples,
+		# 		"background_triples": background_triples,
+		# 		"actual_answer": str(qa_pair.answer),
+		# 		"is_correct": evaluate(qa_pair.answer['mention'], predicted_answer)
+		# 	}
+		# 	json.dump(dct, f, ensure_ascii=False)
 
 		# add new qa_pair for output file
 		results.append(qa_pair)
@@ -121,11 +136,12 @@ def main():
 
 		# evaluate mintaka
 		# evaluated.append(evaluate(qa_pair.answer['mention'], predicted_answer))
+		continue
 
 		# time.sleep(5)
 
-		# Gemini
 		try:
+			# Gemini
 			predicted_answer_background = model.generate_content(
 				prompt_background,
 				generation_config=genai.types.GenerationConfig(
@@ -139,11 +155,11 @@ def main():
 				}
 			).text
 
+			# Gemma
+			# predicted_answer_background = get_gemma(prompt_background)
+
 		except Exception:
 			predicted_answer_background = 'Error'
-
-		# Gemma
-		# predicted_answer_background = get_gemma(prompt_background)
 
 		print(f'\n### Language model answer: {predicted_answer_background} ###\n')
 		qa_pair_copy = deepcopy(qa_pair)
@@ -153,22 +169,22 @@ def main():
 		# add new qa_pair for output file
 		results_background.append(qa_pair_copy)
 
-		with open(f'E:\\knowledge-base-project\\kaping\\gemini-result-question-dump\\kaping_background_webqsp\\gemsura_{index}.json', 'w', encoding='utf-8') as f:
+		with open(f'gemini-result-question-dump\\kaping_background_mintaka\\gemini_{index}.json', 'w', encoding='utf-8') as f:
 			dct = {
 				"prompt": prompt_background,
 				"answer": predicted_answer_background,
 				"kaping_triples": kaping_triples,
 				"background_triples": background_triples,
 				"actual_answer": str(qa_pair.answer),
-				"is_correct": evaluate(qa_pair.answer, predicted_answer_background)
+				"is_correct": evaluate(qa_pair.answer['mention'], predicted_answer_background)
 			}
 			json.dump(dct, f, ensure_ascii=False)
 
 		# evaluate webqsp
-		evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
+		# evaluated_background.append(evaluate(qa_pair.answer, predicted_answer_background))
 
 		# evaluate mintaka
-		# evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
+		evaluated_background.append(evaluate(qa_pair.answer['mention'], predicted_answer_background))
 
 
 	msg = ""
@@ -178,38 +194,41 @@ def main():
 		msg = " with random knowledge" if args.random else " using KAPING"
 
 	# print(f"Accuracy for infering QA task on {args.model_name}{msg}: {accuracy(evaluated):2f}")
+	print(f"Accuracy w/o background: {accuracy(evaluated):2f}")
+	# print(f"Accuracy with background: {accuracy(evaluated_background):2f}")
+	return
 
-	with open('gemmini-webqsp-no-background-knowledge.txt', 'w', encoding='utf-8') as f:
+	model_and_dataset = "gemini-mintaka"
+
+	with open(f'{model_and_dataset}-no-background-knowledge.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated)))
 
-	with open('gemini-webqsp-with-background.txt', 'w', encoding='utf-8') as f:
+	with open(f'{model_and_dataset}-with-background.txt', 'w', encoding='utf-8') as f:
 		f.write(str(accuracy(evaluated_background)))
 
-	print(f"Accuracy w/o background: {accuracy(evaluated):2f}")
-	print(f"Accuracy with background: {accuracy(evaluated_background):2f}")
 	# print(f"Accuracy for infering QA task on {args.model_name}{msg}: {accuracy(evaluated):2f}")
 
 
 	# output = args.output if args.output else f"./mintaka_predicted_{args.model_name}_{msg[1:]}.csv"
-	output = "gemini-webqsp-no-background.csv"
-	output_background = "gemini-webqsp-with-background.csv"
+	output = f"{model_and_dataset}-no-background.csv"
+	output_background = f"{model_and_dataset}-with-background.csv"
 
 	print(f"Save results in {output}")
 	with open(output, 'w', encoding='utf-8') as f2w:
 		for qa_pair in results:
 			# mintaka
-			# f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer['mention']}\nPredicted answer: {qa_pair.pr_answer}\n\n")
+			f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer['mention']}\nPredicted answer: {qa_pair.pr_answer}\n\n")
 
 			# webqsp
-			f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer}\nPredicted answer: {qa_pair.pr_answer}\n\n")
+			# f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer}\nPredicted answer: {qa_pair.pr_answer}\n\n")
 
 	with open(output_background, 'w', encoding='utf-8') as f2w:
 		for qa_pair in results:
 			# mintaka
-			# f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer['mention']}\nPredicted answer: {qa_pair.pr_answer}\n\n")
+			f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer['mention']}\nPredicted answer: {qa_pair.pr_answer}\n\n")
 
 			# webqsp
-			f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer}\nPredicted answer: {qa_pair.pr_answer}\n\n")
+			# f2w.write(f"Question: {qa_pair.question}\nAnswer: {qa_pair.answer}\nPredicted answer: {qa_pair.pr_answer}\n\n")
 
 if __name__ == '__main__':
 	main()

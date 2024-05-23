@@ -77,6 +77,7 @@ def get_background_knowledge(query: str):
             HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
         }
     ).text
+    print("Entities:", entities)
     
     # print(predicted_answer)
     
@@ -94,6 +95,7 @@ def get_background_knowledge(query: str):
             HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_NONE,
         }
     ).text
+    print("Relations:", relations)
     
     triples = model.generate_content(
         prompt_3.format(
@@ -116,6 +118,4 @@ def get_background_knowledge(query: str):
     return triples
 
 
-print(get_gemma(prompt_2.format(
-    query='where george lopez was born?'
-)))
+print(get_background_knowledge('what is the money of switzerland called'))
