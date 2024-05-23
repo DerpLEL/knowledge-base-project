@@ -82,7 +82,7 @@ def load_metaqa():
     three_hops = []
     two_hops = []
 
-    with open("../metaqa-2-hop.txt", 'r', encoding='utf-8') as file:
+    with open("metaqa-2-hop.txt", 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
         prev_answer = ""
@@ -111,7 +111,7 @@ def load_metaqa():
                 two_hops.append(dct)
                 prev_line = i
 
-    with open("../metaqa-3-hop.txt", 'r', encoding='utf-8') as file:
+    with open("metaqa-3-hop.txt", 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
         prev_answer = ""
