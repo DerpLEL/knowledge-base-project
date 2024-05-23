@@ -7,10 +7,13 @@ from werkzeug.utils import secure_filename
 import json
 
 # mintaka
-cache_path = "kaping\\mintaka_wikipedia\\"
+# cache_path = "kaping\\mintaka_wikipedia\\"
 
 # webqsp
 # cache_path = "kaping\\webqsp_wikipedia\\"
+
+# metaqa
+cache_path = "kaping\\metaqa_wikipedia\\"
 
 
 def pipeline(config, question: str, device=-1, injector=None, extractor=None, verbalizer=None):
