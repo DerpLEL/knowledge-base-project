@@ -34,8 +34,9 @@ def get_gemma(string: str):
 
 
 # In 2024, which major
-query = 'Does Ho Chi Minh City University of Technology have any ABET-certified programs?'
+# query = 'Does Ho Chi Minh City University of Technology have any ABET-certified programs?'
 # query = 'In 2024, which new majors is Ho Chi Minh City university of technology expecting to enroll new students in?'
+query = "In 2024, in which cities/provinces is the competency assessment exam by VNU-HCM held?"
 args = config()
 
 _, prompt_background, _, _ = pipeline(args, query, device="0")

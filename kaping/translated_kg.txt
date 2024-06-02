@@ -130,6 +130,7 @@
 (Candidates, admitted to, any preference)
 (System, cancels, remaining preferences)
 (VNU-HCM, organizes, competency assessment exam)
+(VNU-HCM, competency assessment exam frequency, twice)
 (Competency assessment exam results, help, expand admission options)
 (Candidates, register, for VNU-HCM competency assessment exam)
 (VNU-HCM, expands, test locations and coordinates with multiple universities and colleges)
