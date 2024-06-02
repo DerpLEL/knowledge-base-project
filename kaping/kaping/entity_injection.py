@@ -196,13 +196,13 @@ class MPNetEntityInjector:
 		"""
 		# Gemini background knowledge
 		try:
-			background_kg = get_background_knowledge(question)
+			# background_kg = get_background_knowledge(question)
+
+			# Gemsura background knowledge
+			background_kg = get_background_knowledge_gemsura(question)
 
 		except Exception:
 			background_kg = ''
-
-		# Gemsura background knowledge
-		# background_kg = get_background_knowledge_gemsura(question)
 
 		triples_as_str = ', '.join(triples)
 
@@ -216,9 +216,7 @@ Question: {question}
 Answer: """
 
 		with_background = f"""{MPNetEntityInjector.leading_prompt}
-{triples_as_str}
-
-{background_kg}
+{triples_as_str}, {background_kg}
 
 Question: {question}
 Answer: """
@@ -252,7 +250,7 @@ Answer: """
 		print("***** Injection *****")
 		print(top_k_triples)
 		prompt, prompt_background, kaping_triples, background_triples = self.injection(question[0], top_k_triples)
-		print(prompt)
+		# print(prompt)
 		# create prompt as input
 		return prompt, prompt_background, kaping_triples, background_triples
 
