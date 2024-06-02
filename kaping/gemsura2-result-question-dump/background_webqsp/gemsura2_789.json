@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what language do maltese speak\n\t\tAnswer: ", "answer": "The answer is Maltese language.\n\nMaltese is an official language of the country of Malta.", "background_triples": "- (Maltese, Maltese language, Language)", "question": "what language do maltese speak", "actual_answer": "['English Language']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: What is the main goal of the first Final Fantasy's main character?\nAnswer: ", "answer": "Restore the four crystals", "actual_answer": "{'answerType': 'entity', 'answer': None, 'mention': 'Save the Crystals'}", "is_correct": false}

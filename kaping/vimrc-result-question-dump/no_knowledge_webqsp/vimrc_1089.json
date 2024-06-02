@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what currency does france accept\nAnswer: ", "answer": "N/A", "question": "what currency does france accept", "actual_answer": "['CFP franc', 'Euro']", "is_correct": false}

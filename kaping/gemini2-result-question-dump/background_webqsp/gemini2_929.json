@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what time in china hong kong\n\t\tAnswer: ", "answer": "Time in China is 8 hours ahead of Time in Hong Kong", "background_triples": "- (Hong Kong, Time in Hong Kong, ?)\n- (China, Time in China, ?)", "question": "what time in china hong kong", "actual_answer": "['Hong Kong Time Zone']", "is_correct": false}

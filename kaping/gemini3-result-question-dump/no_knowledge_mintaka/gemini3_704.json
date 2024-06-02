@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How old is the ruler of North Korea?\n\t\tAnswer: ", "answer": "39", "question": "How old is the ruler of North Korea?", "actual_answer": "{'answerType': 'numerical', 'answer': [37], 'mention': '37 years old'}", "is_correct": false}

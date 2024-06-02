@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what was dr seuss real name\n\t\tAnswer: ", "answer": "Theodor Seuss Geisel", "background_triples": "(Dr. Seuss, Dr. Seuss's real name, Theodor Seuss Geisel)", "question": "what was dr seuss real name", "actual_answer": "['Theodor Seuss Geisel']", "is_correct": true}

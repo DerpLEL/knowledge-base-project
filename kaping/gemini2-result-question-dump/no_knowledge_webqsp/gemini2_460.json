@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where does carlos santana live\n\t\tAnswer: ", "answer": "Las Vegas, Nevada", "question": "where does carlos santana live", "actual_answer": "['Jalisco', 'San Francisco', 'Tijuana']", "is_correct": false}

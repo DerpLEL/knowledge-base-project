@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is jay leno from\n\t\tAnswer: ", "answer": "The answer is New Rochelle.\n\nThe information in the triplets states that Jay Leno was born in New Rochelle.", "background_triples": "(Jay Leno, place of birth, New Rochelle)", "question": "where is jay leno from", "actual_answer": "['New Rochelle']", "is_correct": true}

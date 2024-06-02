@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who was king george vi married to\n\t\tAnswer: ", "answer": "Elizabeth Bowes-Lyon", "background_triples": "* (King George VI, Spouse, Elizabeth Bowes-Lyon)", "question": "who was king george vi married to", "actual_answer": "['Queen Elizabeth The Queen Mother']", "is_correct": false}

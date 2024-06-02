@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: When did the author who wrote The Hobbit die?\nAnswer: ", "answer": "Error", "actual_answer": "{'answerType': 'date', 'answer': ['1973'], 'mention': '1973'}", "is_correct": false}

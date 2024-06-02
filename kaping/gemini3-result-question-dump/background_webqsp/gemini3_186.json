@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where does russia import from\n\t\tAnswer: ", "answer": "China", "background_triples": "- (Russia, Russia's import partners, ?)\n- (Russia, Countries that export to Russia, ?)", "question": "where does russia import from", "actual_answer": "['Uzbekistan']", "is_correct": false}

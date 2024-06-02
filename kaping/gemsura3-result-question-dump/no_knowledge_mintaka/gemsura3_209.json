@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Martin Luther King Jr. get assassinated?\n\t\tAnswer: ", "answer": "The answer is no. Martin Luther King Jr. was not assassinated in 1968.", "question": "Did Martin Luther King Jr. get assassinated?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

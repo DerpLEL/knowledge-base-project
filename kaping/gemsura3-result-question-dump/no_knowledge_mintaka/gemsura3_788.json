@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Clueless come out before 2008?\n\t\tAnswer: ", "answer": "The answer is yes. Clueless came out in 1995, not 2008.", "question": "Did Clueless come out before 2008?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

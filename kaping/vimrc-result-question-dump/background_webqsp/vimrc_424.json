@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: when was lucy lawless born\nAnswer: ", "answer": "29 March 1968", "background_triples": "(Lucy Lawless, Lucy Lawless's date of birth, ?)", "question": "when was lucy lawless born", "actual_answer": "['1968-03-29']", "is_correct": false}

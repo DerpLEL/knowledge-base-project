@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what currency does cyprus use\n\t\tAnswer: ", "answer": "Sure, the answer is Euro. \n \n Cyprus uses the Euro.", "background_triples": "(Cyprus, Currency of Cyprus, Currency)", "question": "what currency does cyprus use", "actual_answer": "['Euro']", "is_correct": true}

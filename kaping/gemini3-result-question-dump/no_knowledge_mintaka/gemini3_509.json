@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When is Election Day?\n\t\tAnswer: ", "answer": "The first Tuesday after the first Monday in November", "question": "When is Election Day?", "actual_answer": "{'answerType': 'numerical', 'answer': [44138], 'mention': '44138'}", "is_correct": false}

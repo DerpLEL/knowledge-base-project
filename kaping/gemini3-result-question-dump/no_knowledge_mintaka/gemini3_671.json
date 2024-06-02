@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How old is the current president of basketball operations of the Toronto Raptors?\n\t\tAnswer: ", "answer": "Masai Ujiri", "question": "How old is the current president of basketball operations of the Toronto Raptors?", "actual_answer": "{'answerType': 'numerical', 'answer': [51], 'mention': '51'}", "is_correct": false}

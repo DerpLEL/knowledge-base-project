@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Neil Armstrong become the first person to reach outer space?\n\t\tAnswer: ", "answer": "No", "question": "Did Neil Armstrong become the first person to reach outer space?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

@@ -1,0 +1,8 @@
+{
+    "prompt": "Below are facts in the form of the triple meaningful to answer the questions (Short answer, explanations not needed, output N/A if you can't provide an answer)\n(United States House of Representatives, country, United States), (bicameral, has part, lower house), (bicameral, has part, upper house), (House, has part, Representative), (Congress, has part, Senate), (Representative, part of, House), (House, different from, Senate), (Congress, has part, House of Representatives), (House of Representatives, part of, Congress), (United States House of Representatives, part of, United States Congress)\n\n* (State, Number of representatives, Second most)\n* (State, House of Representatives, House)\n\nQuestion: Which state has the second most representatives in the House?\nAnswer: ",
+    "answer": "N/A",
+    "kaping_triples": "(United States House of Representatives, country, United States), (bicameral, has part, lower house), (bicameral, has part, upper house), (House, has part, Representative), (Congress, has part, Senate), (Representative, part of, House), (House, different from, Senate), (Congress, has part, House of Representatives), (House of Representatives, part of, Congress), (United States House of Representatives, part of, United States Congress)",
+    "background_triples": "* (State, Number of representatives, Second most)\n* (State, House of Representatives, House)",
+    "actual_answer": "{'answerType': 'entity', 'answer': [{'name': 'Q1439', 'label': {'en': 'Texas', 'ar': 'تكساس', 'de': 'Texas', 'es': 'Texas', 'fr': 'Texas', 'hi': 'टॅक्सस', 'it': 'Texas', 'ja': 'テキサス州', 'pt': 'Texas'}}], 'mention': 'Texas', 'supportingNum': 36}",
+    "is_correct": false
+}

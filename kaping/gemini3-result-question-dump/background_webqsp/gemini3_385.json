@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what kind of hispanic is selena gomez\n\t\tAnswer: ", "answer": "Hispanic", "background_triples": "(Selena Gomez, Selena Gomez's ethnicity, Hispanic)", "question": "what kind of hispanic is selena gomez", "actual_answer": "['Mexicans', 'Italian American']", "is_correct": false}

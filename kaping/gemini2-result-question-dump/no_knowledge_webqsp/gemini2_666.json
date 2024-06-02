@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what was the currency used in france before the euro\n\t\tAnswer: ", "answer": "French franc", "question": "what was the currency used in france before the euro", "actual_answer": "['Assignat', 'French franc']", "is_correct": true}

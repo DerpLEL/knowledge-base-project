@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: What's the population of San Francisco?\nAnswer: ", "answer": "884,363", "actual_answer": "{'answerType': 'numerical', 'answer': [896047], 'mention': '896047'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: How old is the actress who played Black Widow?\nAnswer: ", "answer": "38", "actual_answer": "{'answerType': 'numerical', 'answer': [26], 'mention': '26'}", "is_correct": false}

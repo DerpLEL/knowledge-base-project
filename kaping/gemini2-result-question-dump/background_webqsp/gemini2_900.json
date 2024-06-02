@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did emperor constantine die\n\t\tAnswer: ", "answer": "Nicomedia", "background_triples": "* (Emperor Constantine, Death, 337 AD)\n* (Emperor Constantine, Death, Location)\n* (Location, Name, Nicomedia)", "question": "where did emperor constantine die", "actual_answer": "['Nicomedia']", "is_correct": true}

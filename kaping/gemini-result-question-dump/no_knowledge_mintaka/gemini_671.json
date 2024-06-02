@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: How old is the current president of basketball operations of the Toronto Raptors?\nAnswer: ", "answer": "N/A", "actual_answer": "{'answerType': 'numerical', 'answer': [51], 'mention': '51'}", "is_correct": false}

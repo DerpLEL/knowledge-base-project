@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How old do you have to be to vote in Japan?\n\t\tAnswer: ", "answer": "The answer is 18. You must be at least 18 years old to vote in Japan.", "question": "How old do you have to be to vote in Japan?", "actual_answer": "{'answerType': 'numerical', 'answer': [18], 'mention': '18 yrs old'}", "is_correct": false}

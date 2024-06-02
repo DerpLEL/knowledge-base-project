@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: How long was the 53rd mayor of Boston in office?\nAnswer: ", "answer": "N/A", "actual_answer": "{'answerType': 'numerical', 'answer': [20.5], 'mention': '20 years, 6 months'}", "is_correct": false}

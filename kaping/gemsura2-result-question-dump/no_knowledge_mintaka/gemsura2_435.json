@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How tall is the Space Needle in Seattle?\n\t\tAnswer: ", "answer": "The answer is 625 feet. The Space Needle in Seattle is 625 feet tall.", "question": "How tall is the Space Needle in Seattle?", "actual_answer": "{'answerType': 'numerical', 'answer': ['605 feet'], 'mention': '605 feet'}", "is_correct": false}

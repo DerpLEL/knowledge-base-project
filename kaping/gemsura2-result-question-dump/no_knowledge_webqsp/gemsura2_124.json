@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is harvard university\n\t\tAnswer: ", "answer": "The answer to the question is that Harvard University is located in Cambridge, Massachusetts, in the United States.", "question": "where is harvard university", "actual_answer": "['Cambridge', 'Massachusetts', 'United States of America']", "is_correct": true}

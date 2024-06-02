@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what is my timezone in pennsylvania\n\t\tAnswer: ", "answer": "The answer is: Eastern Time Zone (ET).\n\nPennsylvania is in the Eastern Time Zone.", "question": "what is my timezone in pennsylvania", "actual_answer": "['UTC−05:00', 'Eastern Time Zone']", "is_correct": true}

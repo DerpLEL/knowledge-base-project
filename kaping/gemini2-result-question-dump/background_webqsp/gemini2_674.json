@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who was vp for nixon\n\t\tAnswer: ", "answer": "Spiro Agnew, Gerald Ford", "background_triples": "- (Nixon, Nixon's vice president, Spiro Agnew)\n- (Nixon, Nixon's vice president, Gerald Ford)", "question": "who was vp for nixon", "actual_answer": "['Spiro Agnew', 'Gerald Ford']", "is_correct": true}

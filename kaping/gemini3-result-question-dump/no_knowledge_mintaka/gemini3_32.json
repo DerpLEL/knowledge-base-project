@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did the movie The Spy Who Loved Me come out after 1970?\n\t\tAnswer: ", "answer": "Yes", "question": "Did the movie The Spy Who Loved Me come out after 1970?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

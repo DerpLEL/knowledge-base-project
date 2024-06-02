@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what was wayne gretzky 's first team\n\t\tAnswer: ", "answer": "Edmonton Oilers", "background_triples": "(Wayne Gretzky, Wayne Gretzky's first team, First team)", "question": "what was wayne gretzky 's first team", "actual_answer": "['Edmonton Oilers']", "is_correct": true}

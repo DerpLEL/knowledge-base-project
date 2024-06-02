@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what did st augustine do\n\t\tAnswer: ", "answer": "St. Augustine, Did, Something", "background_triples": "* (St. Augustine, Did, Something)", "question": "what did st augustine do", "actual_answer": "['Philosopher', 'Physician', 'Writer']", "is_correct": false}

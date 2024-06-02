@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did the battle of waterloo occur\n\t\tAnswer: ", "answer": "Waterloo", "background_triples": "(Battle of Waterloo, occurred at, Waterloo)", "question": "where did the battle of waterloo occur", "actual_answer": "['Waterloo']", "is_correct": true}

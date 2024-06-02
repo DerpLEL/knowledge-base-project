@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: when did shaq come into the nba\n\t\tAnswer: ", "answer": "1992", "background_triples": "(Shaq, Shaq's NBA debut, ?)", "question": "when did shaq come into the nba", "actual_answer": "['1992 NBA draft']", "is_correct": false}

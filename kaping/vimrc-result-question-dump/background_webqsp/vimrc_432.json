@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where does tim roth come from\nAnswer: ", "answer": "N/A", "background_triples": "(Tim Roth, Birthplace, ?)", "question": "where does tim roth come from", "actual_answer": "['Dulwich']", "is_correct": false}

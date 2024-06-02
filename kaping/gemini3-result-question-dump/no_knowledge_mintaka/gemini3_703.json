@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Kevin Costner star in Field of Dreams?\n\t\tAnswer: ", "answer": "Yes", "question": "Did Kevin Costner star in Field of Dreams?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

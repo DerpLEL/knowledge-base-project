@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When was Call of Duty first released?\n\t\tAnswer: ", "answer": "The answer is:\nCall of Duty was released in 2003.", "question": "When was Call of Duty first released?", "actual_answer": "{'answerType': 'date', 'answer': ['2003-10-29'], 'mention': 'October 29 2003'}", "is_correct": false}

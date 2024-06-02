@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Philippe Coutinho win the UEFA Champions League after leaving Liverpool?\n\t\tAnswer: ", "answer": " No", "question": "Did Philippe Coutinho win the UEFA Champions League after leaving Liverpool?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is the un based\n\t\tAnswer: ", "answer": "New York City, United States", "background_triples": "- (United Nations, Location, New York City)\n- (United Nations, Location, United States)", "question": "where is the un based", "actual_answer": "['New York City']", "is_correct": true}

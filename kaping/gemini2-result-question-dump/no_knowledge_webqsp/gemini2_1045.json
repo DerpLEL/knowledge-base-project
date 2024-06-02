@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where do they speak afrikaans\n\t\tAnswer: ", "answer": "South Africa, Namibia, Botswana, Zimbabwe, and Lesotho", "question": "where do they speak afrikaans", "actual_answer": "['Botswana', 'Transkei', 'Malawi', 'Namibia', 'Gazankulu', 'Zambia']", "is_correct": true}

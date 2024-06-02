@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many World Series did the Boston Red Sox play in but not win?\n\t\tAnswer: ", "answer": "9", "question": "How many World Series did the Boston Red Sox play in but not win?", "actual_answer": "{'answerType': 'numerical', 'answer': [4], 'mention': '4'}", "is_correct": false}

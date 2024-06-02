@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did george michael go to school\n\t\tAnswer: ", "answer": "George Michael's school", "background_triples": "(George Michael, George Michael's school, School)", "question": "where did george michael go to school", "actual_answer": "['Bushey Meads School']", "is_correct": false}

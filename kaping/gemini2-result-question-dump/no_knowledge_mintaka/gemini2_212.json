@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was V the main character of Cyberpunk 2077?\n\t\tAnswer: ", "answer": "Yes", "question": "Was V the main character of Cyberpunk 2077?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

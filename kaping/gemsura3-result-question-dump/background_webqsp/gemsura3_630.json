@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is audrey hepburn from\n\t\tAnswer: ", "answer": "The answer is: Belgium.\n\nAudrey Hepburn was born in Belgium. Therefore, the answer is Belgium.", "background_triples": "(Audrey Hepburn, birthplace, ?)", "question": "where is audrey hepburn from", "actual_answer": "['Ixelles']", "is_correct": false}

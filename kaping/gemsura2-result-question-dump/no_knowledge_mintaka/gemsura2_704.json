@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How old is the ruler of North Korea?\n\t\tAnswer: ", "answer": "The answer is: 90. Kim Jong-un was born in 1983. So, he is 90 years old.", "question": "How old is the ruler of North Korea?", "actual_answer": "{'answerType': 'numerical', 'answer': [37], 'mention': '37 years old'}", "is_correct": false}

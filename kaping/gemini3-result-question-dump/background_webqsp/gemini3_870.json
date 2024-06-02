@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what type of guitar does johnny depp play\n\t\tAnswer: ", "answer": "Guitar", "background_triples": "- (Johnny Depp, Type of guitar, Guitar)", "question": "what type of guitar does johnny depp play", "actual_answer": "['Guitar', 'Slide guitar']", "is_correct": true}

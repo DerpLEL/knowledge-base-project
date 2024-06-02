@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: How old is the actor who played Cliff Booth in Once Upon A Time In Hollywood?\nAnswer: ", "answer": "58", "actual_answer": "{'answerType': 'numerical', 'answer': [57], 'mention': '57'}", "is_correct": false}

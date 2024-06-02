@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When did the third book in the Game of Thrones series come out?\n\t\tAnswer: ", "answer": "November 12, 2000", "question": "When did the third book in the Game of Thrones series come out?", "actual_answer": "{'answerType': 'date', 'answer': ['2000'], 'mention': '2000'}", "is_correct": true}

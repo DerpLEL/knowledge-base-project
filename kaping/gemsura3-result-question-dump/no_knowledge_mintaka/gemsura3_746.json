@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Yoshi a character in the Halo series?\n\t\tAnswer: ", "answer": "The answer is no. Yoshi is a character in the Mario series, not the Halo series.", "question": "Is Yoshi a character in the Halo series?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

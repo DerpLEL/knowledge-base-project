@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who were demeter 's siblings\n\t\tAnswer: ", "answer": "The answer is Aphrodite, Hades, and Zeus.\n\nThe book says \"Demeter's siblings were Aphrodite, Hades, and Zeus.\"", "background_triples": "(Demeter, Demeter's siblings, ?)", "question": "who were demeter 's siblings", "actual_answer": "['Zeus']", "is_correct": true}

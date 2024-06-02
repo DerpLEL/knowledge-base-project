@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where michael jackson from\nAnswer: ", "answer": "Gary , Indiana", "background_triples": "(Michael Jackson, Michael Jackson's birthplace, United States)", "question": "where michael jackson from", "actual_answer": "['Gary']", "is_correct": true}

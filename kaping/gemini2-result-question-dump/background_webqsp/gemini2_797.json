@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what is utah 's state capitol\n\t\tAnswer: ", "answer": "Salt Lake City", "background_triples": "- (Utah, state capitol, Salt Lake City)\n- (Salt Lake City, capital, Utah)", "question": "what is utah 's state capitol", "actual_answer": "['Salt Lake City']", "is_correct": true}

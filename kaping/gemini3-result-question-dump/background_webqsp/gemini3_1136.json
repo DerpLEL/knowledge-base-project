@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what year was hitler was born\n\t\tAnswer: ", "answer": "1889", "background_triples": "(Hitler, Hitler's birth year, 1889)", "question": "what year was hitler was born", "actual_answer": "['1889-04-20']", "is_correct": false}

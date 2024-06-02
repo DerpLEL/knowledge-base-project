@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did djokovic come from\n\t\tAnswer: ", "answer": "Serbia", "background_triples": "(Novak Djokovic, Birthplace of Novak Djokovic, Serbia)", "question": "where did djokovic come from", "actual_answer": "['Serbia']", "is_correct": true}

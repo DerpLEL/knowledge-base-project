@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Joe Biden become president after 2020?\n\t\tAnswer: ", "answer": "Yes", "question": "Did Joe Biden become president after 2020?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

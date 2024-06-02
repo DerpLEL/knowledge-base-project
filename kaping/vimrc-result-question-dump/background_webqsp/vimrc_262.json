@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what killed john bonham\nAnswer: ", "answer": "25 September 1980", "background_triples": "- (John Bonham, Cause of death, Death)", "question": "what killed john bonham", "actual_answer": "['Inhalation of vomit']", "is_correct": false}

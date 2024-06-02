@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Hitler have any sons?\n\t\tAnswer: ", "answer": "No", "question": "Did Hitler have any sons?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

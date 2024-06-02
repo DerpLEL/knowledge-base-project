@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what did st augustine do\nAnswer: ", "answer": "N/A", "background_triples": "* (St. Augustine, Did, Something)", "question": "what did st augustine do", "actual_answer": "['Philosopher', 'Physician', 'Writer']", "is_correct": false}

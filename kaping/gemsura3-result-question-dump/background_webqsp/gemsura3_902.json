@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what planet did luke skywalker came from\n\t\tAnswer: ", "answer": "The answer is: Tatooine. The triplet states \"Luke Skywalker came from Tatooine\".", "background_triples": "(Luke Skywalker, came from, Tatooine)", "question": "what planet did luke skywalker came from", "actual_answer": "['Polis Massa']", "is_correct": false}

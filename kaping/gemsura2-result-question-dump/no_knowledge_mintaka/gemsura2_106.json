@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many Grammy Awards does Taylor Swift have?\n\t\tAnswer: ", "answer": "The answer is: 9.\n\nTaylor Swift has won a total of 9 Grammy Awards.", "question": "How many Grammy Awards does Taylor Swift have?", "actual_answer": "{'answerType': 'numerical', 'answer': [10], 'mention': '10'}", "is_correct": false}

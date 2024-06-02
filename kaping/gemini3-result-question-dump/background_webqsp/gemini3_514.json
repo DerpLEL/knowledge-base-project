@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where does toronto get its water from\n\t\tAnswer: ", "answer": "Lake Ontario", "background_triples": "(Toronto, Water sources for Toronto, water)", "question": "where does toronto get its water from", "actual_answer": "['Ashbridges Bay Wastewater Treatment Plant']", "is_correct": false}

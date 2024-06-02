@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What is the population of San José, California?\n\t\tAnswer: ", "answer": "1,035,317", "question": "What is the population of San José, California?", "actual_answer": "{'answerType': 'numerical', 'answer': [1021795], 'mention': '1021795'}", "is_correct": false}

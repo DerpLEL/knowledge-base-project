@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: How many children does the rapper who sung \"A Milli\" have?\nAnswer: ", "answer": "N/A", "actual_answer": "{'answerType': 'numerical', 'answer': [4], 'mention': '4'}", "is_correct": false}

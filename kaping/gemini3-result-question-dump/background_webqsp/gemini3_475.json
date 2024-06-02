@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where do john lennon die\n\t\tAnswer: ", "answer": "The Dakota", "background_triples": "(John Lennon, John Lennon's death location, Location)", "question": "where do john lennon die", "actual_answer": "['New York City']", "is_correct": false}

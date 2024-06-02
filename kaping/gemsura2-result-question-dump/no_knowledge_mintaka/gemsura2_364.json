@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: In what year does the game Portal take place?\n\t\tAnswer: ", "answer": "Sure, here is the answer to the question:\n\nThe game Portal takes place in 2007.", "question": "In what year does the game Portal take place?", "actual_answer": "{'answerType': 'date', 'answer': ['2021'], 'mention': '2021'}", "is_correct": false}

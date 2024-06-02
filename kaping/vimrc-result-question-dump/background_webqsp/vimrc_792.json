@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what did hayes do\nAnswer: ", "answer": "Presenting Isaac Hayes", "background_triples": "(Hayes, Hayes's actions, actions)", "question": "what did hayes do", "actual_answer": "['US President']", "is_correct": false}

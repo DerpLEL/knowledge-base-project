@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what degrees did obama get in college\n\t\tAnswer: ", "answer": "B.A. in political science from Columbia University, J.D. from Harvard Law School", "question": "what degrees did obama get in college", "actual_answer": "['Juris Doctor', 'Bachelor of Arts']", "is_correct": false}

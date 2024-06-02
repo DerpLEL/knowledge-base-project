@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Does Mario have a twin brother named Luigi?\n\t\tAnswer: ", "answer": "Yes", "background_triples": "- (Mario, hasTwinBrother, Luigi)\n- (Luigi, isTwinBrotherOf, Mario)", "question": "Does Mario have a twin brother named Luigi?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

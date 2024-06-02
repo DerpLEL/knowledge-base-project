@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what is steve nash nationality\n\t\tAnswer: ", "answer": "Canadian", "background_triples": "(Steve Nash, nationality, Canadian)", "question": "what is steve nash nationality", "actual_answer": "['United Kingdom', 'Canada']", "is_correct": false}

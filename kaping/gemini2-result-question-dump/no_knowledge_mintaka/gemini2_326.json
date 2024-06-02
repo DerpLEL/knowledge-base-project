@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How long did Alexander the Great rule?\n\t\tAnswer: ", "answer": "13 years", "question": "How long did Alexander the Great rule?", "actual_answer": "{'answerType': 'numerical', 'answer': [13], 'mention': '13 years'}", "is_correct": true}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did louis sachar grow up\n\t\tAnswer: ", "answer": "The answer is Great Neck, New York.\n\nLouis Sachar grew up in Great Neck, New York.", "background_triples": "(Louis Sachar, Childhood home, Great Neck, New York)", "question": "where did louis sachar grow up", "actual_answer": "['East Meadow']", "is_correct": false}

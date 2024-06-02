@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where did tim tebow grow up\nAnswer: ", "answer": "University of Florida", "background_triples": "(Tim Tebow, Tim Tebow's hometown, ?)", "question": "where did tim tebow grow up", "actual_answer": "['Makati']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is ibrahim afellay from\n\t\tAnswer: ", "answer": "Utrecht, Netherlands", "background_triples": "(ibrahim afellay, ibrahim afellay birthplace, place of birth)", "question": "where is ibrahim afellay from", "actual_answer": "['Utrecht']", "is_correct": true}

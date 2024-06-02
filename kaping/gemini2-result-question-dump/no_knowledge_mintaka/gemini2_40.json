@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Bicentennial Man come out before 1997?\n\t\tAnswer: ", "answer": "Yes", "question": "Did Bicentennial Man come out before 1997?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": false}

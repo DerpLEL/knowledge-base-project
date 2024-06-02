@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where does the zambezi river start\n\t\tAnswer: ", "answer": "The answer is: Maamba Swamp.\n\nThe Source of the Zambezi River is Maamba Swamp.", "background_triples": "(Zambezi River, Source of the Zambezi River, ?)", "question": "where does the zambezi river start", "actual_answer": "['Mwinilunga']", "is_correct": false}

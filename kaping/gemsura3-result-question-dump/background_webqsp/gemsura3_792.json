@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what did hayes do\n\t\tAnswer: ", "answer": "Error", "background_triples": "(Hayes, Hayes's actions, actions)", "question": "what did hayes do", "actual_answer": "['US President']", "is_correct": false}

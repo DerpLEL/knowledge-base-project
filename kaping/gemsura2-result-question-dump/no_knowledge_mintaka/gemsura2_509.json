@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When is Election Day?\n\t\tAnswer: ", "answer": "The answer is:\n\nIt's not a date, it's a day.\n\nElection Day is the day that people can go to the polls and vote.", "question": "When is Election Day?", "actual_answer": "{'answerType': 'numerical', 'answer': [44138], 'mention': '44138'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many classes does World of Warcraft have?\n\t\tAnswer: ", "answer": "The answer to this question is 11.\n\nThe game World of Warcraft has a total of 11 classes.", "question": "How many classes does World of Warcraft have?", "actual_answer": "{'answerType': 'numerical', 'answer': [12], 'mention': '12'}", "is_correct": false}

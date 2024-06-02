@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what year does hitler die\n\t\tAnswer: ", "answer": "1945", "background_triples": "(Hitler, Year of Hitler's death, ?)", "question": "what year does hitler die", "actual_answer": "['1945-04-30']", "is_correct": false}

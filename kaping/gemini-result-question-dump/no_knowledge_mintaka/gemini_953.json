@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: How old is the singer of \"Baby\" and \"Sorry\"?\nAnswer: ", "answer": "29", "actual_answer": "{'answerType': 'numerical', 'answer': [27], 'mention': '27'}", "is_correct": false}

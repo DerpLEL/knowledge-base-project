@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: How many times has the movie A Star is Born been remade?\nAnswer: ", "answer": "3", "actual_answer": "{'answerType': 'numerical', 'answer': [4], 'mention': '4'}", "is_correct": false}

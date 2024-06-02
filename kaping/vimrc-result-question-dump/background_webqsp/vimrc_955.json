@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what ocean is around hawaii\nAnswer: ", "answer": "Pacific Ocean", "background_triples": "- (Hawaii, located in, Pacific Ocean)", "question": "what ocean is around hawaii", "actual_answer": "['Pacific Ocean']", "is_correct": true}

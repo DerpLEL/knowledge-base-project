@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Have the United States won more all-time grand slams than Great Britain?\n\t\tAnswer: ", "answer": "Yes", "question": "Have the United States won more all-time grand slams than Great Britain?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

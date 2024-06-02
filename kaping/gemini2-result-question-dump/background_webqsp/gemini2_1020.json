@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did cs lewis wrote\n\t\tAnswer: ", "answer": "University of Oxford", "background_triples": "(C.S. Lewis, Place of work, University of Oxford)", "question": "where did cs lewis wrote", "actual_answer": "['Belfast']", "is_correct": false}

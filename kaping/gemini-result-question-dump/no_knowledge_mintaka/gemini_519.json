@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: What year did Brad Pitt's acting career begin?\nAnswer: ", "answer": "1987", "actual_answer": "{'answerType': 'date', 'answer': ['1987'], 'mention': '1987'}", "is_correct": false}

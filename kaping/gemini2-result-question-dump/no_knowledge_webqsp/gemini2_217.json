@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what type of artist is henri matisse\n\t\tAnswer: ", "answer": "Fauvist", "question": "what type of artist is henri matisse", "actual_answer": "['Collage', 'Drawing', 'Painting', 'Sculpture', 'Printmaking']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did eleanor roosevelt die\n\t\tAnswer: ", "answer": "New York City", "background_triples": "(Eleanor Roosevelt, Eleanor Roosevelt's death place, Location)", "question": "where did eleanor roosevelt die", "actual_answer": "['Manhattan']", "is_correct": false}

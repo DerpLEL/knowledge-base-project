@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where president obama was born\n\t\tAnswer: ", "answer": "Honolulu", "background_triples": "(Barack Obama, Birthplace of Barack Obama, Honolulu)", "question": "where president obama was born", "actual_answer": "['Honolulu']", "is_correct": true}

@@ -29,7 +29,7 @@ class RefinedEntityExtractor:
 		self.extractor = Refined.from_pretrained(
 			model_name="questions_model",
 			entity_set="wikipedia",
-			# device=0
+			device=0
 		)
 
 

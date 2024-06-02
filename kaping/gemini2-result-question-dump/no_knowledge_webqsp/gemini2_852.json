@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where all did picasso live\n\t\tAnswer: ", "answer": "* Barcelona, Spain\n* Paris, France\n* Mougins, France", "question": "where all did picasso live", "actual_answer": "['Málaga', 'Madrid', 'France']", "is_correct": true}

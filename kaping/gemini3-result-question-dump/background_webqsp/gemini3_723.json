@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did the greek alphabet come from\n\t\tAnswer: ", "answer": "Phoenician alphabet", "background_triples": "(Greek alphabet, Origin of the Greek alphabet, Phoenician alphabet)", "question": "where did the greek alphabet come from", "actual_answer": "['Phoenician alphabet']", "is_correct": true}

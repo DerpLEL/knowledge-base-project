@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: When was the actor who played Iron Man born?\nAnswer: ", "answer": "1965", "actual_answer": "{'answerType': 'date', 'answer': ['1965-04-04'], 'mention': '4-Apr-65'}", "is_correct": false}

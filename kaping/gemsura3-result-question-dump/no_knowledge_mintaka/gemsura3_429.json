@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Serena Williams win Wimbledon in 2021?\n\t\tAnswer: ", "answer": "The answer is no. Serena Williams did not win Wimbledon in 2021.", "question": "Did Serena Williams win Wimbledon in 2021?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

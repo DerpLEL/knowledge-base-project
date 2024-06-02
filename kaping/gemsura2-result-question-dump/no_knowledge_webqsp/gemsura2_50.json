@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what did peter tchaikovsky do\n\t\tAnswer: ", "answer": "The answer is \"composed the Swan Lake ballet.\n\nTchaikovsky composed the Swan Lake ballet in 1876.", "question": "what did peter tchaikovsky do", "actual_answer": "['Composer', 'Librettist', 'Musician']", "is_correct": false}

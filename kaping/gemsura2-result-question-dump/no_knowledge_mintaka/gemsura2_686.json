@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What was the last year the Lakers won the Finals?\n\t\tAnswer: ", "answer": "The answer is 2009. \n\nThe Lakers won the Finals in 2009.", "question": "What was the last year the Lakers won the Finals?", "actual_answer": "{'answerType': 'date', 'answer': ['2020'], 'mention': '2020'}", "is_correct": false}

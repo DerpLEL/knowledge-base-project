@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what instruments did louis armstrong play\n\t\tAnswer: ", "answer": "trumpet, cornet", "question": "what instruments did louis armstrong play", "actual_answer": "['Cornet', 'Trumpet']", "is_correct": true}

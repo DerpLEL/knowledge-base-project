@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is the main character in Yakuza Kiwami named Kiryu?\n\t\tAnswer: ", "answer": "Yes", "question": "Is the main character in Yakuza Kiwami named Kiryu?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

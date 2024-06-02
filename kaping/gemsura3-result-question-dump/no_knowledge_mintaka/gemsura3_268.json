@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did LeBron James join the Lakers in 2019?\n\t\tAnswer: ", "answer": "Sure, here's the answer:\n\nYes, LeBron James joined the LA Lakers in 2019.", "question": "Did LeBron James join the Lakers in 2019?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

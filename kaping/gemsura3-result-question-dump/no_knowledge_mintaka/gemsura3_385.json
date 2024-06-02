@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What is the population of San José, California?\n\t\tAnswer: ", "answer": "The population of San José, California is 1032,662.", "question": "What is the population of San José, California?", "actual_answer": "{'answerType': 'numerical', 'answer': [1021795], 'mention': '1021795'}", "is_correct": false}

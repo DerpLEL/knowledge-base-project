@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what discovery did galileo make\n\t\tAnswer: ", "answer": "The answer is: the four moons of Jupiter. Galilei Galilei made this discovery in 1610.", "question": "what discovery did galileo make", "actual_answer": "['Io', 'Callisto', 'Europa', 'Ganymede']", "is_correct": false}

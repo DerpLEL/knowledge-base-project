@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Leonardo DiCaprio play the character Romeo in the 1996 movie Romeo and Juliet?\n\t\tAnswer: ", "answer": "Yes", "question": "Did Leonardo DiCaprio play the character Romeo in the 1996 movie Romeo and Juliet?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

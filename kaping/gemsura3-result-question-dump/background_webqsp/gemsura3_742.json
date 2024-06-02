@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what type of cancer did eva peron die from\n\t\tAnswer: ", "answer": "Error", "background_triples": "* (Eva Peron, Eva Peron's cancer type, Cancer)\n* (Eva Peron, Eva Peron's cause of death, Cancer)", "question": "what type of cancer did eva peron die from", "actual_answer": "['Cervical cancer', 'Cancer']", "is_correct": false}

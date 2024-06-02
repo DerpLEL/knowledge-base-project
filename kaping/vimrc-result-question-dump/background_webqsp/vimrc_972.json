@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what year did the phillies begin\nAnswer: ", "answer": "1950", "background_triples": "(Phillies, Philadelphia Phillies founding year, 1883)", "question": "what year did the phillies begin", "actual_answer": "['1883']", "is_correct": false}

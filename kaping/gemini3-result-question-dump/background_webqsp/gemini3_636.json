@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where were the great pyramids of giza built\n\t\tAnswer: ", "answer": "Egypt", "background_triples": "* (Great Pyramids of Giza, Location, Giza)\n* (Giza, Country, Egypt)", "question": "where were the great pyramids of giza built", "actual_answer": "['Giza Plateau']", "is_correct": false}

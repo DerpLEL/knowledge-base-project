@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is chris paul from\n\t\tAnswer: ", "answer": "Error", "background_triples": "(Chris Paul, Chris Paul's birthplace, Location)", "question": "where is chris paul from", "actual_answer": "['United States of America']", "is_correct": false}

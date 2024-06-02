@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Blister in the Sun come out after 1980?\n\t\tAnswer: ", "answer": "The answer is no. \n\nBlister in the Sun put out its final album in 1980.", "question": "Did Blister in the Sun come out after 1980?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did The Martian come out before 2013?\n\t\tAnswer: ", "answer": "The answer is: no. The Martian premiered in 2015.", "question": "Did The Martian come out before 2013?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

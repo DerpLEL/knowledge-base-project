@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where are the texas rangers playing\n\t\tAnswer: ", "answer": "Texas Rangers stadium", "background_triples": "(Texas Rangers, Texas Rangers stadium, Stadium)\n(Texas Rangers, Location, Stadium)", "question": "where are the texas rangers playing", "actual_answer": "['Rangers Ballpark in Arlington']", "is_correct": false}

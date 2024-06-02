@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is San Francisco in California?\n\t\tAnswer: ", "answer": "The answer is yes. San Francisco is in California. It is a city in the San Francisco Bay Area.", "question": "Is San Francisco in California?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

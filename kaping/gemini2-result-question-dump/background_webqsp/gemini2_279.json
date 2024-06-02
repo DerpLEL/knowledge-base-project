@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what currency is used in panama\n\t\tAnswer: ", "answer": "Answer: The currency used in Panama is the US dollar.", "background_triples": "(Panama, Currency of Panama, Currency)", "question": "what currency is used in panama", "actual_answer": "['Panamanian balboa', 'United States Dollar']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what type of currency do they use in thailand\n\t\tAnswer: ", "answer": "Thai Baht", "background_triples": "(Thailand, Currency used in Thailand, Currency)", "question": "what type of currency do they use in thailand", "actual_answer": "['Thai baht']", "is_correct": true}

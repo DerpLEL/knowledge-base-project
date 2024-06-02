@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what type of music did vivaldi compose\n\t\tAnswer: ", "answer": "Answer: The answer is \"opera\".\n\nVivaldi composed a lot of opera.", "question": "what type of music did vivaldi compose", "actual_answer": "['Baroque music', 'Classical music']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what currency can you use in jamaica\n\t\tAnswer: ", "answer": "Jamaican dollar", "background_triples": "(Jamaica, Currency used in Jamaica, Currency)", "question": "what currency can you use in jamaica", "actual_answer": "['Jamaican dollar']", "is_correct": true}

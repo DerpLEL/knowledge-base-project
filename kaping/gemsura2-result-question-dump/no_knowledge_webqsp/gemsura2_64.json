@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what language is spoken in haiti today\n\t\tAnswer: ", "answer": "The answer is Haitian Creole.\n\nHaitian Creole is the official language of Haiti.", "question": "what language is spoken in haiti today", "actual_answer": "['Haitian Creole', 'French']", "is_correct": true}

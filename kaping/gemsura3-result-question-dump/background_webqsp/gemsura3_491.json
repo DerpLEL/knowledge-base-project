@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is taylor swift from\n\t\tAnswer: ", "answer": "The answer is:\n\nTaylor Swift is from Reading, Pennsylvania, in the United States.", "background_triples": "- (Taylor Swift, Taylor Swift's birthplace, Location)", "question": "where is taylor swift from", "actual_answer": "['Reading']", "is_correct": true}

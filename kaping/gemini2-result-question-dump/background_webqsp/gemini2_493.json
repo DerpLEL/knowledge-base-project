@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: when is the last time the giants won the world series\n\t\tAnswer: ", "answer": "2014", "background_triples": "(Giants, Giants World Series wins, Last time)", "question": "when is the last time the giants won the world series", "actual_answer": "['2014 World Series']", "is_correct": false}

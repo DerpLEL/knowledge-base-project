@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what year did super mario bros 2 come out\n\t\tAnswer: ", "answer": "1988", "background_triples": "(Super Mario Bros. 2, Release date, 1988)", "question": "what year did super mario bros 2 come out", "actual_answer": "['1988-10']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Dwyane Wade older then LeBron James?\n\t\tAnswer: ", "answer": "No", "question": "Is Dwyane Wade older then LeBron James?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

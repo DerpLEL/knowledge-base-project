@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Simone Biles the world's most decorated gymnast?\n\t\tAnswer: ", "answer": "Yes", "question": "Is Simone Biles the world's most decorated gymnast?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

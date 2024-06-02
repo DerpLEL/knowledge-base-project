@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where is jay leno from\nAnswer: ", "answer": "N/A", "background_triples": "(Jay Leno, place of birth, New Rochelle)", "question": "where is jay leno from", "actual_answer": "['New Rochelle']", "is_correct": false}

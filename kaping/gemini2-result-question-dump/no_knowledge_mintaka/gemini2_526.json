@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did the first Mario Kart game come out before the first Forza game?\n\t\tAnswer: ", "answer": "Yes", "question": "Did the first Mario Kart game come out before the first Forza game?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

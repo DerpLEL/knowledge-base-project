@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: which ocean does the zambezi river flow into\n\t\tAnswer: ", "answer": "Indian Ocean", "background_triples": "(Zambezi River, Flow into, Indian Ocean)", "question": "which ocean does the zambezi river flow into", "actual_answer": "['Indian Ocean']", "is_correct": true}

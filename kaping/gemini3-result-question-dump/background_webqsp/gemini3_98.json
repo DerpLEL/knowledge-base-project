@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what was dr seuss education\n\t\tAnswer: ", "answer": "Dr. Seuss's education", "background_triples": "(Dr. Seuss, Dr. Seuss's education, Education)", "question": "what was dr seuss education", "actual_answer": "['Dartmouth College', 'University of Oxford', 'Lincoln College, Oxford']", "is_correct": false}

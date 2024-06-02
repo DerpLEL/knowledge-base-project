@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many children does Madonna have?\n\t\tAnswer: ", "answer": "The answer is 6.\n\nMadonna has a total of 6 children: Lourdes, Rocco, David, Mercy, Estere, and Chiembo.", "question": "How many children does Madonna have?", "actual_answer": "{'answerType': 'numerical', 'answer': [6], 'mention': '6'}", "is_correct": true}

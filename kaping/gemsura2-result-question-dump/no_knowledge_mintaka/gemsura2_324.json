@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Ichiro older than Mitch Haniger?\n\t\tAnswer: ", "answer": "The answer is no. Ichiro is 44 years old and Mitch Haniger is 29 years old.", "question": "Is Ichiro older than Mitch Haniger?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

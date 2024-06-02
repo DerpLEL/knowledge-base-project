@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is the Amazon located in South America?\n\t\tAnswer: ", "answer": "Sure, the answer is yes. The Amazon rainforest is located in South America.", "question": "Is the Amazon located in South America?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what currency does cyprus use\nAnswer: ", "answer": "euro", "background_triples": "(Cyprus, Currency of Cyprus, Currency)", "question": "what currency does cyprus use", "actual_answer": "['Euro']", "is_correct": true}

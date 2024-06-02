@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How tall is the actor who played Chewbacca in the Star Wars movie series?\n\t\tAnswer: ", "answer": "7 feet 3 inches (2.21 m)", "question": "How tall is the actor who played Chewbacca in the Star Wars movie series?", "actual_answer": "{'answerType': 'numerical', 'answer': ['7\\'2\"'], 'mention': '7\\'2\"'}", "is_correct": false}

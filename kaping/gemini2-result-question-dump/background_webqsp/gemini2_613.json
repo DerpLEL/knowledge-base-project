@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who is the coach for the new york knicks\n\t\tAnswer: ", "answer": "Tom Thibodeau", "background_triples": "(New York Knicks, Coach of the New York Knicks, Coach)", "question": "who is the coach for the new york knicks", "actual_answer": "['Derek Fisher']", "is_correct": false}

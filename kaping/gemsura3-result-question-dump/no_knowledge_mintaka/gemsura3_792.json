@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did J. Cole release a studio album in 2021?\n\t\tAnswer: ", "answer": "Sure. Here's the answer:\n\nJ. Cole released a studio album called \"Spiral\" in 2021.", "question": "Did J. Cole release a studio album in 2021?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

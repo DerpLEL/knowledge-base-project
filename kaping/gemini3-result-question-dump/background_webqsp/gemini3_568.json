@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what was pink floyd 's first album\n\t\tAnswer: ", "answer": "The Piper at the Gates of Dawn", "background_triples": "- (Pink Floyd, Pink Floyd's first album, First album)", "question": "what was pink floyd 's first album", "actual_answer": "['Psychedelic Session-compilation album']", "is_correct": false}

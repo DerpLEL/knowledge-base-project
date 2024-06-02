@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: Which presidential elections did Donald Trump run in but not win?\nAnswer: ", "answer": "N/A", "actual_answer": "{'answerType': 'numerical', 'answer': ['2000 2020'], 'mention': '2000, 2020'}", "is_correct": false}

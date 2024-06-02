@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did King Charles IX have four wives?\n\t\tAnswer: ", "answer": "No", "question": "Did King Charles IX have four wives?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

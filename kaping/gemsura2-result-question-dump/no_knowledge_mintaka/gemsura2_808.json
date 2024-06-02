@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many states have presidents come from?\n\t\tAnswer: ", "answer": "The answer is all 50 states, although each state only has had one president.", "question": "How many states have presidents come from?", "actual_answer": "{'answerType': 'numerical', 'answer': [21], 'mention': '21'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Jurassic World make more money than The Avengers?\n\t\tAnswer: ", "answer": "Yes", "question": "Did Jurassic World make more money than The Avengers?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

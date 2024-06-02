@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is the riviera casino\n\t\tAnswer: ", "answer": "Las Vegas, Nevada", "background_triples": "(Riviera Casino, Location of the Riviera Casino, Las Vegas, Nevada)", "question": "where is the riviera casino", "actual_answer": "['Las Vegas']", "is_correct": true}

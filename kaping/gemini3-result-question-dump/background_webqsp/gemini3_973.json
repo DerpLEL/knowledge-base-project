@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what language does iceland speak\n\t\tAnswer: ", "answer": "Icelandic language", "background_triples": "(Iceland, Languages of Iceland, Icelandic language)\n(Iceland, Official languages of Iceland, Icelandic language)", "question": "what language does iceland speak", "actual_answer": "['Icelandic Language']", "is_correct": true}

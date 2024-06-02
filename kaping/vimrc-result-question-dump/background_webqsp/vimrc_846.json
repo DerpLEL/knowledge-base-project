@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where is ibrahim afellay from\nAnswer: ", "answer": "N/A", "background_triples": "(ibrahim afellay, ibrahim afellay birthplace, place of birth)", "question": "where is ibrahim afellay from", "actual_answer": "['Utrecht']", "is_correct": false}

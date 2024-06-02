@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what county is greeley colorado in\n\t\tAnswer: ", "answer": "Weld County", "background_triples": "(Greeley, Colorado, Weld County, Colorado)\n(Weld County, Colorado, Colorado, United States)", "question": "what county is greeley colorado in", "actual_answer": "['Weld County']", "is_correct": true}

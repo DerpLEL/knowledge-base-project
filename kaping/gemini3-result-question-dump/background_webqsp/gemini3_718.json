@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what nationality is rihanna\n\t\tAnswer: ", "answer": "Barbadian", "background_triples": "(Rihanna, Rihanna's nationality, Barbadian)", "question": "what nationality is rihanna", "actual_answer": "['Barbados']", "is_correct": false}

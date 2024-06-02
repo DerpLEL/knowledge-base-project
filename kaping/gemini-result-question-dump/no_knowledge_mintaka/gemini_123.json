@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: How many classes does World of Warcraft have?\nAnswer: ", "answer": "12", "actual_answer": "{'answerType': 'numerical', 'answer': [12], 'mention': '12'}", "is_correct": false}

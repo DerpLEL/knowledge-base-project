@@ -24,4 +24,10 @@ def accuracy(evaluated):
 	Calculate the accuracy
 	:param evaluated:
 	"""
-	return evaluated.count(True) / len(evaluated) 
+	accuracy_value = (evaluated.count(True) / len(evaluated)) * 100
+	return f"{accuracy_value:.2f}%"
+
+# Example usage
+test_list = [True, True, False, True]
+accuracy_result = accuracy(test_list)
+print(accuracy_result)

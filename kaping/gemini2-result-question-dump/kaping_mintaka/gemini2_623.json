@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When was It published?\n\t\tAnswer: ", "answer": "The provided triplets do not contain the answer to the question \"When was It published?\".", "kaping_triples": "", "question": "When was It published?", "actual_answer": "{'answerType': 'date', 'answer': ['1986'], 'mention': '1986'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many years after Terminator was Terminator Dark Fate released?\n\t\tAnswer: ", "answer": "28", "question": "How many years after Terminator was Terminator Dark Fate released?", "actual_answer": "{'answerType': 'numerical', 'answer': [35], 'mention': '35'}", "is_correct": false}

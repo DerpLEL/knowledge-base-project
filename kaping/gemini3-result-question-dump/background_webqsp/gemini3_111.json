@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did bristol palin go to school\n\t\tAnswer: ", "answer": "Wasilla High School", "background_triples": "(Bristol Palin, education, School)", "question": "where did bristol palin go to school", "actual_answer": "['Juneau-Douglas High School', 'Wasilla High School', 'West Anchorage High School']", "is_correct": true}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When did the second Hunger Games book come out?\n\t\tAnswer: ", "answer": "September 1, 2009", "question": "When did the second Hunger Games book come out?", "actual_answer": "{'answerType': 'date', 'answer': ['2009'], 'mention': '2009'}", "is_correct": true}

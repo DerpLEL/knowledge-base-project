@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: when did tony romo got drafted\n\t\tAnswer: ", "answer": "The answer is: 2003.\n\nTony Romo was drafted by the Dallas Cowboys in 2003.", "background_triples": "(Tony Romo, Tony Romo's draft year, ?)", "question": "when did tony romo got drafted", "actual_answer": "['2002']", "is_correct": false}

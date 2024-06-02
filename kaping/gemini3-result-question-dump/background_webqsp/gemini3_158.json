@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what does australia use for currency\n\t\tAnswer: ", "answer": "Australian dollar", "background_triples": "(Australia, Australia's currency, Currency)\n(Currency, Currency used in Australia, Australia)", "question": "what does australia use for currency", "actual_answer": "['Australian dollar']", "is_correct": true}

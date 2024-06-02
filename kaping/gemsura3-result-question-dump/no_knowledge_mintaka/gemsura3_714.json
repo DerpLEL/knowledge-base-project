@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Has Mike Trout won more than 1 MVP award?\n\t\tAnswer: ", "answer": "The answer is yes. Mike Trout has won a total of 4 MVP awards.", "question": "Has Mike Trout won more than 1 MVP award?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

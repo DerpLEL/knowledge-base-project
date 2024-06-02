@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what was sir isaac newton 's inventions\n\t\tAnswer: ", "answer": "* Reflecting telescope\n* Calculus\n* Laws of motion\n* Universal gravitation\n* Binomial theorem\n* Method of fluxions", "question": "what was sir isaac newton 's inventions", "actual_answer": "['Reflecting telescope', 'Pet door']", "is_correct": true}

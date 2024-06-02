@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what language do the maasai tribe speak\n\t\tAnswer: ", "answer": "Maasai", "background_triples": "(Maasai tribe, Language spoken by the Maasai tribe, Language)", "question": "what language do the maasai tribe speak", "actual_answer": "['Maasai Language']", "is_correct": false}

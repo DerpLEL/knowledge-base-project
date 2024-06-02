@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: When did Yukio Hatoyama take power?\nAnswer: ", "answer": "September 16, 2009", "actual_answer": "{'answerType': 'date', 'answer': ['2009'], 'mention': '2009'}", "is_correct": false}

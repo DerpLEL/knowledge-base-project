@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what town was martin luther king assassinated in\n\t\tAnswer: ", "answer": "Memphis", "background_triples": "(Martin Luther King Jr., Assassination, Memphis, Tennessee)", "question": "what town was martin luther king assassinated in", "actual_answer": "['Memphis']", "is_correct": true}

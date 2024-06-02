@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When did Yukio Hatoyama take power?\n\t\tAnswer: ", "answer": "The answer is May 16, 2009.\n\nYukio Hatoyama became Prime Minister of Japan on May 16, 2009.", "question": "When did Yukio Hatoyama take power?", "actual_answer": "{'answerType': 'date', 'answer': ['2009'], 'mention': '2009'}", "is_correct": true}

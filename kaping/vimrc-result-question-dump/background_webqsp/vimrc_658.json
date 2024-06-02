@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where was john jay born\nAnswer: ", "answer": "N/A", "background_triples": "(John Jay, Birthplace of John Jay, birthplace)", "question": "where was john jay born", "actual_answer": "['New York City']", "is_correct": false}

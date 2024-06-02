@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When was the Lincoln Memorial created?\n\t\tAnswer: ", "answer": "1922", "question": "When was the Lincoln Memorial created?", "actual_answer": "{'answerType': 'date', 'answer': ['8186'], 'mention': '8186'}", "is_correct": false}

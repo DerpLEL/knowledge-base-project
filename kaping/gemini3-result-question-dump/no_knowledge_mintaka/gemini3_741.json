@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What year did the first Opium War start?\n\t\tAnswer: ", "answer": "1839", "question": "What year did the first Opium War start?", "actual_answer": "{'answerType': 'date', 'answer': ['1839'], 'mention': '1839'}", "is_correct": true}

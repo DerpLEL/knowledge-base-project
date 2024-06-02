@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did the second battle of ypres occur\n\t\tAnswer: ", "answer": "Ypres, Belgium", "background_triples": "(Second Battle of Ypres, Battle of Ypres, Ypres, Belgium)", "question": "where did the second battle of ypres occur", "actual_answer": "['Ypres']", "is_correct": true}

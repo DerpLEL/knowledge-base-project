@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what did charles babbage discover\n\t\tAnswer: ", "answer": "Charles Babbage's discoveries", "background_triples": "(Charles Babbage, Charles Babbage's discoveries, Discovery)", "question": "what did charles babbage discover", "actual_answer": "['Difference engine', 'Analytical Engine']", "is_correct": false}

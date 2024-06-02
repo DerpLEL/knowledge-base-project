@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is tupac from originally\n\t\tAnswer: ", "answer": "The answer is: Los Pirmas, California, USA.\n\nTupac Shakur was born in Los Pirmas, California, USA.", "background_triples": "(Tupac, Tupac's birthplace, ?)", "question": "where is tupac from originally", "actual_answer": "['East Harlem']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is \"A Brief History of Time\" the most read book in the world?\n\t\tAnswer: ", "answer": "No", "question": "Is \"A Brief History of Time\" the most read book in the world?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

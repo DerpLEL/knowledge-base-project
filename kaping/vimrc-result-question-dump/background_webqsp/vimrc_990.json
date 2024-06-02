@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: who is tatyana ali parents\nAnswer: ", "answer": "Ashley Banks", "background_triples": "(Tatyana Ali, tatyana ali parents, Parents)", "question": "who is tatyana ali parents", "actual_answer": "['Sheriff Ali', 'Sonia Ali']", "is_correct": false}

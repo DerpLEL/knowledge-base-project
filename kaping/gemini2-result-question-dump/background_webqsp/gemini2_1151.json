@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: when did the libyan conflict start\n\t\tAnswer: ", "answer": "2011", "background_triples": "- (Libya, Libyan Civil War, Start date)", "question": "when did the libyan conflict start", "actual_answer": "['2011-03-19']", "is_correct": false}

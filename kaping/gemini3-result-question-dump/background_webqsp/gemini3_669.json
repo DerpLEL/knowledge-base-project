@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: which country in north america is divided into provinces\n\t\tAnswer: ", "answer": "Canada", "background_triples": "- (Canada, Country, North America)\n- (Canada, Province, Divided)", "question": "which country in north america is divided into provinces", "actual_answer": "['Canada']", "is_correct": true}

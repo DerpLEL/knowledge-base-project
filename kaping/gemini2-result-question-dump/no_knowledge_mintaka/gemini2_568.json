@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many Olympic medals does Gao Ling have that are not gold?\n\t\tAnswer: ", "answer": "0", "question": "How many Olympic medals does Gao Ling have that are not gold?", "actual_answer": "{'answerType': 'numerical', 'answer': [2], 'mention': '2'}", "is_correct": false}

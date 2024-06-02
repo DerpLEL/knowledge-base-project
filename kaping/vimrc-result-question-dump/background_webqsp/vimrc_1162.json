@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: who founded the afl\nAnswer: ", "answer": "1969 AFL Hall of Fame", "background_triples": "- (AFL, Founder of the AFL, Founder)", "question": "who founded the afl", "actual_answer": "['Lamar Hunt', 'Bud Adams']", "is_correct": false}

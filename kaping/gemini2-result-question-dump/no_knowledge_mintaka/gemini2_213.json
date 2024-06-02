@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What is the population in the capital city of the United States?\n\t\tAnswer: ", "answer": "689,545", "question": "What is the population in the capital city of the United States?", "actual_answer": "{'answerType': 'numerical', 'answer': [692683], 'mention': '692,683'}", "is_correct": false}

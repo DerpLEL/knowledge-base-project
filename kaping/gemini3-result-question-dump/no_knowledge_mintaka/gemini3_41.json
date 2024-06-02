@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was Liar Liar released the same year as My Best Friend's Wedding?\n\t\tAnswer: ", "answer": "Yes", "question": "Was Liar Liar released the same year as My Best Friend's Wedding?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

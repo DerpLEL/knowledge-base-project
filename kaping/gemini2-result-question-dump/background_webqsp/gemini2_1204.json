@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where does fabio capello come from\n\t\tAnswer: ", "answer": "Italy", "background_triples": "(Fabio Capello, place of birth, Italy)", "question": "where does fabio capello come from", "actual_answer": "[\"San Canzian d'Isonzo\"]", "is_correct": false}

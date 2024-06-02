@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who developed the tcp ip reference model\n\t\tAnswer: ", "answer": "Answer: Vinton Cerf and Robert Kahn", "kaping_triples": "", "question": "who developed the tcp ip reference model", "actual_answer": "['Robert  E. Kahn', 'Vint Cerf']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many children does Madonna have?\n\t\tAnswer: ", "answer": "6", "question": "How many children does Madonna have?", "actual_answer": "{'answerType': 'numerical', 'answer': [6], 'mention': '6'}", "is_correct": true}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what time zone is toronto gmt\n\t\tAnswer: ", "answer": "-5", "background_triples": "- (Toronto, Toronto time zone, ?)\n- (GMT, GMT time zone, ?)\n- (Toronto, Time difference between Toronto and GMT, ?)", "question": "what time zone is toronto gmt", "actual_answer": "['Eastern Time Zone']", "is_correct": false}

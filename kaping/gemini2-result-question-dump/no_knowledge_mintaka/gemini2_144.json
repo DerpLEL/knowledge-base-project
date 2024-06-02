@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How old is the actress who played Black Widow?\n\t\tAnswer: ", "answer": "Scarlett Johansson", "question": "How old is the actress who played Black Widow?", "actual_answer": "{'answerType': 'numerical', 'answer': [26], 'mention': '26'}", "is_correct": false}

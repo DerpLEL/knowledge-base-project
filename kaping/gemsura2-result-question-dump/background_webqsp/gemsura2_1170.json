@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is chris rock from\n\t\tAnswer: ", "answer": "Chris Rock was born in Brooklyn, New York, USA. So, the answer is Brooklyn, New York.", "background_triples": "(Chris Rock, birthplace, Location)", "question": "where is chris rock from", "actual_answer": "['Andrews']", "is_correct": false}

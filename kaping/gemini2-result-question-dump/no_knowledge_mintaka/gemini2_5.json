@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is the main hero in Final Fantasy IX named Kuja?\n\t\tAnswer: ", "answer": "No", "question": "Is the main hero in Final Fantasy IX named Kuja?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

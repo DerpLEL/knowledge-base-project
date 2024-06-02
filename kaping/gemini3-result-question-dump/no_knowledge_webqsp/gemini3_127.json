@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: which continents were part of the roman empire\n\t\tAnswer: ", "answer": "Europe, Asia, and Africa", "question": "which continents were part of the roman empire", "actual_answer": "['Europe', 'Middle East', 'North Africa']", "is_correct": true}

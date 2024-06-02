@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what type of religion does argentina have\n\t\tAnswer: ", "answer": "Christianity", "background_triples": "(Argentina, Religion in Argentina, Religion)", "question": "what type of religion does argentina have", "actual_answer": "['Judaism', 'Protestantism', 'Catholicism']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: when did the battle of alamo start\n\t\tAnswer: ", "answer": "The answer is: March 2, 1836.\n\nThe Battle of the Alamo started on March 2, 1836.", "background_triples": "(Battle of the Alamo, Start date, ?)", "question": "when did the battle of alamo start", "actual_answer": "['1836-02-23']", "is_correct": false}

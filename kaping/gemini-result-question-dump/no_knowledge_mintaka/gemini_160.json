@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: In what year did the novelization for the first Star Wars prequel release?\nAnswer: ", "answer": "1999", "actual_answer": "{'answerType': 'date', 'answer': ['1999'], 'mention': '1999'}", "is_correct": false}

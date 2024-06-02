@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is mount fuji located\n\t\tAnswer: ", "answer": "Japan", "background_triples": "* (Mount Fuji, Location, Japan)", "question": "where is mount fuji located", "actual_answer": "['Fuji-Hakone-Izu National Park', 'Japan', 'Honshu', 'Chūbu region', 'Asia']", "is_correct": true}

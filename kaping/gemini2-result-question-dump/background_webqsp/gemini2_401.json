@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what did the akkadian empire include\n\t\tAnswer: ", "answer": "Mesopotamia", "background_triples": "- (Akkadian Empire, included, Mesopotamia)", "question": "what did the akkadian empire include", "actual_answer": "['Akkad']", "is_correct": false}

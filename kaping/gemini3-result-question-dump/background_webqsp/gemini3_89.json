@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what language does cuba speak\n\t\tAnswer: ", "answer": "Spanish", "background_triples": "- (Cuba, Official language, Spanish)", "question": "what language does cuba speak", "actual_answer": "['Haitian Creole', 'Lucumi Language', 'Spanish Language']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what currency can you use in barbados\n\t\tAnswer: ", "answer": "Barbados dollar", "background_triples": "(Barbados, Currency used in Barbados, Barbados dollar)", "question": "what currency can you use in barbados", "actual_answer": "['Barbadian dollar']", "is_correct": false}

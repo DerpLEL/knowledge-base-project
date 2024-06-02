@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who would play luke skywalker\n\t\tAnswer: ", "answer": "Mark Hamill", "background_triples": "(Mark Hamill, Actor, Luke Skywalker)\n(Luke Skywalker, Character, Star Wars)\n(Star Wars, Movie, George Lucas)", "question": "who would play luke skywalker", "actual_answer": "['Mark Hamill']", "is_correct": true}

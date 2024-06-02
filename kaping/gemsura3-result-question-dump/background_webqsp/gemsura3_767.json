@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what country did hitler invade that started ww2\n\t\tAnswer: ", "answer": "Error", "background_triples": "- (Hitler, invaded, Poland)\n- (Poland, started, World War II)", "question": "what country did hitler invade that started ww2", "actual_answer": "['Battle of Falmouth']", "is_correct": false}

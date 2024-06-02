@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what type of art did leonardo da vinci make\n\t\tAnswer: ", "answer": "Paintings, drawings, sculptures, and architectural designs", "question": "what type of art did leonardo da vinci make", "actual_answer": "['Drawing', 'Painting', 'Sculpture']", "is_correct": true}

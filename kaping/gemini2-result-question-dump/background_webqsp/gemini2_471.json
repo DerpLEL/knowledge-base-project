@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what is the zip code for newark california\n\t\tAnswer: ", "answer": "94560", "background_triples": "- (Newark, California, location, California)\n- (Newark, California, zip code, 94560)", "question": "what is the zip code for newark california", "actual_answer": "['94560']", "is_correct": true}

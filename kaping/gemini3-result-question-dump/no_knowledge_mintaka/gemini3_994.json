@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Jay-Z older than Eminem?\n\t\tAnswer: ", "answer": "Yes", "question": "Is Jay-Z older than Eminem?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When was the most recent Game of Thrones book published?\n\t\tAnswer: ", "answer": "2011", "question": "When was the most recent Game of Thrones book published?", "actual_answer": "{'answerType': 'date', 'answer': ['2011'], 'mention': '2011'}", "is_correct": true}

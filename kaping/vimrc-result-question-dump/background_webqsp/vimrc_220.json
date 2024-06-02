@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what year does hitler die\nAnswer: ", "answer": "30 April 1945", "background_triples": "(Hitler, Year of Hitler's death, ?)", "question": "what year does hitler die", "actual_answer": "['1945-04-30']", "is_correct": false}

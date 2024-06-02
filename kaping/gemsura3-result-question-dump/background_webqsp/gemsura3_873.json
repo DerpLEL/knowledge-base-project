@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what city is the university of oregon state in\n\t\tAnswer: ", "answer": "The University of Oregon State, is loacted in Corvallis, Oregon.", "background_triples": "(University of Oregon State, Location, City)", "question": "what city is the university of oregon state in", "actual_answer": "['Eugene']", "is_correct": false}

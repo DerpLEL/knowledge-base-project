@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: How tall is the Space Needle in Seattle?\nAnswer: ", "answer": "605 feet", "actual_answer": "{'answerType': 'numerical', 'answer': ['605 feet'], 'mention': '605 feet'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what disease did bernie mac die of\n\t\tAnswer: ", "answer": "Sarcoidosis", "background_triples": "(Bernie Mac, Bernie Mac's cause of death, Disease)", "question": "what disease did bernie mac die of", "actual_answer": "['Sarcoidosis', 'Complications from pneumonia']", "is_correct": true}

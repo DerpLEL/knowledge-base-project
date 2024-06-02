@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Has Sam Smith made a song with Adele?\n\t\tAnswer: ", "answer": "The answer is: No. Sam Smith and Adele have not made a song together.", "question": "Has Sam Smith made a song with Adele?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

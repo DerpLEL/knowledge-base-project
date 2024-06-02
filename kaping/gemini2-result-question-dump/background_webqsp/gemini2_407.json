@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what was the first language spoken in spain\n\t\tAnswer: ", "answer": "Basque", "background_triples": "(Spain, First language spoken in Spain, Basque language)", "question": "what was the first language spoken in spain", "actual_answer": "['Spanish Language']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Rhianna sing Umbrella?\n\t\tAnswer: ", "answer": "Yes", "question": "Did Rhianna sing Umbrella?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

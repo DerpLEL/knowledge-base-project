@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what did john dalton study\n\t\tAnswer: ", "answer": "Atomic theory", "question": "what did john dalton study", "actual_answer": "['Chemist', 'Physicist']", "is_correct": false}

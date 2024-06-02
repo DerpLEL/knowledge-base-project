@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what timezone is the state of michigan and\n\t\tAnswer: ", "answer": "Sure, here is the answer to this question:\n\nThe state of Michigan is in the Eastern Time Zone.", "question": "what timezone is the state of michigan and", "actual_answer": "['UTC−05:00', 'Central Time Zone', 'Eastern Time Zone']", "is_correct": true}

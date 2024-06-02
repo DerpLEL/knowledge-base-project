@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Frankfort the capital of Kentucky?\n\t\tAnswer: ", "answer": "Sure. The answer is yes. \n\nFrankfort is the capital of Kentucky.", "question": "Is Frankfort the capital of Kentucky?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where was john jay born\n\t\tAnswer: ", "answer": "The answer is:\n\nJohn Jay was born in Old Stone Fort, NY.", "background_triples": "(John Jay, Birthplace of John Jay, birthplace)", "question": "where was john jay born", "actual_answer": "['New York City']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what kind of guitar did george harrison use\n\t\tAnswer: ", "answer": "The answer is: a Gibson Les Paul.\n\nGeorge Harrison used a Gibson Les Paul, not a Fender Stratocaster.", "question": "what kind of guitar did george harrison use", "actual_answer": "['Fender Stratocaster', 'Rickenbacker 360/12']", "is_correct": true}

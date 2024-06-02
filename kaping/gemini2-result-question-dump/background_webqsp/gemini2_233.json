@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what are the school colors for harvard university\n\t\tAnswer: ", "answer": "Crimson and White", "background_triples": "- (Harvard University, School colors, Crimson)\n- (Harvard University, School colors, White)", "question": "what are the school colors for harvard university", "actual_answer": "['Crimson']", "is_correct": true}

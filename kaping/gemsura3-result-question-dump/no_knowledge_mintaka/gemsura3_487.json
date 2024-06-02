@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was Castlevania (NES) released after 1990?\n\t\tAnswer: ", "answer": "The answer is no. Castlevania (NES) was released in 1986, not 1990.", "question": "Was Castlevania (NES) released after 1990?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

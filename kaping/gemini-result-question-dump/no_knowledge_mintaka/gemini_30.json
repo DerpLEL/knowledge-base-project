@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: Did Moon come out before or after Eternal Sunshine of a Spotless Mind?\nAnswer: ", "answer": "Before", "actual_answer": "{'answerType': 'string', 'answer': ['After'], 'mention': 'After'}", "is_correct": false}

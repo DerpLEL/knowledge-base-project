@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what do people in australia speak\n\t\tAnswer: ", "answer": "The answer of this question is \"English\".\n\nPeople in Australia speak English.", "question": "what do people in australia speak", "actual_answer": "['English Language', 'Esperanto Language', 'Lojban']", "is_correct": false}

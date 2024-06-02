@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Which presidential elections did Donald Trump run in but not win?\n\t\tAnswer: ", "answer": "2016", "question": "Which presidential elections did Donald Trump run in but not win?", "actual_answer": "{'answerType': 'numerical', 'answer': ['2000 2020'], 'mention': '2000, 2020'}", "is_correct": false}

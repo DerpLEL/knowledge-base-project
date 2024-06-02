@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was Castlevania (NES) released after 1990?\n\t\tAnswer: ", "answer": "No", "question": "Was Castlevania (NES) released after 1990?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

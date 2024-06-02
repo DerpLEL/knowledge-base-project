@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what was firefox programmed in\nAnswer: ", "answer": "N/A", "question": "what was firefox programmed in", "actual_answer": "['XUL', 'Cascading Style Sheets', 'JavaScript', 'XBL', 'C++']", "is_correct": false}

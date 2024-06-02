@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What year did the Vietnam War end?\n\t\tAnswer: ", "answer": "1975", "background_triples": "(Vietnam War, End date, Year)", "question": "What year did the Vietnam War end?", "actual_answer": "{'answerType': 'date', 'answer': ['1975'], 'mention': '1975'}", "is_correct": true}

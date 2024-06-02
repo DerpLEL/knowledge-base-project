@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what city does fulham play in\n\t\tAnswer: ", "answer": "London", "background_triples": "(Fulham, Fulham F.C., London)", "question": "what city does fulham play in", "actual_answer": "['Fulham']", "is_correct": false}

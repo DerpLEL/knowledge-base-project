@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: who is amy grant 's first husband\nAnswer: ", "answer": "N/A", "background_triples": "(Amy Grant, amy grant's first husband, ?)", "question": "who is amy grant 's first husband", "actual_answer": "['Gary Chapman']", "is_correct": false}

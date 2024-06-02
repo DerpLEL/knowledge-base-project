@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Jay-Z older than Eminem?\n\t\tAnswer: ", "answer": "The answer is: Yes. Jay-Z was born in 1969 and Eminem was born in 1972.", "question": "Is Jay-Z older than Eminem?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

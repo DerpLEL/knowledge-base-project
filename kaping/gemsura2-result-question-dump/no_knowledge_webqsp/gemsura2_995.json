@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what money does spain use\n\t\tAnswer: ", "answer": "The answer is Euro.\n\nIn Spain, the official currency is Euro, not the Peseta.", "question": "what money does spain use", "actual_answer": "['Euro']", "is_correct": true}

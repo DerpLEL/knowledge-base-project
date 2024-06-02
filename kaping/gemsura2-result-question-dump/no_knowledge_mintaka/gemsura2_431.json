@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What year was the original Doom game released?\n\t\tAnswer: ", "answer": "The answer to this question is 1993.\n\nThe original Doom game was released in 1993.", "question": "What year was the original Doom game released?", "actual_answer": "{'answerType': 'date', 'answer': ['1993'], 'mention': '1993'}", "is_correct": true}

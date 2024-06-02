@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what was obama 's former occupation\n\t\tAnswer: ", "answer": "Lawyer", "background_triples": "(Barack Obama, Obama's former occupation, Occupation)", "question": "what was obama 's former occupation", "actual_answer": "['Lawyer', 'Writer', 'Politician', 'Law professor', 'Author']", "is_correct": true}

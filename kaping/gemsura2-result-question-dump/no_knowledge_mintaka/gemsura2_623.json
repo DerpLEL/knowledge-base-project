@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When was It published?\n\t\tAnswer: ", "answer": "The text does not contain any information about the publication date of the text, therefore I can not answer this question.", "question": "When was It published?", "actual_answer": "{'answerType': 'date', 'answer': ['1986'], 'mention': '1986'}", "is_correct": false}

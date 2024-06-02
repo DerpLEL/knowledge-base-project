@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: how many mary mary sisters\nAnswer: ", "answer": "N/A", "background_triples": "(Mary Mary, Number of Mary Mary sisters, ?)", "question": "how many mary mary sisters", "actual_answer": "['Tina Campbell', 'Erica Campbell']", "is_correct": false}

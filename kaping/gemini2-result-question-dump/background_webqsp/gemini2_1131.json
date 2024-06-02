@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what kind of money does egypt have\n\t\tAnswer: ", "answer": "Egyptian pound", "background_triples": "- (Egypt, Currency of Egypt, Egyptian pound)\n- (Egypt, Money in Egypt, Egyptian currency)", "question": "what kind of money does egypt have", "actual_answer": "['Egyptian pound']", "is_correct": true}

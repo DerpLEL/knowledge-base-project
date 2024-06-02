@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who is rick scott\n\t\tAnswer: ", "answer": "The answer is \"Rick Scott.\"\n\nRick Scott is the current Republican governor of the State of Florida, USA.", "question": "who is rick scott", "actual_answer": "['Businessperson', 'Investor', 'Executive officer', 'Lawyer', 'Politician']", "is_correct": false}

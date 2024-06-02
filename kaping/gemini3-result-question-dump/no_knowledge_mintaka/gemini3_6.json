@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Who performed at the Super Bowl XXIII halftime show?\n\t\tAnswer: ", "answer": "Michael Jackson", "question": "Who performed at the Super Bowl XXIII halftime show?", "actual_answer": "{'answerType': 'entity', 'answer': None, 'mention': 'Elvis Presto'}", "is_correct": false}

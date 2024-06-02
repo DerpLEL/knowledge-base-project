@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is the mts iceplex in winnipeg\n\t\tAnswer: ", "answer": "Location of MTS Iceplex in Winnipeg", "background_triples": "(mts iceplex, Location of MTS Iceplex in Winnipeg, winnipeg)", "question": "where is the mts iceplex in winnipeg", "actual_answer": "['Rural Municipality of Headingley', 'Winnipeg']", "is_correct": true}

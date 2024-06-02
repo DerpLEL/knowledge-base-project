@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what was firefox programmed in\n\t\tAnswer: ", "answer": "The answer to this question is C++, JavaScript, and HTML.\n\nFirefox was programmed in C++, JavaScript, and HTML.", "question": "what was firefox programmed in", "actual_answer": "['XUL', 'Cascading Style Sheets', 'JavaScript', 'XBL', 'C++']", "is_correct": true}

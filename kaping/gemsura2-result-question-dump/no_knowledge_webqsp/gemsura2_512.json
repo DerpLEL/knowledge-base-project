@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where does the celtics practice\n\t\tAnswer: ", "answer": "The answer is: TD Garden.\n\nThe Boston Celtics practice at TD Garden.", "question": "where does the celtics practice", "actual_answer": "['TD Garden', 'XL Center']", "is_correct": true}

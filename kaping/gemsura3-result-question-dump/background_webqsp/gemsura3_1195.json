@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what race is vanessa carlton\n\t\tAnswer: ", "answer": "Sure, here is the answer to the question:\n\nVanessa Carlton is a white woman.", "background_triples": "(Vanessa Carlton, Vanessa Carlton's race, Race)", "question": "what race is vanessa carlton", "actual_answer": "['Scandinavians', 'Russian']", "is_correct": false}

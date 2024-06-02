@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did the Philadelphia 76ers win the NBA championship before 2005?\n\t\tAnswer: ", "answer": "Yes", "question": "Did the Philadelphia 76ers win the NBA championship before 2005?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

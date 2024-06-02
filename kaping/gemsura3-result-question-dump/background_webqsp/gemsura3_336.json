@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did robin cook die\n\t\tAnswer: ", "answer": "The text doesn't specify the triplets, therefore I cannot answer the question.", "background_triples": "(Robin Cook, Robin Cook's death location, Location)", "question": "where did robin cook die", "actual_answer": "['Inverness']", "is_correct": false}

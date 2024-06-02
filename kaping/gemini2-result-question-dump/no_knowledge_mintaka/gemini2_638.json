@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Metallica's album Kill 'Em All feature 15 songs?\n\t\tAnswer: ", "answer": "No", "question": "Did Metallica's album Kill 'Em All feature 15 songs?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

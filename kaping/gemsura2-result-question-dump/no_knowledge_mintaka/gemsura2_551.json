@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did T.Rex ever make an album with other artists?\n\t\tAnswer: ", "answer": "The answer to the question is no, T. Rex did not make an album with other artists.", "question": "Did T.Rex ever make an album with other artists?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

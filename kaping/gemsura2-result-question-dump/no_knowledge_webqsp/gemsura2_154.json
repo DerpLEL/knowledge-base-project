@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: which of the following does australia export the most\n\t\tAnswer: ", "answer": "The answer is minerals.\n\nAustralia is the world's largest exporter of minerals.", "question": "which of the following does australia export the most", "actual_answer": "['Energy industry', 'Agriculture']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where does egypt export to\n\t\tAnswer: ", "answer": "Countries", "background_triples": "- (Egypt, Egypt's export destinations, Countries)", "question": "where does egypt export to", "actual_answer": "['Sudan']", "is_correct": false}

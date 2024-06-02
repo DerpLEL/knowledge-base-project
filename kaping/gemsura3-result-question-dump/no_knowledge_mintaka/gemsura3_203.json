@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many NBA MVP Awards did Michael Jordan achieve?\n\t\tAnswer: ", "answer": "Sure. The answer is 5. Michael Jordan won 5 MVP awards.", "question": "How many NBA MVP Awards did Michael Jordan achieve?", "actual_answer": "{'answerType': 'numerical', 'answer': [5], 'mention': '5'}", "is_correct": true}

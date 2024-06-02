@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did john franklin live\n\t\tAnswer: ", "answer": "John Franklin's residence", "background_triples": "- (John Franklin, John Franklin's residence, Residence)\n- (Residence, Location, ?)", "question": "where did john franklin live", "actual_answer": "['Blue Island']", "is_correct": false}

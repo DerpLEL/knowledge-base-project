@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was Donald Trump impeached more times than Bill Clinton?\n\t\tAnswer: ", "answer": "Yes", "question": "Was Donald Trump impeached more times than Bill Clinton?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

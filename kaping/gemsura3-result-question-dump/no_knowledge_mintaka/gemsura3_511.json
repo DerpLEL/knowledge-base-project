@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Mexico a parliamentary republic?\n\t\tAnswer: ", "answer": "The answer is no. Mexico is a presidential republic, not a parliamentary republic.", "question": "Is Mexico a parliamentary republic?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

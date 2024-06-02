@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: when did we start war with iraq\nAnswer: ", "answer": "20 March 2003", "background_triples": "(War, Start of the Iraq War, Start date)", "question": "when did we start war with iraq", "actual_answer": "['2003-03-20']", "is_correct": false}

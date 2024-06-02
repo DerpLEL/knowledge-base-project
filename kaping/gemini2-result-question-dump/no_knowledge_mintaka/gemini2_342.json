@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When did Katie Ledecky receive her first Olympic gold medal?\n\t\tAnswer: ", "answer": "2012", "question": "When did Katie Ledecky receive her first Olympic gold medal?", "actual_answer": "{'answerType': 'date', 'answer': ['2012'], 'mention': '2012'}", "is_correct": true}

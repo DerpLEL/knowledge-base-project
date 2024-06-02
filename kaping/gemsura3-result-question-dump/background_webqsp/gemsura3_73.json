@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: which country was justin bieber born in\n\t\tAnswer: ", "answer": "Error", "background_triples": "(Justin Bieber, Justin Bieber's birthplace, Country of birth)", "question": "which country was justin bieber born in", "actual_answer": "['Canada']", "is_correct": false}

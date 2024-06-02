@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many awards has the director of Goodfellas won?\n\t\tAnswer: ", "answer": "1", "question": "How many awards has the director of Goodfellas won?", "actual_answer": "{'answerType': 'numerical', 'answer': [18], 'mention': '18'}", "is_correct": false}

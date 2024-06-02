@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did New Zealand participate in WW2?\n\t\tAnswer: ", "answer": "Yes", "question": "Did New Zealand participate in WW2?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

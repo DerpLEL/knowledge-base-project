@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When did Queen release the song Bohemian Rhapsody?\n\t\tAnswer: ", "answer": "1975", "question": "When did Queen release the song Bohemian Rhapsody?", "actual_answer": "{'answerType': 'date', 'answer': ['1975'], 'mention': '1975'}", "is_correct": true}

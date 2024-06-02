@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where does name pennsylvania come from\n\t\tAnswer: ", "answer": "Pennsylvania", "background_triples": "(Pennsylvania, Origin of the name Pennsylvania, name)", "question": "where does name pennsylvania come from", "actual_answer": "['William Penn']", "is_correct": false}

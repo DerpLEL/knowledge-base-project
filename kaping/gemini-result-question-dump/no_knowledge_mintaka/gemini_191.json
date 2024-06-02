@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: How many minutes long is a NFL game?\nAnswer: ", "answer": "60", "actual_answer": "{'answerType': 'numerical', 'answer': [60], 'mention': '60 minutes'}", "is_correct": false}

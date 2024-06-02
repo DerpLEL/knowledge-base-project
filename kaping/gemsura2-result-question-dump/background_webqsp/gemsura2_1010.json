@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who played kirk\n\t\tAnswer: ", "answer": "The answer is William Shatner.\n\nKirk was played by William Shatner.", "background_triples": "- (Kirk, Actor who played Kirk, Actor)", "question": "who played kirk", "actual_answer": "['Jimmy Bennett', 'William Shatner', 'Chris Pine']", "is_correct": true}

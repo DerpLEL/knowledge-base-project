@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is the capital of France, Paris?\n\t\tAnswer: ", "answer": "The answer is no. The capital of France is not Paris. The capital of France is Paris.", "question": "Is the capital of France, Paris?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

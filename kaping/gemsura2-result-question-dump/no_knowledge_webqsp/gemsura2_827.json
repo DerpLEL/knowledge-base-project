@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what time zone is toronto gmt\n\t\tAnswer: ", "answer": "The answer is -5 hours. Toronto is in the Eastern Time Zone, which is 5 hours behind GMT.", "question": "what time zone is toronto gmt", "actual_answer": "['Eastern Time Zone']", "is_correct": true}

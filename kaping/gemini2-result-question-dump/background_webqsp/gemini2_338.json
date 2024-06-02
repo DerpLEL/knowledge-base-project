@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who was kobe bryant drafted by\n\t\tAnswer: ", "answer": "Charlotte Hornets", "background_triples": "(Kobe Bryant, was drafted by, Charlotte Hornets)", "question": "who was kobe bryant drafted by", "actual_answer": "['Charlotte Hornets']", "is_correct": true}

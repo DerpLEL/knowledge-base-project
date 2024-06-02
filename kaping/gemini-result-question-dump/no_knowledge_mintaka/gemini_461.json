@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: Exactly how old is the oldest river in the United States?\nAnswer: ", "answer": "N/A", "actual_answer": "{'answerType': 'numerical', 'answer': ['325 million years'], 'mention': '260 million to 325 million years ago'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is electrolux based\n\t\tAnswer: ", "answer": "Stockholm, Sweden", "background_triples": "(Electrolux, electrolux headquarters, Location)", "question": "where is electrolux based", "actual_answer": "['Stockholm']", "is_correct": true}

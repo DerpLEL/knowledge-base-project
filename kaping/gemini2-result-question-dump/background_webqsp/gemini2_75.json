@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did francisco coronado come from\n\t\tAnswer: ", "answer": "Spain", "background_triples": "(Francisco Coronado, Francisco Coronado's birthplace, Spain)", "question": "where did francisco coronado come from", "actual_answer": "['Salamanca']", "is_correct": false}

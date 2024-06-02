@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did giuliana rancic grow up\n\t\tAnswer: ", "answer": "The answer: Chicago.\n\nGiuliana Rancic was born and raised in Chicago.", "background_triples": "- (Giuliana Rancic, hometown, ?)", "question": "where did giuliana rancic grow up", "actual_answer": "['Naples']", "is_correct": false}

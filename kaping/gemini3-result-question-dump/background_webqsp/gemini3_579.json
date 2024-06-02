@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who was the vice president under ronald reagan\n\t\tAnswer: ", "answer": "George H. W. Bush", "background_triples": "- (Ronald Reagan, Vice President, George H. W. Bush)", "question": "who was the vice president under ronald reagan", "actual_answer": "['George H. W. Bush']", "is_correct": true}

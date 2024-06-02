@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is tennessee river\n\t\tAnswer: ", "answer": "Error", "background_triples": "- (Tennessee River, Tennessee River location, Tennessee)\n- (Tennessee River, Tennessee River geography, River)", "question": "where is tennessee river", "actual_answer": "['Kentucky', 'Mississippi', 'Tennessee', 'Alabama']", "is_correct": false}

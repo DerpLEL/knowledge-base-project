@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what currency does france accept\n\t\tAnswer: ", "answer": "The currency that France accepts is the Euro. It is the official currency of France.", "question": "what currency does france accept", "actual_answer": "['CFP franc', 'Euro']", "is_correct": true}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many states have presidents come from?\n\t\tAnswer: ", "answer": "20", "question": "How many states have presidents come from?", "actual_answer": "{'answerType': 'numerical', 'answer': [21], 'mention': '21'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is the ufc headquarters\n\t\tAnswer: ", "answer": "Las Vegas, Nevada", "background_triples": "(UFC, UFC headquarters location, headquarters)", "question": "where is the ufc headquarters", "actual_answer": "['Las Vegas']", "is_correct": true}

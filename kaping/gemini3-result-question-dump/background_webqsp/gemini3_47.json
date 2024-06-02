@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what capital of austria\n\t\tAnswer: ", "answer": "Vienna", "background_triples": "(Austria, Capital of Austria, Vienna)", "question": "what capital of austria", "actual_answer": "['Vienna']", "is_correct": true}

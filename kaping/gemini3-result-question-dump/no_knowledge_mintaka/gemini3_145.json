@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Zidane Tribal the main character in Final Fantasy X?\n\t\tAnswer: ", "answer": "No", "question": "Is Zidane Tribal the main character in Final Fantasy X?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

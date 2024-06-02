@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who did shaq first play for\n\t\tAnswer: ", "answer": "The answer is:  Orlando Magic. \n\nShaquille O'Neal played his first season with the Orlando Magic.", "background_triples": "(Shaq, Shaq's first team, Orlando Magic)", "question": "who did shaq first play for", "actual_answer": "['Orlando Magic']", "is_correct": true}

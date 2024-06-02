@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is the quarterback a defensive position in football?\n\t\tAnswer: ", "answer": "The answer is: No. The quarterback is not a defensive position in football.", "question": "Is the quarterback a defensive position in football?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

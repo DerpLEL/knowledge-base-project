@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many AL MVP awards has Mike Trout won?\n\t\tAnswer: ", "answer": "The answer is 2, according to Wikipedia. Here is a list of his awards:\n\n2011 AL MVP\n2012 AL MVP", "question": "How many AL MVP awards has Mike Trout won?", "actual_answer": "{'answerType': 'numerical', 'answer': [3], 'mention': '3'}", "is_correct": false}

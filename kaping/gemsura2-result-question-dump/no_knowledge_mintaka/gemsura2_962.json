@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What year did the NBA merge with the ABA?\n\t\tAnswer: ", "answer": "The answer is 1976. The NBA and ABA merged in 1976.", "question": "What year did the NBA merge with the ABA?", "actual_answer": "{'answerType': 'date', 'answer': ['1976'], 'mention': '1976'}", "is_correct": true}

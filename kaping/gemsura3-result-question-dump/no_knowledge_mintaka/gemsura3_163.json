@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Does Japan include more than 6000 islands?\n\t\tAnswer: ", "answer": "The answer is yes. Japan includes more than 6,800 islands.", "question": "Does Japan include more than 6000 islands?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

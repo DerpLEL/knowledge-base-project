@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what is president nixon 's first name\n\t\tAnswer: ", "answer": "Richard", "background_triples": "- (President Nixon, president nixon, Richard Nixon)\n- (Richard Nixon, first name, Richard)", "question": "what is president nixon 's first name", "actual_answer": "['Richard Nixon']", "is_correct": false}

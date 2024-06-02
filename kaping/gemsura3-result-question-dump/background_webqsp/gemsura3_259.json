@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did they find jenni rivera 's body\n\t\tAnswer: ", "answer": "The answer is the Pacific Ocean. Jenni Rivera's body was found in the Pacific Ocean.", "background_triples": "(Jenni Rivera's body, Location, ?)", "question": "where did they find jenni rivera 's body", "actual_answer": "['Iturbide']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what religion did adolf hitler follow\n\t\tAnswer: ", "answer": "Christianity", "background_triples": "(Adolf Hitler, Adolf Hitler's religious beliefs, Religion)", "question": "what religion did adolf hitler follow", "actual_answer": "['Christianity', 'Catholicism']", "is_correct": true}

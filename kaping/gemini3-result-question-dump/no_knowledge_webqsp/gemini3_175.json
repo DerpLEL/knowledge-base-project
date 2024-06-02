@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what year did the orioles go to the world series\n\t\tAnswer: ", "answer": "1966, 1969, 1970, 1971, 1974, 1979, 1983, 1989, 2012, 2014", "question": "what year did the orioles go to the world series", "actual_answer": "['1983 World Series', '1970 World Series', '1966 World Series']", "is_correct": false}

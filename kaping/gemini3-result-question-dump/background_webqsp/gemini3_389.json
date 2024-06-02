@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who wrote the gospel according to john\n\t\tAnswer: ", "answer": "John the Evangelist", "background_triples": "(John the Evangelist, Author of the Gospel of John, Gospel of John)", "question": "who wrote the gospel according to john", "actual_answer": "['John the Evangelist']", "is_correct": true}

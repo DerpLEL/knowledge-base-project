@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what did miles davis died of\n\t\tAnswer: ", "answer": "Stroke", "background_triples": "(Miles Davis, Miles Davis's cause of death, Death)\n(Miles Davis, Miles Davis's death, Death)", "question": "what did miles davis died of", "actual_answer": "['Respiratory failure', 'Stroke', 'Pneumonia']", "is_correct": true}

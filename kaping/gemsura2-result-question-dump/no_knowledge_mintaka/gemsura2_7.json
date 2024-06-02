@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Free Guy come out in 2021?\n\t\tAnswer: ", "answer": "The answer is yes. Free Guy premiered in theaters on August 13, 2021.", "question": "Did Free Guy come out in 2021?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

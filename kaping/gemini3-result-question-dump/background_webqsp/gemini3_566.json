@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what country does alaska belong to\n\t\tAnswer: ", "answer": "United States", "background_triples": "(Alaska, is a state of, United States)", "question": "what country does alaska belong to", "actual_answer": "['United States of America']", "is_correct": false}

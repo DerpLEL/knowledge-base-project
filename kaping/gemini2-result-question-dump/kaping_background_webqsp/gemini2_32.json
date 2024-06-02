@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what county is kansas city kansas\n\t\tAnswer: ", "answer": "Wyandotte County", "kaping_triples": "", "background_triples": "(Kansas City, Kansas, is in, Wyandotte County, Kansas)", "question": "what county is kansas city kansas", "actual_answer": "['Wyandotte County']", "is_correct": true}

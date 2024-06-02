@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Does Final Fantasy have more than one game?\n\t\tAnswer: ", "answer": "Yes", "question": "Does Final Fantasy have more than one game?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

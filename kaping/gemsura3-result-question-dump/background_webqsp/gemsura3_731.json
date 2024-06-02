@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who was the artist of mickey mouse\n\t\tAnswer: ", "answer": "Error", "background_triples": "- (Mickey Mouse, Artist of Mickey Mouse, Walt Disney)\n- (Mickey Mouse, Artist of Mickey Mouse, Ub Iwerks)", "question": "who was the artist of mickey mouse", "actual_answer": "['Walt Disney', 'Ub Iwerks']", "is_correct": false}

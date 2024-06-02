@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Mario originate in Donkey Kong?\n\t\tAnswer: ", "answer": "Yes", "question": "Did Mario originate in Donkey Kong?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

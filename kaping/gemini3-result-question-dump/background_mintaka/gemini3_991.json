@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Who is Grant Gustin married to?\n\t\tAnswer: ", "answer": "Grant Gustin's spouse", "background_triples": "- (Grant Gustin, Grant Gustin's spouse, Spouse of Grant Gustin)", "question": "Who is Grant Gustin married to?", "actual_answer": "{'answerType': 'entity', 'answer': None, 'mention': 'Andrea Thoma'}", "is_correct": false}

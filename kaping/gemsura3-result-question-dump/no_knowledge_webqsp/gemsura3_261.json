@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where is jason mraz from\n\t\tAnswer: ", "answer": "The answer is: San Francisco, California, USA.\n\nJason Mraz was born in San Francisco, California, USA.", "question": "where is jason mraz from", "actual_answer": "['California', 'Mechanicsville']", "is_correct": true}

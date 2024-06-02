@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Star By Star come out after 1998?\n\t\tAnswer: ", "answer": "No", "question": "Did Star By Star come out after 1998?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where is mitt romney 's family from\nAnswer: ", "answer": "Detroit", "background_triples": "- (Mitt Romney, Mitt Romney's family, Family)", "question": "where is mitt romney 's family from", "actual_answer": "['Detroit']", "is_correct": true}

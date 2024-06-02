@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what is my timezone in pennsylvania\n\t\tAnswer: ", "answer": "Eastern Time Zone (ET)", "background_triples": "- (Pennsylvania, Time zones in Pennsylvania, Timezone)", "question": "what is my timezone in pennsylvania", "actual_answer": "['UTC−05:00', 'Eastern Time Zone']", "is_correct": true}

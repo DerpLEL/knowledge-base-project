@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where does the zambezi river originate\n\t\tAnswer: ", "answer": "Zambia", "background_triples": "(Zambezi River, Origin of the Zambezi River, ?)", "question": "where does the zambezi river originate", "actual_answer": "['Mwinilunga']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was Barack Obama a Republican?\n\t\tAnswer: ", "answer": "The answer to this question is no. Barack Obama was not a Republican. Obama was a Democrat.", "question": "Was Barack Obama a Republican?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

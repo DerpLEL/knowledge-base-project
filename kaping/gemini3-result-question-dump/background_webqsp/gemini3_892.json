@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who is michael j fox parents\n\t\tAnswer: ", "answer": "Michael J. Fox's parents", "background_triples": "- (Michael J. Fox, Michael J. Fox's parents, Parents)", "question": "who is michael j fox parents", "actual_answer": "['Phyllis Piper', 'William Fox']", "is_correct": false}

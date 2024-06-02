@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where was mary todd lincoln from\n\t\tAnswer: ", "answer": "Kentucky", "background_triples": "(Mary Todd Lincoln, Mary Todd Lincoln's birthplace, Kentucky)", "question": "where was mary todd lincoln from", "actual_answer": "['Lexington']", "is_correct": false}

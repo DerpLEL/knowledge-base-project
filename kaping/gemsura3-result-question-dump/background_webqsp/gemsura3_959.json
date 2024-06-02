@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who wrote st trinians\n\t\tAnswer: ", "answer": "The answer to this question is - Ronald Searle. \n\nThe text states that he wrote St Trinian's, so the answer is Searle.", "background_triples": "- (Ronald Searle, Author, St Trinian's)", "question": "who wrote st trinians", "actual_answer": "['Ronald Searle']", "is_correct": true}

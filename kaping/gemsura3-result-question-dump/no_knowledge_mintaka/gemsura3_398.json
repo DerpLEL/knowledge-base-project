@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many books are in the Scorched Earth series?\n\t\tAnswer: ", "answer": "The answer is 7. The Scorched Earth series consists of 7 books.", "question": "How many books are in the Scorched Earth series?", "actual_answer": "{'answerType': 'numerical', 'answer': [6], 'mention': '6'}", "is_correct": false}

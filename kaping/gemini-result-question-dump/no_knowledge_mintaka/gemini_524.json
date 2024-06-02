@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: What year did the Korean War begin?\nAnswer: ", "answer": "1950", "actual_answer": "{'answerType': 'date', 'answer': ['1950'], 'mention': '1950'}", "is_correct": false}

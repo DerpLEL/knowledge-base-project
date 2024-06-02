@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where was terry waite born\nAnswer: ", "answer": "31 May 1939", "background_triples": "* (Terry Waite, Birthplace, Colombo, Sri Lanka)", "question": "where was terry waite born", "actual_answer": "['Bollington']", "is_correct": false}

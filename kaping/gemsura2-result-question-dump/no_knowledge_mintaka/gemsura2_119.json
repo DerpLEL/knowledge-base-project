@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Are there seven Harry Potter books?\n\t\tAnswer: ", "answer": "The answer is yes. There have been a total of seven Harry Potter books written by J.K. Rowling.", "question": "Are there seven Harry Potter books?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

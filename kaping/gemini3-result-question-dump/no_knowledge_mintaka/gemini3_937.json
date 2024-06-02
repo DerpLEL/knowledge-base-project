@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many rushing yards did Eddie George have in Super Bowl 34?\n\t\tAnswer: ", "answer": "95", "question": "How many rushing yards did Eddie George have in Super Bowl 34?", "actual_answer": "{'answerType': 'numerical', 'answer': [95], 'mention': '95'}", "is_correct": true}

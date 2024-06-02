@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what year did adam morrison get drafted\n\t\tAnswer: ", "answer": "2006", "background_triples": "(Adam Morrison, NBA Draft, 2006 NBA Draft)\n(Adam Morrison, NBA Draft, Charlotte Bobcats)", "question": "what year did adam morrison get drafted", "actual_answer": "['2006 NBA draft']", "is_correct": false}

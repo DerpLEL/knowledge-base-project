@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many people live in Miami?\n\t\tAnswer: ", "answer": "442,854", "question": "How many people live in Miami?", "actual_answer": "{'answerType': 'numerical', 'answer': [470914], 'mention': '470914'}", "is_correct": false}

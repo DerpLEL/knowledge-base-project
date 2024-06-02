@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: What is the population of San José, California?\nAnswer: ", "answer": "1,035,317", "actual_answer": "{'answerType': 'numerical', 'answer': [1021795], 'mention': '1021795'}", "is_correct": false}

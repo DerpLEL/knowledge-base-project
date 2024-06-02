@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: When was the author that wrote Harry Potter born?\nAnswer: ", "answer": "31 July 1965", "actual_answer": "{'answerType': 'date', 'answer': ['1965-07-31'], 'mention': '31-Jul-65'}", "is_correct": false}

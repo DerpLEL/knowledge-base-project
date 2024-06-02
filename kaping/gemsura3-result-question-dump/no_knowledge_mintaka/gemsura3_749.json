@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When was the last Floyd Mayweather fight?\n\t\tAnswer: ", "answer": "The answer is: Not provided, therefore I am unable to answer the question.", "question": "When was the last Floyd Mayweather fight?", "actual_answer": "{'answerType': 'date', 'answer': ['2018'], 'mention': '2018'}", "is_correct": false}

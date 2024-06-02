@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what state is the steelers from\nAnswer: ", "answer": "Pittsburgh", "background_triples": "(Steelers, Pittsburgh Steelers, Pennsylvania)", "question": "what state is the steelers from", "actual_answer": "['Pittsburgh']", "is_correct": true}

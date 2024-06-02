@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what team does jordan own\n\t\tAnswer: ", "answer": "Charlotte Hornets", "background_triples": "- (Jordan, Jordan's ownership of teams, Team)\n- (Team, Teams owned by Jordan, Jordan)", "question": "what team does jordan own", "actual_answer": "['Jordan national football team', 'Al-Wehdat SC']", "is_correct": false}

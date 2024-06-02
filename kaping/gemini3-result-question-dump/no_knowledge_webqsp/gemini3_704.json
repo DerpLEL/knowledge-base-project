@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what time zone is in the bahamas\n\t\tAnswer: ", "answer": "Eastern Time Zone (UTC-5)", "question": "what time zone is in the bahamas", "actual_answer": "['UTC−05:00', 'Eastern Time Zone']", "is_correct": true}

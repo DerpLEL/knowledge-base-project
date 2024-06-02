@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: In the original NES Castlevania, who is the boss of the level after the one with the giant bat?\nAnswer: ", "answer": "Medusa", "actual_answer": "{'answerType': 'entity', 'answer': None, 'mention': 'Medusa'}", "is_correct": false}

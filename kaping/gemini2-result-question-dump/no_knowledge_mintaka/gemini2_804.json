@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Bulbasaur the first Pokemon in the Pokedex?\n\t\tAnswer: ", "answer": "Yes", "question": "Is Bulbasaur the first Pokemon in the Pokedex?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

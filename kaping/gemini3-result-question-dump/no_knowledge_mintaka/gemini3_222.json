@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What was the name of Final Fantasy 4's main protagonist?\n\t\tAnswer: ", "answer": "Cecil Harvey", "question": "What was the name of Final Fantasy 4's main protagonist?", "actual_answer": "{'answerType': 'entity', 'answer': None, 'mention': 'Cecil'}", "is_correct": true}

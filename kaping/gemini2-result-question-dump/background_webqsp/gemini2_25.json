@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where george lopez was born\n\t\tAnswer: ", "answer": "Los Angeles, California", "background_triples": "(George Lopez, George Lopez's birthplace, Birthplace)", "question": "where george lopez was born", "actual_answer": "['Mission Hills']", "is_correct": false}

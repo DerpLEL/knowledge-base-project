@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what kind of language does france speak\n\t\tAnswer: ", "answer": "French", "background_triples": "- (France, language, French)\n- (French, language, France)", "question": "what kind of language does france speak", "actual_answer": "['French']", "is_correct": true}

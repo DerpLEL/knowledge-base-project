@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What is Mario's original name?\n\t\tAnswer: ", "answer": "The answer is: Jumpman.\n\nMario's original name is Jumpman.", "question": "What is Mario's original name?", "actual_answer": "{'answerType': 'entity', 'answer': None, 'mention': 'Ossan'}", "is_correct": false}

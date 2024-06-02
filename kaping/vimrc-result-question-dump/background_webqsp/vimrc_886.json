@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where did thomas paine die\nAnswer: ", "answer": "New Rochelle", "background_triples": "(Thomas Paine, Thomas Paine's death place, Location)", "question": "where did thomas paine die", "actual_answer": "['New York City']", "is_correct": false}

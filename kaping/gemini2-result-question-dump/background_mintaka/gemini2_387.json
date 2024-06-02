@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was Overwatch released in 2012?\n\t\tAnswer: ", "answer": "Yes, Overwatch was released in 2012.", "background_triples": "- (Overwatch, Overwatch release date, 2012)", "question": "Was Overwatch released in 2012?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": false}

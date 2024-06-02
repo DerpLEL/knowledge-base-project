@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where was barack hussein obama sr born\n\t\tAnswer: ", "answer": "The answer is Kenya.\n\nBarack Hussein Obama Sr. was born in Kenya.", "background_triples": "(Barack Hussein Obama Sr., birthplace, Kenya)", "question": "where was barack hussein obama sr born", "actual_answer": "[\"Nyang'oma Kogelo\"]", "is_correct": false}

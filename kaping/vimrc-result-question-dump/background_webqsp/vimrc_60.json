@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where did richard nixon die\nAnswer: ", "answer": "April 22 , 1994", "background_triples": "(Richard Nixon, Death, Location)", "question": "where did richard nixon die", "actual_answer": "['New York City']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many James Bond movies did Pierce Brosnan star in?\n\t\tAnswer: ", "answer": "4", "question": "How many James Bond movies did Pierce Brosnan star in?", "actual_answer": "{'answerType': 'numerical', 'answer': [4], 'mention': '4'}", "is_correct": true}

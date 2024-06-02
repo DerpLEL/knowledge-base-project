@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: What year did the United States enter World War I?\nAnswer: ", "answer": "1917", "actual_answer": "{'answerType': 'date', 'answer': ['1917'], 'mention': '1917'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How old was George Washington when he became president?\n\t\tAnswer: ", "answer": "57", "question": "How old was George Washington when he became president?", "actual_answer": "{'answerType': 'numerical', 'answer': [57], 'mention': '57'}", "is_correct": true}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where michael jackson from\n\t\tAnswer: ", "answer": "The answer of this question is:\n\n**Michael Jackson's birthplace is the United States.**", "background_triples": "(Michael Jackson, Michael Jackson's birthplace, United States)", "question": "where michael jackson from", "actual_answer": "['Gary']", "is_correct": false}

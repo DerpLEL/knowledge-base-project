@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: when did william mckinley died\n\t\tAnswer: ", "answer": "Answer: September 14, 1901", "background_triples": "(William McKinley, Date of death, ?)", "question": "when did william mckinley died", "actual_answer": "['1901-09-14']", "is_correct": false}

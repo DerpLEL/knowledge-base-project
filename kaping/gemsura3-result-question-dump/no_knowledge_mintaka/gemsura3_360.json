@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is the term for a United States senator six years?\n\t\tAnswer: ", "answer": "The answer is: No. The term for a United States senator is six years.", "question": "Is the term for a United States senator six years?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

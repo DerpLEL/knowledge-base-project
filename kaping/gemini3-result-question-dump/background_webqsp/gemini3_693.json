@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did mario lopez go to school\n\t\tAnswer: ", "answer": "Mario Lopez went to Chula Vista High School", "background_triples": "- (Mario Lopez, Mario Lopez's education, School)", "question": "where did mario lopez go to school", "actual_answer": "['Chula Vista High School']", "is_correct": true}

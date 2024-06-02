@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what time zone is chicago in right now\n\t\tAnswer: ", "answer": "The answer is Central Standard Time, which is -6 hours from Coordinated Universal Time (UTC).", "question": "what time zone is chicago in right now", "actual_answer": "['Central Time Zone']", "is_correct": false}

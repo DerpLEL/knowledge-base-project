@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many NBA MVP Awards does LeBron James have?\n\t\tAnswer: ", "answer": "The answer is 4. LeBron James has won 4 NBA MVP Awards.", "question": "How many NBA MVP Awards does LeBron James have?", "actual_answer": "{'answerType': 'numerical', 'answer': [4], 'mention': '4'}", "is_correct": true}

@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what is real name of santa claus\nAnswer: ", "answer": "N/A", "background_triples": "(Santa Claus, real name, Saint Nicholas)", "question": "what is real name of santa claus", "actual_answer": "['Saint Nicholas']", "is_correct": false}

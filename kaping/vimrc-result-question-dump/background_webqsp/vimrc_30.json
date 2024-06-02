@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what country did adolf hitler control\nAnswer: ", "answer": "Nazi Germany", "background_triples": "- (Adolf Hitler, control, Germany)", "question": "what country did adolf hitler control", "actual_answer": "['Nazi Germany']", "is_correct": true}

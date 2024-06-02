@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was Dragon Age Origins developed by Bethesda?\n\t\tAnswer: ", "answer": "No", "question": "Was Dragon Age Origins developed by Bethesda?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

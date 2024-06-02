@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Blister in the Sun come out after 1980?\n\t\tAnswer: ", "answer": "The answer is D. Blister in the Sun was released in 1983.", "question": "Did Blister in the Sun come out after 1980?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

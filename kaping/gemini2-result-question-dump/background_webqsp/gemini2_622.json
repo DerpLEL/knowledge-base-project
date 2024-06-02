@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: when did the san francisco earthquake occur\n\t\tAnswer: ", "answer": "Answer: 1906", "background_triples": "(San Francisco earthquake, Date, ?)", "question": "when did the san francisco earthquake occur", "actual_answer": "['1906-04-18']", "is_correct": false}

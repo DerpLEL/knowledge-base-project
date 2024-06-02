@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where was elvis costello born\n\t\tAnswer: ", "answer": "The answer is \"Liverpool, England\". Elvis Costello was born in Liverpool, England.", "background_triples": "(Elvis Costello, birthplace of elvis costello, birthplace)", "question": "where was elvis costello born", "actual_answer": "['Paddington']", "is_correct": false}

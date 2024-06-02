@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was Sally Hawkins in The Shape of Water?\n\t\tAnswer: ", "answer": "Sure. Here is your answer:\n\nYes, Sally Hawkins was in The Shape of Water.", "question": "Was Sally Hawkins in The Shape of Water?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

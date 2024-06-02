@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did R.E.M. ever write a song with the B-52's?\n\t\tAnswer: ", "answer": "No", "question": "Did R.E.M. ever write a song with the B-52's?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

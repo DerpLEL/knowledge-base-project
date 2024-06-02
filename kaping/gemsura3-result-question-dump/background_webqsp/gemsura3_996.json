@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where was terry waite born\n\t\tAnswer: ", "answer": "The answer is Colombo, Sri Lanka.\n\nThe triplets state that Terry Waite was born in Colombo, Sri Lanka.", "background_triples": "* (Terry Waite, Birthplace, Colombo, Sri Lanka)", "question": "where was terry waite born", "actual_answer": "['Bollington']", "is_correct": false}

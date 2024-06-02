@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: when did annie open\n\t\tAnswer: ", "answer": "Opening date", "background_triples": "(Annie, when annie opened, Opening date)", "question": "when did annie open", "actual_answer": "['1976-08-10']", "is_correct": false}

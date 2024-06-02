@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How old was the youngest recipient of the Nobel Prize in Literature?\n\t\tAnswer: ", "answer": "17", "question": "How old was the youngest recipient of the Nobel Prize in Literature?", "actual_answer": "{'answerType': 'numerical', 'answer': [42], 'mention': '42'}", "is_correct": false}

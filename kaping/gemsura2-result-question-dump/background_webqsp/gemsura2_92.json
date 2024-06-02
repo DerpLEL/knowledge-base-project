@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what time zone am i in california\n\t\tAnswer: ", "answer": "The answer to this question is PST and/or PDT, depending on the time of year.", "background_triples": "- (California, Time zones in California, Time zone)", "question": "what time zone am i in california", "actual_answer": "['Pacific Time Zone']", "is_correct": false}

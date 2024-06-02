@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Apollo 13 come out before 2000?\n\t\tAnswer: ", "answer": "The answer to this question is yes the Apollo 13 mission took place in 1970, so it was certainly before 2000.", "question": "Did Apollo 13 come out before 2000?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

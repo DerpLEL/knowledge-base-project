@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How tall is the singer of \"3\"?\n\t\tAnswer: ", "answer": "The answer is 'Tall'.\n\nThe singer of \"3\" is tall.", "kaping_triples": "", "question": "How tall is the singer of \"3\"?", "actual_answer": "{'answerType': 'numerical', 'answer': ['5\\'4\"'], 'mention': '5\\'4\"'}", "is_correct": false}

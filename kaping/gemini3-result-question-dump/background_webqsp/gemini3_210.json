@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did emperor hirohito live\n\t\tAnswer: ", "answer": "Imperial Palace, Tokyo", "background_triples": "(Emperor Hirohito, Emperor Hirohito's residence, Imperial Palace, Tokyo)", "question": "where did emperor hirohito live", "actual_answer": "['Aoyama, Minato, Tokyo']", "is_correct": false}

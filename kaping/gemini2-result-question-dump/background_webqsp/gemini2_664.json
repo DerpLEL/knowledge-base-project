@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: when did mark mcgwire retired\n\t\tAnswer: ", "answer": "Answer: 2001", "background_triples": "- (Mark McGwire, Mark McGwire's retirement date, ?)\n- (Mark McGwire, Mark McGwire's retirement year, ?)", "question": "when did mark mcgwire retired", "actual_answer": "['2001 Major League Baseball Season']", "is_correct": false}

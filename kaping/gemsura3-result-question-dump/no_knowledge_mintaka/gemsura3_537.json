@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was Diary of Jane featured on the Halo 2 soundtrack?\n\t\tAnswer: ", "answer": "The answer is no. Diary of Jane was not featured on the Halo 2 soundtrack.", "question": "Was Diary of Jane featured on the Halo 2 soundtrack?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

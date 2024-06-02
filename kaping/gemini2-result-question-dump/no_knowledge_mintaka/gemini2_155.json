@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What year did the Buffalo Bills last get to the Super Bowl?\n\t\tAnswer: ", "answer": "1993", "question": "What year did the Buffalo Bills last get to the Super Bowl?", "actual_answer": "{'answerType': 'date', 'answer': ['1994'], 'mention': '1994'}", "is_correct": false}

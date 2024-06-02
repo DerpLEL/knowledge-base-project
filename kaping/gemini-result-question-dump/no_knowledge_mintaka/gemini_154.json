@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: In the Tom Hanks catalog, did Forrest Gump come out before Catch Me If You Can?\nAnswer: ", "answer": "Yes", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

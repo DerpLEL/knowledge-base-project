@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who founded the afl\n\t\tAnswer: ", "answer": "The answer is  breakaway.\n\nThe text says that the AFL was founded by  breakaway.", "background_triples": "- (AFL, Founder of the AFL, Founder)", "question": "who founded the afl", "actual_answer": "['Lamar Hunt', 'Bud Adams']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was Madame Bovary written in the 19th century?\n\t\tAnswer: ", "answer": "The answer is:\n\nMadame Bovary was written in the 19th century.", "question": "Was Madame Bovary written in the 19th century?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

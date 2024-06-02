@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where were greek temples built\n\t\tAnswer: ", "answer": "The answer is \"in Greece\".\n\nGreek temples were built in Greece.", "question": "where were greek temples built", "actual_answer": "['Olympia', 'Ephesus', 'Shahhat', 'Kuşadası', 'Corfu', 'Athens']", "is_correct": false}

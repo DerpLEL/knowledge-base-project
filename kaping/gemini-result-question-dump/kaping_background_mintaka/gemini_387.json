@@ -1,0 +1,8 @@
+{
+    "prompt": "Below are facts in the form of the triple meaningful to answer the questions (Short answer, explanations not needed, output N/A if you can't provide an answer)\n(Overwatch, publication date, November 7, 2014), (Overwatch, publication date, October 27, 2015), (Overwatch 2, part of the series, Overwatch), (Overwatch, publication date, May 24, 2016), (Overwatch 2, publication date, August 30, 2022), (Overwatch 2, publication date, October 4, 2022), (Overwatch 2, publication date, 2022), (Overwatch, followed by, Overwatch 2), (Overwatch, distributed by, Battle.net), (Overwatch, different from, Star Wars Battlefront II)\n\n- (Overwatch, Overwatch release date, 2012)\n\nQuestion: Was Overwatch released in 2012?\nAnswer: ",
+    "answer": "N/A",
+    "kaping_triples": "(Overwatch, publication date, November 7, 2014), (Overwatch, publication date, October 27, 2015), (Overwatch 2, part of the series, Overwatch), (Overwatch, publication date, May 24, 2016), (Overwatch 2, publication date, August 30, 2022), (Overwatch 2, publication date, October 4, 2022), (Overwatch 2, publication date, 2022), (Overwatch, followed by, Overwatch 2), (Overwatch, distributed by, Battle.net), (Overwatch, different from, Star Wars Battlefront II)",
+    "background_triples": "- (Overwatch, Overwatch release date, 2012)",
+    "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}",
+    "is_correct": false
+}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What year was Lady Gaga's first album released?\n\t\tAnswer: ", "answer": "The answer is 2008.\n\nLady Gaga's first album, \"The Fame,\" was released in 2008.", "question": "What year was Lady Gaga's first album released?", "actual_answer": "{'answerType': 'date', 'answer': ['2008'], 'mention': '2008'}", "is_correct": true}

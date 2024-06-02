@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: When did Sandra Bullock win her first Academy Award?\nAnswer: ", "answer": "2010", "actual_answer": "{'answerType': 'date', 'answer': ['2010'], 'mention': '2010'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Has Sam Smith made a song with Adele?\n\t\tAnswer: ", "answer": "No", "question": "Has Sam Smith made a song with Adele?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

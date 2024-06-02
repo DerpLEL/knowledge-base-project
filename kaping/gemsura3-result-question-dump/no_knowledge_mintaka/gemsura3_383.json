@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Edward die of the Spanish flu in Twilight?\n\t\tAnswer: ", "answer": "The answer is: No. Edward Cullen did not die of the Spanish flu in Twilight.", "question": "Did Edward die of the Spanish flu in Twilight?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

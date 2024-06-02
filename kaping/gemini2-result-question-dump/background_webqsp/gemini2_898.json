@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what political party does barack obama represent\n\t\tAnswer: ", "answer": "Democratic Party", "background_triples": "(Barack Obama, represents, Democratic Party)", "question": "what political party does barack obama represent", "actual_answer": "['Democratic Party']", "is_correct": true}

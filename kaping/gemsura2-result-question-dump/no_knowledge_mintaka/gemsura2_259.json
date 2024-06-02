@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many people live in Miami?\n\t\tAnswer: ", "answer": "The answer is: \nAs of 2023, the population of Miami, Florida, USA, is 452,402.", "question": "How many people live in Miami?", "actual_answer": "{'answerType': 'numerical', 'answer': [470914], 'mention': '470914'}", "is_correct": false}

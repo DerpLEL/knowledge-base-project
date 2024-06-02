@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did the Hundred Years' War last 100 years?\n\t\tAnswer: ", "answer": "No", "question": "Did the Hundred Years' War last 100 years?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

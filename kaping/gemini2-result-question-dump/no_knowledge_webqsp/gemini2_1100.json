@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what standard time is texas\n\t\tAnswer: ", "answer": "Central Time (CT)", "question": "what standard time is texas", "actual_answer": "['Central Time Zone', 'Mountain Time Zone']", "is_correct": false}

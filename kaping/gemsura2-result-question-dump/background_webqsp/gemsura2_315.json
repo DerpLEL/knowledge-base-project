@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what does david beckham play\n\t\tAnswer: ", "answer": "The answer is Football.\n\nDavid Beckham plays Football. He is a former professional footballer.", "background_triples": "- (David Beckham, David Beckham's sport, Football)", "question": "what does david beckham play", "actual_answer": "['Football']", "is_correct": true}

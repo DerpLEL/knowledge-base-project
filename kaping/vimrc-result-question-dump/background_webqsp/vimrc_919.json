@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what did bobby darin die of\nAnswer: ", "answer": "N/A", "background_triples": "(Bobby Darin, Bobby Darin's cause of death, Death)", "question": "what did bobby darin die of", "actual_answer": "['Surgical complications']", "is_correct": false}

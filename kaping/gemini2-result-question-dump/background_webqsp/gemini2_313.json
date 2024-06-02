@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where does robert irvine come from\n\t\tAnswer: ", "answer": "Answer: England", "background_triples": "(Robert Irvine, Robert Irvine's place of origin, ?)", "question": "where does robert irvine come from", "actual_answer": "['Salisbury']", "is_correct": false}

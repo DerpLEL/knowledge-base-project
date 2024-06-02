@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where was st. lucy born\n\t\tAnswer: ", "answer": "The answer is: Sri Lanka.\n\nSt. Lucy was born in Sri Lanka.", "background_triples": "(St. Lucy, Birthplace of St. Lucy, ?)", "question": "where was st. lucy born", "actual_answer": "['Syracuse']", "is_correct": false}

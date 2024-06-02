@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where is audrey hepburn from\nAnswer: ", "answer": "N/A", "background_triples": "(Audrey Hepburn, birthplace, ?)", "question": "where is audrey hepburn from", "actual_answer": "['Ixelles']", "is_correct": false}

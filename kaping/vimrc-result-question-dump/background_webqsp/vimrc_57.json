@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what continent does armenia belong to\nAnswer: ", "answer": "eastern Europe", "background_triples": "(Armenia, is located in, Asia)", "question": "what continent does armenia belong to", "actual_answer": "['Europe']", "is_correct": true}

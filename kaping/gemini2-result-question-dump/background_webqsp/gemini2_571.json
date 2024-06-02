@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what county is san diego ca\n\t\tAnswer: ", "answer": "San Diego County", "background_triples": "* (San Diego, locatedIn, California)\n* (San Diego, partOf, San Diego County)\n* (San Diego County, partOf, California)", "question": "what county is san diego ca", "actual_answer": "['San Diego County']", "is_correct": true}

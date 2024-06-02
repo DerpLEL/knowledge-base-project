@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many times has the movie A Star is Born been remade?\n\t\tAnswer: ", "answer": "The answer is 4 times. It was remade in 1954, 1976, 1983, and 2018.", "question": "How many times has the movie A Star is Born been remade?", "actual_answer": "{'answerType': 'numerical', 'answer': [4], 'mention': '4'}", "is_correct": true}

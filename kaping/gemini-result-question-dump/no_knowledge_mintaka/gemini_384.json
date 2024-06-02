@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: What year was Lady Gaga's first album released?\nAnswer: ", "answer": "2008", "actual_answer": "{'answerType': 'date', 'answer': ['2008'], 'mention': '2008'}", "is_correct": false}

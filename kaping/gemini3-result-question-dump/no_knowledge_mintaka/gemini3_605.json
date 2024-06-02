@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many NBA championships did Michael Jordan win?\n\t\tAnswer: ", "answer": "6", "question": "How many NBA championships did Michael Jordan win?", "actual_answer": "{'answerType': 'numerical', 'answer': [6], 'mention': '6'}", "is_correct": true}

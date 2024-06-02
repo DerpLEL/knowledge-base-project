@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: What is the least-famous movie where John Travolta has acted?\nAnswer: ", "answer": "N/A", "actual_answer": "{'answerType': 'entity', 'answer': None, 'mention': 'Paul Williams Still Alive', 'supportingNum': 2012}", "is_correct": false}

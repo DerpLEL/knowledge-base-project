@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Mario originate in Donkey Kong?\n\t\tAnswer: ", "answer": "The answer is: No. Mario is a character in the Super Mario series, not the Donkey Kong series.", "question": "Did Mario originate in Donkey Kong?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what guitar did joe walsh play\n\t\tAnswer: ", "answer": "Guitars played by Joe Walsh", "background_triples": "- (Joe Walsh, Guitars played by Joe Walsh, Guitar)", "question": "what guitar did joe walsh play", "actual_answer": "['Fender Stratocaster']", "is_correct": false}

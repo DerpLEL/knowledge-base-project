@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did adolf hitler die\n\t\tAnswer: ", "answer": "Führerbunker, Berlin, Germany", "background_triples": "* (Adolf Hitler, Place of death, Berlin, Germany)\n* (Adolf Hitler, Location of death, Führerbunker, Berlin, Germany)", "question": "where did adolf hitler die", "actual_answer": "['Berlin']", "is_correct": true}

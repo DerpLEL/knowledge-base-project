@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: which country does greenland belong to\n\t\tAnswer: ", "answer": "Denmark", "background_triples": "(Greenland, Greenland's political status, Country)", "question": "which country does greenland belong to", "actual_answer": "['Denmark']", "is_correct": true}

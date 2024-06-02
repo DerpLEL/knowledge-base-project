@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what capital city of brazil\nAnswer: ", "answer": "Rio de Janeiro", "background_triples": "(Brazil, capital city of brazil, ?)", "question": "what capital city of brazil", "actual_answer": "['Brasília']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what language do navajo people speak\n\t\tAnswer: ", "answer": "Navajo language", "background_triples": "(Navajo people, Navajo language, Navajo language)", "question": "what language do navajo people speak", "actual_answer": "['Navajo Language', 'English Language', 'Spanish Language']", "is_correct": true}

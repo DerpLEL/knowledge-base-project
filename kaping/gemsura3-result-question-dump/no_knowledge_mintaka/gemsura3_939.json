@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did Titanic come out before 1995?\n\t\tAnswer: ", "answer": "The answer is yes, the film \"Titanic\" came out in 1997, not 1995.", "question": "Did Titanic come out before 1995?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

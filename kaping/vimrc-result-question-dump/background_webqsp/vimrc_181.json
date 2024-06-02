@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where is the ufc headquarters\nAnswer: ", "answer": "Nevada", "background_triples": "(UFC, UFC headquarters location, headquarters)", "question": "where is the ufc headquarters", "actual_answer": "['Las Vegas']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When was the actor who played Iron Man born?\n\t\tAnswer: ", "answer": "The answer is:\n\nRobert Downey Jr. was born in 1965.", "question": "When was the actor who played Iron Man born?", "actual_answer": "{'answerType': 'date', 'answer': ['1965-04-04'], 'mention': '4-Apr-65'}", "is_correct": false}

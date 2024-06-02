@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many children Ray Charles have?\n\t\tAnswer: ", "answer": "The answer is 12 children.\n\nRay Charles had a total of 12 children.", "question": "How many children Ray Charles have?", "actual_answer": "{'answerType': 'numerical', 'answer': [12], 'mention': '12'}", "is_correct": true}

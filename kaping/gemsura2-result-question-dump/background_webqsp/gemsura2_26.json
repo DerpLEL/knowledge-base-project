@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where are samsung based\n\t\tAnswer: ", "answer": "The answer is:\n\nSamsung, Samsung headquarters, Suwon, Gyeonggi-do, South Korea.", "background_triples": "(Samsung, Samsung headquarters, Location)", "question": "where are samsung based", "actual_answer": "['Suwon']", "is_correct": true}

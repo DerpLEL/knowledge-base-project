@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: what language do maltese speak\nAnswer: ", "answer": "N/A", "background_triples": "- (Maltese, Maltese language, Language)", "question": "what language do maltese speak", "actual_answer": "['English Language']", "is_correct": false}

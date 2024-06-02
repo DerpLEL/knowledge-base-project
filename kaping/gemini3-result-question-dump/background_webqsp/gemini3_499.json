@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what country sponsored ferdinand magellan\n\t\tAnswer: ", "answer": "Spain", "background_triples": "(Ferdinand Magellan, Sponsorship, Spain)", "question": "what country sponsored ferdinand magellan", "actual_answer": "['Kingdom of Portugal']", "is_correct": false}

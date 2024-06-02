@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did the battle of passchendaele happen\n\t\tAnswer: ", "answer": "Passchendaele", "background_triples": "(Battle of Passchendaele, location, Passchendaele)", "question": "where did the battle of passchendaele happen", "actual_answer": "['Passendale', 'Flanders']", "is_correct": false}

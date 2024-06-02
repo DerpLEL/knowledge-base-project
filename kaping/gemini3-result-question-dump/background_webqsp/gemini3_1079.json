@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where was rihanna raised\n\t\tAnswer: ", "answer": "Barbados", "background_triples": "(Rihanna, Rihanna's birthplace, Barbados)", "question": "where was rihanna raised", "actual_answer": "['Saint Michael Parish']", "is_correct": false}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What's the population of San Francisco?\n\t\tAnswer: ", "answer": "Sure, here is the answer:\n\n\tThe population of San Francisco is 862,984.", "question": "What's the population of San Francisco?", "actual_answer": "{'answerType': 'numerical', 'answer': [896047], 'mention': '896047'}", "is_correct": false}

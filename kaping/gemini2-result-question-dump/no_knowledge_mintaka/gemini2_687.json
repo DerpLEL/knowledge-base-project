@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Has Lewis Hamilton won more Grand Prix races than Michael Schumacher?\n\t\tAnswer: ", "answer": "Yes", "question": "Has Lewis Hamilton won more Grand Prix races than Michael Schumacher?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

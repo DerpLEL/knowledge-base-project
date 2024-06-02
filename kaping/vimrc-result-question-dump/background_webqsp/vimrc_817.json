@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where did thomas hobbes live\nAnswer: ", "answer": "Malmesbury", "background_triples": "(Thomas Hobbes, Residence, England)", "question": "where did thomas hobbes live", "actual_answer": "['Paris']", "is_correct": false}

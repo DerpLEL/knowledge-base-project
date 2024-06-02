@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did RuneScape out before Fortnite?\n\t\tAnswer: ", "answer": "Yes", "question": "Did RuneScape out before Fortnite?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: What is the birthday of the singer of \"Look What You Made Me Do\"?\n\t\tAnswer: ", "answer": "Error", "question": "What is the birthday of the singer of \"Look What You Made Me Do\"?", "actual_answer": "{'answerType': 'date', 'answer': ['1989-12-13'], 'mention': '13-Dec-89'}", "is_correct": false}

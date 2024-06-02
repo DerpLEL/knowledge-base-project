@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what is arkansas state capitol\n\t\tAnswer: ", "answer": "The answer is:\n\nLittle Rock.\n\nThe state capitol of Arkansas is Little Rock.", "background_triples": "(Arkansas, State capitol, Little Rock)", "question": "what is arkansas state capitol", "actual_answer": "['Little Rock']", "is_correct": true}

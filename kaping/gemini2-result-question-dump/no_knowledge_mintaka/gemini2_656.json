@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Who was the youngest person to win a Grammy?\n\t\tAnswer: ", "answer": "LeAnn Rimes", "question": "Who was the youngest person to win a Grammy?", "actual_answer": "{'answerType': 'entity', 'answer': None, 'mention': 'Leah Peasall', 'supportingNum': '8 years old'}", "is_correct": false}

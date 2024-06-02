@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where were the seneca indians located\n\t\tAnswer: ", "answer": "New York", "background_triples": "(Seneca Indians, Location of Seneca Indians, Location)", "question": "where were the seneca indians located", "actual_answer": "['New York', 'Ontario']", "is_correct": true}

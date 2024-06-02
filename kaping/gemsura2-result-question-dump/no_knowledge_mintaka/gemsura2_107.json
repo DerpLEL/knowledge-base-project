@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is the Pacific Ocean the largest ocean in the world?\n\t\tAnswer: ", "answer": "The answer is yes. The Pacific Ocean is the largest ocean in the world.", "question": "Is the Pacific Ocean the largest ocean in the world?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

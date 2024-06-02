@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Bill Clinton younger than Barack Obama?\n\t\tAnswer: ", "answer": "No", "question": "Is Bill Clinton younger than Barack Obama?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

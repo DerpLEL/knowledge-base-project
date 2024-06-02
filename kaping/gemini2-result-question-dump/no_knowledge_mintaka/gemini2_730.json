@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Jarred Kelenic older than Walter Johnson?\n\t\tAnswer: ", "answer": "No", "question": "Is Jarred Kelenic older than Walter Johnson?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what kind of guitar did jerry garcia play\n\t\tAnswer: ", "answer": "The answer is: a Fender stratocaster.\n\nJerry Garcia played a Fender Stratocaster guitar.", "question": "what kind of guitar did jerry garcia play", "actual_answer": "['Gibson SG', 'Gibson Les Paul', 'Fender Stratocaster']", "is_correct": true}

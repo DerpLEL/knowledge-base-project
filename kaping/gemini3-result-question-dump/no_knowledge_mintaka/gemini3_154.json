@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: In the Tom Hanks catalog, did Forrest Gump come out before Catch Me If You Can?\n\t\tAnswer: ", "answer": "Yes", "question": "In the Tom Hanks catalog, did Forrest Gump come out before Catch Me If You Can?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

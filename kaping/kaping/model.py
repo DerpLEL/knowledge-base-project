@@ -13,7 +13,7 @@ import json
 # cache_path = "E:\\knowledge-base-project\\kaping\\kaping\\mintaka_wikipedia\\"
 
 # webqsp
-cache_path = "E:\\knowledge-base-project\\kaping\\kaping\\webqsp_wikipedia\\"
+cache_path = "D:\\KBQA-project\\knowledge-base-project\\kaping\\kaping\\webqsp_wikipedia"
 
 
 def pipeline(config, question: str, device=-1):
@@ -33,10 +33,12 @@ def pipeline(config, question: str, device=-1):
 	# entity verbalization
 	file_name = f'{secure_filename(question)}.json'
 	if file_name in os.listdir(cache_path):
+		print(f"Found cache for {question}")
 		with open(os.path.join(cache_path, file_name), 'r', encoding='utf-8') as f:
 			knowledge_triples = json.load(f)
 
 	else:
+		print("No cache found! Extracting entities and verbalizing them...")
 		extractor = RefinedEntityExtractor(device=device)
 		verbalizer = RebelEntityVerbalizer(device=device)
 

@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what ocean is around hawaii\n\t\tAnswer: ", "answer": "Sure, the answer is Pacific Ocean. Hawaii is located in the Pacific Ocean.", "background_triples": "- (Hawaii, located in, Pacific Ocean)", "question": "what ocean is around hawaii", "actual_answer": "['Pacific Ocean']", "is_correct": true}

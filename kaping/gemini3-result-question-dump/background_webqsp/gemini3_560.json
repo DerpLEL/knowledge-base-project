@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who is anne hathaway parents\n\t\tAnswer: ", "answer": "Anne Hathaway's parents", "background_triples": "- (Anne Hathaway, Anne Hathaway's parents, Anne Hathaway's parents)", "question": "who is anne hathaway parents", "actual_answer": "['Gerald Hathaway', 'Kate McCauley Hathaway']", "is_correct": false}

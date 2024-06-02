@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what time zone am i in california\n\t\tAnswer: ", "answer": "The answer is: Pacific Standard Time (PST).\n\nCalifornia is in the Pacific Time Zone, which is 8 hours behind Greenwich Mean Time (GMT).", "question": "what time zone am i in california", "actual_answer": "['Pacific Time Zone']", "is_correct": true}

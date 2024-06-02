@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what is the currency of germany now\n\t\tAnswer: ", "answer": "The answer to this question is: Euro.\n\nThe text states that \"The currency of Germany is the Euro.\"", "background_triples": "(Germany, Currency of Germany, Euro)", "question": "what is the currency of germany now", "actual_answer": "['Euro']", "is_correct": true}

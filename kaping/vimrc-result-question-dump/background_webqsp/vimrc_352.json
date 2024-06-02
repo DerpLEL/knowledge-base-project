@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where did djokovic come from\nAnswer: ", "answer": "Belgrade", "background_triples": "(Novak Djokovic, Birthplace of Novak Djokovic, Serbia)", "question": "where did djokovic come from", "actual_answer": "['Serbia']", "is_correct": false}

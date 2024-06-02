@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: who founded the afl\n\t\tAnswer: ", "answer": "The answer is: \n\nThe AFL was founded by J.C. Williamson. He was also the founder of the Victorian Football League.", "background_triples": "- (AFL, Founder of the AFL, Founder)", "question": "who founded the afl", "actual_answer": "['Lamar Hunt', 'Bud Adams']", "is_correct": false}

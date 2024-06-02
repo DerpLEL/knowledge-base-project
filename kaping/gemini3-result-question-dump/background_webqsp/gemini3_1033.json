@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where do most of the people live in russia\n\t\tAnswer: ", "answer": "Russia", "background_triples": "- (Russia, Population distribution in Russia, People)\n- (People, Location, Russia)", "question": "where do most of the people live in russia", "actual_answer": "['Central Federal District']", "is_correct": false}

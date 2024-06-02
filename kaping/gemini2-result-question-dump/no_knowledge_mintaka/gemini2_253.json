@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is J.K. Rowling younger than Stephen King?\n\t\tAnswer: ", "answer": "Yes", "question": "Is J.K. Rowling younger than Stephen King?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

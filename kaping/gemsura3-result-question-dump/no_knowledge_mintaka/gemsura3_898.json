@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Is Bernie Sanders older than Nancy Pelosi?\n\t\tAnswer: ", "answer": "The answer is yes. Bernie Sanders is 81 years old and Nancy Pelosi is 82 years old.", "question": "Is Bernie Sanders older than Nancy Pelosi?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": false}

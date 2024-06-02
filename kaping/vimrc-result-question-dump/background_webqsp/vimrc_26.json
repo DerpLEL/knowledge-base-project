@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: where are samsung based\nAnswer: ", "answer": "Seoul", "background_triples": "(Samsung, Samsung headquarters, Location)", "question": "where are samsung based", "actual_answer": "['Suwon']", "is_correct": false}

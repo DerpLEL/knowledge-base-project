@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Did John F. Kennedy die in 1960?\n\t\tAnswer: ", "answer": "The answer is no, John F. Kennedy did not die in 1960.", "question": "Did John F. Kennedy die in 1960?", "actual_answer": "{'answerType': 'boolean', 'answer': [False], 'mention': 'No'}", "is_correct": true}

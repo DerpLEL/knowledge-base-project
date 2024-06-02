@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: how many mary mary sisters\n\t\tAnswer: ", "answer": "2", "background_triples": "(Mary Mary, Number of Mary Mary sisters, ?)", "question": "how many mary mary sisters", "actual_answer": "['Tina Campbell', 'Erica Campbell']", "is_correct": false}

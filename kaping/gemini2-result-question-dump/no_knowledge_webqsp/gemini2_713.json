@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what did mark zuckerberg study\n\t\tAnswer: ", "answer": "Computer science", "question": "what did mark zuckerberg study", "actual_answer": "['Computer programming', 'Computer Science', 'Psychology']", "is_correct": true}

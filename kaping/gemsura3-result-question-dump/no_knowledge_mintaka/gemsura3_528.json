@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When did the first Goosebumps book come out?\n\t\tAnswer: ", "answer": "The answer is 1992. The first Goosebumps book came out in 1992.", "question": "When did the first Goosebumps book come out?", "actual_answer": "{'answerType': 'date', 'answer': ['1992'], 'mention': '1992'}", "is_correct": true}

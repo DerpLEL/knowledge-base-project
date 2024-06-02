@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where did mary bell live\n\t\tAnswer: ", "answer": "Mary Bell's residence", "background_triples": "(Mary Bell, Mary Bell's residence, Residence)\n(Residence, Location, ?)", "question": "where did mary bell live", "actual_answer": "['Newcastle upon Tyne']", "is_correct": false}

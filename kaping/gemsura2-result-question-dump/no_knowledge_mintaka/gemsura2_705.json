@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: When did the author who wrote The Hobbit die?\n\t\tAnswer: ", "answer": "The answer is:\n\nThe author who wrote The Hobbit, J.R.R. Tolkien, died in 1973.", "question": "When did the author who wrote The Hobbit die?", "actual_answer": "{'answerType': 'date', 'answer': ['1973'], 'mention': '1973'}", "is_correct": true}

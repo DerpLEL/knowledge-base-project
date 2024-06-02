@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what is penn state 's main campus\n\t\tAnswer: ", "answer": "University Park", "background_triples": "(Penn State, Main campus, University Park, Pennsylvania)", "question": "what is penn state 's main campus", "actual_answer": "['University Park']", "is_correct": true}

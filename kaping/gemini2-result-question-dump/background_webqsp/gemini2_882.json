@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where does the city of paris get its name\n\t\tAnswer: ", "answer": "Origin of the name of the City of Paris", "background_triples": "* (City of Paris, Name of Paris, Origin of the name of the City of Paris)", "question": "where does the city of paris get its name", "actual_answer": "['Parisii']", "is_correct": false}

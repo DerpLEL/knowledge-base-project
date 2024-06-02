@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what government did the roman empire have\n\t\tAnswer: ", "answer": "Republic", "background_triples": "(Roman Empire, Government, Republic)", "question": "what government did the roman empire have", "actual_answer": "['Autocracy']", "is_correct": false}

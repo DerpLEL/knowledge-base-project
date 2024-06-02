@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How old is the singer of \"Baby\" and \"Sorry\"?\n\t\tAnswer: ", "answer": "Justin Bieber", "question": "How old is the singer of \"Baby\" and \"Sorry\"?", "actual_answer": "{'answerType': 'numerical', 'answer': [27], 'mention': '27'}", "is_correct": false}

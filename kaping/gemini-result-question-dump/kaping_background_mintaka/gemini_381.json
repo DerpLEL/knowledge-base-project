@@ -1,0 +1,8 @@
+{
+    "prompt": "Below are facts in the form of the triple meaningful to answer the questions (Short answer, explanations not needed, output N/A if you can't provide an answer)\n(Clinton's first term, followed by, his second term), (Bill Clinton, candidacy in election, 1992 presidential election), (Bill Clinton, position held, President), (Bill Clinton, work period (start), 2001), (1992 presidential election, candidate, Bill Clinton), (his second term, follows, Clinton's first term), (Bill Clinton, member of political party, Democratic), (Jefferson Clinton, date of birth, August 19, 1946), (1996, follows, 1994 elections), (1994 elections, followed by, 1996)\n\n- (Bill Clinton, First term, President of the United States)\n- (Bill Clinton, Election, President of the United States)\n- (Bill Clinton, Election date, ?)\n\nQuestion: When was Bill Clinton elected to his first term as president of the United States?\nAnswer: ",
+    "answer": "N/A",
+    "kaping_triples": "(Clinton's first term, followed by, his second term), (Bill Clinton, candidacy in election, 1992 presidential election), (Bill Clinton, position held, President), (Bill Clinton, work period (start), 2001), (1992 presidential election, candidate, Bill Clinton), (his second term, follows, Clinton's first term), (Bill Clinton, member of political party, Democratic), (Jefferson Clinton, date of birth, August 19, 1946), (1996, follows, 1994 elections), (1994 elections, followed by, 1996)",
+    "background_triples": "- (Bill Clinton, First term, President of the United States)\n- (Bill Clinton, Election, President of the United States)\n- (Bill Clinton, Election date, ?)",
+    "actual_answer": "{'answerType': 'date', 'answer': ['1992'], 'mention': '1992'}",
+    "is_correct": false
+}

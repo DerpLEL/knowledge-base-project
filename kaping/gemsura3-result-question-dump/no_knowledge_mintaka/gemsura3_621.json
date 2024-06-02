@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: Was Julius Caesar born before Augustus?\n\t\tAnswer: ", "answer": "The answer is yes. \n\nJulius Caesar was born in 100 BC, while Augustus was born in 63 BC.", "question": "Was Julius Caesar born before Augustus?", "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}", "is_correct": true}

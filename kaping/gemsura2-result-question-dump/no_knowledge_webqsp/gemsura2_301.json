@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: where was teddy roosevelt 's house\n\t\tAnswer: ", "answer": "The answer is: _The White House_.\n\nTeddy Roosevelt lived in the White House.", "question": "where was teddy roosevelt 's house", "actual_answer": "['New York City', 'Washington, D.C.']", "is_correct": false}

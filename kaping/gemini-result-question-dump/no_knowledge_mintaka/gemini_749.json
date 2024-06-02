@@ -1,0 +1,1 @@
+{"prompt": "Please answer this question (Short answer, explanations not needed, output N/A if you can't provide an answer).\n\nQuestion: When was the last Floyd Mayweather fight?\nAnswer: ", "answer": "June 6, 2015", "actual_answer": "{'answerType': 'date', 'answer': ['2018'], 'mention': '2018'}", "is_correct": false}

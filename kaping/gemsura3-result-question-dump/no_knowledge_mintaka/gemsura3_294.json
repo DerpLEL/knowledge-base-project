@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: How many Call of Duty games are there currently?\n\t\tAnswer: ", "answer": "The answer is 20. There have been a total of 20 Call of Duty games released as of 2023.", "question": "How many Call of Duty games are there currently?", "actual_answer": "{'answerType': 'numerical', 'answer': [19], 'mention': '19'}", "is_correct": false}

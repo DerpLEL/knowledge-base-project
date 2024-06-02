@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what did bobby darin die of\n\t\tAnswer: ", "answer": "The answer is Death.\n\nBobby Darin passed away due to heart failure in 1983.", "background_triples": "(Bobby Darin, Bobby Darin's cause of death, Death)", "question": "what did bobby darin die of", "actual_answer": "['Surgical complications']", "is_correct": false}

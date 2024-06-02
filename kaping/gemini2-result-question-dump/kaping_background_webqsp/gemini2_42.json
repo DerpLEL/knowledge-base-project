@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what county is brentwood tennessee in\n\t\tAnswer: ", "answer": "Williamson County, Tennessee", "kaping_triples": "", "background_triples": "- (Brentwood, Tennessee, is in, Williamson County, Tennessee)", "question": "what county is brentwood tennessee in", "actual_answer": "['Williamson County']", "is_correct": true}

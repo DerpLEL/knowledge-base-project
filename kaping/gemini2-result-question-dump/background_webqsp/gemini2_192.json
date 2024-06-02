@@ -1,0 +1,1 @@
+{"prompt": "Answer this question.\n\n\t\tQuestion: what two continents is turkey on\n\t\tAnswer: ", "answer": "Asia and Europe", "background_triples": "- (Turkey, located in, Asia)\n- (Turkey, located in, Europe)", "question": "what two continents is turkey on", "actual_answer": "['Eurasia']", "is_correct": false}

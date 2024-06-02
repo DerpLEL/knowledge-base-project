@@ -1,0 +1,8 @@
+{
+    "prompt": "Below are facts in the form of the triple meaningful to answer the questions (Short answer, explanations not needed, output N/A if you can't provide an answer)\n(Martin Luther King Jr., significant event, his life), (John F. Kennedy, significant event, assassinated), (his life, facet of, Martin Luther King Jr.), (Martin Luther King Jr., date of death, April 4, 1968), (assassinated, facet of, John F. Kennedy), (Martin Luther King Jr., different from, Martin Luther King Jr.), (Martin Luther King Sr., child, Martin Luther King Jr.), (Martin Luther King Jr., father, Martin Luther King Sr.), (King, influenced by, Martin Luther King Jr.), (Martin Luther King Jr., date of birth, January 15, 1929)\n\n- (Martin Luther King Jr., Assassination, True)\n\nQuestion: Did Martin Luther King Jr. get assassinated?\nAnswer: ",
+    "answer": "True",
+    "kaping_triples": "(Martin Luther King Jr., significant event, his life), (John F. Kennedy, significant event, assassinated), (his life, facet of, Martin Luther King Jr.), (Martin Luther King Jr., date of death, April 4, 1968), (assassinated, facet of, John F. Kennedy), (Martin Luther King Jr., different from, Martin Luther King Jr.), (Martin Luther King Sr., child, Martin Luther King Jr.), (Martin Luther King Jr., father, Martin Luther King Sr.), (King, influenced by, Martin Luther King Jr.), (Martin Luther King Jr., date of birth, January 15, 1929)",
+    "background_triples": "- (Martin Luther King Jr., Assassination, True)",
+    "actual_answer": "{'answerType': 'boolean', 'answer': [True], 'mention': 'Yes'}",
+    "is_correct": false
+}
