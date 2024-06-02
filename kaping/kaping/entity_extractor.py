@@ -24,7 +24,7 @@ class RefinedEntityExtractor:
 		# set extractor as ReFInED extractor
 		# self.extractor = Refined.from_pretrained(model_name="wikipedia_model_with_numbers",
         #                                    entity_set="wikipedia",
-        #                                    #device=device
+        #                                    # device=device
         #                                    )
 		self.extractor = Refined.from_pretrained(
 			model_name="questions_model",
