@@ -48,7 +48,7 @@ prompt_2 = '''Given a question, generate all relations related to the question.
 Question: {query}
 Relations: '''
 
-prompt_3 = '''Given a question along with entities and relations, assemble triples (subject, relation, object) for a knowledge graph.
+prompt_3 = '''Given a question along with entities and relations, assemble triples in this format (subject, relation, object) for a knowledge graph.
 
 Question: {query}
 Entities: {entities}

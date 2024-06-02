@@ -27,7 +27,7 @@ with open('translated_kg.txt', 'r', encoding='utf-8') as f:
 		kg.append(elems)
 
 # print(kg)
-entity_list = list(set([triple[0] for triple in kg]))
+entity_list = list(set([triple[0] for triple in kg])) + list(set([triple[2] for triple in kg]))
 
 
 def top_k_triple_extractor(question: np.ndarray, triples: np.ndarray, origin: list, k=10, random=False):
@@ -69,7 +69,7 @@ def create_embeddings():
 
 
 def get_triples(entity_name):
-	return [f"({i[0]}, {i[1]}, {i[2]})" for i in kg if i[0] == entity_name]
+	return [f"({i[0]}, {i[1]}, {i[2]})" for i in kg if i[0] == entity_name or i[2] == entity_name]
 
 
 entity_embedding = create_embeddings()
@@ -78,10 +78,14 @@ entity_embedding = create_embeddings()
 def custom_verbalizer(entity_title):
 	question_embedding = model.encode([entity_title])
 	# Get closest entity
-	closest_entity = top_k_triple_extractor(question_embedding, entity_embedding, entity_list, 1)
+	closest_entity = top_k_triple_extractor(question_embedding, entity_embedding, entity_list, 5)
 	# print("Closest entity:", closest_entity)
 
-	return get_triples(closest_entity[0])
+	thingy = []
+	for entity in closest_entity:
+		thingy.extend(get_triples(entity))
+
+	return thingy
 
 
 def pipeline(config, question: str, device=-1):
