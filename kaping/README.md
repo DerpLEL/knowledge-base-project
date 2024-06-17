@@ -1,3 +1,9 @@
+To run, first install the necessary requirements: <br>
+```cmd
+pip install -r requirements.txt
+```
+
+This code is modified from a KAPING implementation found [here](https://github.com/jasmine95dn/kaping_prompt_zero-shot). <br>
 run.py:
 
 Change load dataset, and uncomment to switch between webqsp/mintaka and gemini/gemma

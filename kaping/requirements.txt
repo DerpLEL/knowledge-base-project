@@ -18,3 +18,4 @@ lmdb>=1.0
 boto3
 prettyprint
 botocore
+google-generativeai

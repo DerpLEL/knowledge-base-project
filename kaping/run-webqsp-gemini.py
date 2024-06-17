@@ -7,7 +7,6 @@ from qa.qa_preprocessing import load_dataset, load_webqsp
 from arguments import k_parser
 import sys
 from copy import deepcopy
-from langchain_openai import AzureChatOpenAI
 
 import time
 import requests
