@@ -14,7 +14,7 @@ import requests
 import google.generativeai as genai
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
-GOOGLE_API_KEY='AIzaSyCD0jcUJYdoAdWLc5Fkb63ZGwMJAksmPbQ'
+GOOGLE_API_KEY = '<insert API key here>'
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
@@ -38,7 +38,6 @@ def get_gemma(string: str):
 
 
 def main():
-
 	# load arguments
 	args = k_parser()
 

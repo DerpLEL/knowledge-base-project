@@ -18,19 +18,9 @@ import sys
 from llm.openai import OpenAIChat
 from llm.vimrc import ViMRCLarge
 
-GOOGLE_API_KEY='AIzaSyCD0jcUJYdoAdWLc5Fkb63ZGwMJAksmPbQ'
+GOOGLE_API_KEY = '<insert API key here>'
 
 genai.configure(api_key=GOOGLE_API_KEY)
-# import nltk
-# nltk.download('punkt')
-
-# # Authenticate with HuggingFace to access a gated repo
-# hf_username = "vietphuon"
-# hf_password = "99@Yahoo"
-# hf_token = requests.post(
-#     "https://huggingface.co/login",
-#     json={"username": hf_username, "password": hf_password},
-# ).json()["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"]
 
 
 model = genai.GenerativeModel('gemini-pro')
