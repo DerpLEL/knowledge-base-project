@@ -15,8 +15,11 @@ if filename not in os.listdir('.'):
     print('Creating new pickle file...')
 
     t1 = time.perf_counter()
-    with open('train.txt', 'r', encoding='utf-8') as file:
-        train_lines = file.readlines()
+
+    train_lines = []
+    for i in range(1, 5):
+        with open(f'train-{i}.txt', 'r', encoding='utf-8') as file:
+            train_lines += file.readlines()
 
     with open('test.txt', 'r', encoding='utf-8') as file:
         test_lines = file.readlines()
